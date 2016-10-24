@@ -89,6 +89,8 @@ Environment Model {
 	
 		}
 		output interface outactWeakPersonFamilly {
+			
+			operation oeSubscribe() : ptBoolean
 	
 		}
 	}
