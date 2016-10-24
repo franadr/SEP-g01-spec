@@ -1,0 +1,99 @@
+/*
+* @author Adriano
+* @date Sat Oct 22 12:57:25 CEST 2016
+*/
+
+package lu.uni.lassy.excalibur.g01.specification.environment {
+
+import lu.uni.lassy.messir.libraries.calendar
+import lu.uni.lassy.messir.libraries.math
+import lu.uni.lassy.messir.libraries.primitives
+import lu.uni.lassy.messir.libraries.string
+
+
+
+Environment Model {
+	
+	
+	actor actCoordinator role rnactCoordinator cardinality [1..*] {
+	
+		input interface inactCoordinator {
+			operation ieSendPendingHelpRequestList() : ptBoolean
+			operation ieSendHelpRequestDetail() : ptBoolean
+			operation ieSendVolunteerList() : ptBoolean
+		}
+		output interface outactCoordinator {
+			operation oeLogin() : ptBoolean
+			operation oeLogout() : ptBoolean
+			operation oeGetPendingHelpRequestsList() : ptBoolean
+			operation oeGetHelpRequestDetail() : ptBoolean
+			operation oeProceedCall() : ptBoolean
+			operation oeSetRiskLevel() : ptBoolean
+			operation oeGetVolunteersList() : ptBoolean
+			
+			
+		}
+	}
+	
+	
+	actor actWeakPerson role rnactWeakPerson cardinality [1..*] {
+	
+		input interface inactWeakPerson {
+			operation ieSentdPosition() : ptBoolean
+			operation ieSentConfirmationMessage() : ptBoolean
+			
+		}
+		output interface outactWeakPerson {
+			operation oeRequestHelp() : ptBoolean
+			operation oeLogin() : ptBoolean
+			operation oeLogout() : ptBoolean
+			operation oeGetpostition() : ptBoolean
+		}
+	}
+	
+	
+	actor actVolunteer role rnactVolunteer cardinality [1..*] {
+	
+		input interface inactVolunteer {
+			operation ieSentPosition() : ptBoolean
+			operation ieSentMissionConfirmation() : ptBoolean
+			operation ieDisplayChecklist() : ptBoolean
+		}
+		output interface outactVolunteer {
+			operation oeLogin() : ptBoolean
+			operation oeLogout(): ptBoolean
+			operation oeGetPosition() : ptBoolean
+			operation oeConfirmPosition() : ptBoolean
+			operation oeGetMissionInRagne() : ptBoolean
+			operation oeAcceptMission() : ptBoolean
+			 
+		}
+	}
+	
+	
+	
+	actor actGeneralPopulation role rnactGeneralPopulation cardinality [1..*] {
+	
+		input interface inactGeneralPopulation {
+	
+		}
+		output interface outactGeneralPopulation {
+	
+		}
+	}
+	
+	
+	actor actWeakPersonFamilly role rnactWeakPersonFamilly cardinality [1..*] {
+	
+		input interface inactWeakPersonFamilly {
+	
+		}
+		output interface outactWeakPersonFamilly {
+	
+		}
+	}
+	
+	
+			
+}	
+}

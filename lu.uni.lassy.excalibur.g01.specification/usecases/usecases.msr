@@ -1,0 +1,19 @@
+/*
+* @author Adriano
+* @date Sat Oct 22 12:57:25 CEST 2016
+*/
+
+package lu.uni.lassy.excalibur.g01.specification.usecases {
+
+import lu.uni.lassy.messir.libraries.calendar
+import lu.uni.lassy.messir.libraries.math
+import lu.uni.lassy.messir.libraries.primitives
+import lu.uni.lassy.messir.libraries.string
+
+
+
+	Use Case Model {
+		
+	}
+
+}
