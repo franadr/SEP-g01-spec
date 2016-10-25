@@ -13,6 +13,7 @@ import lu.uni.lassy.messir.libraries.string
 
 
 Environment Model {
+
 	
 	
 	actor actCoordinator role rnactCoordinator cardinality [1..*] {
