@@ -16,7 +16,46 @@ import lu.uni.lassy.excalibur.g01.specification.environment
 	Use Case Model {
 		
 		use case system summary suRequestHelp() {
+			
+			actor actWeakPerson[primary,active]
+			reuse oeSendPosAndInfo[1..1]
+			reuse ugGetPosition[1..1]
+			reuse oeGetInfo[1..1]
+			
+			step a: actWeakPerson executes ugGetPosition()
+			step b : actWeakPerson executes oeGetInfo()
+			step c : actWeakPerson executes oeSendPosAndInfo()
+			
+			
+			
+		}
 		
+		use case system usergoal ugGetPosition() {
+			actor actWeakPerson[primary,active]
+			reuse oeGetPositionFromSensor[0..1]
+			reuse oeInputPost[0..1]
+			
+			
+			step a: actWeakPerson executes oeGetPositionFromSensor
+			step b: actWeakPerson executes oeInputPost()
+			
+		}
+		
+		use case system subfunction oeGetInfo() {
+			actor actWeakPerson[primary,active]
+		}
+		
+		
+		use case system subfunction oeGetPositionFromSensor() {
+			actor actWeakPerson[primary,active]
+		}
+		
+		use case system subfunction oeInputPost() {
+			actor actWeakPerson[primary,active]
+		}
+		
+		use case system subfunction oeSendPosAndInfo() {
+			actor actWeakPerson[primary,active]
 		}
 		
 	}

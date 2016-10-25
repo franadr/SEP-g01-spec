@@ -67,6 +67,8 @@ Environment Model {
 			operation oeConfirmPosition() : ptBoolean
 			operation oeGetMissionInRagne() : ptBoolean
 			operation oeAcceptMission() : ptBoolean
+			operation oeInputPos() : ptBoolean
+			operation oeSendPosAndInfo() : ptBoolean
 			 
 		}
 	}
