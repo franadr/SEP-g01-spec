@@ -18,15 +18,16 @@ import lu.uni.lassy.excalibur.g01.specification.environment
 		use case system summary suRequestHelp() {
 			
 			actor actWeakPerson[primary,active]
-			reuse oeSendPosAndInfo[1..1]
-			reuse ugGetPosition[1..1]
-			reuse oeGetInfo[1..1]
+			
 			
 			step a: actWeakPerson executes ugGetPosition()
 			step b : actWeakPerson executes oeGetInfo()
 			step c : actWeakPerson executes oeSendPosAndInfo()
 			
 			
+			ordering constraint "step (a) is always the first step "
+			ordering constraint "step (b) must be executed after step (a) "
+			ordering constraint "step (c) is always the last step "
 			
 		}
 		
@@ -37,25 +38,41 @@ import lu.uni.lassy.excalibur.g01.specification.environment
 			
 			
 			step a: actWeakPerson executes oeGetPositionFromSensor
-			step b: actWeakPerson executes oeInputPost()
+			step ^b: actWeakPerson executes oeInputPost()
 			
 		}
 		
 		use case system subfunction oeGetInfo() {
 			actor actWeakPerson[primary,active]
+			
+			returned messages {
+				ieSendInfo() returned to actWeakPerson
+			}
 		}
 		
 		
 		use case system subfunction oeGetPositionFromSensor() {
 			actor actWeakPerson[primary,active]
+			
+			returned messages {
+				ieSentdPosition() returned to actWeakPerson
+			}
 		}
 		
 		use case system subfunction oeInputPost() {
 			actor actWeakPerson[primary,active]
+			
+			returned messages {
+				ieSentdPosition() returned to actWeakPerson
+			}
 		}
 		
 		use case system subfunction oeSendPosAndInfo() {
 			actor actWeakPerson[primary,active]
+			
+			returned messages {
+				ieSentConfirmationMessage() returned to actWeakPerson
+			}
 		}
 		
 	}

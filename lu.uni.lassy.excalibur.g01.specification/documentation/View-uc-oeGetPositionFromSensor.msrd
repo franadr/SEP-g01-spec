@@ -1,0 +1,10 @@
+/*
+@author Adriano
+@date Wed Oct 26 18:47:42 EEST 2016
+*/
+
+
+@@view uc-oeGetPositionFromSensor
+@model Use-Case lu.uni.lassy.excalibur.g01.specification.usecases.oeGetPositionFromSensor 
+@description ""
+@caption ""

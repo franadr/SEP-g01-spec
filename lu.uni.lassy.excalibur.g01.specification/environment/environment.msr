@@ -42,6 +42,7 @@ Environment Model {
 		input interface inactWeakPerson {
 			operation ieSentdPosition() : ptBoolean
 			operation ieSentConfirmationMessage() : ptBoolean
+			operation ieSendInfo() : ptBoolean
 			
 		}
 		output interface outactWeakPerson {

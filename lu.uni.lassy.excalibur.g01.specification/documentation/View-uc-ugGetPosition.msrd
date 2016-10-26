@@ -1,0 +1,10 @@
+/*
+@author Adriano
+@date Tue Oct 25 18:48:02 CEST 2016
+*/
+
+
+@@view uc-ugGetPosition
+@model Use-Case lu.uni.lassy.excalibur.g01.specification.usecases.ugGetPosition 
+@description ""
+@caption ""

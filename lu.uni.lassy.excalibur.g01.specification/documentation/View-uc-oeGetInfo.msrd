@@ -1,0 +1,10 @@
+/*
+@author Adriano
+@date Wed Oct 26 18:47:02 EEST 2016
+*/
+
+
+@@view uc-oeGetInfo
+@model Use-Case lu.uni.lassy.excalibur.g01.specification.usecases.oeGetInfo 
+@description ""
+@caption ""

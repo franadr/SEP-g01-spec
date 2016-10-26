@@ -224,6 +224,10 @@
   <semanticResources>platform:/resource/lu.uni.lassy.excalibur.standard.specification.libraries/library/documentation/PrimaryType-Primitive-ptInteger.msrd</semanticResources>
   <semanticResources>platform:/resource/lu.uni.lassy.excalibur.standard.specification.libraries/library/documentation/PrimaryType-Primitive-ptReal.msrd</semanticResources>
   <semanticResources>platform:/resource/lu.uni.lassy.excalibur.standard.specification.libraries/library/documentation/PrimaryType-Primitive-ptString.msrd</semanticResources>
+  <semanticResources>documentation/View-uc-suRequestHelp.msrd</semanticResources>
+  <semanticResources>documentation/View-uc-ugGetPosition.msrd</semanticResources>
+  <semanticResources>documentation/View-uc-oeGetInfo.msrd</semanticResources>
+  <semanticResources>documentation/View-uc-oeGetPositionFromSensor.msrd</semanticResources>
   <ownedViews xmi:type="viewpoint:DView" xmi:id="_Uk-aIJhGEeao7bVShP4TVg">
     <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']"/>
   </ownedViews>
