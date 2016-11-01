@@ -37,7 +37,7 @@ import lu.uni.lassy.excalibur.g01.specification.environment
 			reuse oeInputPost[0..1]
 			
 			
-			step a: actWeakPerson executes oeGetPositionFromSensor
+			step a: actWeakPerson executes oeGetPositionFromSensor()
 			step ^b: actWeakPerson executes oeInputPost()
 			
 		}

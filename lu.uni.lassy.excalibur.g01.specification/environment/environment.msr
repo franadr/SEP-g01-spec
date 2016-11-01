@@ -50,6 +50,10 @@ Environment Model {
 			operation oeLogin() : ptBoolean
 			operation oeLogout() : ptBoolean
 			operation oeGetpostition() : ptBoolean
+			operation oeSendPosAndInfo() : ptBoolean
+			operation oeGetInfo() : ptBoolean
+			operation oeGetPositionFromSensor() : ptBoolean
+			operation oeInputPost():ptBoolean
 		}
 	}
 	
