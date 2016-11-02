@@ -75,6 +75,26 @@ import lu.uni.lassy.excalibur.g01.specification.environment
 			}
 		}
 		
+	use case system usergoal ugGetMissionInRange() {
+		actor actVolunteer[primary,active]
+		
+		reuse ugGetPosition
+		
+		step a: actVolunteer executes ugGetPosition()
+		step b : actVolunteer executes oeGetRange()
+		
+		}
+		
+		use case system subfunction oeGetRange() {
+			actor actVolunteer[primary,active]
+			
+			returned messages {
+				ieSendRange() returned to actVolunteer
+				
+			}
+			
+			
+		}
 	}
 
 }

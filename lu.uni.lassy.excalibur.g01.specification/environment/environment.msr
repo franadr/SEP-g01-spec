@@ -64,6 +64,7 @@ Environment Model {
 			operation ieSentPosition() : ptBoolean
 			operation ieSentMissionConfirmation() : ptBoolean
 			operation ieDisplayChecklist() : ptBoolean
+			operation ieSendRange() : ptBoolean
 		}
 		output interface outactVolunteer {
 			operation oeLogin() : ptBoolean
@@ -74,6 +75,7 @@ Environment Model {
 			operation oeAcceptMission() : ptBoolean
 			operation oeInputPos() : ptBoolean
 			operation oeSendPosAndInfo() : ptBoolean
+			operation oeGetRange() : ptBoolean
 			 
 		}
 	}
