@@ -18,29 +18,30 @@ import lu.uni.lassy.excalibur.g01.specification.environment
 		use case system summary suRequestHelp() {
 			
 			actor actWeakPerson[primary,active]
+			actor actSensor[secondary]
+		
 			
 			
-			step a: actWeakPerson executes ugGetPosition()
-			step b : actWeakPerson executes oeGetInfo()
-			step c : actWeakPerson executes oeSendPosAndInfo()
+			step a: actSensor executes oeGetPositionFromSensor()
+			step b : actWeakPerson executes oeInputPost()
+			step c : actWeakPerson executes oeGetInfo()
+			step d : actWeakPerson executes oeSendPosAndInfo()
 			
 			
 			ordering constraint "step (a) is always the first step "
 			ordering constraint "step (b) must be executed after step (a) "
-			ordering constraint "step (c) is always the last step "
+			ordering constraint "step (d) is always the last step "
 			
 		}
 		
-		use case system usergoal ugGetPosition() {
-			actor actWeakPerson[primary,active]
-			reuse oeGetPositionFromSensor[0..1]
-			reuse oeInputPost[0..1]
+		
+		use case system usergoal oeGetPositionFromSensor() {
+			actor actSensor[primary, active]
 			
-			
-			step a: actWeakPerson executes oeGetPositionFromSensor()
-			step ^b: actWeakPerson executes oeInputPost()
 			
 		}
+		
+		
 		
 		use case system subfunction oeGetInfo() {
 			actor actWeakPerson[primary,active]
@@ -51,19 +52,13 @@ import lu.uni.lassy.excalibur.g01.specification.environment
 		}
 		
 		
-		use case system subfunction oeGetPositionFromSensor() {
-			actor actWeakPerson[primary,active]
-			
-			returned messages {
-				ieSentdPosition() returned to actWeakPerson
-			}
-		}
+	
 		
 		use case system subfunction oeInputPost() {
-			actor actWeakPerson[primary,active]
+			actor actPositionInputActor[primary,active]
 			
 			returned messages {
-				ieSentdPosition() returned to actWeakPerson
+				ieSentPosition() returned to actPositionInputActor
 			}
 		}
 		
@@ -77,11 +72,11 @@ import lu.uni.lassy.excalibur.g01.specification.environment
 		
 	use case system usergoal ugGetMissionInRange() {
 		actor actVolunteer[primary,active]
+		actor actSensor[secondary]
 		
-		reuse ugGetPosition
-		
-		step a: actVolunteer executes ugGetPosition()
-		step b : actVolunteer executes oeGetRange()
+		step a: actSensor executes oeGetPositionFromSensor()
+		step b : actVolunteer executes oeInputPost()
+		step c : actVolunteer executes oeGetRange()
 		
 		}
 		
