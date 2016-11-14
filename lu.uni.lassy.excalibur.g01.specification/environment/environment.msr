@@ -16,6 +16,29 @@ Environment Model {
 
 	
 	
+	actor actSensor role rnactSensor cardinality [1..*] {
+	
+		input interface inactSensor {
+			
+		}
+		output interface outactSensor {
+		proactive operation oeSendPosition():ptBoolean
+		}
+	}
+	
+	
+	actor actPositionInputActor role rnactPositionInputActor cardinality [1..*] {
+	
+		input interface inactPositionInputActor {
+			operation ieSentPosition() : ptBoolean
+		}
+		output interface outactPositionInputActor {
+			operation oeInputPost() : ptBoolean
+		}
+	}
+	
+	
+	
 	actor actCoordinator role rnactCoordinator cardinality [1..*] {
 	
 		input interface inactCoordinator {
@@ -31,7 +54,6 @@ Environment Model {
 			operation oeProceedCall() : ptBoolean
 			operation oeSetRiskLevel() : ptBoolean
 			operation oeGetVolunteersList() : ptBoolean
-			
 			
 		}
 	}
@@ -53,7 +75,6 @@ Environment Model {
 			operation oeSendPosAndInfo() : ptBoolean
 			operation oeGetInfo() : ptBoolean
 			operation oeGetPositionFromSensor() : ptBoolean
-			operation oeInputPost():ptBoolean
 		}
 	}
 	
