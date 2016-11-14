@@ -145,6 +145,15 @@ Environment Model {
 		}
 	}
 	
+	actor actPhoneCompany role rnactPhoneCompany cardinality [1..*]{
+		input interface inactPhoneCompany{
+			operation ieGetLinkCallRequest() : ptBoolean
+		}
+		output interface outactPhoneCompany{
+			operation oeSetLinkCall() : ptBoolean
+		}
+	}
+	
 	
 	
 			

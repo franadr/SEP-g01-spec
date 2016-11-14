@@ -60,6 +60,14 @@ import lu.uni.lassy.excalibur.g01.specification.environment
 			
 		}
 		
+		use case system summary suCallSelectedHelpRequest() {
+			
+			actor actCoordinator[primary,active]
+			actor actWeakPerson[secondary]
+			actor actPhoneCompany[secondary]
+			
+		}
+		
 		
 		use case system usergoal oeGetPositionFromSensor() {
 			actor actSensor[primary, active]
