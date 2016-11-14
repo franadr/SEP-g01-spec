@@ -73,6 +73,7 @@ import lu.uni.lassy.excalibur.g01.specification.environment
 	use case system usergoal ugGetMissionInRange() {
 		actor actVolunteer[primary,active]
 		actor actSensor[secondary]
+		actor actPositionInputActor[secondary]
 		
 		step a: actSensor executes oeGetPositionFromSensor()
 		step b : actVolunteer executes oeInputPost()
@@ -90,6 +91,36 @@ import lu.uni.lassy.excalibur.g01.specification.environment
 			
 			
 		}
-	}
+	use case system usergoal ugRetrievePendingHelpRequestDetails() {
+		actor actCoordinator[primary,active]
+		actor actPendingHelpRequestList[secondary]
+	
+		step a : actPendingHelpRequestList executes oeSentPendingHelpRequests()
+		step b : actCoordinator executes oeGetPendingHelpRequests()
+		step c : actCoordinator executes oeGetHelpRequestDetail()
+		
+		
+		}
+	 
+	 use case system subfunction oeSentPendingHelpRequests(){
+	 	actor actPendingHelpRequestList[primary,active]
+	 	
+	 }
+	 use case system subfunction oeGetPendingHelpRequests() {
+	 	actor actCoordinator[primary,active]
+	 	
+	 	returned messages{
+	 		ieSendPendingHelpRequestList() returned to actCoordinator
+	 	}
+	 }
+	 
+	 use case system subfunction oeGetHelpRequestDetail() {
+	 	actor actCoordinator[primary,active]
+	 	
+	 	returned messages {
+	 		ieSendHelpRequestDetail() returned to actCoordinator
+	 	}
+	 }
+	 }
 
 }

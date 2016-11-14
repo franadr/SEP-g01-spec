@@ -1,0 +1,10 @@
+/*
+@author Adriano
+@date Mon Nov 14 11:44:40 CET 2016
+*/
+
+
+@@view uc-ugRetrievePendingHelpRequestDetails
+@model Use-Case lu.uni.lassy.excalibur.g01.specification.usecases.ugRetrievePendingHelpRequestDetails 
+@description ""
+@caption ""

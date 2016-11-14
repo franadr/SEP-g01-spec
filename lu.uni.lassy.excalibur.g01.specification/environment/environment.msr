@@ -49,7 +49,7 @@ Environment Model {
 		output interface outactCoordinator {
 			operation oeLogin() : ptBoolean
 			operation oeLogout() : ptBoolean
-			operation oeGetPendingHelpRequestsList() : ptBoolean
+			operation oeGetPendingHelpRequests() : ptBoolean
 			operation oeGetHelpRequestDetail() : ptBoolean
 			operation oeProceedCall() : ptBoolean
 			operation oeSetRiskLevel() : ptBoolean
@@ -125,6 +125,18 @@ Environment Model {
 	
 		}
 	}
+	
+	
+	actor actPendingHelpRequestList role rnactPendingHelpRequestList cardinality [1..*] {
+	
+		input interface inactPendingHelpRequestList {
+			
+		}
+		output interface outactPendingHelpRequestList {
+			operation oeSentPendingHelpRequests() : ptBoolean
+		}
+	}
+	
 	
 	
 			

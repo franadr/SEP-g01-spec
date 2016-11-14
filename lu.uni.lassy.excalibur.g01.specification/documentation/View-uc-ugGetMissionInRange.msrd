@@ -4,12 +4,4 @@
 */
 
 
-@@view uc-ugGetMissionInRange
-@model Use-Case lu.uni.lassy.excalibur.g01.specification.usecases.ugGetMissionInRange 
-@description ""
-@caption ""
 
-@@view uc-ugGetMissionInRange
-@model Use-Case lu.uni.lassy.excalibur.g01.specification.usecases.ugGetMissionInRange 
-@description ""
-@caption ""
