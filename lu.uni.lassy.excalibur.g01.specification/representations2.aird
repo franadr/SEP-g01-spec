@@ -232,6 +232,7 @@
   <semanticResources>usecases/usecaseinstance-oeGetPositionFromSensor-ucioeGetPositionFromSensor.msr</semanticResources>
   <semanticResources>documentation/View-uc-ugListPendingHelpRequest.msrd</semanticResources>
   <semanticResources>documentation/View-uc-ugRetrievePendingHelpRequestDetails.msrd</semanticResources>
+  <semanticResources>documentation/View-uci-uciGetPendingHelpRequests.msrd</semanticResources>
   <ownedViews xmi:type="viewpoint:DView" xmi:id="_UjU0UJhGEeao7bVShP4TVg">
     <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']"/>
   </ownedViews>

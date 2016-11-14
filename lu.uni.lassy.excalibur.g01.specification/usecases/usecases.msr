@@ -14,6 +14,32 @@ import lu.uni.lassy.excalibur.g01.specification.environment
 
 
 	Use Case Model {
+		use case instance uciGetPendingHelpRequests : ugRetrievePendingHelpRequestDetails() {
+			actors {
+				tom : actCoordinator
+				db1 : actPendingHelpRequestList
+				
+			}
+			use case steps {
+				tom executed instanceof subfunction oeGetPendingHelpRequests() {
+						ieReqPendingHelpRequests() returned to db1
+					}
+			db1 executed instanceof subfunction oeSentPendingHelpRequests("12h39","691767231","12h42","621765321","12h45","25945644") {
+					 ieSendHRList("12h39","691767231","12h42","621765321","12h45","25945644") returned to tom
+					}
+			tom executed instanceof subfunction oeGetHelpRequestDetail("id : 32") {
+					ieRequHRDetails("id : 32") returned to db1		
+					}
+			db1 executed instanceof subfunction oeSendHRDetails("Paul Kremmer" , "6611726354", "49.618416, 6.172678" , "1 rue de Cents - Luxembourg") {
+					ieRequHRDetails("Paul Kremmer" , "6611726354", "49.618416, 6.172678" , "1 rue de Cents - Luxembourg") returned to tom
+					}
+
+
+
+				
+			}	
+			
+		}
 		
 		use case system summary suRequestHelp() {
 			
@@ -95,29 +121,50 @@ import lu.uni.lassy.excalibur.g01.specification.environment
 		actor actCoordinator[primary,active]
 		actor actPendingHelpRequestList[secondary]
 	
-		step a : actPendingHelpRequestList executes oeSentPendingHelpRequests()
-		step b : actCoordinator executes oeGetPendingHelpRequests()
+		
+		step a : actCoordinator executes oeGetPendingHelpRequests()
+		step b : actPendingHelpRequestList executes oeSentPendingHelpRequests()
 		step c : actCoordinator executes oeGetHelpRequestDetail()
+		step d : actPendingHelpRequestList executes oeSendHRDetails()
 		
 		
 		}
 	 
 	 use case system subfunction oeSentPendingHelpRequests(){
 	 	actor actPendingHelpRequestList[primary,active]
-	 	
-	 }
-	 use case system subfunction oeGetPendingHelpRequests() {
-	 	actor actCoordinator[primary,active]
+	 	actor actCoordinator[secondary]
 	 	
 	 	returned messages{
+	 		ieSendHRList() returned to actCoordinator
+	 	}
+	 	
+	 }
+	 
+	 use case system subfunction oeSendHRDetails() {
+	 	actor actPendingHelpRequestList[primary,active]
+	 	actor actCoordinator[secondary]
+	 	
+	 	returned messages{
+	 		ieRequHRDetails() returned to actCoordinator
+	 	}
+	 }
+	 
+	 use case system subfunction oeGetPendingHelpRequests() {
+	 	actor actCoordinator[primary,active]
+	 	actor actPendingHelpRequestList[secondary]
+	 	returned messages{
+	 		ieReqPendingHelpRequests() returned to actPendingHelpRequestList
 	 		ieSendPendingHelpRequestList() returned to actCoordinator
+	 		
 	 	}
 	 }
 	 
 	 use case system subfunction oeGetHelpRequestDetail() {
 	 	actor actCoordinator[primary,active]
+	 	actor actPendingHelpRequestList[secondary]
 	 	
 	 	returned messages {
+	 		ieRequHRDetails() returned to actPendingHelpRequestList
 	 		ieSendHelpRequestDetail() returned to actCoordinator
 	 	}
 	 }

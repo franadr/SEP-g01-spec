@@ -135,10 +135,13 @@ Environment Model {
 	actor actPendingHelpRequestList role rnactPendingHelpRequestList cardinality [1..*] {
 	
 		input interface inactPendingHelpRequestList {
-			
+			operation ieReqPendingHelpRequests() : ptBoolean
+			operation ieRequHRDetails() : ptBoolean
+			operation ieSendHRList() : ptBoolean
 		}
 		output interface outactPendingHelpRequestList {
 			operation oeSentPendingHelpRequests() : ptBoolean
+			operation oeSendHRDetails() : ptBoolean
 		}
 	}
 	
