@@ -117,11 +117,16 @@ Environment Model {
 	actor actWeakPersonFamilly role rnactWeakPersonFamilly cardinality [1..*] {
 	
 		input interface inactWeakPersonFamilly {
+			operation ieSentPosition() : ptBoolean
+			operation ieGetMessage() : ptBoolean
+			operation ieGetCall(): ptBoolean
 	
 		}
 		output interface outactWeakPersonFamilly {
 			
 			operation oeSubscribe() : ptBoolean
+			operation oeConfirmMessage() : ptBoolean
+			operation oeConfirmCall() : ptBoolean
 	
 		}
 	}
