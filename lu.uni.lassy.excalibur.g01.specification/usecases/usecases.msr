@@ -210,6 +210,15 @@ import lu.uni.lassy.excalibur.g01.specification.environment
 	 		ieSendHelpRequestDetail() returned to actCoordinator
 	 	}
 	 }
+	 
+	 use case system summary suAltertAFamilyMember() {
+	 	actor actWeakPerson [primary, active]
+	 	actor actPhoneCompany[secondary, active]
+	 	actor actWeakPersonFamilly[secondary, active]
+	 	
 	 }
 
+
+
+	 }
 }
