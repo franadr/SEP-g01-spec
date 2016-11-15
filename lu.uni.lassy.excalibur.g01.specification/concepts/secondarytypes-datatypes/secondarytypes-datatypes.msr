@@ -15,6 +15,9 @@ import lu.uni.lassy.messir.libraries.string
 Concept Model {
 
 	Secondary Types {
+		datatype dtTime {
+			attribute value : ptString
+		}
 
 	}
 
