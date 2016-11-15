@@ -46,6 +46,7 @@ Environment Model {
 			operation ieSendPendingHelpRequestList(AdtTime:dtTime,AdtPhoneNumber :dtPhoneNumber) : ptBoolean
 			operation ieSendHelpRequestDetail(AdtName : dtName, AdtPhoneNumber : dtPhoneNumber , AdtCoordinates : dtCoordinates , AdtAddress : dtAddress) : ptBoolean
 			operation ieSendVolunteerList() : ptBoolean
+			operation ieConfirm() : ptBoolean
 		}
 		output interface outactCoordinator {
 			operation oeLogin() : ptBoolean
@@ -55,7 +56,7 @@ Environment Model {
 			operation oeProceedCall() : ptBoolean
 			operation oeSetRiskLevel() : ptBoolean
 			operation oeGetVolunteersList() : ptBoolean
-			
+			operation oeReqCall() : ptBoolean
 		}
 	}
 	
@@ -148,10 +149,10 @@ Environment Model {
 	
 	actor actPhoneCompany role rnactPhoneCompany cardinality [1..*]{
 		input interface inactPhoneCompany{
-			operation ieGetLinkCallRequest() : ptBoolean
+			operation ieRequestConfirm() : ptBoolean
 		}
 		output interface outactPhoneCompany{
-			operation oeSetLinkCall() : ptBoolean
+			operation oeGetConfirm() : ptBoolean
 		}
 	}
 	
