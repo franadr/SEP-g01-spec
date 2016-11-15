@@ -45,6 +45,7 @@ Environment Model {
 			operation ieSendPendingHelpRequestList() : ptBoolean
 			operation ieSendHelpRequestDetail() : ptBoolean
 			operation ieSendVolunteerList() : ptBoolean
+			operation ieConfirm() : ptBoolean
 		}
 		output interface outactCoordinator {
 			operation oeLogin() : ptBoolean
@@ -54,7 +55,7 @@ Environment Model {
 			operation oeProceedCall() : ptBoolean
 			operation oeSetRiskLevel() : ptBoolean
 			operation oeGetVolunteersList() : ptBoolean
-			
+			operation oeReqCall() : ptBoolean
 		}
 	}
 	
@@ -147,10 +148,10 @@ Environment Model {
 	
 	actor actPhoneCompany role rnactPhoneCompany cardinality [1..*]{
 		input interface inactPhoneCompany{
-			operation ieGetLinkCallRequest() : ptBoolean
+			operation ieRequestConfirm() : ptBoolean
 		}
 		output interface outactPhoneCompany{
-			operation oeSetLinkCall() : ptBoolean
+			operation oeGetConfirm() : ptBoolean
 		}
 	}
 	

@@ -60,15 +60,37 @@ import lu.uni.lassy.excalibur.g01.specification.environment
 			
 		}
 		
+//----------------------------------------------------------------------------------
+		
+		
 		use case system summary suCallSelectedHelpRequest() {
 			
 			actor actCoordinator[primary,active]
-			actor actWeakPerson[secondary]
 			actor actPhoneCompany[secondary]
+			
+			step a : actCoordinator executes oeReqCall()
+			step b : actPhoneCompany executes oeGetConfirm()
 			
 		}
 		
+		use case system subfunction oeReqCall() {
+			actor actCoordinator[primary,active]
+			
+			returned messages{
+				ieConfirm() returned to actCoordinator
+			}
+		}
 		
+		use case system subfunction oeGetConfirm() {
+			actor actPhoneCompany[primary,active]
+			
+			returned messages{
+				ieRequestConfirm() returned to actPhoneCompany
+			}
+		}
+		
+		
+//---------------------------------------------------------------------------------
 		use case system usergoal oeGetPositionFromSensor() {
 			actor actSensor[primary, active]
 			
