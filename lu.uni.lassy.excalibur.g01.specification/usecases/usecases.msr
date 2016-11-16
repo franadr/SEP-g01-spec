@@ -79,10 +79,10 @@ import lu.uni.lassy.excalibur.g01.specification.environment
 				tango : actPhoneCompany
 			}
 			use case steps {
-				tom executed instanceof subfunction oeReqCall(){
+				tom executed instanceof subfunction oeReqCall("661234567"){
 						ieConfirm("661234567") returned to tango
 					}
-				tango executed instanceof subfunction oeGetConfirm(){
+				tango executed instanceof subfunction oeGetConfirm("661234567","true"){
 					ieRequestConfirm("661234567","true") returned to tom
 				}
 			
