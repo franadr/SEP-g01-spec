@@ -103,7 +103,7 @@ import lu.uni.lassy.excalibur.g01.specification.environment
 			actor actCoordinator[primary,active]
 			
 			returned messages{
-				ieConfirm(AdtPhoneNumber) returned to actCoordinator
+				ieConfirm(dtPhoneNumber) returned to actCoordinator
 			}
 		}
 		
@@ -111,7 +111,7 @@ import lu.uni.lassy.excalibur.g01.specification.environment
 			actor actPhoneCompany[primary,active]
 			
 			returned messages{
-				ieRequestConfirm(AdtPhoneNumber) returned to actPhoneCompany
+				ieRequestConfirm(dtPhoneNumber, dtBoolean) returned to actPhoneCompany
 			}
 		}
 		
