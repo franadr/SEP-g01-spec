@@ -73,6 +73,21 @@ import lu.uni.lassy.excalibur.g01.specification.environment
 		
 //----------------------------------------------------------------------------------
 		
+		use case instance uciCallSelectedHelp: suCallSelectedHelpRequest{
+			actors{
+				tom : actCoordinator
+				tango : actPhoneCompany
+			}
+			use case steps {
+				tom executed instanceof subfunction oeReqCall(){
+						ieConfirm("661234567") returned to tango
+					}
+				tango executed instanceof subfunction oeGetConfirm(){
+					ieRequestConfirm("661234567","true") returned to tom
+				}
+			
+			}
+		}
 		
 		use case system summary suCallSelectedHelpRequest() {
 			
