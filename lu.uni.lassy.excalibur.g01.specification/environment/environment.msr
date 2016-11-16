@@ -149,7 +149,7 @@ Environment Model {
 	
 	actor actPhoneCompany role rnactPhoneCompany cardinality [1..*]{
 		input interface inactPhoneCompany{
-			operation ieRequestConfirm() : ptBoolean
+			operation ieRequestConfirm(AdtPhoneNumber : dtPhoneNumber) : ptBoolean
 		}
 		output interface outactPhoneCompany{
 			operation oeGetConfirm() : ptBoolean

@@ -111,7 +111,7 @@ import lu.uni.lassy.excalibur.g01.specification.environment
 			actor actPhoneCompany[primary,active]
 			
 			returned messages{
-				ieRequestConfirm(dtPhoneNumber, dtBoolean) returned to actPhoneCompany
+				ieRequestConfirm(AdtPhoneNumber, dtBoolean) returned to actPhoneCompany
 			}
 		}
 		
