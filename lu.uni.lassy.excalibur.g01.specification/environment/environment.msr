@@ -156,6 +156,18 @@ Environment Model {
 		}
 	}
 	
+	actor actServer role rnactServer cardinality [1..1] {
+	
+		input interface inactServer {
+			operation ieFamilyDetails(): ptBoolean
+			operation ieConfirmationOfSmsSend() : ptBoolean
+		}
+		output interface outactServer {
+			
+	
+		}
+	}
+	
 	
 	
 			

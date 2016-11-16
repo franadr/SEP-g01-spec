@@ -210,13 +210,51 @@ import lu.uni.lassy.excalibur.g01.specification.environment
 	 		ieSendHelpRequestDetail() returned to actCoordinator
 	 	}
 	 }
-	 
+//---------------------------------------------------------------- 
 	 use case system summary suAltertAFamilyMember() {
 	 	actor actWeakPerson [primary, active]
 	 	actor actPhoneCompany[secondary, active]
 	 	actor actWeakPersonFamilly[secondary, active]
 	 	
+	 	reuse suRequestHelp[1..*]
+	 	reuse oeRetrieveFamilyDetails[1..1]
+	 	reuse oeSendFamilyDetails[1..*]
+	 	
+	 	step a: actWeakPerson executes suRequestHelp
+	 	step b: actServer executes oeRetrieveFamilyDetails
+	 	step c: actServer executes oeSendFamilyDetails
+	 	step d: actPhoneCompany executes oeGetDeliveryReport
+	 	
+	 	
+	 	 	
 	 }
+	 
+	 use case system subfunction oeRetrieveFamilyDetails() {
+	 	actor actServer[primary,active]
+	 	returned messages {
+	 		ieFamilyDetails returned to actServer
+	 	}
+	 }
+	 
+	 use case system subfunction oeSendFamilyDetails() {
+	 	actor actServer[primary,active]
+	 	actor actPhoneCompany[secondary, passive]
+	 	returned messages {
+	 		ieConfirmationOfSmsSend(AdtPhoneNumber, AdtSms)
+	 		returned to actServer
+	 		ieSmsSend(AdtPhoneNumber, AdtSms)
+	 		returned to actPhoneCompany
+	 	}
+	 }
+	 
+	 use case system subfunction oeGetDeliveryReport() {
+	 	actor actPhoneCompany[primary,active]
+	 	returned messages{
+	 		oeFamilyDeliveryReport()
+	 		returned to actServer
+	 	}
+	 }
+
 
 
 
