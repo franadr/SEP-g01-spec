@@ -14,19 +14,60 @@ import lu.uni.lassy.excalibur.g01.specification.environment
 
 
 	Use Case Model {
+		
+		use case instance uciSendHelpRequest : ugRequestHelp {
+			actors {
+				
+				Benny : actWeakPerson
+				Garmin : actSensor
+				DB1 : actMainDatabase
+				
+			}
+			use case steps {
+				Benny executed instanceof subfunction oeGetPositionFromSensor() {
+						iereqCurrentPos() returned to Garmin
+					}
+				Garmin executed instanceof subfunction oeSendPos("49.626506, 6.163065") {
+						ieSentdPosition("49.626506, 6.163065") returned to Benny
+					}
+				Benny executed instanceof subfunction oeInputManualPos("1 rue des maraîchers-Luxembourg", "49.626506, 6.163065") {
+						ieConfirmPos("1 rue des maraîchers-Luxembourg", "49.626506, 6.163065") returned to Benny
+					}
+				Benny executed instanceof subfunction oeSendHelpRequest() {
+						ieAddEntry("Benny Hill" , "6611726354", "49.618416, 6.172678" , "1 rue de Cents - Luxembourg") returned to DB1
+					}
+				DB1 executed instanceof subfunction oeConfirmEntryAdded("id : 27","true") {
+						ieSentConfirmationMessage("Your help request has been sent") returned to Benny
+					}
+				Benny executed instanceof subfunction oeAlertFamily() {
+									
+					}
 
-		use case system summary suRequestHelp() {
+
+
+	
+
+				
+			}	
+		}
+
+		use case system summary ugRequestHelp() {
 			
 			actor actWeakPerson[primary,active]
 			actor actSensor[secondary]
-		
+			actor actMainDatabase[secondary]
+			
+			reuse oeSendHelpRequest[1..1]
 			
 			
-			step a: actSensor executes oeGetPositionFromSensor()
-			step b : actWeakPerson executes oeInputPost()
-			step c : actWeakPerson executes oeGetInfo()			
-			step d : actWeakPerson executes oeAlertFamily()
-			step e : actWeakPerson executes oeSendPosAndInfo()
+			
+			step a: actWeakPerson executes oeGetPositionFromSensor()
+			step b : actSensor executes oeSendPos()
+			step c : actWeakPerson executes oeInputManualPos()
+			step d : actWeakPerson executes oeSendHelpRequest()	
+			step e : actMainDatabase executes oeConfirmEntryAdded()
+			step f : actWeakPerson executes oeAlertFamily()
+			
 			
 			
 			ordering constraint "step (a) is always the first step "
@@ -36,26 +77,56 @@ import lu.uni.lassy.excalibur.g01.specification.environment
 			
 		}
 		
+		use case system subfunction oeGetPositionFromSensor() {
+			actor actWeakPerson[primary,active]
+			actor actSensor[secondary]
+			
+			returned messages{
+				iereqCurrentPos() returned to actSensor
+			}
+		}
+		
+		use case system subfunction oeSendPos() {
+			actor actSensor[primary,active]
+			actor actWeakPerson[secondary]
+			
+			returned messages {
+				ieSentdPosition() returned to actWeakPerson
+			}
+		}
+		
+		use case system subfunction oeInputManualPos() {
+			actor actWeakPerson[primary,active]
+			
+			returned messages{
+				ieConfirmPos() returned to actWeakPerson
+			}
+		}
+		
+		use case system subfunction oeSendHelpRequest() {
+			actor actWeakPerson[primary,active]
+			actor actMainDatabase[secondary]
+			
+			returned messages{
+				ieAddEntry() returned to actMainDatabase
+			}
+		}
+		
+		use case system subfunction oeConfirmEntryAdded() {
+			actor actMainDatabase[primary,active]
+			actor actWeakPerson[secondary]
+			returned messages {
+				ieSentConfirmationMessage() returned to actWeakPerson
+			}
+		}
+		
+		
 //----------------------------------------------------------------------------------
 		
 		//Moved to *.usecases.coordinator.msrd
 		
 		
 //---------------------------------------------------------------------------------
-		use case system usergoal oeGetPositionFromSensor() {
-			actor actSensor[primary, active]
-			
-		}
-		
-		
-		
-		use case system subfunction oeGetInfo() {
-			actor actWeakPerson[primary,active]
-			
-			returned messages {
-				ieSendInfo() returned to actWeakPerson
-			}
-		}
 		
 		
 	
@@ -68,48 +139,42 @@ import lu.uni.lassy.excalibur.g01.specification.environment
 			}
 		}
 		
-		use case system subfunction oeSendPosAndInfo() {
-			actor actWeakPerson[primary,active]
-			
-			returned messages {
-				ieSentConfirmationMessage() returned to actWeakPerson
-			}
-		}
-		
-	use case system usergoal ugGetMissionInRange() {
-		actor actVolunteer[primary,active]
-		actor actSensor[secondary]
-		actor actPositionInputActor[secondary]
-		
-		step a: actSensor executes oeGetPositionFromSensor()
-		step b : actVolunteer executes oeInputPost()
-		step c : actVolunteer executes oeGetRange()
-		
-		}
-		
-		use case system subfunction oeGetRange() {
-			actor actVolunteer[primary,active]
-			
-			returned messages {
-				ieSendRange() returned to actVolunteer
-				
-			}
-			
-			
-		}
 	
+		
+//	use case system usergoal ugGetMissionInRange() {
+//		actor actVolunteer[primary,active]
+//		actor actSensor[secondary]
+//		actor actPositionInputActor[secondary]
+//		
+//		step a: actSensor executes oeGetPositionFromSensor()
+//		step b : actVolunteer executes oeInputPost()
+//		step c : actVolunteer executes oeGetRange()
+//		
+//		}
+//		
+//		use case system subfunction oeGetRange() {
+//			actor actVolunteer[primary,active]
+//			
+//			returned messages {
+//				ieSendRange() returned to actVolunteer
+//				
+//			}
+//			
+//			
+//		}
+//	
 //---------------------------------------------------------------- 
 	 use case system summary suAltertAFamilyMember() {
 	 	actor actWeakPerson [primary, active]
 	 	actor actPhoneCompany[secondary, active]
 	 	
 	 	
-	 	reuse suRequestHelp[1..*]
+	 	reuse ugRequestHelp[1..*]
 	 	reuse oeSendFamilyDetails[1..*]
 	 	reuse oeGetDeliveryReport[1..*]
 	 	
-	 	step a: actWeakPerson executes suRequestHelp
-	 	step b: actPendingHelpRequestList executes oeSendFamilyDetails
+	 	step a: actWeakPerson executes ugRequestHelp
+	 	step b: actMainDatabase executes oeSendFamilyDetails
 	 	step c: actPhoneCompany executes oeGetDeliveryReport
 	 	
 	 	
@@ -118,18 +183,18 @@ import lu.uni.lassy.excalibur.g01.specification.environment
 	 
 	 use case system subfunction oeAlertFamily() {
 	 	actor actWeakPerson[primary,active]
-	 	actor actPendingHelpRequestList[secondary,passive]
+	 	actor actMainDatabase[secondary,passive]
 	 	
 	 	returned messages {
-	 		ieFamilyDetailsRequest returned to actPendingHelpRequestList
+	 		ieFamilyDetailsRequest returned to actMainDatabase
 	 	}
 	 }
 	 
 	 use case system subfunction oeSendFamilyDetails() {
-	 	actor actPendingHelpRequestList[primary,active]
+	 	actor actMainDatabase[primary,active]
 	 	actor actPhoneCompany[secondary, passive]
 	 	returned messages {
-	 		ieConfirmationOfSmsSend() returned to actPendingHelpRequestList
+	 		ieConfirmationOfSmsSend() returned to actMainDatabase
 	 		ieSmsForFamily() returned to actPhoneCompany
 	 		
 	 	}
@@ -137,9 +202,9 @@ import lu.uni.lassy.excalibur.g01.specification.environment
 	 
 	 use case system subfunction oeGetDeliveryReport() {
 	 	actor actPhoneCompany[primary,active]
-	 	actor actPendingHelpRequestList[secondary, passive]
+	 	actor actMainDatabase[secondary, passive]
 	 	returned messages{
-	 		ieFamilyDeliveryReport() returned to actPendingHelpRequestList
+	 		ieFamilyDeliveryReport() returned to actMainDatabase
 	 		
 	 	}
 	 }

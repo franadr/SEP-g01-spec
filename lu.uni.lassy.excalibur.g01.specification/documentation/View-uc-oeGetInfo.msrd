@@ -4,7 +4,3 @@
 */
 
 
-@@view uc-oeGetInfo
-@model Use-Case lu.uni.lassy.excalibur.g01.specification.usecases.oeGetInfo 
-@description ""
-@caption ""

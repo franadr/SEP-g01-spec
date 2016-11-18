@@ -17,7 +17,7 @@ import lu.uni.lassy.excalibur.g01.specification.environment
 		use case instance uciGetPendingHelpRequests : ugRetrievePendingHelpRequestDetails() {
 			actors {
 				tom : actCoordinator
-				db1 : actPendingHelpRequestList
+				db1 : actMainDatabase
 				
 			}
 			use case steps {
@@ -86,19 +86,19 @@ import lu.uni.lassy.excalibur.g01.specification.environment
 		}
 	use case system usergoal ugRetrievePendingHelpRequestDetails() {
 		actor actCoordinator[primary,active]
-		actor actPendingHelpRequestList[secondary]
+		actor actMainDatabase[secondary]
 	
 		
 		step a : actCoordinator executes oeGetPendingHelpRequests()
-		step b : actPendingHelpRequestList executes oeSentPendingHelpRequest()
+		step b : actMainDatabase executes oeSentPendingHelpRequest()
 		step c : actCoordinator executes oeGetHelpRequestDetail()
-		step d : actPendingHelpRequestList executes oeSendHRDetails()
+		step d : actMainDatabase executes oeSendHRDetails()
 		
 		
 		}
 	 
 	 use case system subfunction oeSentPendingHelpRequest(){
-	 	actor actPendingHelpRequestList[primary,active]
+	 	actor actMainDatabase[primary,active]
 	 	actor actCoordinator[secondary]
 	 	
 	 	returned messages{
@@ -108,7 +108,7 @@ import lu.uni.lassy.excalibur.g01.specification.environment
 	 }
 	 
 	 use case system subfunction oeSendHRDetails() {
-	 	actor actPendingHelpRequestList[primary,active]
+	 	actor actMainDatabase[primary,active]
 	 	actor actCoordinator[secondary]
 	 	
 	 	returned messages{
@@ -118,10 +118,10 @@ import lu.uni.lassy.excalibur.g01.specification.environment
 	 
 	 use case system subfunction oeGetPendingHelpRequests() {
 	 	actor actCoordinator[primary,active]
-	 	actor actPendingHelpRequestList[secondary]
+	 	actor actMainDatabase[secondary]
 	 	
 	 	returned messages{
-	 		ieReqPendingHelpRequests() returned to actPendingHelpRequestList
+	 		ieReqPendingHelpRequests() returned to actMainDatabase
 	 		ieSendPendingHelpRequestList() returned to actCoordinator
 	 		
 	 	}
@@ -129,10 +129,10 @@ import lu.uni.lassy.excalibur.g01.specification.environment
 	 
 	 use case system subfunction oeGetHelpRequestDetail() {
 	 	actor actCoordinator[primary,active]
-	 	actor actPendingHelpRequestList[secondary]
+	 	actor actMainDatabase[secondary]
 	 	
 	 	returned messages {
-	 		ieRequHRDetails() returned to actPendingHelpRequestList
+	 		ieRequHRDetails() returned to actMainDatabase
 	 		ieSendHelpRequestDetail() returned to actCoordinator
 	 	}
 	 }
