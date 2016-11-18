@@ -61,13 +61,15 @@ import lu.uni.lassy.excalibur.g01.specification.environment
 			
 			step a: actSensor executes oeGetPositionFromSensor()
 			step b : actWeakPerson executes oeInputPost()
-			step c : actWeakPerson executes oeGetInfo()
-			step d : actWeakPerson executes oeSendPosAndInfo()
+			step c : actWeakPerson executes oeGetInfo()			
+			step d : actWeakPerson executes oeAlertFamily()
+			step e : actWeakPerson executes oeSendPosAndInfo()
 			
 			
 			ordering constraint "step (a) is always the first step "
 			ordering constraint "step (b) must be executed after step (a) "
-			ordering constraint "step (d) is always the last step "
+			ordering constraint "step (d) may not be executed (if actWeakPerson is not signed up)"
+			ordering constraint "step (e) is always the last step "			
 			
 		}
 		
@@ -229,44 +231,45 @@ import lu.uni.lassy.excalibur.g01.specification.environment
 	 use case system summary suAltertAFamilyMember() {
 	 	actor actWeakPerson [primary, active]
 	 	actor actPhoneCompany[secondary, active]
-	 	actor actWeakPersonFamilly[secondary, active]
+	 	
 	 	
 	 	reuse suRequestHelp[1..*]
-	 	reuse oeRetrieveFamilyDetails[1..1]
 	 	reuse oeSendFamilyDetails[1..*]
+	 	reuse oeGetDeliveryReport[1..*]
 	 	
 	 	step a: actWeakPerson executes suRequestHelp
-	 	step b: actServer executes oeRetrieveFamilyDetails
-	 	step c: actServer executes oeSendFamilyDetails
-	 	step d: actPhoneCompany executes oeGetDeliveryReport
+	 	step b: actPendingHelpRequestList executes oeSendFamilyDetails
+	 	step c: actPhoneCompany executes oeGetDeliveryReport
 	 	
 	 	
-	 	 	
+	 	 	 	
 	 }
 	 
-	 use case system subfunction oeRetrieveFamilyDetails() {
-	 	actor actServer[primary,active]
+	 use case system subfunction oeAlertFamily() {
+	 	actor actWeakPerson[primary,active]
+	 	actor actPendingHelpRequestList[secondary,passive]
+	 	
 	 	returned messages {
-	 		ieFamilyDetails returned to actServer
+	 		ieFamilyDetailsRequest returned to actPendingHelpRequestList
 	 	}
 	 }
 	 
 	 use case system subfunction oeSendFamilyDetails() {
-	 	actor actServer[primary,active]
+	 	actor actPendingHelpRequestList[primary,active]
 	 	actor actPhoneCompany[secondary, passive]
 	 	returned messages {
-	 		ieConfirmationOfSmsSend(AdtPhoneNumber, AdtSms)
-	 		returned to actServer
-	 		ieSmsSend(AdtPhoneNumber, AdtSms)
-	 		returned to actPhoneCompany
+	 		ieConfirmationOfSmsSend() returned to actPendingHelpRequestList
+	 		ieSmsForFamily() returned to actPhoneCompany
+	 		
 	 	}
 	 }
 	 
 	 use case system subfunction oeGetDeliveryReport() {
 	 	actor actPhoneCompany[primary,active]
+	 	actor actPendingHelpRequestList[secondary, passive]
 	 	returned messages{
-	 		oeFamilyDeliveryReport()
-	 		returned to actServer
+	 		ieFamilyDeliveryReport() returned to actPendingHelpRequestList
+	 		
 	 	}
 	 }
 

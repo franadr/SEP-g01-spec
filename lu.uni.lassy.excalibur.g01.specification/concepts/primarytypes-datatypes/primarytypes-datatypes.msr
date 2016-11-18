@@ -40,6 +40,10 @@ Concept Model {
    			attribute street : ptString
    			attribute city : ptString
    		}
+   		datatype dtMessage {
+   			attribute MessageText : ptString
+   			operation is() : ptBoolean
+   		}
 	}
 }
 }

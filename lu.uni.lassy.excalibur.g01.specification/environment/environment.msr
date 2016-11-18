@@ -77,6 +77,7 @@ Environment Model {
 			operation oeSendPosAndInfo() : ptBoolean
 			operation oeGetInfo() : ptBoolean
 			operation oeGetPositionFromSensor() : ptBoolean
+			operation oeAlertFamily() : ptBoolean
 		}
 	}
 	
@@ -116,15 +117,15 @@ Environment Model {
 	}
 	
 	
-	actor actWeakPersonFamilly role rnactWeakPersonFamilly cardinality [1..*] {
+	actor actWeakPersonFamily role rnactWeakPersonFamily cardinality [1..*] {
 	
-		input interface inactWeakPersonFamilly {
+		input interface inactWeakPersonFamily {
 			operation ieSentPosition() : ptBoolean
 			operation ieGetMessage() : ptBoolean
 			operation ieGetCall(): ptBoolean
 	
 		}
-		output interface outactWeakPersonFamilly {
+		output interface outactWeakPersonFamily {
 			
 			operation oeSubscribe() : ptBoolean
 			operation oeConfirmMessage() : ptBoolean
@@ -140,33 +141,29 @@ Environment Model {
 			operation ieReqPendingHelpRequests() : ptBoolean
 			operation ieRequHRDetails() : ptBoolean
 			operation ieSendPendingHR() : ptBoolean
+			operation ieFamilyDetailsRequest() : ptBoolean
+			operation ieConfirmationOfSmsSend() : ptBoolean
+			operation ieFamilyDeliveryReport() : ptBoolean
 		}
 		output interface outactPendingHelpRequestList {
 			operation oeSentPendingHelpRequest(AdtTime:dtTime,AdtPhoneNumber :dtPhoneNumber) : ptBoolean
 			operation oeSendHRDetails(AdtName : dtName, AdtPhoneNumber : dtPhoneNumber , AdtCoordinates : dtCoordinates , AdtAddress : dtAddress) : ptBoolean
+			operation oeSendFamilyDetails(AdtName : dtName, AdtPhoneNumber : dtPhoneNumber, AdtMessage : dtMessage) : ptBoolean
 		}
 	}
 	
 	actor actPhoneCompany role rnactPhoneCompany cardinality [1..*]{
 		input interface inactPhoneCompany{
 			operation ieRequestConfirm(AdtPhoneNumber : dtPhoneNumber) : ptBoolean
+			operation ieSmsForFamily(AdtPhoneNumber : dtPhoneNumber, AdtMessage : dtMessage) : ptBoolean
 		}
 		output interface outactPhoneCompany{
 			operation oeGetConfirm() : ptBoolean
+			operation oeGetDeliveryReportMessage() : ptBoolean
 		}
 	}
 	
-	actor actServer role rnactServer cardinality [1..1] {
 	
-		input interface inactServer {
-			operation ieFamilyDetails(): ptBoolean
-			operation ieConfirmationOfSmsSend() : ptBoolean
-		}
-		output interface outactServer {
-			
-	
-		}
-	}
 	
 	
 	
