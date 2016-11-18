@@ -14,44 +14,7 @@ import lu.uni.lassy.excalibur.g01.specification.environment
 
 
 	Use Case Model {
-		use case instance uciGetPendingHelpRequests : ugRetrievePendingHelpRequestDetails() {
-			actors {
-				tom : actCoordinator
-				db1 : actPendingHelpRequestList
-				
-			}
-			use case steps {
-				tom executed instanceof subfunction oeGetPendingHelpRequests() {
-						ieReqPendingHelpRequests() returned to db1
-					}
-			db1 executed instanceof subfunction oeSentPendingHelpRequest("12h40","661234567") {
-			ieSendPendingHR("12h40","661234567") returned to tom
-					}
-			db1 executed instanceof subfunction oeSentPendingHelpRequest("12h42","661234156") {
-			ieSendPendingHR("12h42","661234156") returned to tom
-					}
-			db1 executed instanceof subfunction oeSentPendingHelpRequest("12h48","691007221") {
-			ieSendPendingHR("12h48","691007221") returned to tom
-					}
 
-			tom executed instanceof subfunction oeGetHelpRequestDetail("id : 32") {
-					ieRequHRDetails("id : 32") returned to db1
-						
-					}
-			db1 executed instanceof subfunction oeSendHRDetails("Paul Kremmer" , "6611726354", "49.618416, 6.172678" , "1 rue de Cents - Luxembourg") {
-					ieRequHRDetails("Paul Kremmer" , "6611726354", "49.618416, 6.172678" , "1 rue de Cents - Luxembourg") returned to tom
-					}
-					
-					
-					
-
-
-
-				
-			}	
-			
-		}
-		
 		use case system summary suRequestHelp() {
 			
 			actor actWeakPerson[primary,active]
@@ -75,53 +38,12 @@ import lu.uni.lassy.excalibur.g01.specification.environment
 		
 //----------------------------------------------------------------------------------
 		
-		use case instance uciCallSelectedHelp: suCallSelectedHelpRequest{
-			actors{
-				tom : actCoordinator
-				tango : actPhoneCompany
-			}
-			use case steps {
-				tom executed instanceof subfunction oeReqCall("661234567"){
-						ieConfirm("661234567") returned to tango
-					}
-				tango executed instanceof subfunction oeGetConfirm("661234567","true"){
-					ieRequestConfirm("661234567","true") returned to tom
-				}
-			
-			}
-		}
-		
-		use case system summary suCallSelectedHelpRequest() {
-			
-			actor actCoordinator[primary,active]
-			actor actPhoneCompany[secondary]
-			
-			step a : actCoordinator executes oeReqCall()
-			step b : actPhoneCompany executes oeGetConfirm()
-			
-		}
-		
-		use case system subfunction oeReqCall() {
-			actor actCoordinator[primary,active]
-			
-			returned messages{
-				ieConfirm(dtPhoneNumber) returned to actCoordinator
-			}
-		}
-		
-		use case system subfunction oeGetConfirm() {
-			actor actPhoneCompany[primary,active]
-			
-			returned messages{
-				ieRequestConfirm(AdtPhoneNumber, dtBoolean) returned to actPhoneCompany
-			}
-		}
+		//Moved to *.usecases.coordinator.msrd
 		
 		
 //---------------------------------------------------------------------------------
 		use case system usergoal oeGetPositionFromSensor() {
 			actor actSensor[primary, active]
-			
 			
 		}
 		
@@ -175,58 +97,7 @@ import lu.uni.lassy.excalibur.g01.specification.environment
 			
 			
 		}
-	use case system usergoal ugRetrievePendingHelpRequestDetails() {
-		actor actCoordinator[primary,active]
-		actor actPendingHelpRequestList[secondary]
 	
-		
-		step a : actCoordinator executes oeGetPendingHelpRequests()
-		step b : actPendingHelpRequestList executes oeSentPendingHelpRequest()
-		step c : actCoordinator executes oeGetHelpRequestDetail()
-		step d : actPendingHelpRequestList executes oeSendHRDetails()
-		
-		
-		}
-	 
-	 use case system subfunction oeSentPendingHelpRequest(){
-	 	actor actPendingHelpRequestList[primary,active]
-	 	actor actCoordinator[secondary]
-	 	
-	 	returned messages{
-	 		ieSendPendingHR() returned to actCoordinator
-	 	}
-	 	
-	 }
-	 
-	 use case system subfunction oeSendHRDetails() {
-	 	actor actPendingHelpRequestList[primary,active]
-	 	actor actCoordinator[secondary]
-	 	
-	 	returned messages{
-	 		ieRequHRDetails() returned to actCoordinator
-	 	}
-	 }
-	 
-	 use case system subfunction oeGetPendingHelpRequests() {
-	 	actor actCoordinator[primary,active]
-	 	actor actPendingHelpRequestList[secondary]
-	 	
-	 	returned messages{
-	 		ieReqPendingHelpRequests() returned to actPendingHelpRequestList
-	 		ieSendPendingHelpRequestList() returned to actCoordinator
-	 		
-	 	}
-	 }
-	 
-	 use case system subfunction oeGetHelpRequestDetail() {
-	 	actor actCoordinator[primary,active]
-	 	actor actPendingHelpRequestList[secondary]
-	 	
-	 	returned messages {
-	 		ieRequHRDetails() returned to actPendingHelpRequestList
-	 		ieSendHelpRequestDetail() returned to actCoordinator
-	 	}
-	 }
 //---------------------------------------------------------------- 
 	 use case system summary suAltertAFamilyMember() {
 	 	actor actWeakPerson [primary, active]
