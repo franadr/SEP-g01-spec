@@ -86,17 +86,17 @@ Environment Model {
 	actor actVolunteer role rnactVolunteer cardinality [1..*] {
 	
 		input interface inactVolunteer {
-			operation ieSentPosition() : ptBoolean
+			operation ieSentCurrentPosition(AdtCoordinates : dtCoordinates) : ptBoolean
 			operation ieSentMissionConfirmation() : ptBoolean
-			operation ieDisplayChecklist() : ptBoolean
 			operation ieSendRange() : ptBoolean
+			operation ieSendInRangeMission(AdtId : dtHRid, AdtCoordinates : dtCoordinates) : ptBoolean
 		}
 		output interface outactVolunteer {
 			operation oeLogin() : ptBoolean
 			operation oeLogout(): ptBoolean
 			operation oeGetPosition() : ptBoolean
-			operation oeConfirmPosition() : ptBoolean
-			operation oeGetMissionInRagne() : ptBoolean
+			
+			operation oeGetMissionInRagne(AdtRange: dtRange) : ptBoolean
 			operation oeAcceptMission() : ptBoolean
 			operation oeInputPos() : ptBoolean
 			operation oeSendPosAndInfo() : ptBoolean
@@ -140,18 +140,18 @@ Environment Model {
 	
 		input interface inactPendingHelpRequestList {
 			operation ieReqPendingHelpRequests() : ptBoolean
-			operation ieRequHRDetails() : ptBoolean
-			operation ieSendPendingHR() : ptBoolean
+			operation ieRequHRDetails(AdtId :dtHRid) : ptBoolean
+			operation ieSendPendingHR(AdtTime : dtTime) : ptBoolean
 			operation ieFamilyDetailsRequest() : ptBoolean
 			operation ieConfirmationOfSmsSend() : ptBoolean
 			operation ieFamilyDeliveryReport() : ptBoolean
-			operation ieAddEntry() : ptBoolean
+			operation ieAddEntry(AdtName : dtName, AdtPhoneNumber : dtPhoneNumber , AdtCoordinates : dtCoordinates , AdtAddress : dtAddress) : ptBoolean
 		}
 		output interface outactPendingHelpRequestList {
 			operation oeSentPendingHelpRequest(AdtTime:dtTime,AdtPhoneNumber :dtPhoneNumber) : ptBoolean
 			operation oeSendHRDetails(AdtName : dtName, AdtPhoneNumber : dtPhoneNumber , AdtCoordinates : dtCoordinates , AdtAddress : dtAddress) : ptBoolean
 			operation oeSendFamilyDetails(AdtName : dtName, AdtPhoneNumber : dtPhoneNumber, AdtMessage : dtMessage) : ptBoolean
-			operation oeConfirmEntryAdded() : ptBoolean
+			operation oeConfirmEntryAdded(AdtId : dtHRid , AdtConfirmation : ptBoolean) : ptBoolean
 		}
 	}
 	
@@ -165,6 +165,18 @@ Environment Model {
 			operation oeGetDeliveryReport() : ptBoolean
 		}
 	}
+	
+	
+	actor actPositionRequester role rnactPositionRequester cardinality [1..*] {
+	
+		input interface inactPositionRequester {
+			operation ieSendSensorPosition() : ptBoolean
+		}
+		output interface outactPositionRequester {
+			operation oeGetPositionFromSensor() : ptBoolean
+		}
+	}
+	
 	
 	
 	

@@ -44,6 +44,11 @@ Concept Model {
    			attribute MessageText : ptString
    			operation is() : ptBoolean
    		}
+   		
+   		datatype dtRange {
+   			attribute value : ptInteger
+   			operation is() : ptBoolean
+   		}
 	}
 }
 }

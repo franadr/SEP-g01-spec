@@ -1,0 +1,67 @@
+/*
+* @author Adriano
+* @date Sat Nov 19 15:04:07 CET 2016
+*/
+
+package lu.uni.lassy.excalibur.g01.specification.usecases.volunteer {
+
+import lu.uni.lassy.messir.libraries.calendar
+import lu.uni.lassy.messir.libraries.math
+import lu.uni.lassy.messir.libraries.primitives
+import lu.uni.lassy.messir.libraries.string
+import lu.uni.lassy.excalibur.g01.specification.environment
+import lu.uni.lassy.excalibur.g01.specification.usecases
+
+
+	Use Case Model {
+		use case instance uciGetInRangeMission : ugGetMissionInRange {
+			actors {
+				MikeGPS : actPositionRequester
+				Mike : actVolunteer
+				Garmin : actSensor
+			}
+			use case steps {
+				MikeGPS executed instanceof subfunction oeGetPositionFromSensor() {
+						iereqCurrentPos() returned to Garmin			
+					}
+				Garmin executed instanceof subfunction oeSendPos("49.626506, 6.163065") {
+						ieSentCurrentPosition("49.626506, 6.163065")	returned to Mike		
+					}
+				Mike executed instanceof subfunction oeGetInRangeMission("25","49.63999, 6.16399") {
+					ieSendInRangeMission("id=29","49.626506, 6.163065") returned to Mike
+					ieSendInRangeMission("id=34","49.627499, 6.274156") returned to Mike
+					ieSendInRangeMission("id=18","49.639006, 6.263164") returned to Mike
+					
+					}
+
+
+
+			}	
+		}
+		
+		
+		
+		use case system usergoal ugGetMissionInRange() {
+			actor actVolunteer[primary, active]
+			actor actPositionRequester[secondary]
+			actor actSensor[secondary]
+			
+			step a: actPositionRequester executes oeGetPositionFromSensor()
+			step b: actSensor executes oeSendPos()
+			step c: actVolunteer executes oeGetInRangeMission()
+		}
+		
+		use case system subfunction oeGetInRangeMission(){
+			actor actVolunteer[primary,active]
+			
+			returned messages{
+				ieSendInRangeMission() returned to actVolunteer
+			}
+		}
+		
+		
+
+	}
+
+
+}

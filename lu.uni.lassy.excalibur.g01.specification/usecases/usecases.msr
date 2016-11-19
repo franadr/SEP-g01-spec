@@ -19,12 +19,13 @@ import lu.uni.lassy.excalibur.g01.specification.environment
 			actors {
 				
 				Benny : actWeakPerson
+				BennyGPS : actPositionRequester
 				Garmin : actSensor
 				DB1 : actMainDatabase
 				
 			}
 			use case steps {
-				Benny executed instanceof subfunction oeGetPositionFromSensor() {
+				BennyGPS executed instanceof subfunction oeGetPositionFromSensor() {
 						iereqCurrentPos() returned to Garmin
 					}
 				Garmin executed instanceof subfunction oeSendPos("49.626506, 6.163065") {
@@ -55,13 +56,14 @@ import lu.uni.lassy.excalibur.g01.specification.environment
 			
 			actor actWeakPerson[primary,active]
 			actor actSensor[secondary]
+			actor actPositionRequester[secondary]
 			actor actMainDatabase[secondary]
 			
 			reuse oeSendHelpRequest[1..1]
 			
 			
 			
-			step a: actWeakPerson executes oeGetPositionFromSensor()
+			step a: actPositionRequester executes oeGetPositionFromSensor()
 			step b : actSensor executes oeSendPos()
 			step c : actWeakPerson executes oeInputManualPos()
 			step d : actWeakPerson executes oeSendHelpRequest()	
@@ -78,7 +80,7 @@ import lu.uni.lassy.excalibur.g01.specification.environment
 		}
 		
 		use case system subfunction oeGetPositionFromSensor() {
-			actor actWeakPerson[primary,active]
+			actor actPositionRequester[primary,active]
 			actor actSensor[secondary]
 			
 			returned messages{
@@ -89,9 +91,11 @@ import lu.uni.lassy.excalibur.g01.specification.environment
 		use case system subfunction oeSendPos() {
 			actor actSensor[primary,active]
 			actor actWeakPerson[secondary]
+			actor actVolunteer[secondary]
 			
 			returned messages {
 				ieSentdPosition() returned to actWeakPerson
+				ieSentCurrentPosition() returned to actVolunteer
 			}
 		}
 		
@@ -141,28 +145,7 @@ import lu.uni.lassy.excalibur.g01.specification.environment
 		
 	
 		
-//	use case system usergoal ugGetMissionInRange() {
-//		actor actVolunteer[primary,active]
-//		actor actSensor[secondary]
-//		actor actPositionInputActor[secondary]
-//		
-//		step a: actSensor executes oeGetPositionFromSensor()
-//		step b : actVolunteer executes oeInputPost()
-//		step c : actVolunteer executes oeGetRange()
-//		
-//		}
-//		
-//		use case system subfunction oeGetRange() {
-//			actor actVolunteer[primary,active]
-//			
-//			returned messages {
-//				ieSendRange() returned to actVolunteer
-//				
-//			}
-//			
-//			
-//		}
-//	
+	
 //---------------------------------------------------------------- 
 	 use case system summary suAltertAFamilyMember() {
 	 	actor actWeakPerson [primary, active]

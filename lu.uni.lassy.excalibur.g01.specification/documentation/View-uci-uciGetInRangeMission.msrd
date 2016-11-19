@@ -1,0 +1,10 @@
+/*
+@author Adriano
+@date Sat Nov 19 15:30:06 CET 2016
+*/
+
+
+@@view uci-uciGetInRangeMission
+@instance Use-Case lu.uni.lassy.excalibur.g01.specification.usecases.volunteer.uciGetInRangeMission 
+@description ""
+@caption ""

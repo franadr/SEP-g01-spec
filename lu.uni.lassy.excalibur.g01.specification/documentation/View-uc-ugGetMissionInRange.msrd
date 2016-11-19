@@ -5,3 +5,8 @@
 
 
 
+
+@@view uc-ugGetMissionInRange
+@model Use-Case lu.uni.lassy.excalibur.g01.specification.usecases.volunteer.ugGetMissionInRange 
+@description ""
+@caption ""
