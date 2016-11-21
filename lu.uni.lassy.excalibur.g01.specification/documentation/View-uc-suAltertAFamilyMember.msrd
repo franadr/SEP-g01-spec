@@ -1,0 +1,10 @@
+/*
+@author Seba
+@date Mon Nov 21 11:19:29 CET 2016
+*/
+
+
+@@view uc-suAltertAFamilyMember
+@model Use-Case lu.uni.lassy.excalibur.g01.specification.usecases.suAltertAFamilyMember 
+@description ""
+@caption ""

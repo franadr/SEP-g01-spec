@@ -1,0 +1,10 @@
+/*
+@author Seba
+@date Mon Nov 21 11:29:58 CET 2016
+*/
+
+
+@@view uc-oeGetDeliveryReport
+@model Use-Case lu.uni.lassy.excalibur.g01.specification.usecases.oeGetDeliveryReport 
+@description ""
+@caption ""

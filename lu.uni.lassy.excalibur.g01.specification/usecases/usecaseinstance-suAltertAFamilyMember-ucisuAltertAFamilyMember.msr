@@ -1,0 +1,30 @@
+package usecases.ucisuAltertAFamilyMember {
+	import lu.uni.lassy.excalibur.g01.specification.usecases
+	import lu.uni.lassy.excalibur.g01.specification.environment
+
+	Use Case Model {
+
+		use case instance ucisuAltertAFamilyMember : suAltertAFamilyMember{
+			actors {
+				John : actWeakPerson
+				DB1 : actMainDatabase
+				Orange : actPhoneCompany				
+			}
+			
+			use case steps {
+				John executed instanceof subfunction oeAlertFamily() {
+					ieFamilyDetailsRequest() returned to DB1															
+				}
+				DB1 executed instanceof subfunction oeSendFamilyDetails() {
+					ieConfirmationOfSmsSend() returned to DB1
+					ieSmsForFamily() returned to Orange
+				}
+				Orange executed instanceof subfunction oeGetDeliveryReport() {
+					ieFamilyDeliveryReport() returned to DB1
+				}
+				
+				
+			}
+		}
+	}
+}

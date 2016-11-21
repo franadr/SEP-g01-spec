@@ -1,0 +1,10 @@
+/*
+@author Seba
+@date Mon Nov 21 11:32:11 CET 2016
+*/
+
+
+@@view uc-oeAlertFamily
+@model Use-Case lu.uni.lassy.excalibur.g01.specification.usecases.oeAlertFamily 
+@description ""
+@caption ""

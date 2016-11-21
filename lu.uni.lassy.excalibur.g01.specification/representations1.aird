@@ -239,6 +239,12 @@
   <semanticResources>documentation/View-uci-uciSendHelpRequest.msrd</semanticResources>
   <semanticResources>concepts/uc_volunteer.msr</semanticResources>
   <semanticResources>documentation/View-uci-uciGetInRangeMission.msrd</semanticResources>
+  <semanticResources>documentation/View-uc-suAltertAFamilyMember.msrd</semanticResources>
+  <semanticResources>documentation/View-uc-oeGetDeliveryReport.msrd</semanticResources>
+  <semanticResources>documentation/View-uc-oeSendFamilyDetails.msrd</semanticResources>
+  <semanticResources>documentation/View-uc-oeAlertFamily.msrd</semanticResources>
+  <semanticResources>usecases/usecaseinstance-suAltertAFamilyMember-ucisuAltertAFamilyMember.msr</semanticResources>
+  <semanticResources>documentation/View-uci-ucisuAltertAFamilyMember.msrd</semanticResources>
   <ownedViews xmi:type="viewpoint:DView" xmi:id="_UijYQJhGEeao7bVShP4TVg">
     <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']"/>
   </ownedViews>
