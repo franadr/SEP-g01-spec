@@ -136,6 +136,45 @@ import lu.uni.lassy.excalibur.g01.specification.environment
 	 		ieSendHelpRequestDetail() returned to actCoordinator
 	 	}
 	 }
+	 
+	 use case system usergoal ugAssignPriorityToHelpRequest(){
+		actor actCoordinator [primary,active]
+		actor actMainDatabase[secondary]
+		
+		step a : actCoordinator executes oeReqCheckbox()
+		step b : actCoordinator executes oeSendFilledCheckbox()
+		step c : actCoordinator executes oeConfirmPriority()
+	}
+	 
+	 use case system subfunction oeReqCheckbox(){
+	 	actor actCoordinator[primary,active]
+	 	actor actMainDatabase[secondary]
+	 	
+	 	returned messages{
+	 		ieSendCheckbox() returned to actCoordinator
+	 	}
+	 	
+	 }
+	 
+	 use case system subfunction oeSendFilledCheckbox(){
+	 	actor actCoordinator[primary,active]
+	 	actor actMainDatabase[secondary]
+	 	
+	 	returned messages{
+	 		ieSendCalculatedPriority() returned to actCoordinator
+	 	}
+	 	
+	 }
+	 
+	 use case system subfunction oeConfirmPriority(){
+	 	actor actCoordinator[primary,active]
+	 	actor actMainDatabase[secondary]
+	 	
+	 	returned messages{
+	 		ieSendResult() returned to actCoordinator
+	 	}
+	
+	}
 	
 	}
 

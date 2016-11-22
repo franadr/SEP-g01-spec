@@ -47,6 +47,9 @@ Environment Model {
 			operation ieSendHelpRequestDetail(AdtName : dtName, AdtPhoneNumber : dtPhoneNumber , AdtCoordinates : dtCoordinates , AdtAddress : dtAddress) : ptBoolean
 			operation ieSendVolunteerList() : ptBoolean
 			operation ieConfirm() : ptBoolean
+			operation ieSendCheckbox() : ptBoolean
+			operation ieSendCalculatedPriority() : ptBoolean
+			operation ieSendResult() : ptBoolean
 		}
 		output interface outactCoordinator {
 			operation oeLogin() : ptBoolean
@@ -57,6 +60,9 @@ Environment Model {
 			operation oeSetRiskLevel() : ptBoolean
 			operation oeGetVolunteersList() : ptBoolean
 			operation oeReqCall() : ptBoolean
+			operation oeReqCheckbox() : ptBoolean
+			operation oeSendFilledCheckbox() : ptBoolean
+			operation oeConfirmPriority() : ptBoolean
 		}
 	}
 	
