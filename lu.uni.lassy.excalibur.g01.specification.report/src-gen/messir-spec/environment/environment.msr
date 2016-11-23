@@ -1,136 +1,193 @@
-/*  
-* @author nicolas.guelfi
-* @date Mon May 06 18:10:54 CEST 2013
+/*
+* @author Adriano
+* @date Sat Oct 22 12:57:25 CEST 2016
 */
 
-package icrash.environment{
-	
-import icrash.concepts.primarytypes.datatypes
-import icrash.concepts.primarytypes.classes
-import icrash.concepts.secondarytypes.datatypes
-import lu.uni.lassy.messir.libraries.primitives
-import lu.uni.lassy.messir.libraries.math
+package lu.uni.lassy.excalibur.g01.specification.environment {
+
 import lu.uni.lassy.messir.libraries.calendar
+import lu.uni.lassy.messir.libraries.math
+import lu.uni.lassy.messir.libraries.primitives
+import lu.uni.lassy.messir.libraries.string
+import lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.datatypes
 
-	Environment Model { 
 
-		actor actMsrCreator role rnactMsrCreator cardinality [1..1] {
-		  
-		 operation init():ptBoolean
-		  
-		 input interface inactMsrCreator {
-		 }
-			output interface outactMsrCreator {
-				operation oeCreateSystemAndEnvironment(AqtyComCompanies:ptInteger ):ptBoolean
-			}
+
+Environment Model {
+
+	
+	
+	actor actSensor role rnactSensor cardinality [1..*] {
+	
+		input interface inactSensor {
+			operation iereqCurrentPos() : ptBoolean
 		}
-
-		actor actAdministrator 
-						role rnactAdministrator 
-						cardinality [1..1] 
-						extends actAuthenticated {
-
-			operation init():ptBoolean
-
-			output interface outactAdministrator{
-				
-				operation oeAddCoordinator(
-											AdtCoordinatorID:dtCoordinatorID ,
-											AdtLogin:dtLogin , 
-											AdtPassword:dtPassword ):ptBoolean
-											
-				operation oeDeleteCoordinator(
-											AdtCoordinatorID:dtCoordinatorID ):ptBoolean
-			}
-			
-			input interface inactAdministrator{
-				
-				operation ieCoordinatorAdded():ptBoolean
-				operation ieCoordinatorDeleted():ptBoolean
-	 		}
-		}
-		
-		actor actCoordinator 
-						role rnactCoordinator 
-						cardinality [0..*] 
-						extends actAuthenticated{
-
-			operation init():ptBoolean
-
-			output interface outactCoordinator{
-				operation oeInvalidateAlert(AdtAlertID:dtAlertID ):ptBoolean
-				operation oeCloseCrisis(AdtCrisisID:dtCrisisID ):ptBoolean
-				operation oeGetAlertsSet(AetAlertStatus:etAlertStatus ):ptBoolean
-				operation oeGetCrisisSet(AetCrisisStatus:etCrisisStatus ):ptBoolean
-				operation oeSetCrisisHandler(AdtCrisisID:dtCrisisID ):ptBoolean
-				operation oeReportOnCrisis(
-											AdtCrisisID:dtCrisisID ,
-											AdtComment:dtComment 
-											):ptBoolean
-				operation oeSetCrisisStatus(
-											AdtCrisisID:dtCrisisID ,
-											AetCrisisStatus:etCrisisStatus 
-											):ptBoolean
-        operation oeSetCrisisType(
-                      AdtCrisisID:dtCrisisID ,
-                      AetCrisisType:etCrisisType 
-                      ):ptBoolean
-				operation oeValidateAlert(AdtAlertID:dtAlertID ):ptBoolean
-			}
-			
-			input interface inactCoordinator{
-				operation ieSendAnAlert(ActAlert:ctAlert ):ptBoolean
-				operation ieSendACrisis(ActCrisis:ctCrisis ):ptBoolean
-	 		}
-		}
-		
-		actor actComCompany role rnactComCompany cardinality [0..*]{
-
-			operation init():ptBoolean
-
-			output interface outactComCompany{
-				operation oeAlert(
-										AetHumanKind:etHumanKind , 
-										AdtDate:dtDate , 
-										AdtTime:dtTime , 
-										AdtPhoneNumber:dtPhoneNumber ,
-										AdtGPSLocation:dtGPSLocation , 
-										AdtComment:dtComment 
-										):ptBoolean
-			}
-			
-			input interface inactComCompany{
-				operation ieSmsSend(AdtPhoneNumber:dtPhoneNumber , 
-														AdtSMS:dtSMS 
-														):ptBoolean
-	 		}
-		}
-
-		actor actAuthenticated role rnactAuthenticated cardinality [0..*]{
-
-			operation init():ptBoolean
-
-			output interface outactAuthenticated{
-				operation oeLogin(AdtLogin:dtLogin , AdtPassword:dtPassword ):ptBoolean
-				operation oeLogout():ptBoolean
-			}
-			
-			input interface inactAuthenticated{
-				operation ieMessage(AMessage:ptString):ptBoolean
-	 		}
-		}
-
-		actor actActivator[proactive] role rnactActivator cardinality [1..1]{
-
-			operation init():ptBoolean
-
-			output interface outactActivator{
-				operation oeSollicitateCrisisHandling():ptBoolean
-				operation oeSetClock(AcurrentClock:dtDateAndTime ):ptBoolean
-			}
-			
-			input interface inactActivator{
-	 		}
+		output interface outactSensor {
+		operation oeSendPos():ptBoolean
 		}
 	}
+	
+	
+	actor actPositionInputActor role rnactPositionInputActor cardinality [1..*] {
+	
+		input interface inactPositionInputActor {
+			operation ieSentPosition() : ptBoolean
+		}
+		output interface outactPositionInputActor {
+			operation oeInputPost() : ptBoolean
+		}
+	}
+	
+	
+	
+	actor actCoordinator role rnactCoordinator cardinality [1..*] {
+	
+		input interface inactCoordinator {
+			operation ieSendPendingHelpRequestList(AdtTime:dtTime,AdtPhoneNumber :dtPhoneNumber) : ptBoolean
+			operation ieSendHelpRequestDetail(AdtName : dtName, AdtPhoneNumber : dtPhoneNumber , AdtCoordinates : dtCoordinates , AdtAddress : dtAddress) : ptBoolean
+			operation ieSendVolunteerList() : ptBoolean
+			operation ieConfirm() : ptBoolean
+			operation ieSendCheckbox() : ptBoolean
+			operation ieSendCalculatedPriority() : ptBoolean
+			operation ieSendResult() : ptBoolean
+		}
+		output interface outactCoordinator {
+			operation oeLogin() : ptBoolean
+			operation oeLogout() : ptBoolean
+			operation oeGetPendingHelpRequests() : ptBoolean
+			operation oeGetHelpRequestDetail(AdtHelpRequestId : dtHRid) : ptBoolean
+			operation oeProceedCall() : ptBoolean
+			operation oeSetRiskLevel() : ptBoolean
+			operation oeGetVolunteersList() : ptBoolean
+			operation oeReqCall() : ptBoolean
+			operation oeReqCheckbox() : ptBoolean
+			operation oeSendFilledCheckbox() : ptBoolean
+			operation oeConfirmPriority() : ptBoolean
+		}
+	}
+	
+	
+	actor actWeakPerson role rnactWeakPerson cardinality [1..*] {
+	
+		input interface inactWeakPerson {
+			operation ieSentdPosition() : ptBoolean
+			operation ieSentConfirmationMessage() : ptBoolean
+			operation ieSendInfo() : ptBoolean
+			operation ieConfirmPos() : ptBoolean
+			
+		}
+		output interface outactWeakPerson {
+			operation oeSendHelpRequest() : ptBoolean
+			operation oeLogin() : ptBoolean
+			operation oeLogout() : ptBoolean
+			operation oeGetpostition() : ptBoolean
+			operation oeInputManualPos() : ptBoolean
+			operation oeGetInfo() : ptBoolean
+			operation oeGetPositionFromSensor() : ptBoolean
+			operation oeAlertFamily() : ptBoolean
+		}
+	}
+	
+	
+	actor actVolunteer role rnactVolunteer cardinality [1..*] {
+	
+		input interface inactVolunteer {
+			operation ieSentCurrentPosition(AdtCoordinates : dtCoordinates) : ptBoolean
+			operation ieSentMissionConfirmation() : ptBoolean
+			operation ieSendRange() : ptBoolean
+			operation ieSendInRangeMission(AdtId : dtHRid, AdtCoordinates : dtCoordinates) : ptBoolean
+		}
+		output interface outactVolunteer {
+			operation oeLogin() : ptBoolean
+			operation oeLogout(): ptBoolean
+			operation oeGetPosition() : ptBoolean
+			
+			operation oeGetMissionInRagne(AdtRange: dtRange) : ptBoolean
+			operation oeAcceptMission() : ptBoolean
+			operation oeInputPos() : ptBoolean
+			operation oeSendPosAndInfo() : ptBoolean
+			operation oeGetRange() : ptBoolean
+			 
+		}
+	}
+	
+	
+	
+	actor actGeneralPopulation role rnactGeneralPopulation cardinality [1..*] {
+	
+		input interface inactGeneralPopulation {
+	
+		}
+		output interface outactGeneralPopulation {
+	
+		}
+	}
+	
+	
+	actor actWeakPersonFamily role rnactWeakPersonFamily cardinality [1..*] {
+	
+		input interface inactWeakPersonFamily {
+			operation ieSentPosition() : ptBoolean
+			operation ieGetMessage() : ptBoolean
+			operation ieGetCall(): ptBoolean
+	
+		}
+		output interface outactWeakPersonFamily {
+			
+			operation oeSubscribe() : ptBoolean
+			operation oeConfirmMessage() : ptBoolean
+			operation oeConfirmCall() : ptBoolean
+	
+		}
+	}
+	
+	
+	actor actMainDatabase role rnactMainDatabase cardinality [1..*] {
+	
+		input interface inactPendingHelpRequestList {
+			operation ieReqPendingHelpRequests() : ptBoolean
+			operation ieRequHRDetails(AdtId :dtHRid) : ptBoolean
+			operation ieSendPendingHR(AdtTime : dtTime) : ptBoolean
+			operation ieFamilyDetailsRequest() : ptBoolean
+			operation ieConfirmationOfSmsSend() : ptBoolean
+			operation ieFamilyDeliveryReport() : ptBoolean
+			operation ieAddEntry(AdtName : dtName, AdtPhoneNumber : dtPhoneNumber , AdtCoordinates : dtCoordinates , AdtAddress : dtAddress) : ptBoolean
+		}
+		output interface outactPendingHelpRequestList {
+			operation oeSentPendingHelpRequest(AdtTime:dtTime,AdtPhoneNumber :dtPhoneNumber) : ptBoolean
+			operation oeSendHRDetails(AdtName : dtName, AdtPhoneNumber : dtPhoneNumber , AdtCoordinates : dtCoordinates , AdtAddress : dtAddress) : ptBoolean
+			operation oeSendFamilyDetails(AdtName : dtName, AdtPhoneNumber : dtPhoneNumber, AdtMessage : dtMessage) : ptBoolean
+			operation oeConfirmEntryAdded(AdtId : dtHRid , AdtConfirmation : ptBoolean) : ptBoolean
+		}
+	}
+	
+	actor actPhoneCompany role rnactPhoneCompany cardinality [1..*]{
+		input interface inactPhoneCompany{
+			operation ieRequestConfirm(AdtPhoneNumber : dtPhoneNumber) : ptBoolean
+			operation ieSmsForFamily(AdtPhoneNumber : dtPhoneNumber, AdtMessage : dtMessage) : ptBoolean
+		}
+		output interface outactPhoneCompany{
+			operation oeGetConfirm() : ptBoolean
+			operation oeGetDeliveryReport() : ptBoolean
+		}
+	}
+	
+	
+	actor actPositionRequester role rnactPositionRequester cardinality [1..*] {
+	
+		input interface inactPositionRequester {
+			operation ieSendSensorPosition() : ptBoolean
+		}
+		output interface outactPositionRequester {
+			operation oeGetPositionFromSensor() : ptBoolean
+		}
+	}
+	
+	
+	
+	
+	
+	
+			
+}	
 }

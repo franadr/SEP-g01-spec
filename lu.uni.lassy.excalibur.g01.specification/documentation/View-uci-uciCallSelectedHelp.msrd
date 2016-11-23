@@ -2,3 +2,8 @@
 @author Adriano
 @date Wed Nov 16 11:32:18 CET 2016
 */
+
+@@view uci-uciCallSelectedHelp
+@instance Use-Case lu.uni.lassy.excalibur.g01.specification.usecases.coordinator.uciCallSelectedHelp
+@description "Call Selected help request"
+@caption ""

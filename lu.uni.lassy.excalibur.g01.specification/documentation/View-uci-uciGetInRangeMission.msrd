@@ -6,5 +6,5 @@
 
 @@view uci-uciGetInRangeMission
 @instance Use-Case lu.uni.lassy.excalibur.g01.specification.usecases.volunteer.uciGetInRangeMission 
-@description ""
+@description "Get in range mission"
 @caption ""

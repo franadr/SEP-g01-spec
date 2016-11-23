@@ -1,0 +1,50 @@
+/*
+@author Adriano
+@date Tue Nov 22 19:45:26 CET 2016
+*/
+
+
+@@Actor lu.uni.lassy.excalibur.g01.specification.environment.actVolunteer
+@description "Env Volunteer"
+//input events
+@inputEvent
+lu.uni.lassy.excalibur.g01.specification.environment.actVolunteer.inactVolunteer.ieSentCurrentPosition
+""
+@inputEvent
+lu.uni.lassy.excalibur.g01.specification.environment.actVolunteer.inactVolunteer.ieSentMissionConfirmation
+""
+@inputEvent
+lu.uni.lassy.excalibur.g01.specification.environment.actVolunteer.inactVolunteer.ieSendRange
+""
+@inputEvent
+lu.uni.lassy.excalibur.g01.specification.environment.actVolunteer.inactVolunteer.ieSendInRangeMission
+""
+
+@endInputEvents
+//output events
+@outputEvent
+lu.uni.lassy.excalibur.g01.specification.environment.actVolunteer.outactVolunteer.oeLogin
+""
+@outputEvent
+lu.uni.lassy.excalibur.g01.specification.environment.actVolunteer.outactVolunteer.oeLogout
+""
+@outputEvent
+lu.uni.lassy.excalibur.g01.specification.environment.actVolunteer.outactVolunteer.oeGetPosition
+""
+@outputEvent
+lu.uni.lassy.excalibur.g01.specification.environment.actVolunteer.outactVolunteer.oeGetMissionInRagne
+""
+@outputEvent
+lu.uni.lassy.excalibur.g01.specification.environment.actVolunteer.outactVolunteer.oeAcceptMission
+""
+@outputEvent
+lu.uni.lassy.excalibur.g01.specification.environment.actVolunteer.outactVolunteer.oeInputPos
+""
+@outputEvent
+lu.uni.lassy.excalibur.g01.specification.environment.actVolunteer.outactVolunteer.oeSendPosAndInfo
+""
+@outputEvent
+lu.uni.lassy.excalibur.g01.specification.environment.actVolunteer.outactVolunteer.oeGetRange
+""
+
+@endOutputEvents

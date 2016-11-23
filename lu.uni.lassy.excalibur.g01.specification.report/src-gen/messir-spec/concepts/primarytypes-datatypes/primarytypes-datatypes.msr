@@ -1,0 +1,54 @@
+/*
+* @author Adriano
+* @date Sat Oct 22 12:57:25 CEST 2016
+*/
+
+package lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.datatypes {
+
+import lu.uni.lassy.messir.libraries.calendar
+import lu.uni.lassy.messir.libraries.math
+import lu.uni.lassy.messir.libraries.primitives
+import lu.uni.lassy.messir.libraries.string
+
+
+
+Concept Model {
+
+	Primary Types {
+   		datatype dtPhoneNumber {
+   			attribute value : ptInteger
+   			operation is() : ptBoolean
+   		}
+   		
+   		datatype dtHRid {
+   			attribute value : ptInteger
+   			operation is() : ptBoolean
+   		}
+   		
+   		datatype dtName {
+   			attribute value : ptString
+   			operation is() : ptBoolean
+   		}
+   		datatype dtCoordinates {
+   			attribute long : ptReal
+   			attribute lat : ptReal
+   			operation is() : ptBoolean
+   		}
+   		
+   		datatype dtAddress {
+   			attribute num : ptInteger
+   			attribute street : ptString
+   			attribute city : ptString
+   		}
+   		datatype dtMessage {
+   			attribute MessageText : ptString
+   			operation is() : ptBoolean
+   		}
+   		
+   		datatype dtRange {
+   			attribute value : ptInteger
+   			operation is() : ptBoolean
+   		}
+	}
+}
+}

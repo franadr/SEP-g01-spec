@@ -1,0 +1,184 @@
+/*
+* @author Adriano
+* @date Wed Nov 16 16:19:01 CET 2016
+*/
+
+package lu.uni.lassy.excalibur.g01.specification.usecases.coordinator {
+
+import lu.uni.lassy.messir.libraries.calendar
+import lu.uni.lassy.messir.libraries.math
+import lu.uni.lassy.messir.libraries.primitives
+import lu.uni.lassy.messir.libraries.string
+import lu.uni.lassy.excalibur.g01.specification.environment
+
+
+
+	Use Case Model {
+		use case instance uciGetPendingHelpRequests : ugRetrievePendingHelpRequestDetails() {
+			actors {
+				tom : actCoordinator
+				db1 : actMainDatabase
+				
+			}
+			use case steps {
+				tom executed instanceof subfunction oeGetPendingHelpRequests() {
+						ieReqPendingHelpRequests() returned to db1
+					}
+			db1 executed instanceof subfunction oeSentPendingHelpRequest("12h40","661234567") {
+			ieSendPendingHR("12h40","661234567") returned to tom
+					}
+			db1 executed instanceof subfunction oeSentPendingHelpRequest("12h42","661234156") {
+			ieSendPendingHR("12h42","661234156") returned to tom
+					}
+			db1 executed instanceof subfunction oeSentPendingHelpRequest("12h48","691007221") {
+			ieSendPendingHR("12h48","691007221") returned to tom
+					}
+
+			tom executed instanceof subfunction oeGetHelpRequestDetail("id : 32") {
+					ieRequHRDetails("id : 32") returned to db1
+						
+					}
+			db1 executed instanceof subfunction oeSendHRDetails("Paul Kremmer" , "6611726354", "49.618416, 6.172678" , "1 rue de Cents - Luxembourg") {
+					ieRequHRDetails("Paul Kremmer" , "6611726354", "49.618416, 6.172678" , "1 rue de Cents - Luxembourg") returned to tom
+					}
+			}
+			}
+			use case instance uciCallSelectedHelp: suCallSelectedHelpRequest{
+			actors{
+				tom : actCoordinator
+				tango : actPhoneCompany
+			}
+			use case steps {
+				tom executed instanceof subfunction oeReqCall("661234567"){
+						ieConfirm("661234567") returned to tango
+					}
+				tango executed instanceof subfunction oeGetConfirm("661234567","true"){
+					ieRequestConfirm("661234567","true") returned to tom
+				}
+			
+			}
+		}
+		
+		use case system summary suCallSelectedHelpRequest() {
+			
+			actor actCoordinator[primary,active]
+			actor actPhoneCompany[secondary]
+			
+			step a : actCoordinator executes oeReqCall()
+			step b : actPhoneCompany executes oeGetConfirm()
+			
+		}
+		
+		use case system subfunction oeReqCall() {
+			actor actCoordinator[primary,active]
+			
+			returned messages{
+				ieConfirm(dtPhoneNumber) returned to actCoordinator
+			}
+		}
+		
+		use case system subfunction oeGetConfirm() {
+			actor actPhoneCompany[primary,active]
+			
+			returned messages{
+				ieRequestConfirm(AdtPhoneNumber, dtBoolean) returned to actPhoneCompany
+			}
+		}
+	use case system usergoal ugRetrievePendingHelpRequestDetails() {
+		actor actCoordinator[primary,active]
+		actor actMainDatabase[secondary]
+	
+		
+		step a : actCoordinator executes oeGetPendingHelpRequests()
+		step b : actMainDatabase executes oeSentPendingHelpRequest()
+		step c : actCoordinator executes oeGetHelpRequestDetail()
+		step d : actMainDatabase executes oeSendHRDetails()
+		
+		
+		}
+	 
+	 use case system subfunction oeSentPendingHelpRequest(){
+	 	actor actMainDatabase[primary,active]
+	 	actor actCoordinator[secondary]
+	 	
+	 	returned messages{
+	 		ieSendPendingHR() returned to actCoordinator
+	 	}
+	 	
+	 }
+	 
+	 use case system subfunction oeSendHRDetails() {
+	 	actor actMainDatabase[primary,active]
+	 	actor actCoordinator[secondary]
+	 	
+	 	returned messages{
+	 		ieRequHRDetails() returned to actCoordinator
+	 	}
+	 }
+	 
+	 use case system subfunction oeGetPendingHelpRequests() {
+	 	actor actCoordinator[primary,active]
+	 	actor actMainDatabase[secondary]
+	 	
+	 	returned messages{
+	 		ieReqPendingHelpRequests() returned to actMainDatabase
+	 		ieSendPendingHelpRequestList() returned to actCoordinator
+	 		
+	 	}
+	 }
+	 
+	 use case system subfunction oeGetHelpRequestDetail() {
+	 	actor actCoordinator[primary,active]
+	 	actor actMainDatabase[secondary]
+	 	
+	 	returned messages {
+	 		ieRequHRDetails() returned to actMainDatabase
+	 		ieSendHelpRequestDetail() returned to actCoordinator
+	 	}
+	 }
+	 
+	 use case system usergoal ugAssignPriorityToHelpRequest(){
+		actor actCoordinator [primary,active]
+		actor actMainDatabase[secondary]
+		
+		step a : actCoordinator executes oeReqCheckbox()
+		step b : actCoordinator executes oeSendFilledCheckbox()
+		step c : actCoordinator executes oeConfirmPriority()
+	}
+	 
+	 use case system subfunction oeReqCheckbox(){
+	 	actor actCoordinator[primary,active]
+	 	actor actMainDatabase[secondary]
+	 	
+	 	returned messages{
+	 		ieSendCheckbox() returned to actCoordinator
+	 	}
+	 	
+	 }
+	 
+	 use case system subfunction oeSendFilledCheckbox(){
+	 	actor actCoordinator[primary,active]
+	 	actor actMainDatabase[secondary]
+	 	
+	 	returned messages{
+	 		ieSendCalculatedPriority() returned to actCoordinator
+	 	}
+	 	
+	 }
+	 
+	 use case system subfunction oeConfirmPriority(){
+	 	actor actCoordinator[primary,active]
+	 	actor actMainDatabase[secondary]
+	 	
+	 	returned messages{
+	 		ieSendResult() returned to actCoordinator
+	 	}
+	
+	}
+	
+	}
+
+}
+
+
+

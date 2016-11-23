@@ -5,5 +5,5 @@
 
 @@view uci-ucisuAltertAFamilyMember
 @instance Use-Case usecases.ucisuAltertAFamilyMember.ucisuAltertAFamilyMember 
-@description ""
+@description "Alert family member"
 @caption ""

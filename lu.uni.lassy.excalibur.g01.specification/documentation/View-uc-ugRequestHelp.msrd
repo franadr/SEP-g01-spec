@@ -6,5 +6,5 @@
 
 @@view uc-ugRequestHelp
 @model Use-Case lu.uni.lassy.excalibur.g01.specification.usecases.ugRequestHelp 
-@description ""
+@description "User goal Request help"
 @caption ""

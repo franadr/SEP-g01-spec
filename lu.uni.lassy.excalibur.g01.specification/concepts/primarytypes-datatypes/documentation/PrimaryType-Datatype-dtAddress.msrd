@@ -1,0 +1,18 @@
+/*
+@author Adriano
+@date Tue Nov 22 19:44:38 CET 2016
+*/
+
+
+@@Primary Type Datatype lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.datatypes.dtAddress
+@description ""
+@attribute
+lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.datatypes.dtAddress.num
+""
+@attribute
+lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.datatypes.dtAddress.street
+""
+@attribute
+lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.datatypes.dtAddress.city
+""
+@endAttributes

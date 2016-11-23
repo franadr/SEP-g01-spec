@@ -1,0 +1,28 @@
+/*
+@author Adriano
+@date Tue Nov 22 19:45:06 CET 2016
+*/
+
+
+@@Operation
+lu.uni.lassy.excalibur.g01.specification.environment.actCoordinator.outactCoordinator.oeLogin
+@description "
+ "
+//preProtocol descriptions
+@preP
+" "
+@endPreP
+//preFunctional descriptions
+@preF
+" "
+@endPreF
+//postFunctional descriptions
+@postF 
+" "
+@endPostF
+//postProtocol descriptions
+@postP 
+" "
+@endPostP
+//example
+@example" "

@@ -1,0 +1,16 @@
+/*
+@author Adriano
+@date Tue Nov 22 19:44:28 CET 2016
+*/
+
+
+@@Primary Type Class lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctState
+@description ""
+@attribute
+lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctState.vpStarted
+""
+@endAttributes
+@operation
+lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctState.init
+""
+@endOperations

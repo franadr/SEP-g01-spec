@@ -1,0 +1,20 @@
+/*
+@author Adriano
+@date Tue Nov 22 19:45:48 CET 2016
+*/
+
+
+@@Actor lu.uni.lassy.excalibur.g01.specification.environment.actPositionRequester
+@description "Env PositionRequester"
+//input events
+@inputEvent
+lu.uni.lassy.excalibur.g01.specification.environment.actPositionRequester.inactPositionRequester.ieSendSensorPosition
+""
+
+@endInputEvents
+//output events
+@outputEvent
+lu.uni.lassy.excalibur.g01.specification.environment.actPositionRequester.outactPositionRequester.oeGetPositionFromSensor
+""
+
+@endOutputEvents

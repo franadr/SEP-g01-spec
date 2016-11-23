@@ -1,0 +1,50 @@
+/*
+@author Adriano
+@date Tue Nov 22 19:45:17 CET 2016
+*/
+
+
+@@Actor lu.uni.lassy.excalibur.g01.specification.environment.actWeakPerson
+@description "Env WeakPerson"
+//input events
+@inputEvent
+lu.uni.lassy.excalibur.g01.specification.environment.actWeakPerson.inactWeakPerson.ieSentdPosition
+""
+@inputEvent
+lu.uni.lassy.excalibur.g01.specification.environment.actWeakPerson.inactWeakPerson.ieSentConfirmationMessage
+""
+@inputEvent
+lu.uni.lassy.excalibur.g01.specification.environment.actWeakPerson.inactWeakPerson.ieSendInfo
+""
+@inputEvent
+lu.uni.lassy.excalibur.g01.specification.environment.actWeakPerson.inactWeakPerson.ieConfirmPos
+""
+
+@endInputEvents
+//output events
+@outputEvent
+lu.uni.lassy.excalibur.g01.specification.environment.actWeakPerson.outactWeakPerson.oeSendHelpRequest
+""
+@outputEvent
+lu.uni.lassy.excalibur.g01.specification.environment.actWeakPerson.outactWeakPerson.oeLogin
+""
+@outputEvent
+lu.uni.lassy.excalibur.g01.specification.environment.actWeakPerson.outactWeakPerson.oeLogout
+""
+@outputEvent
+lu.uni.lassy.excalibur.g01.specification.environment.actWeakPerson.outactWeakPerson.oeGetpostition
+""
+@outputEvent
+lu.uni.lassy.excalibur.g01.specification.environment.actWeakPerson.outactWeakPerson.oeInputManualPos
+""
+@outputEvent
+lu.uni.lassy.excalibur.g01.specification.environment.actWeakPerson.outactWeakPerson.oeGetInfo
+""
+@outputEvent
+lu.uni.lassy.excalibur.g01.specification.environment.actWeakPerson.outactWeakPerson.oeGetPositionFromSensor
+""
+@outputEvent
+lu.uni.lassy.excalibur.g01.specification.environment.actWeakPerson.outactWeakPerson.oeAlertFamily
+""
+
+@endOutputEvents

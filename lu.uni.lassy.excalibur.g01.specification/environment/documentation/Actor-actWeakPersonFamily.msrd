@@ -1,0 +1,32 @@
+/*
+@author Adriano
+@date Tue Nov 22 19:45:36 CET 2016
+*/
+
+
+@@Actor lu.uni.lassy.excalibur.g01.specification.environment.actWeakPersonFamily
+@description "Env WeakPersonFamily"
+//input events
+@inputEvent
+lu.uni.lassy.excalibur.g01.specification.environment.actWeakPersonFamily.inactWeakPersonFamily.ieSentPosition
+""
+@inputEvent
+lu.uni.lassy.excalibur.g01.specification.environment.actWeakPersonFamily.inactWeakPersonFamily.ieGetMessage
+""
+@inputEvent
+lu.uni.lassy.excalibur.g01.specification.environment.actWeakPersonFamily.inactWeakPersonFamily.ieGetCall
+""
+
+@endInputEvents
+//output events
+@outputEvent
+lu.uni.lassy.excalibur.g01.specification.environment.actWeakPersonFamily.outactWeakPersonFamily.oeSubscribe
+""
+@outputEvent
+lu.uni.lassy.excalibur.g01.specification.environment.actWeakPersonFamily.outactWeakPersonFamily.oeConfirmMessage
+""
+@outputEvent
+lu.uni.lassy.excalibur.g01.specification.environment.actWeakPersonFamily.outactWeakPersonFamily.oeConfirmCall
+""
+
+@endOutputEvents

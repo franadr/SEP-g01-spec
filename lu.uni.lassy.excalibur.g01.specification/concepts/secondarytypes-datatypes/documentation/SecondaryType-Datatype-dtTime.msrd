@@ -1,0 +1,12 @@
+/*
+@author Adriano
+@date Tue Nov 22 19:44:43 CET 2016
+*/
+
+
+@@Secondary Type Datatype lu.uni.lassy.excalibur.g01.specification.concepts.secondarytypes.datatypes.dtTime
+@description ""
+@attribute
+lu.uni.lassy.excalibur.g01.specification.concepts.secondarytypes.datatypes.dtTime.value
+""
+@endAttributes

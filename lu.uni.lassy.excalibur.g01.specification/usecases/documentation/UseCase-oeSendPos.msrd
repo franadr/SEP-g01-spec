@@ -1,0 +1,24 @@
+/*
+@author Adriano
+@date Tue Nov 22 19:45:53 CET 2016
+*/
+
+
+@@Use Case Subfunction lu.uni.lassy.excalibur.g01.specification.usecases.oeSendPos
+@description ""
+@protocolCondition
+"
+"
+@endProtocolConditions
+@preCondition
+"
+"
+@endPreConditions
+@postCondition
+"
+"
+@endPostConditions
+@additionalInformation
+"
+none
+"

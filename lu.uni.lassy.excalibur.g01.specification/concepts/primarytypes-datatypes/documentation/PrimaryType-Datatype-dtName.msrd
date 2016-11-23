@@ -1,0 +1,16 @@
+/*
+@author Adriano
+@date Tue Nov 22 19:44:34 CET 2016
+*/
+
+
+@@Primary Type Datatype lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.datatypes.dtName
+@description ""
+@attribute
+lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.datatypes.dtName.value
+""
+@endAttributes
+@operation
+lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.datatypes.dtName.is
+""
+@endOperations

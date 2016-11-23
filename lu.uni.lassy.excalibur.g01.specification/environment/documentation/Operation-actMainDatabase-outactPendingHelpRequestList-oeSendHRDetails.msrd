@@ -1,0 +1,43 @@
+/*
+@author Adriano
+@date Tue Nov 22 19:45:42 CET 2016
+*/
+
+
+@@Operation
+lu.uni.lassy.excalibur.g01.specification.environment.actMainDatabase.outactPendingHelpRequestList.oeSendHRDetails
+//parameters
+@parameter
+lu.uni.lassy.excalibur.g01.specification.environment.actMainDatabase.outactPendingHelpRequestList.oeSendHRDetails.AdtName
+""
+@parameter
+lu.uni.lassy.excalibur.g01.specification.environment.actMainDatabase.outactPendingHelpRequestList.oeSendHRDetails.AdtPhoneNumber
+""
+@parameter
+lu.uni.lassy.excalibur.g01.specification.environment.actMainDatabase.outactPendingHelpRequestList.oeSendHRDetails.AdtCoordinates
+""
+@parameter
+lu.uni.lassy.excalibur.g01.specification.environment.actMainDatabase.outactPendingHelpRequestList.oeSendHRDetails.AdtAddress
+""
+@endParameters
+
+@description "
+ "
+//preProtocol descriptions
+@preP
+" "
+@endPreP
+//preFunctional descriptions
+@preF
+" "
+@endPreF
+//postFunctional descriptions
+@postF 
+" "
+@endPostF
+//postProtocol descriptions
+@postP 
+" "
+@endPostP
+//example
+@example" "

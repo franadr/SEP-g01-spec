@@ -6,5 +6,5 @@
 
 @@view uc-oeGetPositionFromSensor
 @model Use-Case lu.uni.lassy.excalibur.g01.specification.usecases.oeGetPositionFromSensor 
-@description ""
+@description " Sub Function Get position from sensor "
 @caption ""

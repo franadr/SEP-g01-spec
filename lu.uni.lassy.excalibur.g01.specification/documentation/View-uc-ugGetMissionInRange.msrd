@@ -8,5 +8,5 @@
 
 @@view uc-ugGetMissionInRange
 @model Use-Case lu.uni.lassy.excalibur.g01.specification.usecases.volunteer.ugGetMissionInRange 
-@description ""
+@description "User goal Get mission in range"
 @caption ""
