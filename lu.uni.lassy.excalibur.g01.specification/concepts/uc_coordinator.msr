@@ -42,8 +42,8 @@ import lu.uni.lassy.excalibur.g01.specification.environment
 					ieRequHRDetails("Paul Kremmer" , "6611726354", "49.618416, 6.172678" , "1 rue de Cents - Luxembourg") returned to tom
 					}
 			}
-			}
-			use case instance uciCallSelectedHelp: suCallSelectedHelpRequest{
+		}
+		use case instance uciCallSelectedHelp: suCallSelectedHelpRequest{
 			actors{
 				tom : actCoordinator
 				tango : actPhoneCompany
@@ -57,6 +57,26 @@ import lu.uni.lassy.excalibur.g01.specification.environment
 				}
 			
 			}
+		}
+		
+		use case instance uciAssignPriority: ugAssignPriorityToHelpRequest{
+			actors{
+				tom : actCoordinator
+				Database : actMainDatabase
+			}
+			use case steps {
+				tom executed instanceof subfunction oeReqCheckbox(){
+						ieSendCheckbox("Speaks slowly","Needs Water","Conscious") returned to tom
+					}
+				tom executed instanceof subfunction oeSendFilledCheckbox("Yes","Yes","Yes"){
+					ieSendCalculatedPriority("The calculated priority is: Urgent") returned to tom
+				}
+				
+				tom executed instanceof subfunction oeConfirmPriority("OK"){
+					ieSendResult("Urgent") returned to tom
+				}
+			}
+			
 		}
 		
 		use case system summary suCallSelectedHelpRequest() {
