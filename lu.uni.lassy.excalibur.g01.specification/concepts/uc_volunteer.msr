@@ -33,9 +33,6 @@ import lu.uni.lassy.excalibur.g01.specification.usecases
 					ieSendInRangeMission("id=18","49.639006, 6.263164") returned to Mike
 					
 					}
-
-
-
 			}	
 		}
 		
@@ -56,6 +53,36 @@ import lu.uni.lassy.excalibur.g01.specification.usecases
 			
 			returned messages{
 				ieSendInRangeMission() returned to actVolunteer
+			}
+		}
+		
+		use case system summary suRetrieveMissionDetails(){
+			actor actVolunteer[primary,active]
+			
+			step a: actVolunteer executes ugGetMissionInRange()
+			step b: actVolunteer executes oeGetMissionDetails()
+		}
+		
+		use case system subfunction oeGetMissionDetails(){
+			actor actVolunteer[primary, active]
+			
+			returned messages{
+				ieSendMissionDetails() returned to actVolunteer
+			}
+		}
+		
+		use case system summary suAcceptMission(){
+			actor actVolunteer[primary,active]
+			
+			step a: actVolunteer executes ugGetMissionInRange()
+			step b: actVolunteer executes oeAcceptMission()
+		}
+		
+		use case system subfunction oeAcceptMission() {
+			actor actVolunteer[primary, active]
+			
+			returned messages{
+				ieSendDistanceMessage() returned to actVolunteer
 			}
 		}
 		
