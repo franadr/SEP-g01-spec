@@ -344,6 +344,8 @@
   <semanticResources>usecases/documentation/UseCase-oeSendFamilyDetails.msrd</semanticResources>
   <semanticResources>usecases/documentation/UseCase-oeGetDeliveryReport.msrd</semanticResources>
   <semanticResources>usecases/documentation/UseCaseInstance-uciSendHelpRequest.msrd</semanticResources>
+  <semanticResources>documentation/View-cm-view3.msrd</semanticResources>
+  <semanticResources>documentation/View-cm-view4.msrd</semanticResources>
   <ownedViews xmi:type="viewpoint:DView" xmi:id="_UTWeoJhGEeao7bVShP4TVg">
     <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']"/>
     <ownedRepresentations xmi:type="diagram:DSemanticDiagram" xmi:id="_h_Or0JuTEea4t8jmofPCxA" name="uc-oeGetPositionFromSensor">
@@ -3691,6 +3693,440 @@
       <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_qstGr65kEeauWfASGfgW7g"/>
       <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']/@ownedRepresentations[name='Use%20Case%20Instance%20Sequence%20Diagram']/@defaultLayer"/>
       <target xmi:type="messir:UseCaseInstance" href="concepts/uc_volunteer.msr#lu.uni.lassy.excalibur.g01.specification.usecases.volunteer.uciGetInRangeMission"/>
+    </ownedRepresentations>
+    <ownedRepresentations xmi:type="diagram:DSemanticDiagram" xmi:id="_Zb0SkLGHEeaQ_9xZ0mdoKA" name="cm-view4">
+      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_Zb0SkbGHEeaQ_9xZ0mdoKA" source="DANNOTATION_CUSTOMIZATION_KEY">
+        <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_Zb0SkrGHEeaQ_9xZ0mdoKA"/>
+      </ownedAnnotationEntries>
+      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_Zb05oLGHEeaQ_9xZ0mdoKA" source="GMF_DIAGRAMS">
+        <data xmi:type="notation:Diagram" xmi:id="_Zb05obGHEeaQ_9xZ0mdoKA" type="Sirius" element="_Zb0SkLGHEeaQ_9xZ0mdoKA" measurementUnit="Pixel">
+          <children xmi:type="notation:Node" xmi:id="_ZlCgALGHEeaQ_9xZ0mdoKA" type="2003" element="_Zb1gsLGHEeaQ_9xZ0mdoKA">
+            <children xmi:type="notation:Node" xmi:id="_ZlCgA7GHEeaQ_9xZ0mdoKA" type="5007"/>
+            <children xmi:type="notation:Node" xmi:id="_ZlCgBLGHEeaQ_9xZ0mdoKA" type="7004">
+              <children xmi:type="notation:Node" xmi:id="_ZlFjVLGHEeaQ_9xZ0mdoKA" type="3010" element="_ZcQXcLGHEeaQ_9xZ0mdoKA">
+                <styles xmi:type="notation:FontStyle" xmi:id="_ZlFjVbGHEeaQ_9xZ0mdoKA" fontName=".SF NS Text" fontHeight="14"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_ZlFjVrGHEeaQ_9xZ0mdoKA"/>
+              </children>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_ZlCgBbGHEeaQ_9xZ0mdoKA"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_ZlCgBrGHEeaQ_9xZ0mdoKA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_ZlCgAbGHEeaQ_9xZ0mdoKA" fontName=".SF NS Text" fontHeight="14" bold="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZlCgArGHEeaQ_9xZ0mdoKA" x="423" y="198"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ZlCgB7GHEeaQ_9xZ0mdoKA" type="2003" element="_Zb388LGHEeaQ_9xZ0mdoKA">
+            <children xmi:type="notation:Node" xmi:id="_ZlDHELGHEeaQ_9xZ0mdoKA" type="5007"/>
+            <children xmi:type="notation:Node" xmi:id="_ZlDHEbGHEeaQ_9xZ0mdoKA" type="7004">
+              <children xmi:type="notation:Node" xmi:id="_ZlGxcLGHEeaQ_9xZ0mdoKA" type="3010" element="_ZcQ-gbGHEeaQ_9xZ0mdoKA">
+                <styles xmi:type="notation:FontStyle" xmi:id="_ZlGxcbGHEeaQ_9xZ0mdoKA" fontName=".SF NS Text" fontHeight="14"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_ZlGxcrGHEeaQ_9xZ0mdoKA"/>
+              </children>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_ZlDHErGHEeaQ_9xZ0mdoKA"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_ZlDHE7GHEeaQ_9xZ0mdoKA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_ZlCgCLGHEeaQ_9xZ0mdoKA" fontName=".SF NS Text" fontHeight="14" bold="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZlCgCbGHEeaQ_9xZ0mdoKA" x="27" y="414"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ZlDHFLGHEeaQ_9xZ0mdoKA" type="2003" element="_Zb5LELGHEeaQ_9xZ0mdoKA">
+            <children xmi:type="notation:Node" xmi:id="_ZlDuILGHEeaQ_9xZ0mdoKA" type="5007"/>
+            <children xmi:type="notation:Node" xmi:id="_ZlDuIbGHEeaQ_9xZ0mdoKA" type="7004">
+              <children xmi:type="notation:Node" xmi:id="_ZlHYgLGHEeaQ_9xZ0mdoKA" type="3010" element="_ZcRlkbGHEeaQ_9xZ0mdoKA">
+                <styles xmi:type="notation:FontStyle" xmi:id="_ZlHYgbGHEeaQ_9xZ0mdoKA" fontName=".SF NS Text" fontHeight="14"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_ZlHYgrGHEeaQ_9xZ0mdoKA"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_ZlHYg7GHEeaQ_9xZ0mdoKA" type="3010" element="_ZcSMoLGHEeaQ_9xZ0mdoKA">
+                <styles xmi:type="notation:FontStyle" xmi:id="_ZlH_kLGHEeaQ_9xZ0mdoKA" fontName=".SF NS Text" fontHeight="14"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_ZlH_kbGHEeaQ_9xZ0mdoKA"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_ZlH_krGHEeaQ_9xZ0mdoKA" type="3010" element="_ZcSMorGHEeaQ_9xZ0mdoKA">
+                <styles xmi:type="notation:FontStyle" xmi:id="_ZlH_k7GHEeaQ_9xZ0mdoKA" fontName=".SF NS Text" fontHeight="14"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_ZlH_lLGHEeaQ_9xZ0mdoKA"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_ZlImoLGHEeaQ_9xZ0mdoKA" type="3010" element="_ZcSMpLGHEeaQ_9xZ0mdoKA">
+                <styles xmi:type="notation:FontStyle" xmi:id="_ZlImobGHEeaQ_9xZ0mdoKA" fontName=".SF NS Text" fontHeight="14"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_ZlImorGHEeaQ_9xZ0mdoKA"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_ZlImo7GHEeaQ_9xZ0mdoKA" type="3010" element="_ZcSzsbGHEeaQ_9xZ0mdoKA">
+                <styles xmi:type="notation:FontStyle" xmi:id="_ZlImpLGHEeaQ_9xZ0mdoKA" fontName=".SF NS Text" fontHeight="14"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_ZlImpbGHEeaQ_9xZ0mdoKA"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_ZlJNsLGHEeaQ_9xZ0mdoKA" type="3010" element="_ZcTawLGHEeaQ_9xZ0mdoKA">
+                <styles xmi:type="notation:FontStyle" xmi:id="_ZlJNsbGHEeaQ_9xZ0mdoKA" fontName=".SF NS Text" fontHeight="14"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_ZlJNsrGHEeaQ_9xZ0mdoKA"/>
+              </children>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_ZlDuIrGHEeaQ_9xZ0mdoKA"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_ZlDuI7GHEeaQ_9xZ0mdoKA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_ZlDHFbGHEeaQ_9xZ0mdoKA" fontName=".SF NS Text" fontHeight="14" bold="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZlDHFrGHEeaQ_9xZ0mdoKA" x="190"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ZlDuJLGHEeaQ_9xZ0mdoKA" type="2003" element="_Zb7AQLGHEeaQ_9xZ0mdoKA">
+            <children xmi:type="notation:Node" xmi:id="_ZlEVMLGHEeaQ_9xZ0mdoKA" type="5007"/>
+            <children xmi:type="notation:Node" xmi:id="_ZlEVMbGHEeaQ_9xZ0mdoKA" type="7004">
+              <children xmi:type="notation:Node" xmi:id="_ZlJNs7GHEeaQ_9xZ0mdoKA" type="3010" element="_ZcUB0LGHEeaQ_9xZ0mdoKA">
+                <styles xmi:type="notation:FontStyle" xmi:id="_ZlJNtLGHEeaQ_9xZ0mdoKA" fontName=".SF NS Text" fontHeight="14"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_ZlJNtbGHEeaQ_9xZ0mdoKA"/>
+              </children>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_ZlEVMrGHEeaQ_9xZ0mdoKA"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_ZlEVM7GHEeaQ_9xZ0mdoKA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_ZlDuJbGHEeaQ_9xZ0mdoKA" fontName=".SF NS Text" fontHeight="14" bold="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZlDuJrGHEeaQ_9xZ0mdoKA" x="576" y="414"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ZlEVNLGHEeaQ_9xZ0mdoKA" type="2003" element="_Zb81cLGHEeaQ_9xZ0mdoKA">
+            <children xmi:type="notation:Node" xmi:id="_ZlE8QLGHEeaQ_9xZ0mdoKA" type="5007"/>
+            <children xmi:type="notation:Node" xmi:id="_ZlE8QbGHEeaQ_9xZ0mdoKA" type="7004">
+              <children xmi:type="notation:Node" xmi:id="_ZlJ0wLGHEeaQ_9xZ0mdoKA" type="3010" element="_ZcUB0rGHEeaQ_9xZ0mdoKA">
+                <styles xmi:type="notation:FontStyle" xmi:id="_ZlJ0wbGHEeaQ_9xZ0mdoKA" fontName=".SF NS Text" fontHeight="14"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_ZlJ0wrGHEeaQ_9xZ0mdoKA"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_ZlJ0w7GHEeaQ_9xZ0mdoKA" type="3010" element="_ZcUo4bGHEeaQ_9xZ0mdoKA">
+                <styles xmi:type="notation:FontStyle" xmi:id="_ZlJ0xLGHEeaQ_9xZ0mdoKA" fontName=".SF NS Text" fontHeight="14"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_ZlJ0xbGHEeaQ_9xZ0mdoKA"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_ZlKb0LGHEeaQ_9xZ0mdoKA" type="3010" element="_ZcVP8bGHEeaQ_9xZ0mdoKA">
+                <styles xmi:type="notation:FontStyle" xmi:id="_ZlKb0bGHEeaQ_9xZ0mdoKA" fontName=".SF NS Text" fontHeight="14"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_ZlKb0rGHEeaQ_9xZ0mdoKA"/>
+              </children>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_ZlE8QrGHEeaQ_9xZ0mdoKA"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_ZlE8Q7GHEeaQ_9xZ0mdoKA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_ZlEVNbGHEeaQ_9xZ0mdoKA" fontName=".SF NS Text" fontHeight="14" bold="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZlEVNrGHEeaQ_9xZ0mdoKA" x="224" y="198"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ZlE8RLGHEeaQ_9xZ0mdoKA" type="2003" element="_Zb-DkLGHEeaQ_9xZ0mdoKA">
+            <children xmi:type="notation:Node" xmi:id="_ZlFjULGHEeaQ_9xZ0mdoKA" type="5007"/>
+            <children xmi:type="notation:Node" xmi:id="_ZlFjUbGHEeaQ_9xZ0mdoKA" type="7004">
+              <children xmi:type="notation:Node" xmi:id="_ZlKb07GHEeaQ_9xZ0mdoKA" type="3010" element="_ZcV3ALGHEeaQ_9xZ0mdoKA">
+                <styles xmi:type="notation:FontStyle" xmi:id="_ZlKb1LGHEeaQ_9xZ0mdoKA" fontName=".SF NS Text" fontHeight="14"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_ZlKb1bGHEeaQ_9xZ0mdoKA"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_ZlKb1rGHEeaQ_9xZ0mdoKA" type="3010" element="_ZcWeELGHEeaQ_9xZ0mdoKA">
+                <styles xmi:type="notation:FontStyle" xmi:id="_ZlKb17GHEeaQ_9xZ0mdoKA" fontName=".SF NS Text" fontHeight="14"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_ZlKb2LGHEeaQ_9xZ0mdoKA"/>
+              </children>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_ZlFjUrGHEeaQ_9xZ0mdoKA"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_ZlFjU7GHEeaQ_9xZ0mdoKA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_ZlE8RbGHEeaQ_9xZ0mdoKA" fontName=".SF NS Text" fontHeight="14" bold="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZlE8RrGHEeaQ_9xZ0mdoKA" x="23" y="190"/>
+          </children>
+          <styles xmi:type="notation:DiagramStyle" xmi:id="_Zb05orGHEeaQ_9xZ0mdoKA"/>
+          <edges xmi:type="notation:Edge" xmi:id="_ZlLC4LGHEeaQ_9xZ0mdoKA" type="4001" element="_ZcirULGHEeaQ_9xZ0mdoKA" source="_ZlCgALGHEeaQ_9xZ0mdoKA" target="_ZlDHFLGHEeaQ_9xZ0mdoKA">
+            <children xmi:type="notation:Node" xmi:id="_ZlLC5LGHEeaQ_9xZ0mdoKA" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZlLC5bGHEeaQ_9xZ0mdoKA" x="3" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_ZlLC5rGHEeaQ_9xZ0mdoKA" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZlLC57GHEeaQ_9xZ0mdoKA" x="3" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_ZlLC6LGHEeaQ_9xZ0mdoKA" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZlLC6bGHEeaQ_9xZ0mdoKA" x="3" y="7"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_ZlLC4bGHEeaQ_9xZ0mdoKA" routing="Rectilinear"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_ZlLC4rGHEeaQ_9xZ0mdoKA" fontColor="8947848" fontName=".SF NS Text" fontHeight="14"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ZlLC47GHEeaQ_9xZ0mdoKA" points="[0, 0, 190, 66]$[0, -36, 190, 30]$[-190, -36, 0, 30]$[-190, -66, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ZlLp8LGHEeaQ_9xZ0mdoKA" id="(0.4959349593495935,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ZlLp8bGHEeaQ_9xZ0mdoKA" id="(0.49760765550239233,1.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_ZlLp8rGHEeaQ_9xZ0mdoKA" type="4001" element="_ZcjSYLGHEeaQ_9xZ0mdoKA" source="_ZlEVNLGHEeaQ_9xZ0mdoKA" target="_ZlDHFLGHEeaQ_9xZ0mdoKA">
+            <children xmi:type="notation:Node" xmi:id="_ZlLp9rGHEeaQ_9xZ0mdoKA" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZlLp97GHEeaQ_9xZ0mdoKA" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_ZlLp-LGHEeaQ_9xZ0mdoKA" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZlLp-bGHEeaQ_9xZ0mdoKA" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_ZlLp-rGHEeaQ_9xZ0mdoKA" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZlLp-7GHEeaQ_9xZ0mdoKA" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_ZlLp87GHEeaQ_9xZ0mdoKA" routing="Rectilinear"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_ZlLp9LGHEeaQ_9xZ0mdoKA" fontColor="8947848" fontName=".SF NS Text" fontHeight="14"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ZlLp9bGHEeaQ_9xZ0mdoKA" points="[0, -41, 0, 127]$[0, -101, 0, 67]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ZlMRALGHEeaQ_9xZ0mdoKA" id="(0.5,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ZlMRAbGHEeaQ_9xZ0mdoKA" id="(0.49760765550239233,1.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_ZlMRArGHEeaQ_9xZ0mdoKA" type="4001" element="_ZcjSY7GHEeaQ_9xZ0mdoKA" source="_ZlE8RLGHEeaQ_9xZ0mdoKA" target="_ZlDHFLGHEeaQ_9xZ0mdoKA">
+            <children xmi:type="notation:Node" xmi:id="_ZlMRBrGHEeaQ_9xZ0mdoKA" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZlMRB7GHEeaQ_9xZ0mdoKA" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_ZlMRCLGHEeaQ_9xZ0mdoKA" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZlMRCbGHEeaQ_9xZ0mdoKA" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_ZlMRCrGHEeaQ_9xZ0mdoKA" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZlMRC7GHEeaQ_9xZ0mdoKA" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_ZlMRA7GHEeaQ_9xZ0mdoKA" routing="Rectilinear"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_ZlMRBLGHEeaQ_9xZ0mdoKA" fontColor="8947848" fontName=".SF NS Text" fontHeight="14"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ZlMRBbGHEeaQ_9xZ0mdoKA" points="[0, 0, -200, 60]$[200, -60, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ZlMRDLGHEeaQ_9xZ0mdoKA" id="(0.5,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ZlMRDbGHEeaQ_9xZ0mdoKA" id="(0.49760765550239233,1.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_ZlM4GLGHEeaQ_9xZ0mdoKA" type="4001" element="_Zcm8wLGHEeaQ_9xZ0mdoKA" source="_ZlCgB7GHEeaQ_9xZ0mdoKA" target="_ZlE8RLGHEeaQ_9xZ0mdoKA">
+            <children xmi:type="notation:Node" xmi:id="_ZlNfILGHEeaQ_9xZ0mdoKA" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZlNfIbGHEeaQ_9xZ0mdoKA" x="41" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_ZlNfIrGHEeaQ_9xZ0mdoKA" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZlNfI7GHEeaQ_9xZ0mdoKA" x="69" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_ZlNfJLGHEeaQ_9xZ0mdoKA" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZlNfJbGHEeaQ_9xZ0mdoKA" x="12" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_ZlM4GbGHEeaQ_9xZ0mdoKA" routing="Rectilinear"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_ZlM4GrGHEeaQ_9xZ0mdoKA" fontName=".SF NS Text" fontHeight="14"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ZlM4G7GHEeaQ_9xZ0mdoKA" points="[0, -23, 0, 192]$[0, -183, 0, 32]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ZlNfJrGHEeaQ_9xZ0mdoKA" id="(0.5,0.5)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ZlNfJ7GHEeaQ_9xZ0mdoKA" id="(0.5,0.5)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_es58QLGIEeaQ_9xZ0mdoKA" type="4001" element="_esuWELGIEeaQ_9xZ0mdoKA" source="_ZlDuJLGHEeaQ_9xZ0mdoKA" target="_ZlCgB7GHEeaQ_9xZ0mdoKA">
+            <children xmi:type="notation:Node" xmi:id="_es58RLGIEeaQ_9xZ0mdoKA" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_es58RbGIEeaQ_9xZ0mdoKA" x="8" y="43"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_es58RrGIEeaQ_9xZ0mdoKA" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_es58R7GIEeaQ_9xZ0mdoKA" x="52" y="-14"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_es58SLGIEeaQ_9xZ0mdoKA" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_es58SbGIEeaQ_9xZ0mdoKA" x="-21" y="16"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_es58QbGIEeaQ_9xZ0mdoKA" routing="Rectilinear"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_es58QrGIEeaQ_9xZ0mdoKA" fontName=".SF NS Text" fontHeight="14"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_es58Q7GIEeaQ_9xZ0mdoKA" points="[-91, 1, 484, 1]$[-510, 1, 65, 1]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_es6jULGIEeaQ_9xZ0mdoKA" id="(0.5,0.5)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_es6jUbGIEeaQ_9xZ0mdoKA" id="(0.5,0.5)"/>
+          </edges>
+        </data>
+      </ownedAnnotationEntries>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_Zb1gsLGHEeaQ_9xZ0mdoKA" name="ctCoordinator" outgoingEdges="_ZcirULGHEeaQ_9xZ0mdoKA">
+        <target xmi:type="messir:Class" href="concepts/primarytypes-classes/primarytypes-classes.msr#lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctCoordinator"/>
+        <semanticElements xmi:type="messir:Class" href="concepts/primarytypes-classes/primarytypes-classes.msr#lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctCoordinator"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_Zb2u0LGHEeaQ_9xZ0mdoKA" labelSize="14" iconPath="/lu.uni.lassy.excalibur.dsl.messir.ui/icons/class.png" borderSize="1" borderSizeComputationExpression="1">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']/@ownedRepresentations[name='Messir%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@conditionnalStyles.1/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']/@ownedRepresentations[name='Messir%20Diagram']/@defaultLayer/@containerMappings[name='Class']"/>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_ZcQXcLGHEeaQ_9xZ0mdoKA" name="cId : ptInteger">
+          <target xmi:type="messir:Attribute" href="concepts/primarytypes-classes/primarytypes-classes.msr#lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctCoordinator.cId"/>
+          <semanticElements xmi:type="messir:Attribute" href="concepts/primarytypes-classes/primarytypes-classes.msr#lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctCoordinator.cId"/>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_ZcQ-gLGHEeaQ_9xZ0mdoKA" labelSize="14" iconPath="/lu.uni.lassy.excalibur.dsl.messir.ui/icons/attribute.png" labelAlignment="LEFT">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']/@ownedRepresentations[name='Messir%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subNodeMappings[name='Class_Attributes']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']/@ownedRepresentations[name='Messir%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subNodeMappings[name='Class_Attributes']"/>
+        </ownedElements>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_Zb388LGHEeaQ_9xZ0mdoKA" name="ctHelpRequest" outgoingEdges="_Zcm8wLGHEeaQ_9xZ0mdoKA" incomingEdges="_esuWELGIEeaQ_9xZ0mdoKA">
+        <target xmi:type="messir:Class" href="concepts/primarytypes-classes/primarytypes-classes.msr#lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctHelpRequest"/>
+        <semanticElements xmi:type="messir:Class" href="concepts/primarytypes-classes/primarytypes-classes.msr#lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctHelpRequest"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_Zb4kALGHEeaQ_9xZ0mdoKA" labelSize="14" iconPath="/lu.uni.lassy.excalibur.dsl.messir.ui/icons/class.png" borderSize="1" borderSizeComputationExpression="1">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']/@ownedRepresentations[name='Messir%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@conditionnalStyles.1/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']/@ownedRepresentations[name='Messir%20Diagram']/@defaultLayer/@containerMappings[name='Class']"/>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_ZcQ-gbGHEeaQ_9xZ0mdoKA" name="HrTime : dtTime">
+          <target xmi:type="messir:Attribute" href="concepts/primarytypes-classes/primarytypes-classes.msr#lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctHelpRequest.HrTime"/>
+          <semanticElements xmi:type="messir:Attribute" href="concepts/primarytypes-classes/primarytypes-classes.msr#lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctHelpRequest.HrTime"/>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_ZcRlkLGHEeaQ_9xZ0mdoKA" labelSize="14" iconPath="/lu.uni.lassy.excalibur.dsl.messir.ui/icons/attribute.png" labelAlignment="LEFT">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']/@ownedRepresentations[name='Messir%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subNodeMappings[name='Class_Attributes']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']/@ownedRepresentations[name='Messir%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subNodeMappings[name='Class_Attributes']"/>
+        </ownedElements>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_Zb5LELGHEeaQ_9xZ0mdoKA" name="ctHuman" incomingEdges="_ZcirULGHEeaQ_9xZ0mdoKA _ZcjSYLGHEeaQ_9xZ0mdoKA _ZcjSY7GHEeaQ_9xZ0mdoKA">
+        <target xmi:type="messir:Class" href="concepts/primarytypes-classes/primarytypes-classes.msr#lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctHuman"/>
+        <semanticElements xmi:type="messir:Class" href="concepts/primarytypes-classes/primarytypes-classes.msr#lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctHuman"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_Zb6ZMLGHEeaQ_9xZ0mdoKA" labelSize="14" iconPath="/lu.uni.lassy.excalibur.dsl.messir.ui/icons/class.png" borderSize="1" borderSizeComputationExpression="1">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']/@ownedRepresentations[name='Messir%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@conditionnalStyles.1/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']/@ownedRepresentations[name='Messir%20Diagram']/@defaultLayer/@containerMappings[name='Class']"/>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_ZcRlkbGHEeaQ_9xZ0mdoKA" name="name : dtName">
+          <target xmi:type="messir:Attribute" href="concepts/primarytypes-classes/primarytypes-classes.msr#lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctHuman.name"/>
+          <semanticElements xmi:type="messir:Attribute" href="concepts/primarytypes-classes/primarytypes-classes.msr#lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctHuman.name"/>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_ZcRlkrGHEeaQ_9xZ0mdoKA" labelSize="14" iconPath="/lu.uni.lassy.excalibur.dsl.messir.ui/icons/attribute.png" labelAlignment="LEFT">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']/@ownedRepresentations[name='Messir%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subNodeMappings[name='Class_Attributes']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']/@ownedRepresentations[name='Messir%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subNodeMappings[name='Class_Attributes']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_ZcSMoLGHEeaQ_9xZ0mdoKA" name="phone : dtPhoneNumber">
+          <target xmi:type="messir:Attribute" href="concepts/primarytypes-classes/primarytypes-classes.msr#lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctHuman.phone"/>
+          <semanticElements xmi:type="messir:Attribute" href="concepts/primarytypes-classes/primarytypes-classes.msr#lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctHuman.phone"/>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_ZcSMobGHEeaQ_9xZ0mdoKA" labelSize="14" iconPath="/lu.uni.lassy.excalibur.dsl.messir.ui/icons/attribute.png" labelAlignment="LEFT">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']/@ownedRepresentations[name='Messir%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subNodeMappings[name='Class_Attributes']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']/@ownedRepresentations[name='Messir%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subNodeMappings[name='Class_Attributes']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_ZcSMorGHEeaQ_9xZ0mdoKA" name="coordinates : dtCoordinates">
+          <target xmi:type="messir:Attribute" href="concepts/primarytypes-classes/primarytypes-classes.msr#lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctHuman.coordinates"/>
+          <semanticElements xmi:type="messir:Attribute" href="concepts/primarytypes-classes/primarytypes-classes.msr#lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctHuman.coordinates"/>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_ZcSMo7GHEeaQ_9xZ0mdoKA" labelSize="14" iconPath="/lu.uni.lassy.excalibur.dsl.messir.ui/icons/attribute.png" labelAlignment="LEFT">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']/@ownedRepresentations[name='Messir%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subNodeMappings[name='Class_Attributes']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']/@ownedRepresentations[name='Messir%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subNodeMappings[name='Class_Attributes']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_ZcSMpLGHEeaQ_9xZ0mdoKA" name="username : ptString">
+          <target xmi:type="messir:Attribute" href="concepts/primarytypes-classes/primarytypes-classes.msr#lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctHuman.username"/>
+          <semanticElements xmi:type="messir:Attribute" href="concepts/primarytypes-classes/primarytypes-classes.msr#lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctHuman.username"/>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_ZcSzsLGHEeaQ_9xZ0mdoKA" labelSize="14" iconPath="/lu.uni.lassy.excalibur.dsl.messir.ui/icons/attribute.png" labelAlignment="LEFT">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']/@ownedRepresentations[name='Messir%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subNodeMappings[name='Class_Attributes']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']/@ownedRepresentations[name='Messir%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subNodeMappings[name='Class_Attributes']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_ZcSzsbGHEeaQ_9xZ0mdoKA" name="password : ptString">
+          <target xmi:type="messir:Attribute" href="concepts/primarytypes-classes/primarytypes-classes.msr#lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctHuman.password"/>
+          <semanticElements xmi:type="messir:Attribute" href="concepts/primarytypes-classes/primarytypes-classes.msr#lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctHuman.password"/>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_ZcSzsrGHEeaQ_9xZ0mdoKA" labelSize="14" iconPath="/lu.uni.lassy.excalibur.dsl.messir.ui/icons/attribute.png" labelAlignment="LEFT">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']/@ownedRepresentations[name='Messir%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subNodeMappings[name='Class_Attributes']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']/@ownedRepresentations[name='Messir%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subNodeMappings[name='Class_Attributes']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_ZcTawLGHEeaQ_9xZ0mdoKA" name="is(): ptBoolean    ">
+          <target xmi:type="messir:OperationDeclaration" href="concepts/primarytypes-classes/primarytypes-classes.msr#lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctHuman.is"/>
+          <semanticElements xmi:type="messir:OperationDeclaration" href="concepts/primarytypes-classes/primarytypes-classes.msr#lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctHuman.is"/>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_ZcTawbGHEeaQ_9xZ0mdoKA" labelSize="14" iconPath="/lu.uni.lassy.excalibur.dsl.messir.ui/icons/operation.png" labelAlignment="LEFT">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']/@ownedRepresentations[name='Messir%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subNodeMappings[name='Class_Operations']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']/@ownedRepresentations[name='Messir%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subNodeMappings[name='Class_Operations']"/>
+        </ownedElements>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_Zb7AQLGHEeaQ_9xZ0mdoKA" name="ctPendingHelpRequest" outgoingEdges="_esuWELGIEeaQ_9xZ0mdoKA">
+        <target xmi:type="messir:Class" href="concepts/primarytypes-classes/primarytypes-classes.msr#lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctPendingHelpRequest"/>
+        <semanticElements xmi:type="messir:Class" href="concepts/primarytypes-classes/primarytypes-classes.msr#lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctPendingHelpRequest"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_Zb8OYLGHEeaQ_9xZ0mdoKA" labelSize="14" iconPath="/lu.uni.lassy.excalibur.dsl.messir.ui/icons/class.png" borderSize="1" borderSizeComputationExpression="1">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']/@ownedRepresentations[name='Messir%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@conditionnalStyles.1/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']/@ownedRepresentations[name='Messir%20Diagram']/@defaultLayer/@containerMappings[name='Class']"/>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_ZcUB0LGHEeaQ_9xZ0mdoKA" name="listId : ptInteger">
+          <target xmi:type="messir:Attribute" href="concepts/primarytypes-classes/primarytypes-classes.msr#lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctPendingHelpRequest.listId"/>
+          <semanticElements xmi:type="messir:Attribute" href="concepts/primarytypes-classes/primarytypes-classes.msr#lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctPendingHelpRequest.listId"/>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_ZcUB0bGHEeaQ_9xZ0mdoKA" labelSize="14" iconPath="/lu.uni.lassy.excalibur.dsl.messir.ui/icons/attribute.png" labelAlignment="LEFT">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']/@ownedRepresentations[name='Messir%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subNodeMappings[name='Class_Attributes']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']/@ownedRepresentations[name='Messir%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subNodeMappings[name='Class_Attributes']"/>
+        </ownedElements>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_Zb81cLGHEeaQ_9xZ0mdoKA" name="ctVolunteer" outgoingEdges="_ZcjSYLGHEeaQ_9xZ0mdoKA">
+        <target xmi:type="messir:Class" href="concepts/primarytypes-classes/primarytypes-classes.msr#lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctVolunteer"/>
+        <semanticElements xmi:type="messir:Class" href="concepts/primarytypes-classes/primarytypes-classes.msr#lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctVolunteer"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_Zb9cgLGHEeaQ_9xZ0mdoKA" labelSize="14" iconPath="/lu.uni.lassy.excalibur.dsl.messir.ui/icons/class.png" borderSize="1" borderSizeComputationExpression="1">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']/@ownedRepresentations[name='Messir%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@conditionnalStyles.1/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']/@ownedRepresentations[name='Messir%20Diagram']/@defaultLayer/@containerMappings[name='Class']"/>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_ZcUB0rGHEeaQ_9xZ0mdoKA" name="vId : ptInteger">
+          <target xmi:type="messir:Attribute" href="concepts/primarytypes-classes/primarytypes-classes.msr#lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctVolunteer.vId"/>
+          <semanticElements xmi:type="messir:Attribute" href="concepts/primarytypes-classes/primarytypes-classes.msr#lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctVolunteer.vId"/>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_ZcUo4LGHEeaQ_9xZ0mdoKA" labelSize="14" iconPath="/lu.uni.lassy.excalibur.dsl.messir.ui/icons/attribute.png" labelAlignment="LEFT">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']/@ownedRepresentations[name='Messir%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subNodeMappings[name='Class_Attributes']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']/@ownedRepresentations[name='Messir%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subNodeMappings[name='Class_Attributes']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_ZcUo4bGHEeaQ_9xZ0mdoKA" name="disp : dtDispo">
+          <target xmi:type="messir:Attribute" href="concepts/primarytypes-classes/primarytypes-classes.msr#lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctVolunteer.disp"/>
+          <semanticElements xmi:type="messir:Attribute" href="concepts/primarytypes-classes/primarytypes-classes.msr#lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctVolunteer.disp"/>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_ZcVP8LGHEeaQ_9xZ0mdoKA" labelSize="14" iconPath="/lu.uni.lassy.excalibur.dsl.messir.ui/icons/attribute.png" labelAlignment="LEFT">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']/@ownedRepresentations[name='Messir%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subNodeMappings[name='Class_Attributes']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']/@ownedRepresentations[name='Messir%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subNodeMappings[name='Class_Attributes']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_ZcVP8bGHEeaQ_9xZ0mdoKA" name="is(): ptBoolean    ">
+          <target xmi:type="messir:OperationDeclaration" href="concepts/primarytypes-classes/primarytypes-classes.msr#lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctVolunteer.is"/>
+          <semanticElements xmi:type="messir:OperationDeclaration" href="concepts/primarytypes-classes/primarytypes-classes.msr#lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctVolunteer.is"/>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_ZcVP8rGHEeaQ_9xZ0mdoKA" labelSize="14" iconPath="/lu.uni.lassy.excalibur.dsl.messir.ui/icons/operation.png" labelAlignment="LEFT">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']/@ownedRepresentations[name='Messir%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subNodeMappings[name='Class_Operations']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']/@ownedRepresentations[name='Messir%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subNodeMappings[name='Class_Operations']"/>
+        </ownedElements>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_Zb-DkLGHEeaQ_9xZ0mdoKA" name="ctWeakPerson" outgoingEdges="_ZcjSY7GHEeaQ_9xZ0mdoKA" incomingEdges="_Zcm8wLGHEeaQ_9xZ0mdoKA">
+        <target xmi:type="messir:Class" href="concepts/primarytypes-classes/primarytypes-classes.msr#lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctWeakPerson"/>
+        <semanticElements xmi:type="messir:Class" href="concepts/primarytypes-classes/primarytypes-classes.msr#lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctWeakPerson"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_Zb_RsLGHEeaQ_9xZ0mdoKA" labelSize="14" iconPath="/lu.uni.lassy.excalibur.dsl.messir.ui/icons/class.png" borderSize="1" borderSizeComputationExpression="1">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']/@ownedRepresentations[name='Messir%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@conditionnalStyles.1/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']/@ownedRepresentations[name='Messir%20Diagram']/@defaultLayer/@containerMappings[name='Class']"/>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_ZcV3ALGHEeaQ_9xZ0mdoKA" name="hrId : dtHRid">
+          <target xmi:type="messir:Attribute" href="concepts/primarytypes-classes/primarytypes-classes.msr#lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctWeakPerson.hrId"/>
+          <semanticElements xmi:type="messir:Attribute" href="concepts/primarytypes-classes/primarytypes-classes.msr#lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctWeakPerson.hrId"/>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_ZcV3AbGHEeaQ_9xZ0mdoKA" labelSize="14" iconPath="/lu.uni.lassy.excalibur.dsl.messir.ui/icons/attribute.png" labelAlignment="LEFT">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']/@ownedRepresentations[name='Messir%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subNodeMappings[name='Class_Attributes']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']/@ownedRepresentations[name='Messir%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subNodeMappings[name='Class_Attributes']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_ZcWeELGHEeaQ_9xZ0mdoKA" name="is(): ptBoolean    ">
+          <target xmi:type="messir:OperationDeclaration" href="concepts/primarytypes-classes/primarytypes-classes.msr#lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctWeakPerson.is"/>
+          <semanticElements xmi:type="messir:OperationDeclaration" href="concepts/primarytypes-classes/primarytypes-classes.msr#lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctWeakPerson.is"/>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_ZcWeEbGHEeaQ_9xZ0mdoKA" labelSize="14" iconPath="/lu.uni.lassy.excalibur.dsl.messir.ui/icons/operation.png" labelAlignment="LEFT">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']/@ownedRepresentations[name='Messir%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subNodeMappings[name='Class_Operations']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']/@ownedRepresentations[name='Messir%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subNodeMappings[name='Class_Operations']"/>
+        </ownedElements>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_ZcirULGHEeaQ_9xZ0mdoKA" sourceNode="_Zb1gsLGHEeaQ_9xZ0mdoKA" targetNode="_Zb5LELGHEeaQ_9xZ0mdoKA">
+        <target xmi:type="messir:Class" href="concepts/primarytypes-classes/primarytypes-classes.msr#lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctCoordinator"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_ZcirUbGHEeaQ_9xZ0mdoKA" targetArrow="InputClosedArrow" size="2" routingStyle="manhattan">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']/@ownedRepresentations[name='Messir%20Diagram']/@defaultLayer/@edgeMappings[name='Inheritance_Relation_Class_Class']/@style"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_ZcirUrGHEeaQ_9xZ0mdoKA" labelSize="14" showIcon="false" labelColor="136,136,136"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']/@ownedRepresentations[name='Messir%20Diagram']/@defaultLayer/@edgeMappings[name='Inheritance_Relation_Class_Class']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_ZcjSYLGHEeaQ_9xZ0mdoKA" sourceNode="_Zb81cLGHEeaQ_9xZ0mdoKA" targetNode="_Zb5LELGHEeaQ_9xZ0mdoKA">
+        <target xmi:type="messir:Class" href="concepts/primarytypes-classes/primarytypes-classes.msr#lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctVolunteer"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_ZcjSYbGHEeaQ_9xZ0mdoKA" targetArrow="InputClosedArrow" size="2" routingStyle="manhattan">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']/@ownedRepresentations[name='Messir%20Diagram']/@defaultLayer/@edgeMappings[name='Inheritance_Relation_Class_Class']/@style"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_ZcjSYrGHEeaQ_9xZ0mdoKA" labelSize="14" showIcon="false" labelColor="136,136,136"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']/@ownedRepresentations[name='Messir%20Diagram']/@defaultLayer/@edgeMappings[name='Inheritance_Relation_Class_Class']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_ZcjSY7GHEeaQ_9xZ0mdoKA" sourceNode="_Zb-DkLGHEeaQ_9xZ0mdoKA" targetNode="_Zb5LELGHEeaQ_9xZ0mdoKA">
+        <target xmi:type="messir:Class" href="concepts/primarytypes-classes/primarytypes-classes.msr#lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctWeakPerson"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_ZcjSZLGHEeaQ_9xZ0mdoKA" targetArrow="InputClosedArrow" size="2" routingStyle="manhattan">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']/@ownedRepresentations[name='Messir%20Diagram']/@defaultLayer/@edgeMappings[name='Inheritance_Relation_Class_Class']/@style"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_ZcjSZbGHEeaQ_9xZ0mdoKA" labelSize="14" showIcon="false" labelColor="136,136,136"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']/@ownedRepresentations[name='Messir%20Diagram']/@defaultLayer/@edgeMappings[name='Inheritance_Relation_Class_Class']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_Zcm8wLGHEeaQ_9xZ0mdoKA" name="assHelpRequest" sourceNode="_Zb388LGHEeaQ_9xZ0mdoKA" targetNode="_Zb-DkLGHEeaQ_9xZ0mdoKA" beginLabel="[1..1]rnctHelpRequest" endLabel="[0..*] rnctWeakPerson">
+        <target xmi:type="messir:UndirectedAssociation" href="concepts/primarytypes-classes/primarytypes-classes.msr#lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.assHelpRequest"/>
+        <semanticElements xmi:type="messir:UndirectedAssociation" href="concepts/primarytypes-classes/primarytypes-classes.msr#lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.assHelpRequest"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_Zcnj0LGHEeaQ_9xZ0mdoKA" targetArrow="NoDecoration" size="2" routingStyle="manhattan">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']/@ownedRepresentations[name='Messir%20Diagram']/@defaultLayer/@edgeMappings[name='UndirectedAssociation_Class_Class']/@style"/>
+          <beginLabelStyle xmi:type="diagram:BeginLabelStyle" xmi:id="_Zcnj0bGHEeaQ_9xZ0mdoKA" labelSize="14" showIcon="false"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_Zcnj0rGHEeaQ_9xZ0mdoKA" labelSize="14" showIcon="false"/>
+          <endLabelStyle xmi:type="diagram:EndLabelStyle" xmi:id="_Zcnj07GHEeaQ_9xZ0mdoKA" labelSize="14" showIcon="false"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']/@ownedRepresentations[name='Messir%20Diagram']/@defaultLayer/@edgeMappings[name='UndirectedAssociation_Class_Class']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_esuWELGIEeaQ_9xZ0mdoKA" name="assPendingHelpRequest" sourceNode="_Zb7AQLGHEeaQ_9xZ0mdoKA" targetNode="_Zb388LGHEeaQ_9xZ0mdoKA" beginLabel="[1..1]assrnctPendingHelpRequest" endLabel="[0..*]assrnctHelpRequest">
+        <target xmi:type="messir:Aggregation" href="concepts/primarytypes-classes/primarytypes-classes.msr#lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.assPendingHelpRequest"/>
+        <semanticElements xmi:type="messir:Aggregation" href="concepts/primarytypes-classes/primarytypes-classes.msr#lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.assPendingHelpRequest"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_esuWEbGIEeaQ_9xZ0mdoKA" sourceArrow="Diamond" targetArrow="NoDecoration" size="2" routingStyle="manhattan">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']/@ownedRepresentations[name='Messir%20Diagram']/@defaultLayer/@edgeMappings[name='Agregation_Class_Class']/@style"/>
+          <beginLabelStyle xmi:type="diagram:BeginLabelStyle" xmi:id="_esuWErGIEeaQ_9xZ0mdoKA" labelSize="14" showIcon="false"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_esuWE7GIEeaQ_9xZ0mdoKA" labelSize="14" showIcon="false"/>
+          <endLabelStyle xmi:type="diagram:EndLabelStyle" xmi:id="_esuWFLGIEeaQ_9xZ0mdoKA" labelSize="14" showIcon="false"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']/@ownedRepresentations[name='Messir%20Diagram']/@defaultLayer/@edgeMappings[name='Agregation_Class_Class']"/>
+      </ownedDiagramElements>
+      <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']/@ownedRepresentations[name='Messir%20Diagram']"/>
+      <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_Zb0Sk7GHEeaQ_9xZ0mdoKA"/>
+      <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']/@ownedRepresentations[name='Messir%20Diagram']/@defaultLayer"/>
+      <target xmi:type="messir:PackageDeclaration" href="concepts/primarytypes-classes/primarytypes-classes.msr#lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes"/>
     </ownedRepresentations>
   </ownedViews>
 </viewpoint:DAnalysis>

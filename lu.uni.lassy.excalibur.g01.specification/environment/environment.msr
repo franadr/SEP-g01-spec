@@ -102,8 +102,8 @@ Environment Model {
 			operation oeLogout(): ptBoolean
 			operation oeGetPosition() : ptBoolean
 			
-			operation oeGetMissionInRagne(AdtRange: dtRange) : ptBoolean
-			operation oeAcceptMission() : ptBoolean
+			operation oeGetMissionInRagne(AdtRange: dtRange,AdtPosition : dtCoordinates) : ptBoolean
+			operation oeAcceptMission(AdtId : dtHRid) : ptBoolean
 			operation oeInputPos() : ptBoolean
 			operation oeSendPosAndInfo() : ptBoolean
 			operation oeGetRange() : ptBoolean

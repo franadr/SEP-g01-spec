@@ -14,7 +14,7 @@ import lu.uni.lassy.messir.libraries.string
 
 
 import lu.uni.lassy.messir.libraries.primitives
-
+import lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.datatypes
 Concept Model {
 
 	Primary Types {
@@ -24,6 +24,46 @@ Concept Model {
 
 			operation init(AvpStarted:ptBoolean): ptBoolean
 		}	
+		class ctHuman role rnctHuman cardinality [0..*]{
+			
+			attribute name: dtName
+			attribute phone: dtPhoneNumber
+			attribute coordinates: dtCoordinates
+			attribute username: ptString
+			attribute password: ptString
+			
+			operation is() : ptBoolean
+		}
+		class ctWeakPerson role rnctWeakPerson cardinality [1..*] extends ctHuman {
+			attribute hrId: dtHRid
+			
+			operation is() : ptBoolean
+		}
+		
+		class ctCoordinator role rnctCoordinator cardinality [1..*] extends ctHuman {
+			attribute cId: ptInteger
+			
+		}
+		
+		class ctVolunteer role rnctVolunteer cardinality [0..*] extends ctHuman {
+			attribute vId: ptInteger
+			attribute disp: dtDispo
+			
+			operation is() : ptBoolean
+		}
+		
+		class ctHelpRequest role rnctHelpRequest cardinality [1..*] {
+			attribute HrTime: dtTime
+			
+			
+		}
+		class ctPendingHelpRequest role rnctPendingHelpRequest cardinality [1..*] {
+			attribute listId : ptInteger
+			
+			
+		}
+		association assHelpRequest ctHelpRequest(rnctHelpRequest)[1..1] ctWeakPerson(rnctWeakPerson)[0..*]
+		aggregation assPendingHelpRequest ctPendingHelpRequest(assrnctPendingHelpRequest)[1..1] ctHelpRequest(assrnctHelpRequest)[0..*] 
 
 	}
 }

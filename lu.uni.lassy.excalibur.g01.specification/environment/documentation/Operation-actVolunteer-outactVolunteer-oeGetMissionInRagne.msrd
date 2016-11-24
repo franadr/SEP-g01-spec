@@ -9,26 +9,45 @@ lu.uni.lassy.excalibur.g01.specification.environment.actVolunteer.outactVoluntee
 //parameters
 @parameter
 lu.uni.lassy.excalibur.g01.specification.environment.actVolunteer.outactVolunteer.oeGetMissionInRagne.AdtRange
-""
+"First information used to specify the range at which the system should filter the help request"
+
+@parameter 
+lu.uni.lassy.excalibur.g01.specification.environment.actVolunteer.outactVolunteer.oeGetMissionInRagne.AdtPosition
+"Second information that represent the center around which the range will be applied"
 @endParameters
 
-@description "
+@description " Sent to get the mission that are in a range of a specific value around volunteer declared position
  "
 //preProtocol descriptions
 @preP
-" "
+"The system is initiated"
+@preP
+"The volunteer is logged in"
+
 @endPreP
 //preFunctional descriptions
+
 @preF
-" "
+"The position sent exists within Luxembourg boundaries"
+
+@preF
+"The range is less or equal to 50km"
+
 @endPreF
+
 //postFunctional descriptions
 @postF 
-" "
+"A new help request list has been created containing 0 or more mission "
+@postF
+"The mission in the list returned exists"
+@postF
+"The mission returned, are not handled by any one else"
+@postF
+"The mission returned are of low priority"
 @endPostF
 //postProtocol descriptions
 @postP 
-" "
+" If the list is not null the volunteer is able to select one mission to get the details"
 @endPostP
 //example
 @example" "

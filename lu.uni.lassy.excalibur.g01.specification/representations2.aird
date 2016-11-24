@@ -340,6 +340,9 @@
   <semanticResources>usecases/documentation/UseCase-oeSendFamilyDetails.msrd</semanticResources>
   <semanticResources>usecases/documentation/UseCase-oeGetDeliveryReport.msrd</semanticResources>
   <semanticResources>usecases/documentation/UseCaseInstance-uciSendHelpRequest.msrd</semanticResources>
+  <semanticResources>documentation/View-test.msrd</semanticResources>
+  <semanticResources>documentation/View-cm-view3.msrd</semanticResources>
+  <semanticResources>documentation/View-cm-view4.msrd</semanticResources>
   <ownedViews xmi:type="viewpoint:DView" xmi:id="_UjU0UJhGEeao7bVShP4TVg">
     <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']"/>
   </ownedViews>

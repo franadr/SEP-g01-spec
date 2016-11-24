@@ -6,19 +6,35 @@
 
 @@Operation
 lu.uni.lassy.excalibur.g01.specification.environment.actVolunteer.outactVolunteer.oeAcceptMission
-@description "
- "
+
+
+@parameter lu.uni.lassy.excalibur.g01.specification.environment.actVolunteer.outactVolunteer.oeAcceptMission.AdtId
+"First information that represent the Help request ID selected by the volunteer "
+
+@endParameters
+@description " Sent a notification to system about which mission will be processed by this volunteer."
 //preProtocol descriptions
 @preP
-" "
+"The get mission in range should have been executed and returned a non null list."
+@preP
+"The volunteer has logged in an not logged out."
+
 @endPreP
 //preFunctional descriptions
 @preF
-" "
+"The mission is not handled by anyone else. "
+@preF
+"The mission is with low priority."
+@preF
+"The mission exists in the pending help request list."
+
 @endPreF
 //postFunctional descriptions
 @postF 
-" "
+"The volunteer is associated to a single mission."
+@postF
+""
+
 @endPostF
 //postProtocol descriptions
 @postP 

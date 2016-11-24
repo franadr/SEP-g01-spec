@@ -1,0 +1,13 @@
+/*
+@author Adriano
+@date Wed Nov 23 15:06:59 CET 2016
+*/
+
+
+@@view cm-view2
+@model Concept
+@level Local
+@sublevel Primary Class
+@number 2
+@description ""
+@caption ""

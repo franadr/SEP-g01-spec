@@ -20,6 +20,9 @@ Concept Model {
    			operation is() : ptBoolean
    		}
    		
+   		datatype dtDispo {
+   			attribute time : dtDateAndTime
+   		}
    		datatype dtHRid {
    			attribute value : ptInteger
    			operation is() : ptBoolean
