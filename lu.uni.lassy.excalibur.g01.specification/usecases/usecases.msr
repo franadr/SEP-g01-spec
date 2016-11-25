@@ -155,11 +155,11 @@ import lu.uni.lassy.excalibur.g01.specification.environment
 	 	
 	 	reuse oeAlertFamily[1..*]
 	 	reuse oeSendFamilyDetails[1..*]
-	 	reuse oeGetDeliveryReport[1..*]
+	 	reuse oeSendDeliveryReport[1..*]
 	 	
 	 	step a: actWeakPerson executes oeAlertFamily()
 	 	step b: actMainDatabase executes oeSendFamilyDetails()
-	 	step c: actPhoneCompany executes oeGetDeliveryReport()
+	 	step c: actPhoneCompany executes oeSendDeliveryReport()
 	 	
 	 	
 	 	 	 	
@@ -178,13 +178,13 @@ import lu.uni.lassy.excalibur.g01.specification.environment
 	 	actor actMainDatabase[primary,active]
 	 	actor actPhoneCompany[secondary, passive]
 	 	returned messages {
-	 		ieConfirmationOfSmsSend() returned to actMainDatabase
+	 		ieConfirmationOfFamilyDetailsReceived() returned to actMainDatabase
 	 		ieSmsForFamily() returned to actPhoneCompany
 	 		
 	 	}
 	 }
 	 
-	 use case system subfunction oeGetDeliveryReport() {
+	 use case system subfunction oeSendDeliveryReport() {
 	 	actor actPhoneCompany[primary,active]
 	 	actor actMainDatabase[secondary, passive]
 	 	returned messages{

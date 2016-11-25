@@ -149,14 +149,14 @@ Environment Model {
 			operation ieRequHRDetails(AdtId :dtHRid) : ptBoolean
 			operation ieSendPendingHR(AdtTime : dtTime) : ptBoolean
 			operation ieFamilyDetailsRequest() : ptBoolean
-			operation ieConfirmationOfSmsSend() : ptBoolean
-			operation ieFamilyDeliveryReport() : ptBoolean
+			operation ieConfirmationOfFamilyDetailsReceived() : ptBoolean
+			operation ieFamilyDeliveryReport(AdtName : dtName, AdtConfirmation : ptBoolean) : ptBoolean
 			operation ieAddEntry(AdtName : dtName, AdtPhoneNumber : dtPhoneNumber , AdtCoordinates : dtCoordinates , AdtAddress : dtAddress) : ptBoolean
 		}
 		output interface outactPendingHelpRequestList {
 			operation oeSentPendingHelpRequest(AdtTime:dtTime,AdtPhoneNumber :dtPhoneNumber) : ptBoolean
 			operation oeSendHRDetails(AdtName : dtName, AdtPhoneNumber : dtPhoneNumber , AdtCoordinates : dtCoordinates , AdtAddress : dtAddress) : ptBoolean
-			operation oeSendFamilyDetails(AdtName : dtName, AdtPhoneNumber : dtPhoneNumber, AdtMessage : dtMessage) : ptBoolean
+			operation oeSendFamilyDetails(AdtName : dtName, AdtPhoneNumber : dtPhoneNumber) : ptBoolean
 			operation oeConfirmEntryAdded(AdtId : dtHRid , AdtConfirmation : ptBoolean) : ptBoolean
 		}
 	}
@@ -164,11 +164,11 @@ Environment Model {
 	actor actPhoneCompany role rnactPhoneCompany cardinality [1..*]{
 		input interface inactPhoneCompany{
 			operation ieRequestConfirm(AdtPhoneNumber : dtPhoneNumber) : ptBoolean
-			operation ieSmsForFamily(AdtPhoneNumber : dtPhoneNumber, AdtMessage : dtMessage) : ptBoolean
+			operation ieSmsForFamily(AdtMessage : dtMessage, AdtPhoneNumber : dtPhoneNumber) : ptBoolean
 		}
 		output interface outactPhoneCompany{
 			operation oeGetConfirm() : ptBoolean
-			operation oeGetDeliveryReport() : ptBoolean
+			operation oeSendDeliveryReport(AdtMessage : dtMessage, AdtPhoneNumber : dtPhoneNumber) : ptBoolean
 		}
 	}
 	

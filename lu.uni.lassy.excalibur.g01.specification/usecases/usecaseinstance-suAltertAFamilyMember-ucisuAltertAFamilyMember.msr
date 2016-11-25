@@ -15,12 +15,13 @@ package usecases.ucisuAltertAFamilyMember {
 				John executed instanceof subfunction oeAlertFamily() {
 					ieFamilyDetailsRequest() returned to DB1															
 				}
-				DB1 executed instanceof subfunction oeSendFamilyDetails() {
-					ieConfirmationOfSmsSend() returned to DB1
-					ieSmsForFamily() returned to Orange
+				DB1 executed instanceof subfunction oeSendFamilyDetails("Emily Smith", "691 432 132") {
+					ieConfirmationOfFamilyDetailsReceived() returned to DB1
+					ieSmsForFamily("John has just used the request help function through the Heat Wave Prevention System, serious danger may exist for this person",
+						"691 432 132") returned to Orange
 				}
-				Orange executed instanceof subfunction oeGetDeliveryReport() {
-					ieFamilyDeliveryReport() returned to DB1
+				Orange executed instanceof subfunction oeSendDeliveryReport("Message delivered to the number 691 432 132", "691 432 132") {
+					ieFamilyDeliveryReport("Emily Smith", "TRUE") returned to DB1
 				}
 				
 				
