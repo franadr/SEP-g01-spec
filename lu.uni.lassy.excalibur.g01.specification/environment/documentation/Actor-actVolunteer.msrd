@@ -37,14 +37,5 @@ lu.uni.lassy.excalibur.g01.specification.environment.actVolunteer.outactVoluntee
 @outputEvent
 lu.uni.lassy.excalibur.g01.specification.environment.actVolunteer.outactVolunteer.oeAcceptMission
 ""
-@outputEvent
-lu.uni.lassy.excalibur.g01.specification.environment.actVolunteer.outactVolunteer.oeInputPos
-""
-@outputEvent
-lu.uni.lassy.excalibur.g01.specification.environment.actVolunteer.outactVolunteer.oeSendPosAndInfo
-""
-@outputEvent
-lu.uni.lassy.excalibur.g01.specification.environment.actVolunteer.outactVolunteer.oeGetRange
-""
 
 @endOutputEvents

@@ -6,23 +6,29 @@
 
 @@Operation
 lu.uni.lassy.excalibur.g01.specification.environment.actVolunteer.outactVolunteer.oeLogin
-@description "
+@description " This allows the the user to login 
  "
 //preProtocol descriptions
 @preP
-" "
+"The user is not logged in "
 @endPreP
 //preFunctional descriptions
 @preF
-" "
+" The user provides a user name "
+@preF
+"The user provide a valid password related to this user name "
+@preF
+"The user enters the token"
+
+
 @endPreF
 //postFunctional descriptions
 @postF 
-" "
+"The connection token is egal to true "
 @endPostF
 //postProtocol descriptions
 @postP 
-" "
+"The fonction related to missions for volunteer , get, details and assign are available "
 @endPostP
 //example
 @example" "

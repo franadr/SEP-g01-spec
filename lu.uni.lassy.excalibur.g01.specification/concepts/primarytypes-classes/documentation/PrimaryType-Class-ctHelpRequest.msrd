@@ -1,0 +1,12 @@
+/*
+@author Adriano
+@date Tue Nov 29 11:50:48 CET 2016
+*/
+
+
+@@Primary Type Class lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctHelpRequest
+@description "This represent the help request class type, which his associated to exactly 1 weak person"
+@attribute
+lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctHelpRequest.HrTime
+""
+@endAttributes

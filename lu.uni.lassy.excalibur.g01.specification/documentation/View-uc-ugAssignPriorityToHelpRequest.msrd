@@ -1,0 +1,10 @@
+/*
+@author Adriano
+@date Tue Nov 29 12:08:05 CET 2016
+*/
+
+
+@@view uc-ugAssignPriorityToHelpRequest
+@model Use-Case lu.uni.lassy.excalibur.g01.specification.usecases.coordinator.ugAssignPriorityToHelpRequest 
+@description "Use case view for Assign priority to a specific help request"
+@caption ""

@@ -1,0 +1,16 @@
+/*
+@author Adriano
+@date Tue Nov 29 11:53:07 CET 2016
+*/
+
+
+@@Primary Type Class lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctWeakPerson
+@description "This represent the class type Weak person which extends Human and is associated to 1 or multiple help requests"
+@attribute
+lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctWeakPerson.hrId
+""
+@endAttributes
+@operation
+lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctWeakPerson.is
+""
+@endOperations

@@ -13,9 +13,7 @@ lu.uni.lassy.excalibur.g01.specification.environment.actMainDatabase.outactPendi
 @parameter
 lu.uni.lassy.excalibur.g01.specification.environment.actMainDatabase.outactPendingHelpRequestList.oeSendFamilyDetails.AdtPhoneNumber
 ""
-@parameter
-lu.uni.lassy.excalibur.g01.specification.environment.actMainDatabase.outactPendingHelpRequestList.oeSendFamilyDetails.AdtMessage
-""
+
 @endParameters
 
 @description "

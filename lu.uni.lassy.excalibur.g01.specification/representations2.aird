@@ -343,6 +343,15 @@
   <semanticResources>documentation/View-test.msrd</semanticResources>
   <semanticResources>documentation/View-cm-view3.msrd</semanticResources>
   <semanticResources>documentation/View-cm-view4.msrd</semanticResources>
+  <semanticResources>concepts/primarytypes-classes/documentation/PrimaryType-Class-ctCoordinator.msrd</semanticResources>
+  <semanticResources>concepts/primarytypes-classes/documentation/PrimaryType-Class-ctHelpRequest.msrd</semanticResources>
+  <semanticResources>concepts/primarytypes-classes/documentation/PrimaryType-Class-ctHuman.msrd</semanticResources>
+  <semanticResources>concepts/primarytypes-classes/documentation/PrimaryType-Class-ctPendingHelpRequest.msrd</semanticResources>
+  <semanticResources>concepts/primarytypes-classes/documentation/PrimaryType-Class-ctVolunteer.msrd</semanticResources>
+  <semanticResources>concepts/primarytypes-classes/documentation/PrimaryType-Class-ctWeakPerson.msrd</semanticResources>
+  <semanticResources>concepts/documentation/UseCase-suAcceptMission.msrd</semanticResources>
+  <semanticResources>documentation/View-uc-suCallSelectedHelpRequest.msrd</semanticResources>
+  <semanticResources>documentation/View-uc-ugAssignPriorityToHelpRequest.msrd</semanticResources>
   <ownedViews xmi:type="viewpoint:DView" xmi:id="_UjU0UJhGEeao7bVShP4TVg">
     <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']"/>
   </ownedViews>

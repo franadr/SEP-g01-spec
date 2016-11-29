@@ -19,9 +19,7 @@ lu.uni.lassy.excalibur.g01.specification.environment.actMainDatabase.inactPendin
 @inputEvent
 lu.uni.lassy.excalibur.g01.specification.environment.actMainDatabase.inactPendingHelpRequestList.ieFamilyDetailsRequest
 ""
-@inputEvent
-lu.uni.lassy.excalibur.g01.specification.environment.actMainDatabase.inactPendingHelpRequestList.ieConfirmationOfSmsSend
-""
+
 @inputEvent
 lu.uni.lassy.excalibur.g01.specification.environment.actMainDatabase.inactPendingHelpRequestList.ieFamilyDeliveryReport
 ""

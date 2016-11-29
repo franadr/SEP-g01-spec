@@ -1,0 +1,19 @@
+/*
+@author Adriano
+@date Tue Nov 29 11:52:44 CET 2016
+*/
+
+
+@@Primary Type Class lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctVolunteer
+@description "This represent the the Human-Volunteer"
+@attribute
+lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctVolunteer.vId
+""
+@attribute
+lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctVolunteer.disp
+""
+@endAttributes
+@operation
+lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctVolunteer.is
+""
+@endOperations

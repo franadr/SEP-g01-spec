@@ -159,7 +159,7 @@ import lu.uni.lassy.excalibur.g01.specification.environment
 	 
 	 use case system usergoal ugAssignPriorityToHelpRequest(){
 		actor actCoordinator [primary,active]
-		actor actMainDatabase[secondary]
+		
 		
 		step a : actCoordinator executes oeReqCheckbox()
 		step b : actCoordinator executes oeSendFilledCheckbox()

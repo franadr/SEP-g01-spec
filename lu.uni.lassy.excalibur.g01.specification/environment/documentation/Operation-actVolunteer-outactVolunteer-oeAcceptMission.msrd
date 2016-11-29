@@ -17,7 +17,7 @@ lu.uni.lassy.excalibur.g01.specification.environment.actVolunteer.outactVoluntee
 @preP
 "The get mission in range should have been executed and returned a non null list."
 @preP
-"The volunteer has logged in an not logged out."
+"The volunteer has logged in and not logged out."
 
 @endPreP
 //preFunctional descriptions
@@ -33,12 +33,18 @@ lu.uni.lassy.excalibur.g01.specification.environment.actVolunteer.outactVoluntee
 @postF 
 "The volunteer is associated to a single mission."
 @postF
+"The mission is associated to a single volunteer"
+@postF
 ""
+
 
 @endPostF
 //postProtocol descriptions
 @postP 
-" "
+"Function to end the mission is available "
+@postP
+"Function to cancel the mission is available"
+
 @endPostP
 //example
 @example" "

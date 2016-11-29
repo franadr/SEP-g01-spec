@@ -3,3 +3,8 @@
 @date Tue Nov 22 19:41:54 CET 2016
 */
 
+
+@@view uc-ugRetrievePendingHelpRequestDetails
+@model Use-Case lu.uni.lassy.excalibur.g01.specification.usecases.coordinator.ugRetrievePendingHelpRequestDetails 
+@description "Retrieve help request details use case view"
+@caption ""

@@ -1,0 +1,12 @@
+/*
+@author Adriano
+@date Tue Nov 29 11:50:12 CET 2016
+*/
+
+
+@@Primary Type Class lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctCoordinator
+@description "This represent the Coordinator class type"
+@attribute
+lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctCoordinator.cId
+""
+@endAttributes

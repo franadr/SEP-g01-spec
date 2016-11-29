@@ -1,0 +1,28 @@
+/*
+@author Adriano
+@date Tue Nov 29 11:51:20 CET 2016
+*/
+
+
+@@Primary Type Class lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctHuman
+@description "This is the main class type as Weak person , Volunteer and Coordinator extend class type human "
+@attribute
+lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctHuman.name
+""
+@attribute
+lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctHuman.phone
+""
+@attribute
+lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctHuman.coordinates
+""
+@attribute
+lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctHuman.username
+""
+@attribute
+lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctHuman.password
+""
+@endAttributes
+@operation
+lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctHuman.is
+""
+@endOperations

@@ -19,8 +19,6 @@ lu.uni.lassy.excalibur.g01.specification.environment.actPhoneCompany.inactPhoneC
 @outputEvent
 lu.uni.lassy.excalibur.g01.specification.environment.actPhoneCompany.outactPhoneCompany.oeGetConfirm
 ""
-@outputEvent
-lu.uni.lassy.excalibur.g01.specification.environment.actPhoneCompany.outactPhoneCompany.oeGetDeliveryReport
-""
+
 
 @endOutputEvents
