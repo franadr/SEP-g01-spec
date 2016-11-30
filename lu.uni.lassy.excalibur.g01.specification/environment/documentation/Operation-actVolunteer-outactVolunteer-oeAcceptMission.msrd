@@ -33,8 +33,6 @@ lu.uni.lassy.excalibur.g01.specification.environment.actVolunteer.outactVoluntee
 @postF 
 "The volunteer is associated to a single mission."
 @postF
-"The mission is associated to a single volunteer"
-@postF
 ""
 
 

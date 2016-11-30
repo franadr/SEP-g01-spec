@@ -6,23 +6,23 @@
 
 @@Operation
 lu.uni.lassy.excalibur.g01.specification.environment.actCoordinator.outactCoordinator.oeReqCall
-@description "
+@description "Request a call from phone company
  "
 //preProtocol descriptions
 @preP
-" "
+""
 @endPreP
 //preFunctional descriptions
 @preF
-" "
+" A help request exists in the pending help request list"
 @endPreF
 //postFunctional descriptions
 @postF 
-" "
+"The confirmation of the phone company has been sent "
 @endPostF
 //postProtocol descriptions
 @postP 
-" "
+"Function to proceed the call is activated"
 @endPostP
 //example
 @example" "

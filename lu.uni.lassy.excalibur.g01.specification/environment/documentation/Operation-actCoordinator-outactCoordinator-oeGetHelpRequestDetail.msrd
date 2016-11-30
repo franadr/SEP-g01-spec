@@ -12,23 +12,23 @@ lu.uni.lassy.excalibur.g01.specification.environment.actCoordinator.outactCoordi
 ""
 @endParameters
 
-@description "
+@description "Get the details of the help request by requiring the ID of the request
  "
 //preProtocol descriptions
 @preP
-" "
+" The Coordinator is logged in and the system is initiated"
 @endPreP
 //preFunctional descriptions
 @preF
-" "
+"The ID should exist and it is not null"
 @endPreF
 //postFunctional descriptions
 @postF 
-" "
+"One ID should be associated with one Help Request"
 @endPostF
 //postProtocol descriptions
 @postP 
-" "
+"Function to get pending help requests is activated "
 @endPostP
 //example
 @example" "
