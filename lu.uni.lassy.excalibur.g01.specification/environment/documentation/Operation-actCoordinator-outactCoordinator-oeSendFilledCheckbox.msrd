@@ -6,19 +6,19 @@
 
 @@Operation
 lu.uni.lassy.excalibur.g01.specification.environment.actCoordinator.outactCoordinator.oeSendFilledCheckbox
-@description "
+@description "Send the filled checkbox to the system
  "
 //preProtocol descriptions
 @preP
-" "
+"The function request checkbox has been called "
 @endPreP
 //preFunctional descriptions
 @preF
-" "
+"There should be selected items in the checkbox "
 @endPreF
 //postFunctional descriptions
 @postF 
-" "
+"The check box id has been associated with help request of the called weak person"
 @endPostF
 //postProtocol descriptions
 @postP 

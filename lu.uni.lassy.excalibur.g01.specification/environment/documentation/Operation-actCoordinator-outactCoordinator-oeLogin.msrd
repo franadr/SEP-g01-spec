@@ -6,23 +6,27 @@
 
 @@Operation
 lu.uni.lassy.excalibur.g01.specification.environment.actCoordinator.outactCoordinator.oeLogin
-@description "
+@description "It allows the user to log in as a coordinator
  "
 //preProtocol descriptions
 @preP
-" "
+" The user is not logged in "
 @endPreP
 //preFunctional descriptions
 @preF
-" "
+" The user provides a user name "
+@preF
+"The user provide a valid password related to this user name "
+@preF
+"The user enters the token"
 @endPreF
 //postFunctional descriptions
 @postF 
-" "
+" The connection token is equal to true "
 @endPostF
 //postProtocol descriptions
 @postP 
-" "
+"the functions to get volunteer list, get help request detail and get pending help request is activated "
 @endPostP
 //example
 @example" "

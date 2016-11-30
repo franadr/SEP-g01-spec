@@ -6,15 +6,15 @@
 
 @@Operation
 lu.uni.lassy.excalibur.g01.specification.environment.actCoordinator.outactCoordinator.oeProceedCall
-@description "
+@description "Proceed to call the weak person
  "
 //preProtocol descriptions
 @preP
-" "
+"The Phone company has sent the confirmation to proceed with call"
 @endPreP
 //preFunctional descriptions
 @preF
-" "
+"The weak person must be on line"
 @endPreF
 //postFunctional descriptions
 @postF 
@@ -22,7 +22,7 @@ lu.uni.lassy.excalibur.g01.specification.environment.actCoordinator.outactCoordi
 @endPostF
 //postProtocol descriptions
 @postP 
-" "
+"Function to request a Checkbox is activated"
 @endPostP
 //example
 @example" "

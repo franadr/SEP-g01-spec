@@ -6,11 +6,11 @@
 
 @@Operation
 lu.uni.lassy.excalibur.g01.specification.environment.actCoordinator.outactCoordinator.oeReqCheckbox
-@description "
+@description "Request a Checkbox to enter the illness information of the weak person
  "
 //preProtocol descriptions
 @preP
-" "
+"The function proceed call has been activated"
 @endPreP
 //preFunctional descriptions
 @preF
@@ -18,11 +18,11 @@ lu.uni.lassy.excalibur.g01.specification.environment.actCoordinator.outactCoordi
 @endPreF
 //postFunctional descriptions
 @postF 
-" "
+"The help request still exists in the pending help request list "
 @endPostF
 //postProtocol descriptions
 @postP 
-" "
+"If the help request still exists, the coordinator is able to select the items on the Checkbox"
 @endPostP
 //example
 @example" "
