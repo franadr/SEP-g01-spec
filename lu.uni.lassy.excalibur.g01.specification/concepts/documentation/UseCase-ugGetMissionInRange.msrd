@@ -5,17 +5,18 @@
 
 
 @@Use Case lu.uni.lassy.excalibur.g01.specification.usecases.volunteer.ugGetMissionInRange
-@description ""
+@description "The actVolunteer's goal is to retrieve help requests that are in a specific range "
 @protocolCondition
+"The system has been deployed.
 "
-"
+
 @endProtocolConditions
 @preCondition
 "
 "
 @endPreConditions
 @postCondition
-"
+"The system returns a non null list of HelpRequest or a message indicating that none has been found within the specified range
 "
 @endPostConditions
 @additionalInformation

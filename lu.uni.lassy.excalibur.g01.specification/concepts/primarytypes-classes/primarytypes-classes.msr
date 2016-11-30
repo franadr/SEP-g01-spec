@@ -33,16 +33,19 @@ Concept Model {
 			attribute password: ptString
 			
 			operation is() : ptBoolean
+			operation init(Aname : dtName, APhone : dtPhoneNumber, ACoordinates : dtCoordinates, AUsername : dtUserName,APassword :dtPassword ) : ptBoolean
 		}
 		class ctWeakPerson role rnctWeakPerson cardinality [1..*] extends ctHuman {
 			attribute hrId: dtHRid
 			
 			operation is() : ptBoolean
+			operation init(AWid : dtInteger,Aname : dtName, APhone : dtPhoneNumber, ACoordinates : dtCoordinates, AUsername : dtUserName,APassword :dtPassword) : ptBoolean
 		}
 		
 		class ctCoordinator role rnctCoordinator cardinality [1..*] extends ctHuman {
 			attribute cId: ptInteger
-			
+			operation is() : ptBoolean
+			operation init(AcId : dtInteger,Aname : dtName, APhone : dtPhoneNumber, ACoordinates : dtCoordinates, AUsername : dtUserName,APassword :dtPassword) : ptBoolean
 		}
 		
 		class ctVolunteer role rnctVolunteer cardinality [0..*] extends ctHuman {
@@ -50,21 +53,23 @@ Concept Model {
 			attribute disp: dtDispo
 			
 			operation is() : ptBoolean
+			operation init(AvId : dtInteger,Adisp : dtDispo,Aname : dtName, APhone : dtPhoneNumber, ACoordinates : dtCoordinates, AUsername : dtUserName,APassword :dtPassword) : ptBoolean
 		}
 		
 		class ctHelpRequest role rnctHelpRequest cardinality [1..*] {
 			attribute HrTime: dtTime
-			
+			operation is() : ptBoolean
+			operation init(AHrTime : dtTime) : ptBoolean
 			
 		}
 		class ctPendingHelpRequest role rnctPendingHelpRequest cardinality [1..*] {
 			attribute listId : ptInteger
-			
-			
+			operation is() : ptBoolean
+			operation init(AlistId : dtInteger) : ptBoolean
 		}
 		association assHelpRequest ctHelpRequest(rnctHelpRequest)[1..1] ctWeakPerson(rnctWeakPerson)[0..*]
 		aggregation assPendingHelpRequest ctPendingHelpRequest(assrnctPendingHelpRequest)[1..1] ctHelpRequest(assrnctHelpRequest)[0..*] 
-
+		association assCoordinatorHelpRequest ctCoordinator(rnctCoordinator)[0..1] ctHelpRequest(rnctHR)[0..*]
 	}
 }
 }

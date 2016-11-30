@@ -5,9 +5,12 @@
 
 
 @@Use Case lu.uni.lassy.excalibur.g01.specification.usecases.volunteer.suAcceptMission
-@description ""
+@description "The actVolunteer goal is to accept a HelpRequest mission and be assigned to it"
 @protocolCondition
+"The system is deployed
 "
+@protocolCondition
+"The actVolunteer has authorized by the Coordinator to accept missions
 "
 @endProtocolConditions
 @preCondition
@@ -15,7 +18,7 @@
 "
 @endPreConditions
 @postCondition
-"
+"The HelpRequest has been assigned to the actVolunteer and actVolunteer has been informed of the success of the operation
 "
 @endPostConditions
 @additionalInformation

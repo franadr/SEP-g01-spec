@@ -38,6 +38,7 @@ import lu.uni.lassy.excalibur.g01.specification.usecases
 		
 		
 		
+		
 		use case system usergoal ugGetMissionInRange() {
 			actor actVolunteer[primary, active]
 			actor actPositionRequester[secondary]

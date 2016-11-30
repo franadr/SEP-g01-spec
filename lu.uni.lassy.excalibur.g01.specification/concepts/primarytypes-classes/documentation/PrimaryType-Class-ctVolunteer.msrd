@@ -5,7 +5,7 @@
 
 
 @@Primary Type Class lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctVolunteer
-@description "This represent the the Human-Volunteer"
+@description "This represent the the Human which have the ability to help a weakPerson and look for help requests around him"
 @attribute
 lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctVolunteer.vId
 ""

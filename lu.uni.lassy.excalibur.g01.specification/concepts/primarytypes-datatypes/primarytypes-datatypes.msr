@@ -52,6 +52,15 @@ Concept Model {
    			attribute value : ptInteger
    			operation is() : ptBoolean
    		}
+   		datatype dtUserName {
+   			attribute value : ptString
+   			operation is() : ptBoolean
+   		}
+   		
+   		datatype dtPassword {
+   			attribute value : ptString
+   			operation is() : ptBoolean
+   		}
 	}
 }
 }

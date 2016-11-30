@@ -5,7 +5,7 @@
 
 
 @@Primary Type Class lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctHelpRequest
-@description "This represent the help request class type, which his associated to exactly 1 weak person"
+@description "This represent the object created by a WeakPErson when asking for help, it is hence associated to exactly 1 human type Weak Person"
 @attribute
 lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctHelpRequest.HrTime
 ""

@@ -5,7 +5,7 @@
 
 
 @@Primary Type Class lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctHuman
-@description "This is the main class type as Weak person , Volunteer and Coordinator extend class type human "
+@description "Used to define common properties that are shared among other human type "
 @attribute
 lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctHuman.name
 ""
