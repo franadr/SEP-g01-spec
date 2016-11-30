@@ -354,6 +354,7 @@
   <semanticResources>documentation/View-uc-ugAssignPriorityToHelpRequest.msrd</semanticResources>
   <semanticResources>operations/environment/environment-actVolunteer-oeLogin.msr</semanticResources>
   <semanticResources>environment/documentation/Operation-actPhoneCompany-outactPhoneCompany-oeSendDeliveryReport.msrd</semanticResources>
+  <semanticResources>usecases/weakperson.msr</semanticResources>
   <ownedViews xmi:type="viewpoint:DView" xmi:id="_Uk-aIJhGEeao7bVShP4TVg">
     <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']"/>
   </ownedViews>
