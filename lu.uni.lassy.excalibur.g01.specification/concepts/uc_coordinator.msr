@@ -17,30 +17,22 @@ import lu.uni.lassy.excalibur.g01.specification.environment
 		use case instance uciGetPendingHelpRequests : ugRetrievePendingHelpRequestDetails() {
 			actors {
 				tom : actCoordinator
-				db1 : actMainDatabase
+				
 				
 			}
 			use case steps {
 				tom executed instanceof subfunction oeGetPendingHelpRequests() {
-						ieReqPendingHelpRequests() returned to db1
+						ieSendPendingHR("12h40","661234567") returned to tom
+						ieSendPendingHR("12h43","661334569") returned to tom
+						ieSendPendingHR("12h48","691007221") returned to tom
+					
 					}
-			db1 executed instanceof subfunction oeSentPendingHelpRequest("12h40","661234567") {
-			ieSendPendingHR("12h40","661234567") returned to tom
-					}
-			db1 executed instanceof subfunction oeSentPendingHelpRequest("12h42","661234156") {
-			ieSendPendingHR("12h42","661234156") returned to tom
-					}
-			db1 executed instanceof subfunction oeSentPendingHelpRequest("12h48","691007221") {
-			ieSendPendingHR("12h48","691007221") returned to tom
-					}
-
+			
 			tom executed instanceof subfunction oeGetHelpRequestDetail("id : 32") {
-					ieRequHRDetails("id : 32") returned to db1
-						
+					ieSendHelpRequestDetail("Paul Kremmer" , "6611726354", "49.618416, 6.172678" , "1 rue de Cents - Luxembourg") returned to tom
+					
 					}
-			db1 executed instanceof subfunction oeSendHRDetails("Paul Kremmer" , "6611726354", "49.618416, 6.172678" , "1 rue de Cents - Luxembourg") {
-					ieRequHRDetails("Paul Kremmer" , "6611726354", "49.618416, 6.172678" , "1 rue de Cents - Luxembourg") returned to tom
-					}
+			
 			}
 		}
 		use case instance uciCallSelectedHelp: suCallSelectedHelpRequest{
@@ -62,7 +54,6 @@ import lu.uni.lassy.excalibur.g01.specification.environment
 		use case instance uciAssignPriority: ugAssignPriorityToHelpRequest{
 			actors{
 				tom : actCoordinator
-				Database : actMainDatabase
 			}
 			use case steps {
 				tom executed instanceof subfunction oeReqCheckbox(){
@@ -106,53 +97,33 @@ import lu.uni.lassy.excalibur.g01.specification.environment
 		}
 	use case system usergoal ugRetrievePendingHelpRequestDetails() {
 		actor actCoordinator[primary,active]
-		actor actMainDatabase[secondary]
+		
 	
 		
 		step a : actCoordinator executes oeGetPendingHelpRequests()
-		step b : actMainDatabase executes oeSentPendingHelpRequest()
-		step c : actCoordinator executes oeGetHelpRequestDetail()
-		step d : actMainDatabase executes oeSendHRDetails()
-		
-		
+		step b : actCoordinator executes oeGetHelpRequestDetail()
 		}
 	 
-	 use case system subfunction oeSentPendingHelpRequest(){
-	 	actor actMainDatabase[primary,active]
-	 	actor actCoordinator[secondary]
-	 	
-	 	returned messages{
-	 		ieSendPendingHR() returned to actCoordinator
-	 	}
-	 	
-	 }
+	
 	 
-	 use case system subfunction oeSendHRDetails() {
-	 	actor actMainDatabase[primary,active]
-	 	actor actCoordinator[secondary]
-	 	
-	 	returned messages{
-	 		ieRequHRDetails() returned to actCoordinator
-	 	}
-	 }
 	 
 	 use case system subfunction oeGetPendingHelpRequests() {
 	 	actor actCoordinator[primary,active]
-	 	actor actMainDatabase[secondary]
+	 	
 	 	
 	 	returned messages{
-	 		ieReqPendingHelpRequests() returned to actMainDatabase
-	 		ieSendPendingHelpRequestList() returned to actCoordinator
+	 		
+	 		ieSendPendingHR(AdtTime) returned to actCoordinator
 	 		
 	 	}
 	 }
 	 
 	 use case system subfunction oeGetHelpRequestDetail() {
 	 	actor actCoordinator[primary,active]
-	 	actor actMainDatabase[secondary]
+	 	
 	 	
 	 	returned messages {
-	 		ieRequHRDetails() returned to actMainDatabase
+	 		
 	 		ieSendHelpRequestDetail() returned to actCoordinator
 	 	}
 	 }
@@ -168,7 +139,7 @@ import lu.uni.lassy.excalibur.g01.specification.environment
 	 
 	 use case system subfunction oeReqCheckbox(){
 	 	actor actCoordinator[primary,active]
-	 	actor actMainDatabase[secondary]
+	 	
 	 	
 	 	returned messages{
 	 		ieSendCheckbox(AdtCheckbox) returned to actCoordinator
@@ -178,7 +149,7 @@ import lu.uni.lassy.excalibur.g01.specification.environment
 	 
 	 use case system subfunction oeSendFilledCheckbox(){
 	 	actor actCoordinator[primary,active]
-	 	actor actMainDatabase[secondary]
+	 	
 	 	
 	 	returned messages{
 	 		ieSendCalculatedPriority(dtString) returned to actCoordinator
@@ -188,7 +159,7 @@ import lu.uni.lassy.excalibur.g01.specification.environment
 	 
 	 use case system subfunction oeConfirmPriority(){
 	 	actor actCoordinator[primary,active]
-	 	actor actMainDatabase[secondary]
+	 	
 	 	
 	 	returned messages{
 	 		ieSendResult(dtString) returned to actCoordinator

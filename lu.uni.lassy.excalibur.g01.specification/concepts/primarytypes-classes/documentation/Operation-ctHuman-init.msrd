@@ -1,0 +1,34 @@
+/*
+@author Adriano
+@date Thu Dec 01 15:47:12 CET 2016
+*/
+
+
+@@Operation
+lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctHuman.init
+//parameters
+@parameter
+lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctHuman.init.Aname
+""
+@parameter
+lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctHuman.init.APhone
+""
+@parameter
+lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctHuman.init.ACoordinates
+""
+@parameter
+lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctHuman.init.AUsername
+""
+@parameter
+lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctHuman.init.APassword
+""
+@endParameters
+
+@description "
+used to initialize the current object as a new instance of the ctHuman type. "
+//postFunctional descriptions
+@postF 
+"true iff the system poststate includes the current object as a new ctHuman instance having its attributes equal to the ones provided as parameters. "
+@endPostF
+//example
+@example" "

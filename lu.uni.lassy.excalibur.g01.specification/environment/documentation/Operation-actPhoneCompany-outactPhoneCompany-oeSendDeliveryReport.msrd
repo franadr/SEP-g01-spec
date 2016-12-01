@@ -1,0 +1,37 @@
+/*
+@author Adriano
+@date Thu Dec 01 15:47:36 CET 2016
+*/
+
+
+@@Operation
+lu.uni.lassy.excalibur.g01.specification.environment.actPhoneCompany.outactPhoneCompany.oeSendDeliveryReport
+//parameters
+@parameter
+lu.uni.lassy.excalibur.g01.specification.environment.actPhoneCompany.outactPhoneCompany.oeSendDeliveryReport.AdtMessage
+""
+@parameter
+lu.uni.lassy.excalibur.g01.specification.environment.actPhoneCompany.outactPhoneCompany.oeSendDeliveryReport.AdtPhoneNumber
+""
+@endParameters
+
+@description "
+ "
+//preProtocol descriptions
+@preP
+" "
+@endPreP
+//preFunctional descriptions
+@preF
+" "
+@endPreF
+//postFunctional descriptions
+@postF 
+" "
+@endPostF
+//postProtocol descriptions
+@postP 
+" "
+@endPostP
+//example
+@example" "

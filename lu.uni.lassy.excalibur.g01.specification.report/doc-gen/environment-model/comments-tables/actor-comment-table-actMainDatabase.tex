@@ -19,7 +19,7 @@
 			{\msrcode{oeSendHRDetails(AdtName:dtName, AdtPhoneNumber:dtPhoneNumber, AdtCoordinates:dtCoordinates, AdtAddress:dtAddress):ptBoolean}}}
 			{}
 	\addnumbereddoublerow{OUT}{\hypertarget{actMainDatabase.outactMainDatabase.oeSendFamilyDetails}
-			{\msrcode{oeSendFamilyDetails(AdtName:dtName, AdtPhoneNumber:dtPhoneNumber, AdtMessage:dtMessage):ptBoolean}}}
+			{\msrcode{oeSendFamilyDetails(AdtName:dtName, AdtPhoneNumber:dtPhoneNumber):ptBoolean}}}
 			{}
 	\addnumbereddoublerow{OUT}{\hypertarget{actMainDatabase.outactMainDatabase.oeConfirmEntryAdded}
 			{\msrcode{oeConfirmEntryAdded(AdtId:dtHRid, AdtConfirmation:ptBoolean):ptBoolean}}}
@@ -34,11 +34,11 @@
 							 {}
 	\addnumbereddoublerow{IN}{\msrcode{ieFamilyDetailsRequest():ptBoolean}}
 							 {}
-	\addnumbereddoublerow{IN}{\msrcode{ieConfirmationOfSmsSend():ptBoolean}}
-							 {}
-	\addnumbereddoublerow{IN}{\msrcode{ieFamilyDeliveryReport():ptBoolean}}
+	\addnumbereddoublerow{IN}{\msrcode{ieFamilyDeliveryReport(AdtName:dtName, AdtConfirmation:ptBoolean):ptBoolean}}
 							 {}
 	\addnumbereddoublerow{IN}{\msrcode{ieAddEntry(AdtName:dtName, AdtPhoneNumber:dtPhoneNumber, AdtCoordinates:dtCoordinates, AdtAddress:dtAddress):ptBoolean}}
 							 {}
+	\addnumbereddoublerow{IN}{\msrcode{ieConfirmationOfFamilyDetailsReceived():ptBoolean}}
+							 { }
 	
 \end{actortable}

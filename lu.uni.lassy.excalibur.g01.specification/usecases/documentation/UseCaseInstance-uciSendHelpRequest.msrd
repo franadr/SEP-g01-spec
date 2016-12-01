@@ -4,5 +4,5 @@
 */
 
 
-@@Instance Use Case lu.uni.lassy.excalibur.g01.specification.usecases.uciSendHelpRequest
+@@Instance Use Case lu.uni.lassy.excalibur.g01.specification.usescases.weakperson.uciSendHelpRequest
 @description ""

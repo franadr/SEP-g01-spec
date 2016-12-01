@@ -27,6 +27,8 @@ lu.uni.lassy.excalibur.g01.specification.environment.actMainDatabase.inactPendin
 lu.uni.lassy.excalibur.g01.specification.environment.actMainDatabase.inactPendingHelpRequestList.ieAddEntry
 ""
 
+@inputEvent lu.uni.lassy.excalibur.g01.specification.environment.actMainDatabase.inactPendingHelpRequestList.ieConfirmationOfFamilyDetailsReceived
+" "
 @endInputEvents
 //output events
 @outputEvent

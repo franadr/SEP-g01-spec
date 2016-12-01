@@ -3,7 +3,3 @@
 @date Mon Nov 21 12:24:10 CET 2016
 */
 
-@@view uci-ucisuAltertAFamilyMember
-@instance Use-Case usecases.ucisuAltertAFamilyMember.ucisuAltertAFamilyMember 
-@description "Alert family member"
-@caption ""

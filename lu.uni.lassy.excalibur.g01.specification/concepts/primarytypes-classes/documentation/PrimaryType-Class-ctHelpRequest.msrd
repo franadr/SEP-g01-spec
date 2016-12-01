@@ -10,3 +10,8 @@
 lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctHelpRequest.HrTime
 ""
 @endAttributes
+@operation lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctHelpRequest.is
+" "
+@operation lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctHelpRequest.init
+" "
+@endOperations

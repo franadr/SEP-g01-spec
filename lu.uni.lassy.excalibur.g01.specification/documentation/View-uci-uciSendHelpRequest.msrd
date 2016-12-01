@@ -5,6 +5,7 @@
 
 
 @@view uci-uciSendHelpRequest
-@instance Use-Case lu.uni.lassy.excalibur.g01.specification.usecases.uciSendHelpRequest 
+@instance Use-Case lu.uni.lassy.excalibur.g01.specification.usescases.weakperson.uciSendHelpRequest 
 @description "Send help request"
 @caption ""
+

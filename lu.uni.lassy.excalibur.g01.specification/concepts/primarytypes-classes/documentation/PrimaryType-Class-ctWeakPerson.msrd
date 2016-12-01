@@ -13,4 +13,6 @@ lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctWeakPer
 @operation
 lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctWeakPerson.is
 ""
+@operation lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctWeakPerson.init
+" "
 @endOperations

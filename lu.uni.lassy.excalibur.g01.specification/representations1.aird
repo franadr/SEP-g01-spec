@@ -355,6 +355,32 @@
   <semanticResources>operations/environment/environment-actVolunteer-oeLogin.msr</semanticResources>
   <semanticResources>environment/documentation/Operation-actPhoneCompany-outactPhoneCompany-oeSendDeliveryReport.msrd</semanticResources>
   <semanticResources>usecases/weakperson.msr</semanticResources>
+  <semanticResources>concepts/primarytypes-classes/documentation/Operation-ctHuman-is.msrd</semanticResources>
+  <semanticResources>concepts/primarytypes-classes/documentation/Operation-ctHuman-init.msrd</semanticResources>
+  <semanticResources>concepts/primarytypes-classes/documentation/Operation-ctWeakPerson-is.msrd</semanticResources>
+  <semanticResources>concepts/primarytypes-classes/documentation/Operation-ctWeakPerson-init.msrd</semanticResources>
+  <semanticResources>concepts/primarytypes-classes/documentation/Operation-ctCoordinator-is.msrd</semanticResources>
+  <semanticResources>concepts/primarytypes-classes/documentation/Operation-ctCoordinator-init.msrd</semanticResources>
+  <semanticResources>concepts/primarytypes-classes/documentation/Operation-ctVolunteer-is.msrd</semanticResources>
+  <semanticResources>concepts/primarytypes-classes/documentation/Operation-ctVolunteer-init.msrd</semanticResources>
+  <semanticResources>concepts/primarytypes-classes/documentation/Operation-ctHelpRequest-is.msrd</semanticResources>
+  <semanticResources>concepts/primarytypes-classes/documentation/Operation-ctHelpRequest-init.msrd</semanticResources>
+  <semanticResources>concepts/primarytypes-classes/documentation/Operation-ctPendingHelpRequest-is.msrd</semanticResources>
+  <semanticResources>concepts/primarytypes-classes/documentation/Operation-ctPendingHelpRequest-init.msrd</semanticResources>
+  <semanticResources>concepts/primarytypes-classes/documentation/PrimaryType-Association-assHelpRequest.msrd</semanticResources>
+  <semanticResources>concepts/primarytypes-classes/documentation/PrimaryType-Aggregation-assPendingHelpRequest.msrd</semanticResources>
+  <semanticResources>concepts/primarytypes-classes/documentation/PrimaryType-Association-assCoordinatorHelpRequest.msrd</semanticResources>
+  <semanticResources>concepts/primarytypes-datatypes/documentation/PrimaryType-Datatype-dtDispo.msrd</semanticResources>
+  <semanticResources>concepts/primarytypes-datatypes/documentation/PrimaryType-Datatype-dtUserName.msrd</semanticResources>
+  <semanticResources>concepts/primarytypes-datatypes/documentation/Operation-dtUserName-is.msrd</semanticResources>
+  <semanticResources>concepts/primarytypes-datatypes/documentation/PrimaryType-Datatype-dtPassword.msrd</semanticResources>
+  <semanticResources>concepts/primarytypes-datatypes/documentation/Operation-dtPassword-is.msrd</semanticResources>
+  <semanticResources>concepts/documentation/UseCaseInstance-uciAssignPriority.msrd</semanticResources>
+  <semanticResources>concepts/documentation/UseCase-suRetrieveMissionDetails.msrd</semanticResources>
+  <semanticResources>concepts/documentation/UseCase-oeGetMissionDetails.msrd</semanticResources>
+  <semanticResources>concepts/documentation/UseCase-oeAcceptMission.msrd</semanticResources>
+  <semanticResources>usecases/documentation/UseCase-oeSendDeliveryReport.msrd</semanticResources>
+  <semanticResources>operations/environment/environment-actVolunteer-oeGetPosition.msr</semanticResources>
   <ownedViews xmi:type="viewpoint:DView" xmi:id="_UijYQJhGEeao7bVShP4TVg">
     <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']"/>
   </ownedViews>

@@ -24,6 +24,8 @@ Concept Model {
 
 			operation init(AvpStarted:ptBoolean): ptBoolean
 		}	
+		
+		
 		class ctHuman role rnctHuman cardinality [0..*]{
 			
 			attribute name: dtName

@@ -1,0 +1,37 @@
+/*
+@author Adriano
+@date Thu Dec 01 15:47:14 CET 2016
+*/
+
+
+@@Operation
+lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctWeakPerson.init
+//parameters
+@parameter
+lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctWeakPerson.init.AWid
+""
+@parameter
+lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctWeakPerson.init.Aname
+""
+@parameter
+lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctWeakPerson.init.APhone
+""
+@parameter
+lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctWeakPerson.init.ACoordinates
+""
+@parameter
+lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctWeakPerson.init.AUsername
+""
+@parameter
+lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctWeakPerson.init.APassword
+""
+@endParameters
+
+@description "
+used to initialize the current object as a new instance of the ctWeakPerson type. "
+//postFunctional descriptions
+@postF 
+"true iff the system poststate includes the current object as a new ctWeakPerson instance having its attributes equal to the ones provided as parameters. "
+@endPostF
+//example
+@example" "

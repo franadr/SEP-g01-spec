@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=latex 2016.9.22)  22 NOV 2016 20:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=latex 2016.9.22)  1 DEC 2016 16:07
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -2931,7 +2931,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 39--39
 
 
 ] (./report.toc
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 29.
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 31.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
@@ -2943,7 +2943,7 @@ Package microtype Info: Loading generic settings for font family
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.87 ...epts/uc_coordinator.msr}{47}{section.B.10}
+l.96 ...epts/uc_coordinator.msr}{54}{section.B.12}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2951,7 +2951,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <argument> ...ir-spec/concepts/uc_coordinator.msr}
                                                   \hyper@linkend 
-l.87 ...epts/uc_coordinator.msr}{47}{section.B.10}
+l.96 ...epts/uc_coordinator.msr}{54}{section.B.12}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2962,7 +2962,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.87 ...epts/uc_coordinator.msr}{47}{section.B.10}
+l.96 ...epts/uc_coordinator.msr}{54}{section.B.12}
                                                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2973,7 +2973,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.87 ...epts/uc_coordinator.msr}{47}{section.B.10}
+l.96 ...epts/uc_coordinator.msr}{54}{section.B.12}
                                                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2984,7 +2984,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.88 ...ncepts/uc_volunteer.msr}{49}{section.B.11}
+l.97 ...ncepts/uc_volunteer.msr}{57}{section.B.13}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2992,7 +2992,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <argument> ...ssir-spec/concepts/uc_volunteer.msr}
                                                   \hyper@linkend 
-l.88 ...ncepts/uc_volunteer.msr}{49}{section.B.11}
+l.97 ...ncepts/uc_volunteer.msr}{57}{section.B.13}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -3003,7 +3003,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.88 ...ncepts/uc_volunteer.msr}{49}{section.B.11}
+l.97 ...ncepts/uc_volunteer.msr}{57}{section.B.13}
                                                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -3014,7 +3014,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.88 ...ncepts/uc_volunteer.msr}{49}{section.B.11}
+l.97 ...ncepts/uc_volunteer.msr}{57}{section.B.13}
                                                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -3022,17 +3022,22 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-)
+[3])
 \tf@toc=\write13
 \openout13 = `report.toc'.
 
- [3] (./report.lof
-Overfull \hbox (2.82883pt too wide) in paragraph at lines 13--13
+ [4] (./report.lof
+Overfull \hbox (19.82802pt too wide) in paragraph at lines 9--9
  [][][] [] []  
  []
 
 
-Overfull \hbox (4.09015pt too wide) in paragraph at lines 17--17
+Overfull \hbox (50.31561pt too wide) in paragraph at lines 11--11
+ [][][] [] []  
+ []
+
+
+Overfull \hbox (4.90674pt too wide) in paragraph at lines 18--18
  [][][] [] []  
  []
 
@@ -3040,11 +3045,13 @@ Overfull \hbox (4.09015pt too wide) in paragraph at lines 17--17
 \tf@lof=\write14
 \openout14 = `report.lof'.
 
- [4] (./report.lol
+ [5] [6
+
+] (./report.lol
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.10 ... uc_coordinator.msr.}{47}{lstlisting.B.10}
+l.12 ... uc_coordinator.msr.}{54}{lstlisting.B.12}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -3052,7 +3059,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <argument> ...ssir Spec. file uc_coordinator.msr.}
                                                   \hyper@linkend 
-l.10 ... uc_coordinator.msr.}{47}{lstlisting.B.10}
+l.12 ... uc_coordinator.msr.}{54}{lstlisting.B.12}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -3063,7 +3070,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.10 ... uc_coordinator.msr.}{47}{lstlisting.B.10}
+l.12 ... uc_coordinator.msr.}{54}{lstlisting.B.12}
                                                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -3074,7 +3081,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.10 ... uc_coordinator.msr.}{47}{lstlisting.B.10}
+l.12 ... uc_coordinator.msr.}{54}{lstlisting.B.12}
                                                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -3085,7 +3092,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.11 ...le uc_volunteer.msr.}{50}{lstlisting.B.11}
+l.13 ...le uc_volunteer.msr.}{57}{lstlisting.B.13}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -3093,7 +3100,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <argument> ...Messir Spec. file uc_volunteer.msr.}
                                                   \hyper@linkend 
-l.11 ...le uc_volunteer.msr.}{50}{lstlisting.B.11}
+l.13 ...le uc_volunteer.msr.}{57}{lstlisting.B.13}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -3104,7 +3111,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.11 ...le uc_volunteer.msr.}{50}{lstlisting.B.11}
+l.13 ...le uc_volunteer.msr.}{57}{lstlisting.B.13}
                                                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -3115,7 +3122,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.11 ...le uc_volunteer.msr.}{50}{lstlisting.B.11}
+l.13 ...le uc_volunteer.msr.}{57}{lstlisting.B.13}
                                                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -3124,7 +3131,7 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (11.78592pt too wide) in paragraph at lines 12--12
+Overfull \hbox (11.78592pt too wide) in paragraph at lines 14--14
  [][][] [] [][]  
  []
 
@@ -3132,17 +3139,15 @@ Overfull \hbox (11.78592pt too wide) in paragraph at lines 12--12
 \tf@lol=\write15
 \openout15 = `report.lol'.
 
- [5
-
-] (./doc/introduction/introduction.tex [6
+ [7] (./doc/introduction/introduction.tex [8
 
 ]
 Chapter 1.
-) [7] (./doc/general-description/general-description.tex [8
+) [9] (./doc/general-description/general-description.tex [10
 
 ]
 Chapter 2.
-[9]
+[11]
 Package microtype Info: Character `!' is missing
 (microtype)             in font `OT1/uncl/m/n/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -3178,37 +3183,136 @@ Package microtype Info: Character `AE ' is missing
 (microtype)             Ignoring protrusion settings for this character.
 
 
-LaTeX Warning: Citation `messirbook' on page 10 undefined on input line 19.
+LaTeX Warning: Citation `messirbook' on page 12 undefined on input line 19.
 
 ) (./doc-gen/doc-gen.tex (./doc-gen/usecase-model/usecase-model.tex
 
-LaTeX Warning: Citation `armour01usecase' on page 10 undefined on input line 5.
+LaTeX Warning: Citation `armour01usecase' on page 12 undefined on input line 5.
 
 
-(./doc-gen/usecase-model/summary/RE-use-case-suAltertAFamilyMember.tex
+(./doc-gen/usecase-model/summary/RE-use-case-suAcceptMission.tex
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--10
+ [] [] 
+ []
+
+LaTeX Font Info:    Try loading font information for T1+phv on input line 10.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1phv.fd
+File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
+)
+Package microtype Info: Loading generic settings for font family
+(microtype)             `phv' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 10.
+LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <10.95> not available
+(Font)              Font shape `T1/phv/b/it' tried instead on input line 10.
+LaTeX Font Info:    Font shape `T1/phv/b/it' in size <10.95> not available
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 10.
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 10--10
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 10--10
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 10--10
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 10--48
+ [] [] 
+ []
+
+) (./doc-gen/usecase-model/summary/RE-use-case-suAltertAFamilyMember.tex
 File: ./images-report-gen/usecase-model/summary/uc-suAltertAFamilyMember.eps Gr
 aphic file (type eps)
 
 <./images-report-gen/usecase-model/summary/uc-suAltertAFamilyMember.eps>
-Overfull \hbox (140.63565pt too wide) in paragraph at lines 15--16
+Overfull \hbox (247.03316pt too wide) in paragraph at lines 15--16
  [][] 
  []
 
-) (./doc-gen/usecase-model/summary/RE-use-case-ugRequestHelp.tex
+) (./doc-gen/usecase-model/summary/RE-use-case-suCallSelectedHelpRequest.tex
+File: ./images-report-gen/usecase-model/summary/uc-suCallSelectedHelpRequest.ep
+s Graphic file (type eps)
+
+<./images-report-gen/usecase-model/summary/uc-suCallSelectedHelpRequest.eps>
+Overfull \hbox (216.92065pt too wide) in paragraph at lines 15--16
+ [][] 
+ []
+
+
+Underfull \vbox (badness 2126) has occurred while \output is active []
+
+ [12])
+(./doc-gen/usecase-model/summary/RE-use-case-ugRequestHelp.tex
 File: ./images-report-gen/usecase-model/summary/uc-ugRequestHelp.eps Graphic fi
 le (type eps)
 
-<./images-report-gen/usecase-model/summary/uc-ugRequestHelp.eps>
-Overfull \hbox (744.89316pt too wide) in paragraph at lines 15--16
+<./images-report-gen/usecase-model/summary/uc-ugRequestHelp.eps>)
+(./doc-gen/usecase-model/usergoal/RE-use-case-ugAssignPriorityToHelpRequest.tex
+File: ./images-report-gen/usecase-model/usergoal/uc-ugAssignPriorityToHelpReque
+st.eps Graphic file (type eps)
+
+<./images-report-gen/usecase-model/usergoal/uc-ugAssignPriorityToHelpRequest.ep
+s>
+Overfull \hbox (121.5644pt too wide) in paragraph at lines 15--16
  [][] 
  []
 
-) (./doc-gen/usecase-model/usergoal/RE-use-case-ugGetMissionInRange.tex
+[13]) (./doc-gen/usecase-model/usergoal/RE-use-case-ugGetMissionInRange.tex
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--10
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 10--10
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 10--10
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 10--10
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 10--44
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 44--50
+ [] [] 
+ []
+
+[14]
 File: ./images-report-gen/usecase-model/usergoal/uc-ugGetMissionInRange.eps Gra
 phic file (type eps)
+ <./images-report-gen/usecase-model/usergoal/uc-ugGetMissionInRange.eps>
+Overfull \hbox (231.9769pt too wide) in paragraph at lines 61--62
+ [][] 
+ []
 
-<./images-report-gen/usecase-model/usergoal/uc-ugGetMissionInRange.eps>
-Overfull \hbox (144.65065pt too wide) in paragraph at lines 15--16
+)
+(./doc-gen/usecase-model/usergoal/RE-use-case-ugRetrievePendingHelpRequestDetai
+ls.tex
+File: ./images-report-gen/usecase-model/usergoal/uc-ugRetrievePendingHelpReques
+tDetails.eps Graphic file (type eps)
+
+<./images-report-gen/usecase-model/usergoal/uc-ugRetrievePendingHelpRequestDeta
+ils.eps>
+Overfull \hbox (280.1569pt too wide) in paragraph at lines 15--16
  [][] 
  []
 
@@ -3217,16 +3321,7 @@ File: ./images-report-gen/usecase-model/subfunction/uc-oeAlertFamily.eps Graphi
 c file (type eps)
 
 <./images-report-gen/usecase-model/subfunction/uc-oeAlertFamily.eps>)
-(./doc-gen/usecase-model/subfunction/RE-use-case-oeGetDeliveryReport.tex
-File: ./images-report-gen/usecase-model/subfunction/uc-oeGetDeliveryReport.eps 
-Graphic file (type eps)
-
-<./images-report-gen/usecase-model/subfunction/uc-oeGetDeliveryReport.eps>
-Overfull \hbox (23.1969pt too wide) in paragraph at lines 14--15
- [][] 
- []
-
-) (./doc-gen/usecase-model/subfunction/RE-use-case-oeGetPositionFromSensor.tex
+(./doc-gen/usecase-model/subfunction/RE-use-case-oeGetPositionFromSensor.tex
 File: ./images-report-gen/usecase-model/subfunction/uc-oeGetPositionFromSensor.
 eps Graphic file (type eps)
 
@@ -3235,23 +3330,11 @@ eps Graphic file (type eps)
 File: ./images-report-gen/usecase-model/subfunction/uc-oeSendFamilyDetails.eps 
 Graphic file (type eps)
 
-<./images-report-gen/usecase-model/subfunction/uc-oeSendFamilyDetails.eps>
-Overfull \hbox (47.28691pt too wide) in paragraph at lines 14--15
- [][] 
- []
+<./images-report-gen/usecase-model/subfunction/uc-oeSendFamilyDetails.eps>)
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-) [10] [11] [12] [13]
-(./doc-gen/usecase-model/summary/RE-use-case-instance-suAltertAFamilyMember-uci
-suAltertAFamilyMember.tex
-File: ./images-report-gen/usecase-model/summary/uci-ucisuAltertAFamilyMember.ep
-s Graphic file (type eps)
-
-<./images-report-gen/usecase-model/summary/uci-ucisuAltertAFamilyMember.eps>
-Overfull \hbox (78.40315pt too wide) in paragraph at lines 14--15
- [][] 
- []
-
-)
+ [15]
+[16] [17] [18] [19]
 (./doc-gen/usecase-model/summary/RE-use-case-instance-suCallSelectedHelpRequest
 -uciCallSelectedHelp.tex
 File: ./images-report-gen/usecase-model/summary/uci-uciCallSelectedHelp.eps Gra
@@ -3264,7 +3347,7 @@ File: ./images-report-gen/usecase-model/summary/uci-uciSendHelpRequest.eps Grap
 hic file (type eps)
 
 <./images-report-gen/usecase-model/summary/uci-uciSendHelpRequest.eps>
-Overfull \hbox (443.76816pt too wide) in paragraph at lines 14--15
+Overfull \hbox (286.1794pt too wide) in paragraph at lines 14--15
  [][] 
  []
 
@@ -3291,15 +3374,15 @@ File: ./images-report-gen/usecase-model/usergoal/uci-uciGetPendingHelpRequests.
 eps Graphic file (type eps)
 
 <./images-report-gen/usecase-model/usergoal/uci-uciGetPendingHelpRequests.eps>
-Overfull \hbox (129.5944pt too wide) in paragraph at lines 14--15
+Overfull \hbox (141.6394pt too wide) in paragraph at lines 14--15
  [][] 
  []
 
 
 LaTeX Warning: Float too large for page by 32.8959pt on input line 18.
 
-)) (./doc-gen/environment-model/environment-model.tex [14] [15] [16] [17]
-[18] [19] [20] [21] [22
+)) (./doc-gen/environment-model/environment-model.tex [20] [21] [22] [23]
+[24
 
 ]
 Chapter 3.
@@ -3322,20 +3405,6 @@ Overfull \hbox (24.79997pt too wide) in alignment at lines 4--5
  [] [] 
  []
 
-LaTeX Font Info:    Try loading font information for T1+phv on input line 5.
-(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1phv.fd
-File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
-)
-Package microtype Info: Loading generic settings for font family
-(microtype)             `phv' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 5.
-LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <10.95> not available
-(Font)              Font shape `T1/phv/b/it' tried instead on input line 5.
-LaTeX Font Info:    Font shape `T1/phv/b/it' in size <10.95> not available
-(Font)              Font shape `T1/phv/b/sl' tried instead on input line 5.
 
 Overfull \hbox (24.79997pt too wide) in alignment at lines 5--5
  [] [] 
@@ -3383,7 +3452,7 @@ Overfull \hbox (24.79997pt too wide) in alignment at lines 64--65
  [] [] 
  []
 
-[23])
+[25])
 (./doc-gen/environment-model/comments-tables/actor-comment-table-actMainDatabas
 e.tex
 
@@ -3427,9 +3496,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--20
  []
 
 
-Underfull \hbox (badness 4441) in paragraph at lines 23--23
+Overfull \hbox (60.20604pt too wide) in paragraph at lines 23--23
 []|[][][][][] \T1/pcr/b/n/10.95 oe-Send-Fam-i-ly-De-tails(AdtName:dtName, Adt-P
-ho-neNum-ber:dtPhoneNumber,
+ho-neNum-ber:dtPhoneNumber):ptBoolean| 
  []
 
 
@@ -3448,7 +3517,13 @@ Underfull \vbox (badness 10000) detected at line 37
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--42
+Overfull \hbox (60.20604pt too wide) in paragraph at lines 38--38
+[]| \T1/pcr/b/n/10.95 ieFam-i-ly-De-liv-eryRe-port(AdtName:dtName, Adt-Con-fir-
+ma-tion:ptBoolean):ptBoolean| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--40
 []| \T1/pcr/b/n/10.95 ieAd-dEn-try(AdtName:dtName, Adt-Pho-neNum-ber:dtPhoneNum
 ber,
  []
@@ -3458,7 +3533,7 @@ Overfull \hbox (24.79997pt too wide) in alignment at lines 37--44
  [] [] 
  []
 
-[24])
+[26])
 (./doc-gen/environment-model/comments-tables/actor-comment-table-actPhoneCompan
 y.tex
 
@@ -3490,8 +3565,15 @@ Overfull \hbox (24.79997pt too wide) in alignment at lines 5--5
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 26--26
-[]| \T1/pcr/b/n/10.95 ieSms-For-Fam-ily(AdtPhoneNumber:dtPhoneNumber,
+Overfull \hbox (106.19598pt too wide) in paragraph at lines 20--20
+[]|[][][][][] \T1/pcr/b/n/10.95 oe-Send-De-liv-eryRe-port(AdtMessage:dtMessage,
+ Adt-Pho-neNum-ber:dtPhoneNumber):ptBoolean| 
+ []
+
+
+Overfull \hbox (66.77603pt too wide) in paragraph at lines 26--26
+[]| \T1/pcr/b/n/10.95 ieSms-For-Fam-ily(AdtMessage:dtMessage, Adt-Pho-neNum-ber
+:dtPhoneNumber):ptBoolean| 
  []
 
 
@@ -3583,7 +3665,7 @@ Overfull \hbox (24.79997pt too wide) in alignment at lines 5--23
 Underfull \vbox (badness 10000) detected at line 23
  []
 
-[25])
+)
 (./doc-gen/environment-model/comments-tables/actor-comment-table-actSensor.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -3619,6 +3701,9 @@ Overfull \hbox (24.79997pt too wide) in alignment at lines 5--23
  []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [27]
 Underfull \vbox (badness 10000) detected at line 23
  []
 
@@ -3654,22 +3739,28 @@ Overfull \hbox (24.79997pt too wide) in alignment at lines 5--5
  []
 
 
-Overfull \hbox (24.79997pt too wide) in alignment at lines 5--40
+Overfull \hbox (53.63605pt too wide) in paragraph at lines 26--26
+[]|[][][][][] \T1/pcr/b/n/10.95 oeGet-Mis-sion-In-Ragne(AdtRange:dtRange, Adt-P
+o-si-tion:dtCoordinates):ptBoolean| 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 5--38
  [] [] 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 40
+Underfull \vbox (badness 10000) detected at line 38
  []
 
 
-Overfull \hbox (53.63605pt too wide) in paragraph at lines 48--48
+Overfull \hbox (53.63605pt too wide) in paragraph at lines 39--39
 []| \T1/pcr/b/n/10.95 ieSend-In-Range-Mis-sion(AdtId:dtHRid, Adt-Co-or-di-nates
 :dtCoordinates):ptBoolean| 
  []
 
 
-Overfull \hbox (24.79997pt too wide) in alignment at lines 40--50
+Overfull \hbox (24.79997pt too wide) in alignment at lines 38--41
  [] [] 
  []
 
@@ -3710,9 +3801,6 @@ Overfull \hbox (24.79997pt too wide) in alignment at lines 5--40
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [26]
 Underfull \vbox (badness 10000) detected at line 40
  []
 
@@ -3721,7 +3809,7 @@ Overfull \hbox (24.79997pt too wide) in alignment at lines 40--50
  [] [] 
  []
 
-)
+[28])
 (./doc-gen/environment-model/comments-tables/actor-comment-table-actWeakPersonF
 amily.tex
 
@@ -3761,11 +3849,97 @@ Overfull \hbox (24.79997pt too wide) in alignment at lines 5--33
 Underfull \vbox (badness 10000) detected at line 33
  []
 
-[27])) (./doc-gen/concept-model/concept-model.tex [28]
+)) (./doc-gen/concept-model/concept-model.tex [29] [30
+
+]
 Chapter 4.
 
 (./doc-gen/concept-model/comments-tables/primaryTypesClasses-comments-table.tex
-)
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 8--9
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--9
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--9
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--9
+ [] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--14
+[]| \T1/pcr/b/n/10.95 init(AcId:dtInteger, Aname:dtName, APhone:dtPhoneNumber,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--14
+\T1/pcr/b/n/10.95 ACo-or-di-nates:dtCoordinates, AUser-name:dtUserName,
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--21
+ [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 21
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--26
+[]| \T1/pcr/b/n/10.95 init(Aname:dtName, APhone:dtPhoneNumber,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--26
+\T1/pcr/b/n/10.95 ACo-or-di-nates:dtCoordinates, AUser-name:dtUserName,
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 21--31
+ [] [] 
+ []
+
+[31]
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
+[]| \T1/pcr/b/n/10.95 init(AvId:dtInteger, Adisp:dtDispo, Aname:dtName,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
+\T1/pcr/b/n/10.95 APhone:dtPhoneNumber, ACo-or-di-nates:dtCoordinates,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--41
+[]| \T1/pcr/b/n/10.95 init(AWid:dtInteger, Aname:dtName, APhone:dtPhoneNumber,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--41
+\T1/pcr/b/n/10.95 ACo-or-di-nates:dtCoordinates, AUser-name:dtUserName,
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 31--42
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 42--43
+ [] [] 
+ []
+
+[32])
 (./doc-gen/concept-model/comments-tables/primaryTypesDatatypes-comments-table.t
 ex)
 (./doc-gen/concept-model/comments-tables/primaryTypesAssociations-comments-tabl
@@ -3781,24 +3955,51 @@ ex)
 (./doc-gen/concept-model/comments-tables/secondaryTypesAssociations-comments-ta
 ble.tex)
 (./doc-gen/concept-model/comments-tables/secondaryTypesAggregations-comments-ta
-ble.tex [29
-
-])
+ble.tex)
 (./doc-gen/concept-model/comments-tables/secondaryTypesCompositions-comments-ta
-ble.tex)) (./doc-gen/operation-model/operation-model.tex [30]
+ble.tex)) (./doc-gen/operation-model/operation-model.tex [33] [34
+
+]
 Chapter 5.
-) (./doc-gen/test-model/test-model.tex [31
+(./doc-gen/operation-model/OM-Environment/OM-OUT/OM-actVolunteer-oeLogin.tex
+Overfull \hbox (24.79997pt too wide) in alignment at lines 8--9
+ [] [] 
+ []
 
-] [32]
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--9
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--9
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--9
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--30
+ [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 30
+ []
+
+) [35]) (./doc-gen/test-model/test-model.tex [36]
 Chapter 6.
-)) [33
+)) [37
 
-] (./doc/additional-constraints/additional-constraints.tex [34
+] (./doc/additional-constraints/additional-constraints.tex [38
 
 ]
 Chapter 7.
-) [35] (./doc/appendix/appendix.tex) (./doc-gen/appendix/appendix-gen.tex
-(./doc-gen/appendix/appendix-undocumentedMsrSpecElements.tex [36
+) [39] (./doc/appendix/appendix.tex) (./doc-gen/appendix/appendix-gen.tex
+(./doc-gen/appendix/appendix-undocumentedMsrSpecElements.tex [40
 
 ]
 Appendix A.
@@ -3808,181 +4009,123 @@ Overfull \hbox (8.44395pt too wide) in paragraph at lines 18--19
 ator.ugRetrievePendingHelpRequestDetails 
  []
 
-[37] [38]
-Overfull \hbox (40.25877pt too wide) in paragraph at lines 126--127
-[][]\T1/cmr/m/n/10.95 lu.uni.lassy.excalibur.g01.specification.environment.actC
-oordinator.outactCoordinator.oeConfirmPriority 
+[41] [42]
+Overfull \hbox (1.2295pt too wide) in paragraph at lines 107--108
+[][]\T1/cmr/m/n/10.95 lu.uni.lassy.excalibur.g01.specification.concepts.primary
+types.classes.assCoordinatorHelpRequest 
  []
 
-
-Overfull \hbox (71.48781pt too wide) in paragraph at lines 127--128
-[][]\T1/cmr/m/n/10.95 lu.uni.lassy.excalibur.g01.specification.environment.actC
-oordinator.outactCoordinator.oeGetHelpRequestDetail 
- []
-
-
-Overfull \hbox (85.45837pt too wide) in paragraph at lines 128--129
-[][]\T1/cmr/m/n/10.95 lu.uni.lassy.excalibur.g01.specification.environment.actC
-oordinator.outactCoordinator.oeGetPendingHelpRequests 
- []
-
-
-Overfull \hbox (50.54156pt too wide) in paragraph at lines 129--130
-[][]\T1/cmr/m/n/10.95 lu.uni.lassy.excalibur.g01.specification.environment.actC
-oordinator.outactCoordinator.oeGetVolunteersList 
- []
-
-
-Overfull \hbox (22.21045pt too wide) in paragraph at lines 132--133
-[][]\T1/cmr/m/n/10.95 lu.uni.lassy.excalibur.g01.specification.environment.actC
-oordinator.outactCoordinator.oeProceedCall 
- []
-
-
-Overfull \hbox (2.85252pt too wide) in paragraph at lines 133--134
-[][]\T1/cmr/m/n/10.95 lu.uni.lassy.excalibur.g01.specification.environment.actC
-oordinator.outactCoordinator.oeReqCall 
- []
-
-
-Overfull \hbox (29.48303pt too wide) in paragraph at lines 134--135
-[][]\T1/cmr/m/n/10.95 lu.uni.lassy.excalibur.g01.specification.environment.actC
-oordinator.outactCoordinator.oeReqCheckbox 
- []
-
-
-Overfull \hbox (60.94151pt too wide) in paragraph at lines 135--136
-[][]\T1/cmr/m/n/10.95 lu.uni.lassy.excalibur.g01.specification.environment.actC
-oordinator.outactCoordinator.oeSendFilledCheckbox 
- []
-
-
-Overfull \hbox (26.05103pt too wide) in paragraph at lines 136--137
+[43]
+Overfull \hbox (26.05103pt too wide) in paragraph at lines 160--161
 [][]\T1/cmr/m/n/10.95 lu.uni.lassy.excalibur.g01.specification.environment.actC
 oordinator.outactCoordinator.oeSetRiskLevel 
  []
 
 
-Overfull \hbox (131.85243pt too wide) in paragraph at lines 137--138
+Overfull \hbox (131.85243pt too wide) in paragraph at lines 161--162
 [][]\T1/cmr/m/n/10.95 lu.uni.lassy.excalibur.g01.specification.environment.actM
 ainDatabase.outactPendingHelpRequestList.oeConfirmEntryAdded 
  []
 
 
-Overfull \hbox (123.60309pt too wide) in paragraph at lines 138--139
+Overfull \hbox (123.60309pt too wide) in paragraph at lines 162--163
 [][]\T1/cmr/m/n/10.95 lu.uni.lassy.excalibur.g01.specification.environment.actM
 ainDatabase.outactPendingHelpRequestList.oeSendFamilyDetails 
  []
 
 
-Overfull \hbox (107.26451pt too wide) in paragraph at lines 139--140
+Overfull \hbox (107.26451pt too wide) in paragraph at lines 163--164
 [][]\T1/cmr/m/n/10.95 lu.uni.lassy.excalibur.g01.specification.environment.actM
 ainDatabase.outactPendingHelpRequestList.oeSendHRDetails 
  []
 
 
-Overfull \hbox (154.15254pt too wide) in paragraph at lines 140--141
+Overfull \hbox (154.15254pt too wide) in paragraph at lines 164--165
 [][]\T1/cmr/m/n/10.95 lu.uni.lassy.excalibur.g01.specification.environment.actM
 ainDatabase.outactPendingHelpRequestList.oeSentPendingHelpRequest 
  []
 
 
-Overfull \hbox (54.1728pt too wide) in paragraph at lines 141--142
+Overfull \hbox (54.1728pt too wide) in paragraph at lines 165--166
 [][]\T1/cmr/m/n/10.95 lu.uni.lassy.excalibur.g01.specification.environment.actP
 honeCompany.outactPhoneCompany.oeGetConfirm 
  []
 
 
-Overfull \hbox (87.75218pt too wide) in paragraph at lines 142--143
+Overfull \hbox (93.12128pt too wide) in paragraph at lines 166--167
 [][]\T1/cmr/m/n/10.95 lu.uni.lassy.excalibur.g01.specification.environment.actP
-honeCompany.outactPhoneCompany.oeGetDeliveryReport 
+honeCompany.outactPhoneCompany.oeSendDeliveryReport 
  []
 
 
-Overfull \hbox (79.54895pt too wide) in paragraph at lines 143--144
+Overfull \hbox (79.54895pt too wide) in paragraph at lines 167--168
 [][]\T1/cmr/m/n/10.95 lu.uni.lassy.excalibur.g01.specification.environment.actP
 ositionInputActor.outactPositionInputActor.oeInputPost 
  []
 
 
-Overfull \hbox (132.67995pt too wide) in paragraph at lines 144--145
+Overfull \hbox (132.67995pt too wide) in paragraph at lines 168--169
 [][]\T1/cmr/m/n/10.95 lu.uni.lassy.excalibur.g01.specification.environment.actP
 ositionRequester.outactPositionRequester.oeGetPositionFromSensor 
  []
 
-[39]
-Overfull \hbox (9.4685pt too wide) in paragraph at lines 146--147
-[]\T1/cmr/m/n/10.95 lu.uni.lassy.excalibur.g01.specification.environment.actVol
-unteer.outactVolunteer.oeAcceptMission 
- []
 
-
-Overfull \hbox (34.18878pt too wide) in paragraph at lines 147--148
-[][]\T1/cmr/m/n/10.95 lu.uni.lassy.excalibur.g01.specification.environment.actV
-olunteer.outactVolunteer.oeGetMissionInRagne 
- []
-
-
-Overfull \hbox (19.53505pt too wide) in paragraph at lines 153--154
-[][]\T1/cmr/m/n/10.95 lu.uni.lassy.excalibur.g01.specification.environment.actV
-olunteer.outactVolunteer.oeSendPosAndInfo 
- []
-
-
-Overfull \hbox (22.5135pt too wide) in paragraph at lines 154--155
+Overfull \hbox (22.5135pt too wide) in paragraph at lines 172--173
 [][]\T1/cmr/m/n/10.95 lu.uni.lassy.excalibur.g01.specification.environment.actW
 eakPerson.outactWeakPerson.oeAlertFamily 
  []
 
 
-Overfull \hbox (2.27467pt too wide) in paragraph at lines 155--156
+Overfull \hbox (2.27467pt too wide) in paragraph at lines 173--174
 [][]\T1/cmr/m/n/10.95 lu.uni.lassy.excalibur.g01.specification.environment.actW
 eakPerson.outactWeakPerson.oeGetInfo 
  []
 
 
-Overfull \hbox (77.79936pt too wide) in paragraph at lines 156--157
+Overfull \hbox (77.79936pt too wide) in paragraph at lines 174--175
 [][]\T1/cmr/m/n/10.95 lu.uni.lassy.excalibur.g01.specification.environment.actW
 eakPerson.outactWeakPerson.oeGetPositionFromSensor 
  []
 
 
-Overfull \hbox (25.62878pt too wide) in paragraph at lines 157--158
+Overfull \hbox (25.62878pt too wide) in paragraph at lines 175--176
 [][]\T1/cmr/m/n/10.95 lu.uni.lassy.excalibur.g01.specification.environment.actW
 eakPerson.outactWeakPerson.oeGetpostition 
  []
 
 
-Overfull \hbox (44.74567pt too wide) in paragraph at lines 158--159
+Overfull \hbox (44.74567pt too wide) in paragraph at lines 176--177
 [][]\T1/cmr/m/n/10.95 lu.uni.lassy.excalibur.g01.specification.environment.actW
 eakPerson.outactWeakPerson.oeInputManualPos 
  []
 
 
-Overfull \hbox (48.68976pt too wide) in paragraph at lines 161--162
+Overfull \hbox (48.68976pt too wide) in paragraph at lines 179--180
 [][]\T1/cmr/m/n/10.95 lu.uni.lassy.excalibur.g01.specification.environment.actW
 eakPerson.outactWeakPerson.oeSendHelpRequest 
  []
 
 
-Overfull \hbox (87.18726pt too wide) in paragraph at lines 162--163
+Overfull \hbox (87.18726pt too wide) in paragraph at lines 180--181
 [][]\T1/cmr/m/n/10.95 lu.uni.lassy.excalibur.g01.specification.environment.actW
 eakPersonFamily.outactWeakPersonFamily.oeConfirmCall 
  []
 
 
-Overfull \hbox (106.96155pt too wide) in paragraph at lines 163--164
+Overfull \hbox (106.96155pt too wide) in paragraph at lines 181--182
 [][]\T1/cmr/m/n/10.95 lu.uni.lassy.excalibur.g01.specification.environment.actW
 eakPersonFamily.outactWeakPersonFamily.oeConfirmMessage 
  []
 
 
-Overfull \hbox (74.84862pt too wide) in paragraph at lines 164--165
+Overfull \hbox (74.84862pt too wide) in paragraph at lines 182--183
 [][]\T1/cmr/m/n/10.95 lu.uni.lassy.excalibur.g01.specification.environment.actW
 eakPersonFamily.outactWeakPersonFamily.oeSubscribe 
  []
 
-) (./doc-gen/appendix/appendix-msrSpecFilesListings.tex [40]
+) (./doc-gen/appendix/appendix-msrSpecFilesListings.tex [44] [45] [46
+
+]
 Appendix B.
 (./src-gen/messir-spec/.views.msr
 LaTeX Font Info:    Try loading font information for TS1+pcr on input line 2.
@@ -3997,65 +4140,81 @@ Package microtype Info: Loading generic settings for font family
 LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <8> not available
 (Font)              Font shape `T1/pcr/b/n' tried instead on input line 4.
 )
-(./src-gen/messir-spec/environment/environment.msr [41
-
-]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [42])
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [43]
-Underfull \hbox (badness 10000) in paragraph at lines 13--13
-[]\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/concepts/primarytypes-
+Overfull \hbox (4.39824pt too wide) in paragraph at lines 8--8
+[]\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/operations/environment/environme
+nt-
  []
 
 
-(./src-gen/messir-spec/concepts/primarytypes-associations/primarytypes-associat
-ions.msr)
-Underfull \hbox (badness 10000) in paragraph at lines 18--18
-[]\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/concepts/primarytypes-
+(./src-gen/messir-spec/operations/environment/environment-actVolunteer-oeGetPos
+ition.msr)
+Overfull \hbox (4.39824pt too wide) in paragraph at lines 13--13
+[]\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/operations/environment/environme
+nt-
  []
 
-(./src-gen/messir-spec/concepts/primarytypes-classes/primarytypes-classes.msr)
+
+(./src-gen/messir-spec/operations/environment/environment-actVolunteer-oeLogin.
+msr [47]) (./src-gen/messir-spec/environment/environment.msr [48]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [49])
 Underfull \hbox (badness 10000) in paragraph at lines 23--23
 []\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/concepts/primarytypes-
  []
 
 
-(./src-gen/messir-spec/concepts/primarytypes-datatypes/primarytypes-datatypes.m
-sr [44])
+(./src-gen/messir-spec/concepts/primarytypes-associations/primarytypes-associat
+ions.msr [50])
 Underfull \hbox (badness 10000) in paragraph at lines 28--28
-[]\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/concepts/secondarytypes-
+[]\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/concepts/primarytypes-
  []
 
-
-(./src-gen/messir-spec/concepts/secondarytypes-associations/secondarytypes-asso
-ciations.msr
-Overfull \hbox (15.17636pt too wide) has occurred while \output is active
-\T1/cmr/m/sl/10.95 B.6.  FILE /SRC-GEN/MESSIR-SPEC/CONCEPTS.../SECONDARYTYPES-A
-SSOCIATIONS.MSR \T1/cmr/m/n/10.95 45
+(./src-gen/messir-spec/concepts/primarytypes-classes/primarytypes-classes.msr
+Overfull \hbox (102.69142pt too wide) has occurred while \output is active
+\T1/cmr/m/sl/10.95 B.6.  FILE /SRC-GEN/MESSIR-SPEC/CONCEPTS/PRIMARYTYPES-CLASSE
+S/PRIMARYTYPES-CLASSES.MSR \T1/cmr/m/n/10.95 51
  []
 
-[45])
+[51])
 Underfull \hbox (badness 10000) in paragraph at lines 33--33
-[]\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/concepts/secondarytypes-
+[]\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/concepts/primarytypes-
  []
 
 
-(./src-gen/messir-spec/concepts/secondarytypes-classes/secondarytypes-classes.m
-sr)
+(./src-gen/messir-spec/concepts/primarytypes-datatypes/primarytypes-datatypes.m
+sr [52])
 Underfull \hbox (badness 10000) in paragraph at lines 38--38
 []\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/concepts/secondarytypes-
  []
 
 
+(./src-gen/messir-spec/concepts/secondarytypes-associations/secondarytypes-asso
+ciations.msr)
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
+[]\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/concepts/secondarytypes-
+ []
+
+
+(./src-gen/messir-spec/concepts/secondarytypes-classes/secondarytypes-classes.m
+sr
+Overfull \hbox (15.17636pt too wide) has occurred while \output is active
+\T1/cmr/m/sl/10.95 B.8.  FILE /SRC-GEN/MESSIR-SPEC/CONCEPTS.../SECONDARYTYPES-A
+SSOCIATIONS.MSR \T1/cmr/m/n/10.95 53
+ []
+
+[53])
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
+[]\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/concepts/secondarytypes-
+ []
+
+
 (./src-gen/messir-spec/concepts/secondarytypes-datatypes/secondarytypes-datatyp
-es.msr) [46] (./src-gen/messir-spec/tests/tests.msr)
+es.msr) (./src-gen/messir-spec/tests/tests.msr)
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.48 ...n/messir-spec/concepts/uc_coordinator.msr}
+l.58 ...n/messir-spec/concepts/uc_coordinator.msr}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -4063,69 +4222,32 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.48 ...n/messir-spec/concepts/uc_coordinator.msr}
+l.58 ...n/messir-spec/concepts/uc_coordinator.msr}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 48.
+(hyperref)                removing `subscript' on input line 58.
 
-(./src-gen/messir-spec/concepts/uc_coordinator.msr [47]
+(./src-gen/messir-spec/concepts/uc_coordinator.msr [54]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [48])
-! Missing $ inserted.
-<inserted text> 
-                $
-l.50 ...n/messir-spec/concepts/uc_coordinator.msr}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.50 ...n/messir-spec/concepts/uc_coordinator.msr}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.53 ...gen/messir-spec/concepts/uc_volunteer.msr}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.53 ...gen/messir-spec/concepts/uc_volunteer.msr}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 53.
-
-(./src-gen/messir-spec/concepts/uc_volunteer.msr
-! Missing $ inserted.
-<inserted text> 
-                $
-l.2 * @
-       author Adriano
+l.75 				tom e
+              xecuted instanceof subfunction oeConfirmPriority("OK"){
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
 \MakeUppercase  ... {\uppercase {#1}}\reserved@a }
                                                   
-l.2 * @
-       author Adriano
+l.75 				tom e
+              xecuted instanceof subfunction oeConfirmPriority("OK"){
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
@@ -4135,8 +4257,8 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.2 * @
-       author Adriano
+l.75 				tom e
+              xecuted instanceof subfunction oeConfirmPriority("OK"){
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -4146,19 +4268,22 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.2 * @
-       author Adriano
+l.75 				tom e
+              xecuted instanceof subfunction oeConfirmPriority("OK"){
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[49])
+[55]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [56])
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.55 ...gen/messir-spec/concepts/uc_volunteer.msr}
+l.60 ...n/messir-spec/concepts/uc_coordinator.msr}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -4166,19 +4291,107 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.55 ...gen/messir-spec/concepts/uc_volunteer.msr}
+l.60 ...n/messir-spec/concepts/uc_coordinator.msr}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.63 ...gen/messir-spec/concepts/uc_volunteer.msr}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.63 ...gen/messir-spec/concepts/uc_volunteer.msr}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 63.
+
+(./src-gen/messir-spec/concepts/uc_volunteer.msr
+! Missing $ inserted.
+<inserted text> 
+                $
+l.10 import l
+             u.uni.lassy.messir.libraries.primitives
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+\MakeUppercase  ... {\uppercase {#1}}\reserved@a }
+                                                  
+l.10 import l
+             u.uni.lassy.messir.libraries.primitives
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.10 import l
+             u.uni.lassy.messir.libraries.primitives
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.10 import l
+             u.uni.lassy.messir.libraries.primitives
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+[57]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [58])
+! Missing $ inserted.
+<inserted text> 
+                $
+l.65 ...gen/messir-spec/concepts/uc_volunteer.msr}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.65 ...gen/messir-spec/concepts/uc_volunteer.msr}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
 []\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/usecases/usecaseinstance-
  []
 
 
 (./src-gen/messir-spec/usecases/usecaseinstance-suAltertAFamilyMember-ucisuAlte
-rtAFamilyMember.msr [50]) (./src-gen/messir-spec/usecases/usecases.msr
+rtAFamilyMember.msr) (./src-gen/messir-spec/usecases/usecases.msr
+Overfull \hbox (84.8966pt too wide) has occurred while \output is active
+\T1/cmr/m/sl/10.95 B.14.  FILE /.../USECASEINSTANCE-SUALTERTAFAMILYMEMBER-UCISU
+ALTERTAFAMILYMEMBER.MSR \T1/cmr/m/n/10.95 59
+ []
+
+[59]) (./src-gen/messir-spec/usecases/weakperson.msr
 
 ! Package inputenc Error: Unicode char �\expandafter (U+4F1)
 (inputenc)                not set up for use with LaTeX.
@@ -4187,7 +4400,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.34 ...n oeInputManualPos("1 rue des maraîchers-
+l.31 ...n oeInputManualPos("1 rue des maraîchers-
                                                   Luxembourg", "49.626506, 6...
 
 Your command was ignored.
@@ -4202,7 +4415,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.34 ...n oeInputManualPos("1 rue des maraîchers-
+l.31 ...n oeInputManualPos("1 rue des maraîchers-
                                                   Luxembourg", "49.626506, 6...
 
 You need to provide a definition with \DeclareInputText 
@@ -4216,7 +4429,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.35 						ieConfirmPos("1 rue des maraîchers-
+l.32 						ieConfirmPos("1 rue des maraîchers-
                                                Luxembourg", "49.626506, 6.16...
 
 Your command was ignored.
@@ -4231,22 +4444,19 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.35 						ieConfirmPos("1 rue des maraîchers-
+l.32 						ieConfirmPos("1 rue des maraîchers-
                                                Luxembourg", "49.626506, 6.16...
 
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
-[51]
+[60]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [52])
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [53]))
-[54]
+ [61])))
+[62]
 No file report.gls.
-[55] [56
+[63] [64
 
 ]
 No file report.bbl.
@@ -4265,15 +4475,15 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the report.log file.
 
-Package atenddvi Info: Last page = 57.
-[57]
+Package atenddvi Info: Last page = 65.
+[65]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 84.
 Package atveryend Info: Executing hook `AfterLastShipout' on input line 84.
  (./report.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 84.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 84.
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 3DF9FFFEAE19B227EB32BBA3D4E795DB;6821.
+(rerunfilecheck)             Checksum: C8BBEB4241A36E079EFC0A3475E525CD;7653.
 
 
 LaTeX Warning: There were undefined references.
@@ -4281,12 +4491,12 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 84.
  ) 
 Here is how much of TeX's memory you used:
- 57141 strings out of 493014
- 1230879 string characters out of 6133354
- 1787376 words of memory out of 5000000
- 59044 multiletter control sequences out of 15000+600000
- 49026 words of font info for 138 fonts, out of 8000000 for 9000
+ 57239 strings out of 493014
+ 1233456 string characters out of 6133354
+ 1809319 words of memory out of 5000000
+ 59120 multiletter control sequences out of 15000+600000
+ 49715 words of font info for 139 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
- 69i,16n,98p,10506b,2034s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 69i,16n,98p,10506b,2023s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on report.dvi (57 pages, 482032 bytes).
+Output written on report.dvi (65 pages, 576780 bytes).

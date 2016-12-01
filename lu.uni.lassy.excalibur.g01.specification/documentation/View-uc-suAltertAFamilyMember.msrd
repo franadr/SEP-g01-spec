@@ -5,6 +5,8 @@
 
 
 @@view uc-suAltertAFamilyMember
-@model Use-Case lu.uni.lassy.excalibur.g01.specification.usecases.suAltertAFamilyMember 
+@model Use-Case lu.uni.lassy.excalibur.g01.specification.usescases.weakperson.suAltertAFamilyMember 
 @description "Summary Alert a family member"
 @caption ""
+
+

@@ -25,4 +25,6 @@ lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctHuman.p
 @operation
 lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctHuman.is
 ""
+@operation lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctHuman.init
+" "
 @endOperations

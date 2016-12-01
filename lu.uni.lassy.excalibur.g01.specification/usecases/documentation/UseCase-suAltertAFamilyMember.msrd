@@ -4,7 +4,7 @@
 */
 
 
-@@Use Case lu.uni.lassy.excalibur.g01.specification.usecases.suAltertAFamilyMember
+@@Use Case lu.uni.lassy.excalibur.g01.specification.usescases.weakperson.suAltertAFamilyMember
 @description ""
 @protocolCondition
 "

@@ -1,31 +1,32 @@
 \select@language {english}
 \addvspace {10\p@ }
-\contentsline {xchapter}{Introduction}{7}{chapter.1}
+\contentsline {xchapter}{Introduction}{9}{chapter.1}
 \addvspace {10\p@ }
-\contentsline {xchapter}{General Description}{9}{chapter.2}
-\contentsline {figure}{\numberline {2.1}{\ignorespaces lu.uni.lassy.excalibur.g01.specification Use Case Diagram: uc-suAltertAFamilyMember}}{11}{figure.2.1}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces lu.uni.lassy.excalibur.g01.specification Use Case Diagram: uc-ugRequestHelp}}{12}{figure.2.2}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces lu.uni.lassy.excalibur.g01.specification Use Case Diagram: uc-ugGetMissionInRange}}{13}{figure.2.3}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces lu.uni.lassy.excalibur.g01.specification Use Case Diagram: uc-oeAlertFamily}}{13}{figure.2.4}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces lu.uni.lassy.excalibur.g01.specification Use Case Diagram: uc-oeGetDeliveryReport}}{14}{figure.2.5}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces lu.uni.lassy.excalibur.g01.specification Use Case Diagram: uc-oeGetPositionFromSensor}}{15}{figure.2.6}
-\contentsline {figure}{\numberline {2.7}{\ignorespaces lu.uni.lassy.excalibur.g01.specification Use Case Diagram: uc-oeSendFamilyDetails}}{16}{figure.2.7}
-\contentsline {figure}{\numberline {2.8}{\ignorespaces lu.uni.lassy.excalibur.g01.specification Sequence Diagram: uci-ucisuAltertAFamilyMember}}{17}{figure.2.8}
-\contentsline {figure}{\numberline {2.9}{\ignorespaces lu.uni.lassy.excalibur.g01.specification Sequence Diagram: uci-uciCallSelectedHelp}}{18}{figure.2.9}
-\contentsline {figure}{\numberline {2.10}{\ignorespaces lu.uni.lassy.excalibur.g01.specification Sequence Diagram: uci-uciSendHelpRequest}}{19}{figure.2.10}
-\contentsline {figure}{\numberline {2.11}{\ignorespaces lu.uni.lassy.excalibur.g01.specification Sequence Diagram: uci-uciGetInRangeMission}}{20}{figure.2.11}
-\contentsline {figure}{\numberline {2.12}{\ignorespaces lu.uni.lassy.excalibur.g01.specification Sequence Diagram: uci-uciGetPendingHelpRequests}}{21}{figure.2.12}
+\contentsline {xchapter}{General Description}{11}{chapter.2}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces lu.uni.lassy.excalibur.g01.specification Use Case Diagram: uc-suAltertAFamilyMember}}{13}{figure.2.1}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces lu.uni.lassy.excalibur.g01.specification Use Case Diagram: uc-suCallSelectedHelpRequest}}{13}{figure.2.2}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces lu.uni.lassy.excalibur.g01.specification Use Case Diagram: uc-ugRequestHelp}}{14}{figure.2.3}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces lu.uni.lassy.excalibur.g01.specification Use Case Diagram: uc-ugAssignPriorityToHelpRequest}}{16}{figure.2.4}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces lu.uni.lassy.excalibur.g01.specification Use Case Diagram: uc-ugGetMissionInRange}}{17}{figure.2.5}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces lu.uni.lassy.excalibur.g01.specification Use Case Diagram: uc-ugRetrievePendingHelpRequestDetails}}{18}{figure.2.6}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces lu.uni.lassy.excalibur.g01.specification Use Case Diagram: uc-oeAlertFamily}}{18}{figure.2.7}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces lu.uni.lassy.excalibur.g01.specification Use Case Diagram: uc-oeGetPositionFromSensor}}{19}{figure.2.8}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces lu.uni.lassy.excalibur.g01.specification Use Case Diagram: uc-oeSendFamilyDetails}}{19}{figure.2.9}
+\contentsline {figure}{\numberline {2.10}{\ignorespaces lu.uni.lassy.excalibur.g01.specification Sequence Diagram: uci-uciCallSelectedHelp}}{20}{figure.2.10}
+\contentsline {figure}{\numberline {2.11}{\ignorespaces lu.uni.lassy.excalibur.g01.specification Sequence Diagram: uci-uciSendHelpRequest}}{21}{figure.2.11}
+\contentsline {figure}{\numberline {2.12}{\ignorespaces lu.uni.lassy.excalibur.g01.specification Sequence Diagram: uci-uciGetInRangeMission}}{22}{figure.2.12}
+\contentsline {figure}{\numberline {2.13}{\ignorespaces lu.uni.lassy.excalibur.g01.specification Sequence Diagram: uci-uciGetPendingHelpRequests}}{23}{figure.2.13}
 \addvspace {10\p@ }
-\contentsline {xchapter}{Environment Model}{23}{chapter.3}
+\contentsline {xchapter}{Environment Model}{25}{chapter.3}
 \addvspace {10\p@ }
-\contentsline {xchapter}{Concept Model}{29}{chapter.4}
+\contentsline {xchapter}{Concept Model}{31}{chapter.4}
 \addvspace {10\p@ }
-\contentsline {xchapter}{Operation Model}{31}{chapter.5}
+\contentsline {xchapter}{Operation Model}{35}{chapter.5}
 \addvspace {10\p@ }
-\contentsline {xchapter}{Test Model(s)}{33}{chapter.6}
+\contentsline {xchapter}{Test Model(s)}{37}{chapter.6}
 \addvspace {10\p@ }
-\contentsline {xchapter}{Additional Constraints}{35}{chapter.7}
+\contentsline {xchapter}{Additional Constraints}{39}{chapter.7}
 \addvspace {10\p@ }
-\contentsline {xchapter}{Undocumented Messir Specification Elements}{37}{appendix.A}
+\contentsline {xchapter}{Undocumented Messir Specification Elements}{41}{appendix.A}
 \addvspace {10\p@ }
-\contentsline {xchapter}{Messir Specification Files Listing}{41}{appendix.B}
+\contentsline {xchapter}{Messir Specification Files Listing}{47}{appendix.B}

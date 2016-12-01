@@ -5,6 +5,7 @@
 
 
 @@view uc-oeAlertFamily
-@model Use-Case lu.uni.lassy.excalibur.g01.specification.usecases.oeAlertFamily 
+@model Use-Case lu.uni.lassy.excalibur.g01.specification.usescases.weakperson.oeAlertFamily 
 @description "Sub Function AlertFamily"
 @caption ""
+

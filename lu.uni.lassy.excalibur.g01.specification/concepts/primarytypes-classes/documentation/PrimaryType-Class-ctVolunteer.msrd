@@ -16,4 +16,6 @@ lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctVolunte
 @operation
 lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctVolunteer.is
 ""
+@operation lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctVolunteer.init
+" "
 @endOperations

@@ -5,6 +5,7 @@
 
 
 @@view uc-oeSendFamilyDetails
-@model Use-Case lu.uni.lassy.excalibur.g01.specification.usecases.oeSendFamilyDetails 
+@model Use-Case lu.uni.lassy.excalibur.g01.specification.usescases.weakperson.oeSendFamilyDetails 
 @description "Sub function Send family details"
 @caption ""
+

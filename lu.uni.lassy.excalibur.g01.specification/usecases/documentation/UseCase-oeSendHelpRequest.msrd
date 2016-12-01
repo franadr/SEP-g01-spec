@@ -4,7 +4,7 @@
 */
 
 
-@@Use Case Subfunction lu.uni.lassy.excalibur.g01.specification.usecases.oeSendHelpRequest
+@@Use Case Subfunction lu.uni.lassy.excalibur.g01.specification.usescases.weakperson.oeSendHelpRequest
 @description ""
 @protocolCondition
 "

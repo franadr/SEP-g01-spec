@@ -10,3 +10,8 @@
 lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctCoordinator.cId
 ""
 @endAttributes
+@operation lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctCoordinator.is
+" "
+@operation lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctCoordinator.init
+" "
+@endOperations

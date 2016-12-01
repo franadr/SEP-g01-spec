@@ -20,6 +20,9 @@ Concept Model {
    			operation is() : ptBoolean
    		}
    		
+   		datatype dtDispo {
+   			attribute time : dtDateAndTime
+   		}
    		datatype dtHRid {
    			attribute value : ptInteger
    			operation is() : ptBoolean
@@ -47,6 +50,15 @@ Concept Model {
    		
    		datatype dtRange {
    			attribute value : ptInteger
+   			operation is() : ptBoolean
+   		}
+   		datatype dtUserName {
+   			attribute value : ptString
+   			operation is() : ptBoolean
+   		}
+   		
+   		datatype dtPassword {
+   			attribute value : ptString
    			operation is() : ptBoolean
    		}
 	}
