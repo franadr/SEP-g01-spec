@@ -3,7 +3,7 @@
 * @date Sat Oct 22 12:57:25 CEST 2016
 */
 
-package lu.uni.lassy.excalibur.g01.specification.usecases {
+package lu.uni.lassy.excalibur.g01.specification.usescases.weakperson.old {
 
 import lu.uni.lassy.messir.libraries.calendar
 import lu.uni.lassy.messir.libraries.math

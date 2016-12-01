@@ -10,7 +10,7 @@ import lu.uni.lassy.messir.libraries.math
 import lu.uni.lassy.messir.libraries.primitives
 import lu.uni.lassy.messir.libraries.string
 import lu.uni.lassy.excalibur.g01.specification.environment
-import lu.uni.lassy.excalibur.g01.specification.usecases
+import lu.uni.lassy.excalibur.g01.specification.usescases.weakperson
 
 
 	Use Case Model {

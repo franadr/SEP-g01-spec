@@ -1,10 +1,10 @@
 package usecases.ucisuAltertAFamilyMember {
-	import lu.uni.lassy.excalibur.g01.specification.usecases
+	import lu.uni.lassy.excalibur.g01.specification.usescases.weakperson
 	import lu.uni.lassy.excalibur.g01.specification.environment
 
 	Use Case Model {
 
-		use case instance ucisuAltertAFamilyMember : suAltertAFamilyMember{
+		use case instance ucisuAltertAFamilyMember : lu.uni.lassy.excalibur.g01.specification.usescases.weakperson.suAltertAFamilyMember{
 			actors {
 				John : actWeakPerson
 				DB1 : actMainDatabase
@@ -12,15 +12,15 @@ package usecases.ucisuAltertAFamilyMember {
 			}
 			
 			use case steps {
-				John executed instanceof subfunction oeAlertFamily() {
+				John executed instanceof subfunction lu.uni.lassy.excalibur.g01.specification.usescases.weakperson.oeAlertFamily() {
 					ieFamilyDetailsRequest() returned to DB1															
 				}
-				DB1 executed instanceof subfunction oeSendFamilyDetails("Emily Smith", "691 432 132") {
+				DB1 executed instanceof subfunction lu.uni.lassy.excalibur.g01.specification.usescases.weakperson.oeSendFamilyDetails("Emily Smith", "691 432 132") {
 					ieConfirmationOfFamilyDetailsReceived() returned to DB1
 					ieSmsForFamily("John has just used the request help function through the Heat Wave Prevention System, serious danger may exist for this person",
 						"691 432 132") returned to Orange
 				}
-				Orange executed instanceof subfunction oeSendDeliveryReport("Message delivered to the number 691 432 132", "691 432 132") {
+				Orange executed instanceof subfunction lu.uni.lassy.excalibur.g01.specification.usescases.weakperson.oeSendDeliveryReport("Message delivered to the number 691 432 132", "691 432 132") {
 					ieFamilyDeliveryReport("Emily Smith", "TRUE") returned to DB1
 				}
 				
