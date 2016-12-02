@@ -12,22 +12,7 @@ import lu.uni.lassy.messir.libraries.string
 import lu.uni.lassy.excalibur.g01.specification.environment
 
 	Use Case Model {
-		use case instance ucisuAltertAFamilyMember : lu.uni.lassy.excalibur.g01.specification.usescases.weakperson.suAltertAFamilyMember{
-			actors {
-				John : actWeakPerson
-				
-				Orange : actPhoneCompany				
-			}
-			
-			use case steps {
-				John executed instanceof subfunction lu.uni.lassy.excalibur.g01.specification.usescases.weakperson.oeAlertFamily() {
-					ieSmsForFamily("John has just used the request help function through the Heat Wave Prevention System, serious danger may exist for this person",
-						"691 432 132") returned to Orange															
-				}
-				
-				
-			}
-		}
+		
 		use case instance uciSendHelpRequest : ugRequestHelp {
 			actors {
 				
@@ -133,14 +118,12 @@ import lu.uni.lassy.excalibur.g01.specification.environment
 	 	actor actWeakPerson [primary, active]
 	 	actor actPhoneCompany[secondary, active]
 	 	
-	 	
-	 	
+	
 	 	reuse oeAlertFamily[1..*]
-	 	
 	 	reuse oeSendDeliveryReport[1..*]
 	 	
 	 	step a: actWeakPerson executes oeAlertFamily()
-	 	step c: actPhoneCompany executes oeSendDeliveryReport()
+	 	step b: actPhoneCompany executes oeSendDeliveryReport()
 	 	
 	 	
 	 	 	 	
@@ -161,11 +144,31 @@ import lu.uni.lassy.excalibur.g01.specification.environment
 	 	actor actPhoneCompany[primary,active]
 	 	
 	 	returned messages{
+	 		ieMessageReception() returned to actPhoneCompany
 	 		
 	 	}
 	 }
+	 
+	 use case instance uciAlertTheFamily : suAltertAFamilyMember() {
+	 	actors {
+	 		John : actWeakPerson
+ 			Tango : actPhoneCompany	
+	 		
+	 	}
+	 	use case steps {
+	 		John executed instanceof subfunction oeAlertFamily() {
+	 			
+	 			ieSmsForFamily("John has just used the request help function through the Heat Wave Prevention System, serious danger may exist for this person", "691 432 132") returned to Tango
+					}
+			Tango executed instanceof subfunction oeSendDeliveryReport() {
+				ieMessageReception() returned to Tango
+					}
+
+ 		
+	 	}	
+	 }
+
+	
 
 	}
-
-
 }

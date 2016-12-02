@@ -152,6 +152,7 @@ Environment Model {
 		input interface inactPhoneCompany{
 			operation ieRequestConfirm(AdtPhoneNumber : dtPhoneNumber) : ptBoolean
 			operation ieSmsForFamily(AdtMessage : dtMessage, AdtPhoneNumber : dtPhoneNumber) : ptBoolean
+			operation ieMessageReception(): ptBoolean
 		}
 		output interface outactPhoneCompany{
 			operation oeGetConfirm() : ptBoolean
