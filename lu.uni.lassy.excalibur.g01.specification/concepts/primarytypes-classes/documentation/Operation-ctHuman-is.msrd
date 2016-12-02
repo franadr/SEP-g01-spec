@@ -6,7 +6,7 @@
 
 @@Operation
 lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctHuman.is
-@description "
+@description "Is action that identifies the input as human or not
  "
 //postFunctional descriptions
 @postF 

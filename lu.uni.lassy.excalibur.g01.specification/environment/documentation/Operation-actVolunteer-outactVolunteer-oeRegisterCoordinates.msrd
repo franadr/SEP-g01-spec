@@ -1,0 +1,28 @@
+/*
+@author Adriano
+@date Fri Dec 02 14:47:43 CET 2016
+*/
+
+
+@@Operation
+lu.uni.lassy.excalibur.g01.specification.environment.actVolunteer.outactVolunteer.oeRegisterCoordinates
+@description "This allow a specific volunteer to register his position in the system, this position will be the reference until he calls again or trigger oeGetMissionInrange()
+ "
+//preProtocol descriptions
+@preP
+" System is started"
+@endPreP
+//preFunctional descriptions
+@preF
+" Coordinates are within Luxembourg boundaries"
+@endPreF
+//postFunctional descriptions
+@postF 
+" The corresponding coordinates variable of this specific volunteer is update whit sent coordinates"
+@endPostF
+//postProtocol descriptions
+@postP 
+" "
+@endPostP
+//example
+@example" "

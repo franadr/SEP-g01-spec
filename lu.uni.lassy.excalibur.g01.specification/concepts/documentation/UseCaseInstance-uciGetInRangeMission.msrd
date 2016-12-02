@@ -5,4 +5,4 @@
 
 
 @@Instance Use Case lu.uni.lassy.excalibur.g01.specification.usecases.volunteer.uciGetInRangeMission
-@description ""
+@description "This represent a use case instance of the volunteer willing to get mission in a specific range around him "

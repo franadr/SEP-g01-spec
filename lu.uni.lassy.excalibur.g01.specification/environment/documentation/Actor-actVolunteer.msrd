@@ -20,6 +20,8 @@ lu.uni.lassy.excalibur.g01.specification.environment.actVolunteer.inactVolunteer
 lu.uni.lassy.excalibur.g01.specification.environment.actVolunteer.inactVolunteer.ieSendInRangeMission
 ""
 
+@inputEvent lu.uni.lassy.excalibur.g01.specification.environment.actVolunteer.inactVolunteer.ieRequestPosition
+" "
 @endInputEvents
 //output events
 @outputEvent
@@ -38,4 +40,6 @@ lu.uni.lassy.excalibur.g01.specification.environment.actVolunteer.outactVoluntee
 lu.uni.lassy.excalibur.g01.specification.environment.actVolunteer.outactVolunteer.oeAcceptMission
 ""
 
+@outputEvent lu.uni.lassy.excalibur.g01.specification.environment.actVolunteer.outactVolunteer.oeRegisterCoordinates
+" "
 @endOutputEvents

@@ -1,0 +1,10 @@
+/*
+@author Adriano
+@date Fri Dec 02 16:18:26 CET 2016
+*/
+
+
+@@view uci-uciGetCurrentPositon
+@instance Use-Case lu.uni.lassy.excalibur.g01.specification.usecases.volunteer.uciGetCurrentPositon 
+@description "This represent a use case instance of Volunteer willing to register his position into the system"
+@caption ""

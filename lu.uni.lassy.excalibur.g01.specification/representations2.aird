@@ -381,6 +381,16 @@
   <semanticResources>concepts/documentation/UseCase-oeAcceptMission.msrd</semanticResources>
   <semanticResources>usecases/documentation/UseCase-oeSendDeliveryReport.msrd</semanticResources>
   <semanticResources>operations/environment/environment-actVolunteer-oeGetPosition.msr</semanticResources>
+  <semanticResources>concepts/documentation/UseCase-oeSendCurrentPosition.msrd</semanticResources>
+  <semanticResources>concepts/documentation/UseCase-ugGetCurrentPosition.msrd</semanticResources>
+  <semanticResources>concepts/documentation/UseCaseInstance-uciGetCurrentPositon.msrd</semanticResources>
+  <semanticResources>documentation/View-uci-uciGetCurrentPositon.msrd</semanticResources>
+  <semanticResources>environment/documentation/Operation-actVolunteer-outactVolunteer-oeRegisterCoordinates.msrd</semanticResources>
+  <semanticResources>concepts/documentation/UseCase-oeGetCurrentPosition.msrd</semanticResources>
+  <semanticResources>concepts/documentation/UseCase-oeRegisterPosition.msrd</semanticResources>
+  <semanticResources>environment/documentation/Actor-actActivator.msrd</semanticResources>
+  <semanticResources>environment/documentation/Operation-actActivator-outactActivator-oeSetClock.msrd</semanticResources>
+  <semanticResources>environment/documentation/Operation-actActivator-outactActivator-oeSendNotificationToVolunteer.msrd</semanticResources>
   <ownedViews xmi:type="viewpoint:DView" xmi:id="_UjU0UJhGEeao7bVShP4TVg">
     <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']"/>
   </ownedViews>

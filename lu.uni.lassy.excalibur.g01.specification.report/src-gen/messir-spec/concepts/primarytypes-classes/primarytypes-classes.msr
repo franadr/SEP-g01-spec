@@ -20,6 +20,10 @@ Concept Model {
 	Primary Types {
 	
 		state class ctState {
+			attribute clock: dtTime
+			attribute reminderPeriod: dtTime
+			attribute lastReminder: ptString
+			attribute maxReminderPeriod: dtTime
 			attribute vpStarted: ptBoolean
 
 			operation init(AvpStarted:ptBoolean): ptBoolean
@@ -60,6 +64,8 @@ Concept Model {
 		
 		class ctHelpRequest role rnctHelpRequest cardinality [1..*] {
 			attribute HrTime: dtTime
+			attribute priority: dtInteger
+			attribute handlingWaitingTime: dtTime
 			operation is() : ptBoolean
 			operation init(AHrTime : dtTime) : ptBoolean
 			

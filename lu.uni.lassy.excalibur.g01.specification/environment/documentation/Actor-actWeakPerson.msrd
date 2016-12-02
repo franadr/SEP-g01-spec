@@ -20,6 +20,8 @@ lu.uni.lassy.excalibur.g01.specification.environment.actWeakPerson.inactWeakPers
 lu.uni.lassy.excalibur.g01.specification.environment.actWeakPerson.inactWeakPerson.ieConfirmPos
 ""
 
+@inputEvent lu.uni.lassy.excalibur.g01.specification.environment.actWeakPerson.inactWeakPerson.ieSmsForFamily
+" "
 @endInputEvents
 //output events
 @outputEvent

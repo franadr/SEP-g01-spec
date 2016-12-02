@@ -29,6 +29,20 @@ lu.uni.lassy.excalibur.g01.specification.environment.actCoordinator.inactCoordin
 lu.uni.lassy.excalibur.g01.specification.environment.actCoordinator.inactCoordinator.ieSendResult
 ""
 
+@inputEvent lu.uni.lassy.excalibur.g01.specification.environment.actCoordinator.inactCoordinator.ieReqPendingHelpRequests
+" "
+@inputEvent lu.uni.lassy.excalibur.g01.specification.environment.actCoordinator.inactCoordinator.ieRequHRDetails
+" "
+@inputEvent lu.uni.lassy.excalibur.g01.specification.environment.actCoordinator.inactCoordinator.ieSendPendingHR
+" "
+@inputEvent lu.uni.lassy.excalibur.g01.specification.environment.actCoordinator.inactCoordinator.ieFamilyDetailsRequest
+" "
+@inputEvent lu.uni.lassy.excalibur.g01.specification.environment.actCoordinator.inactCoordinator.ieConfirmationOfFamilyDetailsReceived
+" "
+@inputEvent lu.uni.lassy.excalibur.g01.specification.environment.actCoordinator.inactCoordinator.ieFamilyDeliveryReport
+" "
+@inputEvent lu.uni.lassy.excalibur.g01.specification.environment.actCoordinator.inactCoordinator.ieAddEntry
+" "
 @endInputEvents
 //output events
 @outputEvent

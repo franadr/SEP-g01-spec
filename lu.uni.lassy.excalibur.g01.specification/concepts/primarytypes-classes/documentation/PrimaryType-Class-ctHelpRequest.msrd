@@ -9,6 +9,10 @@
 @attribute
 lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctHelpRequest.HrTime
 ""
+@attribute lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctHelpRequest.priority
+" "
+@attribute lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctHelpRequest.handlingWaitingTime
+" "
 @endAttributes
 @operation lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctHelpRequest.is
 " "

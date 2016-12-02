@@ -16,11 +16,26 @@ import lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.datatypes
 Environment Model {
 
 	
+	actor actActivator role rnactActivator cardinality [1..*] {
+	
+		input interface inactActivator {
+	
+		}
+		
+		output interface outactActivator {
+			proactive operation oeSetClock(AcurrentClock : dtDateAndTime):ptBoolean
+			proactive operation oeSendNotificationToVolunteer():ptBoolean
+			
+	
+		}
+	}
+	
 	
 	actor actSensor role rnactSensor cardinality [1..*] {
 	
 		input interface inactSensor {
 			operation iereqCurrentPos() : ptBoolean
+			operation ieReturnCurentPosition(adtCoordinates : dtCoordinates) : ptBoolean
 		}
 		output interface outactSensor {
 		operation oeSendPos():ptBoolean
@@ -104,11 +119,13 @@ Environment Model {
 			operation ieSentMissionConfirmation() : ptBoolean
 			operation ieSendRange() : ptBoolean
 			operation ieSendInRangeMission(AdtId : dtHRid, AdtCoordinates : dtCoordinates) : ptBoolean
+			operation ieRequestPosition() : ptBoolean
 		}
 		output interface outactVolunteer {
 			operation oeLogin() : ptBoolean
 			operation oeLogout(): ptBoolean
 			operation oeGetPosition() : ptBoolean
+			operation oeRegisterCoordinates() : ptBoolean
 			
 			operation oeGetMissionInRagne(AdtRange: dtRange,AdtPosition : dtCoordinates) : ptBoolean
 			operation oeAcceptMission(AdtId : dtHRid) : ptBoolean

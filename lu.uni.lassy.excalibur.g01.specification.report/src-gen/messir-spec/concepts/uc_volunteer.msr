@@ -36,6 +36,28 @@ import lu.uni.lassy.excalibur.g01.specification.usescases.weakperson
 			}	
 		}
 		
+		use case instance uciGetCurrentPositon : ugGetCurrentPosition {
+			actors {
+				Mike : actVolunteer
+				Garmin : actSensor	
+			}
+			use case steps {
+				Mike executed instanceof subfunction oeGetCurrentPosition() {
+						ieRequestPos() returned to Garmin			
+					}
+				Garmin executed instanceof subfunction oeSendCurrentPosition() {
+						ieReturnCurentPosition("49.626506, 6.163065") returned to Mike
+					}
+					Mike executed instanceof subfunction oeRegisterPosition("49.626506, 6.163065") {
+			
+					}
+
+				
+
+				
+			}	
+		}
+		
 		
 		
 		
@@ -49,6 +71,30 @@ import lu.uni.lassy.excalibur.g01.specification.usescases.weakperson
 			step c: actVolunteer executes oeGetInRangeMission()
 		}
 		
+		use case system usergoal ugGetCurrentPosition() {
+			actor actVolunteer[primary,active]
+			actor actSensor[secondary]		
+			
+			step a : actVolunteer executes oeGetCurrentPosition()
+			step b : actSensor executes oeSendCurrentPosition()
+			step c : actVolunteer executes oeRegisterPosition()
+		}
+		use case system subfunction oeGetCurrentPosition() {
+			actor actVolunteer[primary,active]
+			
+			returned messages{
+				ieRequestPos() returned to actSensor
+			}
+			
+		}
+		
+		use case system subfunction oeSendCurrentPosition() {
+			actor actSensor[primary,active]
+			
+			returned messages{
+				ieReturnCurentPosition(adtCoordinates) returned to actVolunteer
+			}
+		}
 		use case system subfunction oeGetInRangeMission(){
 			actor actVolunteer[primary,active]
 			
@@ -85,6 +131,12 @@ import lu.uni.lassy.excalibur.g01.specification.usescases.weakperson
 			returned messages{
 				ieSendDistanceMessage() returned to actVolunteer
 			}
+		}
+		
+		use case system subfunction oeRegisterPosition() {
+			actor actVolunteer[primary,active]
+			
+			
 		}
 		
 		

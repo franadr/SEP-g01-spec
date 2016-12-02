@@ -5,10 +5,18 @@
 
 
 @@Primary Type Class lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctState
-@description ""
+@description "Represents the system environment variable that might be accessed at each moment and initilized at start"
 @attribute
 lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctState.vpStarted
 ""
+@attribute lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctState.clock
+" "
+@attribute lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctState.reminderPeriod
+" "
+@attribute lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctState.lastReminder
+" "
+@attribute lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctState.maxReminderPeriod
+" "
 @endAttributes
 @operation
 lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctState.init

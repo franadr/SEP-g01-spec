@@ -6,7 +6,7 @@
 
 @@Operation
 lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctWeakPerson.is
-@description "
+@description "Is operation that identifies the input as weakperson or not
  "
 //postFunctional descriptions
 @postF 

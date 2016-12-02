@@ -1,0 +1,34 @@
+/*
+@author Adriano
+@date Fri Dec 02 16:36:57 CET 2016
+*/
+
+
+@@Operation
+lu.uni.lassy.excalibur.g01.specification.environment.actActivator.outactActivator.oeSetClock
+//parameters
+@parameter
+lu.uni.lassy.excalibur.g01.specification.environment.actActivator.outactActivator.oeSetClock.AcurrentClock
+""
+@endParameters
+
+@description "
+ "
+//preProtocol descriptions
+@preP
+" "
+@endPreP
+//preFunctional descriptions
+@preF
+" "
+@endPreF
+//postFunctional descriptions
+@postF 
+" "
+@endPostF
+//postProtocol descriptions
+@postP 
+" "
+@endPostP
+//example
+@example" "

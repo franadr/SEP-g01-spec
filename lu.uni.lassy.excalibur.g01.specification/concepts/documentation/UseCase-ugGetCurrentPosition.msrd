@@ -1,0 +1,27 @@
+/*
+@author Adriano
+@date Fri Dec 02 16:15:47 CET 2016
+*/
+
+
+@@Use Case lu.uni.lassy.excalibur.g01.specification.usecases.volunteer.ugGetCurrentPosition
+@description "This allows the Volunteer to save his current location in the system"
+@protocolCondition
+"The system is running and ready
+"
+@protocolCondition 
+"Volunteer is logged in
+"
+@endProtocolConditions
+@preCondition
+"The coordinates exists on the earth
+"
+@endPreConditions
+@postCondition
+"The coordinates are linked to this volunteer in saved for further use until new request of current position
+"
+@endPostConditions
+@additionalInformation
+"
+none
+"

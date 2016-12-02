@@ -11,6 +11,8 @@
 lu.uni.lassy.excalibur.g01.specification.environment.actSensor.inactSensor.iereqCurrentPos
 ""
 
+@inputEvent lu.uni.lassy.excalibur.g01.specification.environment.actSensor.inactSensor.ieReturnCurentPosition
+" "
 @endInputEvents
 //output events
 @outputEvent

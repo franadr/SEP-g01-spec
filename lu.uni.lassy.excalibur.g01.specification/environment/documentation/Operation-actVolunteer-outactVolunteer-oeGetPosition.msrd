@@ -6,7 +6,7 @@
 
 @@Operation
 lu.uni.lassy.excalibur.g01.specification.environment.actVolunteer.outactVolunteer.oeGetPosition
-@description "
+@description "This allows the volunteer to request coordinates to the actSensor
  "
 //preProtocol descriptions
 @preP
@@ -18,7 +18,7 @@ lu.uni.lassy.excalibur.g01.specification.environment.actVolunteer.outactVoluntee
 @endPreF
 //postFunctional descriptions
 @postF 
-" "
+" Returned coordinates form the sensor are coherent (are actual earth coordinates)"
 @endPostF
 //postProtocol descriptions
 @postP 

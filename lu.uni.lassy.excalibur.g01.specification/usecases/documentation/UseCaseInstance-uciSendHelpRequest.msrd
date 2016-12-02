@@ -5,4 +5,4 @@
 
 
 @@Instance Use Case lu.uni.lassy.excalibur.g01.specification.usescases.weakperson.uciSendHelpRequest
-@description ""
+@description "this is an instance that represent a weakPerson willing to request help "

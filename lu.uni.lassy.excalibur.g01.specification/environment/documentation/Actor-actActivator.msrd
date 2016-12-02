@@ -1,0 +1,19 @@
+/*
+@author Adriano
+@date Fri Dec 02 16:36:56 CET 2016
+*/
+
+
+@@Actor lu.uni.lassy.excalibur.g01.specification.environment.actActivator
+@description ""
+//input events
+
+//output events
+@outputEvent
+lu.uni.lassy.excalibur.g01.specification.environment.actActivator.outactActivator.oeSetClock
+""
+@outputEvent
+lu.uni.lassy.excalibur.g01.specification.environment.actActivator.outactActivator.oeSendNotificationToVolunteer
+""
+
+@endOutputEvents

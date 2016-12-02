@@ -5,4 +5,4 @@
 
 
 @@Primary Type Aggregation lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.assPendingHelpRequest
-@description ""
+@description "The relation just enphasis the fact that a the pending help request list is composed (aggregate) of multiple help request"
