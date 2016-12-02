@@ -1,9 +1,0 @@
-package usecases.ucisuAltertAFamilyMember {
-	import lu.uni.lassy.excalibur.g01.specification.usescases.weakperson
-	import lu.uni.lassy.excalibur.g01.specification.environment
-
-	Use Case Model {
-
-		
-	}
-}

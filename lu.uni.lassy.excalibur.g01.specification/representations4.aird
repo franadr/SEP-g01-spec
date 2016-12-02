@@ -243,7 +243,6 @@
   <semanticResources>documentation/View-uc-oeGetDeliveryReport.msrd</semanticResources>
   <semanticResources>documentation/View-uc-oeSendFamilyDetails.msrd</semanticResources>
   <semanticResources>documentation/View-uc-oeAlertFamily.msrd</semanticResources>
-  <semanticResources>usecases/usecaseinstance-suAltertAFamilyMember-ucisuAltertAFamilyMember.msr</semanticResources>
   <semanticResources>documentation/View-uci-ucisuAltertAFamilyMember.msrd</semanticResources>
   <semanticResources>concepts/primarytypes-classes/documentation/PrimaryType-Class-ctState.msrd</semanticResources>
   <semanticResources>concepts/primarytypes-classes/documentation/Operation-ctState-init.msrd</semanticResources>
