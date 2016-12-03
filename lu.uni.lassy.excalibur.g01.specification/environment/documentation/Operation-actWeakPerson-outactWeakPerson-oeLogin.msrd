@@ -6,11 +6,13 @@
 
 @@Operation
 lu.uni.lassy.excalibur.g01.specification.environment.actWeakPerson.outactWeakPerson.oeLogin
-@description "
- "
+@description "Sign in into the system"
 //preProtocol descriptions
 @preP
-" "
+"The system is started."
+@preP
+"The actor is not already logged in."
+
 @endPreP
 //preFunctional descriptions
 @preF
@@ -18,11 +20,13 @@ lu.uni.lassy.excalibur.g01.specification.environment.actWeakPerson.outactWeakPer
 @endPreF
 //postFunctional descriptions
 @postF 
-" "
+"The actor has access to the help request function if the authentication information was correct or he gets an error message 
+if the authentication information is wrong."
 @endPostF
 //postProtocol descriptions
 @postP 
-" "
+"If the authentication information is correct the actor is known to be logged in."
 @endPostP
 //example
 @example" "
+

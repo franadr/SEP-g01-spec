@@ -6,11 +6,10 @@
 
 @@Operation
 lu.uni.lassy.excalibur.g01.specification.environment.actWeakPerson.outactWeakPerson.oeGetInfo
-@description "
- "
+@description "Get general information"
 //preProtocol descriptions
 @preP
-" "
+"The system is started."
 @endPreP
 //preFunctional descriptions
 @preF
@@ -18,7 +17,7 @@ lu.uni.lassy.excalibur.g01.specification.environment.actWeakPerson.outactWeakPer
 @endPreF
 //postFunctional descriptions
 @postF 
-" "
+"A screen with general information is displayed."
 @endPostF
 //postProtocol descriptions
 @postP 
@@ -26,3 +25,4 @@ lu.uni.lassy.excalibur.g01.specification.environment.actWeakPerson.outactWeakPer
 @endPostP
 //example
 @example" "
+

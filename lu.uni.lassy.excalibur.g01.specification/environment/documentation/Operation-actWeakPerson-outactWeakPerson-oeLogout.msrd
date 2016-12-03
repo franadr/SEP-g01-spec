@@ -6,11 +6,13 @@
 
 @@Operation
 lu.uni.lassy.excalibur.g01.specification.environment.actWeakPerson.outactWeakPerson.oeLogout
-@description "
- "
+@description "Sign out of the system."
 //preProtocol descriptions
 @preP
-" "
+"The system is started."
+@preP
+"The actor is logged in."
+
 @endPreP
 //preFunctional descriptions
 @preF
@@ -18,11 +20,11 @@ lu.uni.lassy.excalibur.g01.specification.environment.actWeakPerson.outactWeakPer
 @endPreF
 //postFunctional descriptions
 @postF 
-" "
+"A logout confirmation message is received."
 @endPostF
 //postProtocol descriptions
 @postP 
-" "
+"The actor is logged out."
 @endPostP
 //example
 @example" "
