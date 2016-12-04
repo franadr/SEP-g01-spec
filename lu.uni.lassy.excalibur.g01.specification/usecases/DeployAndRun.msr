@@ -1,0 +1,151 @@
+/*
+* @author Adriano
+* @date Sun Dec 04 15:09:10 CET 2016
+*/
+
+package lu.uni.lassy.excalibur.g01.specification.usecases.main {
+import lu.uni.lassy.messir.libraries.math
+import lu.uni.lassy.messir.libraries.primitives
+import lu.uni.lassy.messir.libraries.string
+import lu.uni.lassy.excalibur.g01.specification.environment
+import lu.uni.lassy.excalibur.g01.specification.usescases.weakperson
+import lu.uni.lassy.excalibur.g01.specification.usecases.coordinator
+import lu.uni.lassy.excalibur.g01.specification.usecases.volunteer
+import lu.uni.lassy.excalibur.g01.specification.usecases.activator
+
+
+	Use Case Model {
+		
+		use case instance uciNormalRun : suDeployRun {
+			actors {
+				activator : actActivator
+				Bob : actCoordinator
+				Benny : actWeakPerson
+				Jack : actVolunteer
+				BennyGPS : actPositionRequester
+				Garmin : actSensor
+				Tango : actPhoneCompany
+				
+			}
+			use case steps {
+				activator executed instanceof subfunction oeSetClock("10:00:00 13.09.16") {
+						
+					}
+				Benny executed instanceof ugRequestHelp() {
+						use case steps {
+						BennyGPS executed instanceof subfunction oeGetPositionFromSensor() {
+						iereqCurrentPos() returned to Garmin
+					}
+				Garmin executed instanceof subfunction oeSendPos("49.626506, 6.163065") {
+						ieSentdPosition("49.626506, 6.163065") returned to Benny
+					}
+				Benny executed instanceof subfunction oeInputManualPos("1 rue des maraîchers-Luxembourg", "49.626506, 6.163065") {
+						ieConfirmPos("1 rue des maraîchers-Luxembourg", "49.626506, 6.163065") returned to Benny
+					}
+				Benny executed instanceof subfunction oeSendHelpRequest("Benny Hill" , "6611726354", "49.618416, 6.172678" , "1 rue de Cents - Luxembourg") {
+						ieSentConfirmationMessage("Your help request has been sent") returned to Benny
+					}
+				
+				Benny executed instanceof subfunction oeAlertFamily("Hid : 12") {
+							ieSmsForFamily("Benny has sent an help request","6611726354") returned to Tango		
+					}
+						}
+					}
+					
+					
+				Bob executed instanceof ugRetrievePendingHelpRequestDetails() {
+						use case steps {
+						Bob executed instanceof subfunction oeGetPendingHelpRequests() {
+						ieSendPendingHR("12h40","661234567") returned to Bob
+						ieSendPendingHR("12h43","661334569") returned to Bob
+						ieSendPendingHR("12h48","691007221") returned to Bob
+					
+					}
+			
+				Bob executed instanceof subfunction oeGetHelpRequestDetail("id : 32") {
+					ieSendHelpRequestDetail("Paul Kremmer" , "6611726354", "49.618416, 6.172678" , "1 rue de Cents - Luxembourg") returned to Bob
+					
+					}
+			
+						}
+					}
+				Bob executed instanceof suCallSelectedHelpRequest() {
+						use case steps {
+							Bob executed instanceof subfunction oeReqCall("661234567"){
+						ieConfirm("661234567") returned to Tango
+					}
+						
+						
+						}
+					}
+				Bob executed instanceof ugAssignPriorityToHelpRequest() {
+						use case steps {
+							Bob executed instanceof subfunction oeReqCheckbox(){
+						ieSendCheckbox("Speaks slowly","Needs Water","Conscious") returned to Bob
+					}
+							Bob executed instanceof subfunction oeSendFilledCheckbox("Yes","Yes","Yes"){
+					ieSendCalculatedPriority("The calculated priority is: Urgent") returned to Bob
+				}
+				
+							Bob executed instanceof subfunction oeConfirmPriority("OK"){
+					ieSendResult("Urgent") returned to Bob
+				}
+						
+						}
+					}
+					
+				activator executed instanceof subfunction oeSetClock("10:10:00 13.09.16") {
+			
+					}
+				activator executed instanceof subfunction oeSendNotificationToVolunteer() {
+			
+					}
+				Jack executed instanceof ugGetMissionInRange() {
+						use case steps {
+						
+						}
+					}
+				Jack executed instanceof suRetrieveMissionDetails() {
+						use case steps {
+						
+						}
+					}
+				Jack executed instanceof suAcceptMission() {
+						use case steps {
+						
+						}
+					}
+
+				
+
+				
+
+				
+			}	
+		}
+
+	use case system summary suDeployRun() {
+		actor actCoordinator[primary,active]
+		actor actVolunteer[primary,active]
+		actor actWeakPerson[primary,active]
+		actor actActivator[primary,proactive]
+		
+		step a: actWeakPerson executes ugRequestHelp()
+		step b :actCoordinator executes ugRetrievePendingHelpRequestDetails()
+		step c :actCoordinator executes suCallSelectedHelpRequest()
+		step d :actCoordinator executes ugAssignPriorityToHelpRequest()
+		step e :actActivator executes oeSetClock()
+		step f :actActivator executes oeSendNotificationToVolunteer()
+		step g :actVolunteer executes ugGetMissionInRange()
+		step h :actVolunteer executes suRetrieveMissionDetails()
+		step i :actVolunteer executes suAcceptMission()
+		
+		
+		
+	}
+
+
+	}
+
+
+}

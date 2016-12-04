@@ -1,0 +1,32 @@
+/*
+* @author Adriano
+* @date Sun Dec 04 14:54:42 CET 2016
+*/
+
+
+package lu.uni.lassy.excalibur.g01.specification.usecases.activator {
+
+import lu.uni.lassy.messir.libraries.math
+import lu.uni.lassy.messir.libraries.primitives
+import lu.uni.lassy.messir.libraries.string
+import lu.uni.lassy.excalibur.g01.specification.environment
+import lu.uni.lassy.excalibur.g01.specification.usescases.weakperson
+import lu.uni.lassy.excalibur.g01.specification.usecases.coordinator
+import lu.uni.lassy.excalibur.g01.specification.usecases.volunteer
+
+
+
+	Use Case Model {
+	
+		
+		
+		use case system subfunction oeSetClock() {
+			actor actActivator[primary,proactive]
+		}
+		use case system subfunction oeSendNotificationToVolunteer () {
+			actor actActivator[primary,proactive]
+		}
+	}
+
+
+}
