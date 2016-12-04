@@ -3,6 +3,7 @@
 	<name>lu.uni.lassy.excalibur.g01.specification</name>
 	<comment></comment>
 	<projects>
+		<project>lu.uni.lassy.excalibur.standard.report.libraries</project>
 		<project>lu.uni.lassy.excalibur.standard.specification.libraries</project>
 	</projects>
 	<buildSpec>

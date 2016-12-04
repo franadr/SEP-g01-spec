@@ -1,4 +1,12 @@
+ExternalReportFiles=
+HumanReadableProjectName=specification
 ImportedPackages=
+IncludeUndocumentedMessirSpecificationElements=false
+ReportProjectName=lu.uni.lassy.excalibur.g01.specification.report
+SimulationProjectName=lu.uni.lassy.excalibur.g01.specification.simulation
 StandardLibrariesProjectName=lu.uni.lassy.excalibur.standard.specification.libraries
+ViewerViewsFontSize=14
 eclipse.preferences.version=1
 enableProjectSpecificMsrLicenseFolding=false
+msrCommentsFolding=false
+msrLicenseFolding=false

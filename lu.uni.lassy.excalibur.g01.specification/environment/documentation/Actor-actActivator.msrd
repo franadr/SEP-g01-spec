@@ -5,15 +5,15 @@
 
 
 @@Actor lu.uni.lassy.excalibur.g01.specification.environment.actActivator
-@description ""
+@description "represents a logical actor for time automatic message sending based on system’s or environment status."
 //input events
 
 //output events
 @outputEvent
 lu.uni.lassy.excalibur.g01.specification.environment.actActivator.outactActivator.oeSetClock
-""
+"Used to update clock global variable "
 @outputEvent
 lu.uni.lassy.excalibur.g01.specification.environment.actActivator.outactActivator.oeSendNotificationToVolunteer
-""
+"Used to trigger a message to volunteer if a low priority crisis is not handled for too long and is in range of certain volunteer"
 
 @endOutputEvents
