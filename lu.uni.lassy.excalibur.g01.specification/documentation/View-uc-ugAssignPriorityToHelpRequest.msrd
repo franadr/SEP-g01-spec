@@ -8,3 +8,4 @@
 @model Use-Case lu.uni.lassy.excalibur.g01.specification.usecases.coordinator.ugAssignPriorityToHelpRequest 
 @description "Use case view for Assign priority to a specific help request"
 @caption ""
+@scale 0.6

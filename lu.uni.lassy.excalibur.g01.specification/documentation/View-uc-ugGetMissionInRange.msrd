@@ -8,5 +8,5 @@
 
 @@view uc-ugGetMissionInRange
 @model Use-Case lu.uni.lassy.excalibur.g01.specification.usecases.volunteer.ugGetMissionInRange 
-@description "User goal Get mission in range"
+@description "Use case view representing the volunteer willing to get the mission that are in his specified range "
 @caption ""

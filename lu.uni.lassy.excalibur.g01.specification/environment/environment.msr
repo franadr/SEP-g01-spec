@@ -136,17 +136,6 @@ Environment Model {
 	
 	
 	
-	actor actGeneralPopulation role rnactGeneralPopulation cardinality [1..*] {
-	
-		input interface inactGeneralPopulation {
-	
-		}
-		output interface outactGeneralPopulation {
-	
-		}
-	}
-	
-	
 	actor actWeakPersonFamily role rnactWeakPersonFamily cardinality [1..*] {
 	
 		input interface inactWeakPersonFamily {

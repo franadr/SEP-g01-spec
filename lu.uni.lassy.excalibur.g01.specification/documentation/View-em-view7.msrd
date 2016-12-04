@@ -1,0 +1,13 @@
+/*
+@author Adriano
+@date Sun Dec 04 14:29:07 CET 2016
+*/
+
+
+@@view em-view7
+@model Environment
+@level Local
+@number 7
+@description "This view represent actCoordinator Environment  with in and out operation"
+@caption ""
+@scale 0.6

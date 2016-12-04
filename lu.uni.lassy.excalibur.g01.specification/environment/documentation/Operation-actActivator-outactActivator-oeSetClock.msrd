@@ -9,14 +9,14 @@ lu.uni.lassy.excalibur.g01.specification.environment.actActivator.outactActivato
 //parameters
 @parameter
 lu.uni.lassy.excalibur.g01.specification.environment.actActivator.outactActivator.oeSetClock.AcurrentClock
-""
+"The current date and time."
 @endParameters
 
-@description "
+@description "An active message used to statically set the date and time information in the system’s state.
  "
 //preProtocol descriptions
 @preP
-" "
+"The system is created and started and the actual clock value is greater than @pre Clock value of ctState"
 @endPreP
 //preFunctional descriptions
 @preF
@@ -24,7 +24,7 @@ lu.uni.lassy.excalibur.g01.specification.environment.actActivator.outactActivato
 @endPreF
 //postFunctional descriptions
 @postF 
-" "
+" The @Post instance of ctState has his clock variable correspond to the actual date and time"
 @endPostF
 //postProtocol descriptions
 @postP 

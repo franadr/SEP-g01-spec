@@ -15,86 +15,86 @@
 \contentsline {subsubsection}{\numberline {2.3.1.3}summary-suCallSelectedHelpRequest}{13}{subsubsection.2.3.1.3}
 \contentsline {subsubsection}{\numberline {2.3.1.4}summary-ugRequestHelp}{13}{subsubsection.2.3.1.4}
 \contentsline {subsubsection}{\numberline {2.3.1.5}usergoal-ugAssignPriorityToHelpRequest}{14}{subsubsection.2.3.1.5}
-\contentsline {subsubsection}{\numberline {2.3.1.6}usergoal-ugGetMissionInRange}{14}{subsubsection.2.3.1.6}
-\contentsline {subsubsection}{\numberline {2.3.1.7}usergoal-ugRetrievePendingHelpRequestDetails}{15}{subsubsection.2.3.1.7}
-\contentsline {subsubsection}{\numberline {2.3.1.8}subfunction-oeAlertFamily}{15}{subsubsection.2.3.1.8}
-\contentsline {subsubsection}{\numberline {2.3.1.9}subfunction-oeGetPositionFromSensor}{15}{subsubsection.2.3.1.9}
-\contentsline {subsubsection}{\numberline {2.3.1.10}subfunction-oeSendFamilyDetails}{15}{subsubsection.2.3.1.10}
+\contentsline {subsubsection}{\numberline {2.3.1.6}usergoal-ugGetCurrentPosition}{14}{subsubsection.2.3.1.6}
+\contentsline {subsubsection}{\numberline {2.3.1.7}usergoal-ugGetMissionInRange}{15}{subsubsection.2.3.1.7}
+\contentsline {subsubsection}{\numberline {2.3.1.8}usergoal-ugRetrievePendingHelpRequestDetails}{15}{subsubsection.2.3.1.8}
+\contentsline {subsubsection}{\numberline {2.3.1.9}subfunction-oeAlertFamily}{19}{subsubsection.2.3.1.9}
+\contentsline {subsubsection}{\numberline {2.3.1.10}subfunction-oeGetPositionFromSensor}{19}{subsubsection.2.3.1.10}
 \contentsline {subsection}{\numberline {2.3.2}Use Case Instance(s)}{20}{subsection.2.3.2}
 \contentsline {subsubsection}{\numberline {2.3.2.1}Use-Case Instance - uciCallSelectedHelp:suCallSelectedHelpRequest}{20}{subsubsection.2.3.2.1}
 \contentsline {subsubsection}{\numberline {2.3.2.2}Use-Case Instance - uciSendHelpRequest:ugRequestHelp}{20}{subsubsection.2.3.2.2}
-\contentsline {subsubsection}{\numberline {2.3.2.3}Use-Case Instance - uciGetInRangeMission:ugGetMissionInRange}{20}{subsubsection.2.3.2.3}
-\contentsline {subsubsection}{\numberline {2.3.2.4}Use-Case Instance - uciGetPendingHelpRequests:ugRetrievePendingHelpRequestDetails}{20}{subsubsection.2.3.2.4}
-\contentsline {chapter}{\numberline {3}Environment Model}{25}{chapter.3}
-\contentsline {section}{\numberline {3.1}Environment model view(s)}{25}{section.3.1}
-\contentsline {section}{\numberline {3.2}Actors and Interfaces Descriptions}{25}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}\msrcode {actCoordinator} Actor}{25}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}\msrcode {actMainDatabase} Actor}{26}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}\msrcode {actPhoneCompany} Actor}{27}{subsection.3.2.3}
-\contentsline {subsection}{\numberline {3.2.4}\msrcode {actPositionInputActor} Actor}{27}{subsection.3.2.4}
-\contentsline {subsection}{\numberline {3.2.5}\msrcode {actPositionRequester} Actor}{27}{subsection.3.2.5}
-\contentsline {subsection}{\numberline {3.2.6}\msrcode {actSensor} Actor}{28}{subsection.3.2.6}
-\contentsline {subsection}{\numberline {3.2.7}\msrcode {actVolunteer} Actor}{28}{subsection.3.2.7}
-\contentsline {subsection}{\numberline {3.2.8}\msrcode {actWeakPerson} Actor}{28}{subsection.3.2.8}
-\contentsline {subsection}{\numberline {3.2.9}\msrcode {actWeakPersonFamily} Actor}{29}{subsection.3.2.9}
-\contentsline {chapter}{\numberline {4}Concept Model}{31}{chapter.4}
-\contentsline {section}{\numberline {4.1}Concept Model view(s)}{31}{section.4.1}
-\contentsline {section}{\numberline {4.2}Concept Model Types Descriptions}{31}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Primary types - Class types descriptions}{31}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Primary types - Datatypes types descriptions}{33}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}Primary types - Association types descriptions}{33}{subsection.4.2.3}
-\contentsline {subsection}{\numberline {4.2.4}Primary types - Aggregation types descriptions}{33}{subsection.4.2.4}
-\contentsline {subsubsection}{\numberline {4.2.4.1}Primary types - Composition types descriptions}{33}{subsubsection.4.2.4.1}
-\contentsline {subsection}{\numberline {4.2.5}Secondary types - Class types descriptions}{33}{subsection.4.2.5}
-\contentsline {subsection}{\numberline {4.2.6}Secondary types - Datatypes types descriptions}{33}{subsection.4.2.6}
-\contentsline {subsection}{\numberline {4.2.7}Secondary types - Association types descriptions}{33}{subsection.4.2.7}
-\contentsline {subsection}{\numberline {4.2.8}Secondary types - Aggregation types descriptions}{33}{subsection.4.2.8}
-\contentsline {subsection}{\numberline {4.2.9}Secondary types - Composition types descriptions}{33}{subsection.4.2.9}
-\contentsline {chapter}{\numberline {5}Operation Model}{35}{chapter.5}
-\contentsline {section}{\numberline {5.1}Environment - Out Interface Operation Scheme for actVolunteer}{35}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Operation Model for oeLogin}{35}{subsection.5.1.1}
-\contentsline {section}{\numberline {5.2}Environment - Actor Operation Schemes}{35}{section.5.2}
-\contentsline {section}{\numberline {5.3}Primary Types - Operation Schemes for Classes}{35}{section.5.3}
-\contentsline {section}{\numberline {5.4}Primary Types - Operation Schemes for Datatypes}{36}{section.5.4}
-\contentsline {section}{\numberline {5.5}Primary Types - Operation Schemes for Enumerations}{36}{section.5.5}
-\contentsline {section}{\numberline {5.6}Secondary Types - Operation Schemes for Classes}{36}{section.5.6}
-\contentsline {section}{\numberline {5.7}Secondary Types - Operation Schemes for Datatypes}{36}{section.5.7}
-\contentsline {section}{\numberline {5.8}Secondary Types - Operation Schemes for Enumerations}{36}{section.5.8}
-\contentsline {chapter}{\numberline {6}Test Model(s)}{37}{chapter.6}
-\contentsline {chapter}{\numberline {7}Additional Constraints}{39}{chapter.7}
-\contentsline {chapter}{\numberline {A}Undocumented Messir Specification Elements}{41}{appendix.A}
-\contentsline {section}{\numberline {A.1}Undocumented Use Cases}{41}{section.A.1}
-\contentsline {subsection}{\numberline {A.1.1}Undocumented Use Cases - Summary Level}{41}{subsection.A.1.1}
-\contentsline {subsection}{\numberline {A.1.2}Undocumented Use Cases - User-Goal Level}{41}{subsection.A.1.2}
-\contentsline {subsection}{\numberline {A.1.3}Undocumented Use Cases - Subfunction Level}{41}{subsection.A.1.3}
-\contentsline {section}{\numberline {A.2}Undocumented Use Case Instances}{42}{section.A.2}
-\contentsline {subsection}{\numberline {A.2.1}Undocumented Use Case Instances - Summary Level}{42}{subsection.A.2.1}
-\contentsline {subsection}{\numberline {A.2.2}Undocumented Use Case Instances - User-Goal Level}{42}{subsection.A.2.2}
-\contentsline {section}{\numberline {A.3}Undocumented Actors}{42}{section.A.3}
-\contentsline {section}{\numberline {A.4}Undocumented Primary Types}{42}{section.A.4}
-\contentsline {subsection}{\numberline {A.4.1}Undocumented Primary Classe Types}{42}{subsection.A.4.1}
-\contentsline {subsection}{\numberline {A.4.2}Undocumented Primary Datatype Types}{43}{subsection.A.4.2}
-\contentsline {section}{\numberline {A.5}Undocumented Primary Type Relationships}{43}{section.A.5}
-\contentsline {subsection}{\numberline {A.5.1}Undocumented Primary Type Associations}{43}{subsection.A.5.1}
-\contentsline {subsection}{\numberline {A.5.2}Undocumented Primary Type Aggregations}{43}{subsection.A.5.2}
-\contentsline {section}{\numberline {A.6}Undocumented Secondary Types}{43}{section.A.6}
-\contentsline {subsection}{\numberline {A.6.1}Undocumented Secondary Datatype Types}{43}{subsection.A.6.1}
-\contentsline {section}{\numberline {A.7}Undocumented Concept Model Views}{43}{section.A.7}
-\contentsline {section}{\numberline {A.8}Undocumented Operation Specifications}{43}{section.A.8}
-\contentsline {chapter}{\numberline {B}Messir Specification Files Listing}{47}{appendix.B}
-\contentsline {section}{\numberline {B.1}File /src-gen/messir-spec/.views.msr}{47}{section.B.1}
-\contentsline {section}{\numberline {B.2}File /src-gen/messir-spec.../environment-actVolunteer-oeGetPosition.msr}{47}{section.B.2}
-\contentsline {section}{\numberline {B.3}File /src-gen/messir-spec/operations.../environment-actVolunteer-oeLogin.msr}{47}{section.B.3}
-\contentsline {section}{\numberline {B.4}File /src-gen/messir-spec/environment/environment.msr}{48}{section.B.4}
-\contentsline {section}{\numberline {B.5}File /src-gen/messir-spec/concepts.../primarytypes-associations.msr}{50}{section.B.5}
-\contentsline {section}{\numberline {B.6}File /src-gen/messir-spec/concepts/primarytypes-classes/primarytypes-classes.msr}{51}{section.B.6}
-\contentsline {section}{\numberline {B.7}File /src-gen/messir-spec/concepts.../primarytypes-datatypes.msr}{52}{section.B.7}
-\contentsline {section}{\numberline {B.8}File /src-gen/messir-spec/concepts.../secondarytypes-associations.msr}{53}{section.B.8}
-\contentsline {section}{\numberline {B.9}File /src-gen/messir-spec/concepts.../secondarytypes-classes.msr}{53}{section.B.9}
-\contentsline {section}{\numberline {B.10}File /src-gen/messir-spec/concepts.../secondarytypes-datatypes.msr}{54}{section.B.10}
-\contentsline {section}{\numberline {B.11}File /src-gen/messir-spec/tests/tests.msr}{54}{section.B.11}
-\contentsline {section}{\numberline {B.12}File /src-gen/messir-spec/concepts/uc_coordinator.msr}{54}{section.B.12}
-\contentsline {section}{\numberline {B.13}File /src-gen/messir-spec/concepts/uc_volunteer.msr}{57}{section.B.13}
-\contentsline {section}{\numberline {B.14}File /.../usecaseinstance-suAltertAFamilyMember-ucisuAltertAFamilyMember.msr}{59}{section.B.14}
-\contentsline {section}{\numberline {B.15}File /src-gen/messir-spec/usecases/usecases.msr}{59}{section.B.15}
-\contentsline {section}{\numberline {B.16}File /src-gen/messir-spec/usecases/weakperson.msr}{60}{section.B.16}
+\contentsline {subsubsection}{\numberline {2.3.2.3}Use-Case Instance - uciGetCurrentPositon:ugGetCurrentPosition}{20}{subsubsection.2.3.2.3}
+\contentsline {subsubsection}{\numberline {2.3.2.4}Use-Case Instance - uciGetInRangeMission:ugGetMissionInRange}{22}{subsubsection.2.3.2.4}
+\contentsline {subsubsection}{\numberline {2.3.2.5}Use-Case Instance - uciGetPendingHelpRequests:ugRetrievePendingHelpRequestDetails}{24}{subsubsection.2.3.2.5}
+\contentsline {chapter}{\numberline {3}Environment Model}{27}{chapter.3}
+\contentsline {section}{\numberline {3.1}Local view 06}{27}{section.3.1}
+\contentsline {section}{\numberline {3.2}Local view 07}{27}{section.3.2}
+\contentsline {section}{\numberline {3.3}Actors and Interfaces Descriptions}{29}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}\msrcode {actActivator} Actor}{29}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}\msrcode {actCoordinator} Actor}{29}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}\msrcode {actPhoneCompany} Actor}{30}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}\msrcode {actPositionInputActor} Actor}{30}{subsection.3.3.4}
+\contentsline {subsection}{\numberline {3.3.5}\msrcode {actPositionRequester} Actor}{31}{subsection.3.3.5}
+\contentsline {subsection}{\numberline {3.3.6}\msrcode {actSensor} Actor}{31}{subsection.3.3.6}
+\contentsline {subsection}{\numberline {3.3.7}\msrcode {actVolunteer} Actor}{31}{subsection.3.3.7}
+\contentsline {subsection}{\numberline {3.3.8}\msrcode {actWeakPerson} Actor}{32}{subsection.3.3.8}
+\contentsline {subsection}{\numberline {3.3.9}\msrcode {actWeakPersonFamily} Actor}{33}{subsection.3.3.9}
+\contentsline {chapter}{\numberline {4}Concept Model}{35}{chapter.4}
+\contentsline {section}{\numberline {4.1}PrimaryTypes-Classes}{35}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Local view 04}{35}{subsection.4.1.1}
+\contentsline {section}{\numberline {4.2}Concept Model Types Descriptions}{35}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Primary types - Class types descriptions}{35}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Primary types - Datatypes types descriptions}{37}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Primary types - Association types descriptions}{37}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}Primary types - Aggregation types descriptions}{37}{subsection.4.2.4}
+\contentsline {subsubsection}{\numberline {4.2.4.1}Primary types - Composition types descriptions}{37}{subsubsection.4.2.4.1}
+\contentsline {subsection}{\numberline {4.2.5}Secondary types - Class types descriptions}{39}{subsection.4.2.5}
+\contentsline {subsection}{\numberline {4.2.6}Secondary types - Datatypes types descriptions}{39}{subsection.4.2.6}
+\contentsline {subsection}{\numberline {4.2.7}Secondary types - Association types descriptions}{39}{subsection.4.2.7}
+\contentsline {subsection}{\numberline {4.2.8}Secondary types - Aggregation types descriptions}{39}{subsection.4.2.8}
+\contentsline {subsection}{\numberline {4.2.9}Secondary types - Composition types descriptions}{39}{subsection.4.2.9}
+\contentsline {chapter}{\numberline {5}Operation Model}{41}{chapter.5}
+\contentsline {section}{\numberline {5.1}Environment - Out Interface Operation Scheme for actVolunteer}{41}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Operation Model for oeGetPosition}{41}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Operation Model for oeLogin}{41}{subsection.5.1.2}
+\contentsline {section}{\numberline {5.2}Environment - Actor Operation Schemes}{42}{section.5.2}
+\contentsline {section}{\numberline {5.3}Primary Types - Operation Schemes for Classes}{42}{section.5.3}
+\contentsline {section}{\numberline {5.4}Primary Types - Operation Schemes for Datatypes}{42}{section.5.4}
+\contentsline {section}{\numberline {5.5}Primary Types - Operation Schemes for Enumerations}{42}{section.5.5}
+\contentsline {section}{\numberline {5.6}Secondary Types - Operation Schemes for Classes}{42}{section.5.6}
+\contentsline {section}{\numberline {5.7}Secondary Types - Operation Schemes for Datatypes}{42}{section.5.7}
+\contentsline {section}{\numberline {5.8}Secondary Types - Operation Schemes for Enumerations}{42}{section.5.8}
+\contentsline {chapter}{\numberline {6}Test Model(s)}{43}{chapter.6}
+\contentsline {chapter}{\numberline {7}Additional Constraints}{45}{chapter.7}
+\contentsline {chapter}{\numberline {A}Undocumented Messir Specification Elements}{47}{appendix.A}
+\contentsline {section}{\numberline {A.1}Undocumented Use Cases}{47}{section.A.1}
+\contentsline {subsection}{\numberline {A.1.1}Undocumented Use Cases - Summary Level}{47}{subsection.A.1.1}
+\contentsline {subsection}{\numberline {A.1.2}Undocumented Use Cases - User-Goal Level}{47}{subsection.A.1.2}
+\contentsline {subsection}{\numberline {A.1.3}Undocumented Use Cases - Subfunction Level}{47}{subsection.A.1.3}
+\contentsline {section}{\numberline {A.2}Undocumented Use Case Instances}{48}{section.A.2}
+\contentsline {subsection}{\numberline {A.2.1}Undocumented Use Case Instances - Summary Level}{48}{subsection.A.2.1}
+\contentsline {subsection}{\numberline {A.2.2}Undocumented Use Case Instances - User-Goal Level}{48}{subsection.A.2.2}
+\contentsline {section}{\numberline {A.3}Undocumented Environment Model Views}{48}{section.A.3}
+\contentsline {section}{\numberline {A.4}Undocumented Primary Types}{48}{section.A.4}
+\contentsline {subsection}{\numberline {A.4.1}Undocumented Primary Datatype Types}{48}{subsection.A.4.1}
+\contentsline {section}{\numberline {A.5}Undocumented Primary Type Relationships}{49}{section.A.5}
+\contentsline {subsection}{\numberline {A.5.1}Undocumented Primary Type Associations}{49}{subsection.A.5.1}
+\contentsline {section}{\numberline {A.6}Undocumented Secondary Types}{49}{section.A.6}
+\contentsline {subsection}{\numberline {A.6.1}Undocumented Secondary Datatype Types}{49}{subsection.A.6.1}
+\contentsline {section}{\numberline {A.7}Undocumented Operation Specifications}{49}{section.A.7}
+\contentsline {chapter}{\numberline {B}Messir Specification Files Listing}{51}{appendix.B}
+\contentsline {section}{\numberline {B.1}File /src-gen/messir-spec/.views.msr}{51}{section.B.1}
+\contentsline {section}{\numberline {B.2}File /src-gen/messir-spec.../environment-actVolunteer-oeGetPosition.msr}{51}{section.B.2}
+\contentsline {section}{\numberline {B.3}File /src-gen/messir-spec/operations.../environment-actVolunteer-oeLogin.msr}{51}{section.B.3}
+\contentsline {section}{\numberline {B.4}File /src-gen/messir-spec/environment/environment.msr}{52}{section.B.4}
+\contentsline {section}{\numberline {B.5}File /src-gen/messir-spec/concepts.../primarytypes-associations.msr}{54}{section.B.5}
+\contentsline {section}{\numberline {B.6}File /src-gen/messir-spec/concepts/primarytypes-classes/primarytypes-classes.msr}{55}{section.B.6}
+\contentsline {section}{\numberline {B.7}File /src-gen/messir-spec/concepts.../primarytypes-datatypes.msr}{56}{section.B.7}
+\contentsline {section}{\numberline {B.8}File /src-gen/messir-spec/concepts.../secondarytypes-associations.msr}{57}{section.B.8}
+\contentsline {section}{\numberline {B.9}File /src-gen/messir-spec/concepts.../secondarytypes-classes.msr}{57}{section.B.9}
+\contentsline {section}{\numberline {B.10}File /src-gen/messir-spec/concepts.../secondarytypes-datatypes.msr}{58}{section.B.10}
+\contentsline {section}{\numberline {B.11}File /src-gen/messir-spec/tests/tests.msr}{58}{section.B.11}
+\contentsline {section}{\numberline {B.12}File /src-gen/messir-spec/concepts/uc_coordinator.msr}{58}{section.B.12}
+\contentsline {section}{\numberline {B.13}File /src-gen/messir-spec/concepts/uc_volunteer.msr}{61}{section.B.13}
+\contentsline {section}{\numberline {B.14}File /src-gen/messir-spec/usecases/usecases.msr}{63}{section.B.14}
+\contentsline {section}{\numberline {B.15}File /src-gen/messir-spec/usecases/weakperson.msr}{63}{section.B.15}

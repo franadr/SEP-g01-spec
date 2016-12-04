@@ -54,7 +54,7 @@ import lu.uni.lassy.excalibur.g01.specification.environment
 			actor actWeakPerson[primary,active]
 			actor actSensor[secondary]
 			actor actPositionRequester[secondary]
-			actor actPhoneCompany[secondary]
+			
 			
 			
 			reuse oeSendHelpRequest[1..1]

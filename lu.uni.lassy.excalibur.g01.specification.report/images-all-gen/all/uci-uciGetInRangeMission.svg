@@ -107,7 +107,7 @@
         <path d="M46 204 L58 204 L58 215 L46 215 L46 204 Z" />
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath35">
-        <path d="M30 310 L379 310 L379 329 L30 329 L30 310 Z" />
+        <path d="M39 310 L370 310 L370 329 L39 329 L39 310 Z" />
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath36">
         <path d="M46 324 L58 324 L58 335 L46 335 L46 324 Z" />
@@ -214,7 +214,7 @@
       <line clip-path="url(#clipPath34)" fill="none" x1="55" x2="48" y1="206" y2="209" stroke="rgb(136,136,136)" stroke-width="2.1" />
       <line clip-path="url(#clipPath34)" fill="none" x1="48" x2="55" y1="209" y2="212" stroke="rgb(136,136,136)" stroke-width="2.1" />
       <line clip-path="url(#clipPath30)" fill="none" x1="358" x2="48" y1="329" y2="329" stroke="rgb(136,136,136)" stroke-width="2.1" />
-      <text x="31" y="325" clip-path="url(#clipPath35)" stroke="none" stroke-width="2.1" xml:space="preserve">oeGetInRangeMission("25","49.626506, 6.163065")</text>
+      <text x="40" y="325" clip-path="url(#clipPath35)" stroke="none" stroke-width="2.1" xml:space="preserve">oeGetInRangeMission("25","49.63999, 6.16399")</text>
       <line clip-path="url(#clipPath36)" fill="none" x1="55" x2="48" y1="326" y2="329" stroke="rgb(136,136,136)" stroke-width="2.1" />
       <line clip-path="url(#clipPath36)" fill="none" x1="48" x2="55" y1="329" y2="332" stroke="rgb(136,136,136)" stroke-width="2.1" />
     </g>

@@ -1,0 +1,12 @@
+/*
+@author Adriano
+@date Sun Dec 04 14:24:57 CET 2016
+*/
+
+
+@@view em-view6
+@model Environment
+@level Local
+@number 6
+@description "This view represent actActivator Environment  with in and out operation"
+@caption ""

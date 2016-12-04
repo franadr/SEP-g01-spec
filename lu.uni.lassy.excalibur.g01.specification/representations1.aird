@@ -391,6 +391,9 @@
   <semanticResources>environment/documentation/Operation-actActivator-outactActivator-oeSetClock.msrd</semanticResources>
   <semanticResources>environment/documentation/Operation-actActivator-outactActivator-oeSendNotificationToVolunteer.msrd</semanticResources>
   <semanticResources>usecases/documentation/UseCaseInstance-uciAlertTheFamily.msrd</semanticResources>
+  <semanticResources>documentation/View-em-view5.msrd</semanticResources>
+  <semanticResources>documentation/View-em-view6.msrd</semanticResources>
+  <semanticResources>documentation/View-em-view7.msrd</semanticResources>
   <ownedViews xmi:type="viewpoint:DView" xmi:id="_UijYQJhGEeao7bVShP4TVg">
     <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']"/>
   </ownedViews>

@@ -9,6 +9,7 @@
 @level Local
 @sublevel Primary Class
 @number 4
-@description ""
+@description "This represent the all system with all classType , operations of those classes and global Variables described whithin ctState class Type"
 @caption ""
-@scale 0.75
+@scale 0.40
+@orientation Landscape
