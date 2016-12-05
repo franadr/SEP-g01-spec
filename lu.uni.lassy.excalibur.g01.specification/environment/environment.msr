@@ -31,6 +31,18 @@ Environment Model {
 	}
 	
 	
+	actor actMsrCreator role rnactMsrCreator cardinality [1..*] {
+	
+		input interface inactMsrCreator {
+	
+		}
+		output interface outactMsrCreator {
+		operation oeCreateSystemAndEnvironment() : ptBoolean
+		}
+	}
+	
+	
+	
 	actor actSensor role rnactSensor cardinality [1..*] {
 	
 		input interface inactSensor {
