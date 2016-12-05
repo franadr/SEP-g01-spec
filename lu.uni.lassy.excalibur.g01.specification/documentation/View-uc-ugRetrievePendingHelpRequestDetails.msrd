@@ -1,10 +1,11 @@
 /*
 @author Adriano
-@date Tue Nov 22 19:41:54 CET 2016
+@date Mon Dec 05 22:51:13 CET 2016
 */
 
 
 @@view uc-ugRetrievePendingHelpRequestDetails
 @model Use-Case lu.uni.lassy.excalibur.g01.specification.usecases.coordinator.ugRetrievePendingHelpRequestDetails 
-@description "Retrieve help request details use case view"
+@description "Use case view of Retrieve Pending help Request Details userGoal"
 @caption ""
+@scale 0.6

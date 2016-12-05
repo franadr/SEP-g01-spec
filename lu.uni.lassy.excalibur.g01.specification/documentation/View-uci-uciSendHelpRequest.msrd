@@ -1,11 +1,10 @@
 /*
 @author Adriano
-@date Fri Nov 18 12:29:50 CET 2016
+@date Mon Dec 05 22:43:48 CET 2016
 */
 
 
 @@view uci-uciSendHelpRequest
 @instance Use-Case lu.uni.lassy.excalibur.g01.specification.usescases.weakperson.uciSendHelpRequest 
-@description "Send help request"
+@description "Use case instance describing the help request summary of a weak person"
 @caption ""
-

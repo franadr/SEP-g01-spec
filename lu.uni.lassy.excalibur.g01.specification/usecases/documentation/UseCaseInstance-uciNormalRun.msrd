@@ -1,0 +1,9 @@
+/*
+@author Adriano
+@date Mon Dec 05 15:39:03 CET 2016
+*/
+
+
+@@Instance Use Case lu.uni.lassy.excalibur.g01.specification.usecases.main.uciNormalRun
+@description "Use case instance for the summary use case suDeployRun illustrating a simple
+and complete between all actors"

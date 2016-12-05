@@ -1,0 +1,72 @@
+/*
+* @author Adriano
+* @date Mon Dec 05 16:32:52 CET 2016
+*/
+
+package lu.uni.lassy.excalibur.g01.specification.^operation {
+import lu.uni.lassy.messir.libraries.primitives
+import lu.uni.lassy.messir.libraries.math
+import lu.uni.lassy.messir.libraries.string
+import lu.uni.lassy.messir.libraries.calendar
+
+import lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.datatypes
+
+
+
+	Operation Model {
+		operation: lu.uni.lassy.excalibur.g01.specification.environment.actVolunteer.outactVolunteer.oeGetPosition():ptBoolean{
+		// include below the specification information (pre,post or ocl or prolog)
+
+		}
+		operation: lu.uni.lassy.excalibur.g01.specification.environment.actVolunteer.outactVolunteer.oeAcceptMission(AdtId: dtHRid):ptBoolean{
+			
+		}
+		operation: lu.uni.lassy.excalibur.g01.specification.environment.actVolunteer.outactVolunteer.oeGetMissionInRagne(AdtRange: dtRange, AdtPosition: dtCoordinates):ptBoolean{
+			
+		}
+		
+		operation: lu.uni.lassy.excalibur.g01.specification.environment.actVolunteer.outactVolunteer.oeRegisterCoordinates():ptBoolean{
+			
+		}
+		
+		operation: lu.uni.lassy.excalibur.g01.specification.environment.actVolunteer.outactVolunteer.oeLogin():ptBoolean{
+			
+		}
+		
+		operation: lu.uni.lassy.excalibur.g01.specification.environment.actActivator.outactActivator.oeSendNotificationToVolunteer():ptBoolean{
+			
+		}
+		
+		operation: lu.uni.lassy.excalibur.g01.specification.environment.actWeakPerson.outactWeakPerson.oeAlertFamily():ptBoolean{
+			
+		}
+		
+		operation: lu.uni.lassy.excalibur.g01.specification.environment.actCoordinator.outactCoordinator.oeConfirmPriority():ptBoolean{
+			
+		}
+		
+		operation: lu.uni.lassy.excalibur.g01.specification.environment.actCoordinator.outactCoordinator.oeGetHelpRequestDetail(AdtHelpRequestId: dtHRid):ptBoolean{
+			
+		}
+		
+		operation: lu.uni.lassy.excalibur.g01.specification.environment.actCoordinator.outactCoordinator.oeGetPendingHelpRequests():ptBoolean{
+			
+		}
+		operation: lu.uni.lassy.excalibur.g01.specification.environment.actCoordinator.outactCoordinator.oeProceedCall():ptBoolean{
+			
+		}
+		operation: lu.uni.lassy.excalibur.g01.specification.environment.actCoordinator.outactCoordinator.oeReqCheckbox():ptBoolean{
+			
+		}
+		
+		operation: lu.uni.lassy.excalibur.g01.specification.environment.actCoordinator.outactCoordinator.oeSetRiskLevel():ptBoolean{
+			
+		}
+		operation: lu.uni.lassy.excalibur.g01.specification.environment.actCoordinator.outactCoordinator.oeReqCall():ptBoolean{
+			
+		}
+		
+	}
+
+
+}

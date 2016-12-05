@@ -30,7 +30,7 @@ Concept Model {
 		}	
 		
 		
-		class ctHuman role rnctHuman cardinality [0..*]{
+		class ctHuman role rnctHuman cardinality [1..*]{
 			
 			attribute name: dtName
 			attribute phone: dtPhoneNumber
@@ -54,7 +54,7 @@ Concept Model {
 			operation init(AcId : dtInteger,Aname : dtName, APhone : dtPhoneNumber, ACoordinates : dtCoordinates, AUsername : dtUserName,APassword :dtPassword) : ptBoolean
 		}
 		
-		class ctVolunteer role rnctVolunteer cardinality [0..*] extends ctHuman {
+		class ctVolunteer role rnctVolunteer cardinality [1..*] extends ctHuman {
 			attribute vId: ptInteger
 			attribute disp: dtDispo
 			

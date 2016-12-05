@@ -1,0 +1,10 @@
+/*
+@author Adriano
+@date Mon Dec 05 23:07:02 CET 2016
+*/
+
+
+@@view uc-oeGetCurrentPosition
+@model Use-Case lu.uni.lassy.excalibur.g01.specification.usecases.volunteer.oeGetCurrentPosition 
+@description ""
+@caption ""

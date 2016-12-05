@@ -25,7 +25,13 @@ import lu.uni.lassy.excalibur.g01.specification.usecases.volunteer
 		}
 		use case system subfunction oeSendNotificationToVolunteer () {
 			actor actActivator[primary,proactive]
+			actor actVolunteer[secondary,passive]
+			
+			returned messages{
+				ieMessage(adtMessage) returned to actVolunteer
+			}
 		}
+		
 	}
 
 

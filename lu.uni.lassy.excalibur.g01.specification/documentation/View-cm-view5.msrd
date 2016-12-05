@@ -1,0 +1,14 @@
+/*
+@author Adriano
+@date Mon Dec 05 23:14:10 CET 2016
+*/
+
+
+@@view cm-view5
+@model Concept
+@level Local
+@sublevel Primary Class
+@number 5
+@description "Relation view showing Relation between Human and Coordinator, weak person an Volunteer"
+@caption ""
+@scale 0.5

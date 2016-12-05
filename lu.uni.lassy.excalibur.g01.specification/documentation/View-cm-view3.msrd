@@ -1,0 +1,13 @@
+/*
+@author Adriano
+@date Mon Dec 05 23:03:50 CET 2016
+*/
+
+
+@@view cm-view3
+@model Concept
+@level Local
+@sublevel Primary Class
+@number 3
+@description "Relation view representation aggregation between Help request and pending help requests"
+@caption ""

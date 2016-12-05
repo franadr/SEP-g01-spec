@@ -1,12 +1,11 @@
 /*
 @author Adriano
-@date Fri Nov 18 12:18:47 CET 2016
+@date Mon Dec 05 22:24:41 CET 2016
 */
 
 
 @@view uc-ugRequestHelp
 @model Use-Case lu.uni.lassy.excalibur.g01.specification.usescases.weakperson.ugRequestHelp 
-@description "Use case view representing a weak person willing to request help"
+@description "Use case view describing the use case of request help"
 @caption ""
-
-@scale 0.5
+@scale 0.6

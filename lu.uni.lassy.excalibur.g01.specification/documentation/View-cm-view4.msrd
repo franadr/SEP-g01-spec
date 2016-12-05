@@ -1,6 +1,6 @@
 /*
 @author Adriano
-@date Wed Nov 23 15:16:16 CET 2016
+@date Mon Dec 05 23:04:56 CET 2016
 */
 
 
@@ -9,7 +9,7 @@
 @level Local
 @sublevel Primary Class
 @number 4
-@description "This represent the all system with all classType , operations of those classes and global Variables described whithin ctState class Type"
+@description "Relation datagram representing relation between Weak person and help request"
 @caption ""
-@scale 0.40
+@scale 0.6
 @orientation Landscape

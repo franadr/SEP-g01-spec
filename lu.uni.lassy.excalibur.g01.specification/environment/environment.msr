@@ -120,6 +120,7 @@ Environment Model {
 			operation ieSendRange() : ptBoolean
 			operation ieSendInRangeMission(AdtId : dtHRid, AdtCoordinates : dtCoordinates) : ptBoolean
 			operation ieRequestPosition() : ptBoolean
+			operation ieMessage(adtMessage : dtString) : ptBoolean
 		}
 		output interface outactVolunteer {
 			operation oeLogin() : ptBoolean

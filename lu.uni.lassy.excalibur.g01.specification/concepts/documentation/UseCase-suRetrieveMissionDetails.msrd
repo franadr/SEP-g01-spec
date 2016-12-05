@@ -5,17 +5,20 @@
 
 
 @@Use Case lu.uni.lassy.excalibur.g01.specification.usecases.volunteer.suRetrieveMissionDetails
-@description ""
+@description "This Use case summary allows the volunteer to retrieve a specific Help request detail"
 @protocolCondition
+"The System is deployed
 "
+@protocolCondition
+"The volunteer is logged in and has executed getMission in at least one 
 "
 @endProtocolConditions
 @preCondition
-"
+"PendingMission list is not null
 "
 @endPreConditions
 @postCondition
-"
+"The helpRequest (mission) details are returned to volunteer
 "
 @endPostConditions
 @additionalInformation

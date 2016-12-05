@@ -1,12 +1,10 @@
 /*
 @author Adriano
-@date Wed Nov 02 13:49:13 CST 2016
+@date Mon Dec 05 22:50:02 CET 2016
 */
-
-
 
 
 @@view uc-ugGetMissionInRange
 @model Use-Case lu.uni.lassy.excalibur.g01.specification.usecases.volunteer.ugGetMissionInRange 
-@description "Use case view representing the volunteer willing to get the mission that are in his specified range "
+@description "Use case view of Get in range mission userGoal"
 @caption ""

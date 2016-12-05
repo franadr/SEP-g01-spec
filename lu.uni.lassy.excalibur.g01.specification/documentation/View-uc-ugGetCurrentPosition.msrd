@@ -1,0 +1,10 @@
+/*
+@author Adriano
+@date Mon Dec 05 22:48:45 CET 2016
+*/
+
+
+@@view uc-ugGetCurrentPosition
+@model Use-Case lu.uni.lassy.excalibur.g01.specification.usecases.volunteer.ugGetCurrentPosition 
+@description "Use case view of Get current position from sensor"
+@caption ""

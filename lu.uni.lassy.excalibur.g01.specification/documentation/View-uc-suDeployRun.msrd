@@ -1,0 +1,11 @@
+/*
+@author Adriano
+@date Mon Dec 05 22:35:26 CET 2016
+*/
+
+
+@@view uc-suDeployRun
+@model Use-Case lu.uni.lassy.excalibur.g01.specification.usecases.main.suDeployRun 
+@description "Use case view describing a normal run of the application including all actors,summaries, user goal and subfunctions"
+@caption ""
+@scale 0.6

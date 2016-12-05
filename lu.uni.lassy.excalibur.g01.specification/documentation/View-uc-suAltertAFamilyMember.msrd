@@ -1,12 +1,10 @@
 /*
-@author Seba
-@date Mon Nov 21 11:19:29 CET 2016
+@author Adriano
+@date Mon Dec 05 22:32:51 CET 2016
 */
 
 
 @@view uc-suAltertAFamilyMember
 @model Use-Case lu.uni.lassy.excalibur.g01.specification.usescases.weakperson.suAltertAFamilyMember 
-@description "Summary Alert a family member"
+@description "Use case view for Alert a familiy member"
 @caption ""
-
-

@@ -1,0 +1,15 @@
+/*
+@author Adriano
+@date Mon Dec 05 22:53:33 CET 2016
+*/
+
+
+@@view cm-view2
+@model Concept
+@level Local
+@sublevel Primary Class
+@number 2
+@description "Gloabal view of all class types and their relations"
+@caption ""
+@scale 0.5
+@orientation Landscape

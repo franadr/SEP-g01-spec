@@ -21,19 +21,19 @@ import lu.uni.lassy.excalibur.g01.specification.usecases.activator
 				activator : actActivator
 				Bob : actCoordinator
 				Benny : actWeakPerson
-				Jack : actVolunteer
-				BennyGPS : actPositionRequester
+				Mike : actVolunteer
+				GPS : actPositionRequester
 				Garmin : actSensor
 				Tango : actPhoneCompany
 				
 			}
 			use case steps {
-				activator executed instanceof subfunction oeSetClock("10:00:00 13.09.16") {
+				activator executed instanceof subfunction oeSetClock("12:00:00 13.09.16") {
 						
 					}
 				Benny executed instanceof ugRequestHelp() {
 						use case steps {
-						BennyGPS executed instanceof subfunction oeGetPositionFromSensor() {
+						GPS executed instanceof subfunction oeGetPositionFromSensor() {
 						iereqCurrentPos() returned to Garmin
 					}
 				Garmin executed instanceof subfunction oeSendPos("49.626506, 6.163065") {
@@ -56,9 +56,9 @@ import lu.uni.lassy.excalibur.g01.specification.usecases.activator
 				Bob executed instanceof ugRetrievePendingHelpRequestDetails() {
 						use case steps {
 						Bob executed instanceof subfunction oeGetPendingHelpRequests() {
-						ieSendPendingHR("12h40","661234567") returned to Bob
-						ieSendPendingHR("12h43","661334569") returned to Bob
-						ieSendPendingHR("12h48","691007221") returned to Bob
+						ieSendPendingHR("12h05","661234567") returned to Bob
+						ieSendPendingHR("12h06","661334569") returned to Bob
+						ieSendPendingHR("12h09","691007221") returned to Bob
 					
 					}
 			
@@ -83,8 +83,8 @@ import lu.uni.lassy.excalibur.g01.specification.usecases.activator
 							Bob executed instanceof subfunction oeReqCheckbox(){
 						ieSendCheckbox("Speaks slowly","Needs Water","Conscious") returned to Bob
 					}
-							Bob executed instanceof subfunction oeSendFilledCheckbox("Yes","Yes","Yes"){
-					ieSendCalculatedPriority("The calculated priority is: Urgent") returned to Bob
+							Bob executed instanceof subfunction oeSendFilledCheckbox("No","Yes","Yes"){
+					ieSendCalculatedPriority("The calculated priority is: Low") returned to Bob
 				}
 				
 							Bob executed instanceof subfunction oeConfirmPriority("OK"){
@@ -94,23 +94,36 @@ import lu.uni.lassy.excalibur.g01.specification.usecases.activator
 						}
 					}
 					
-				activator executed instanceof subfunction oeSetClock("10:10:00 13.09.16") {
+				activator executed instanceof subfunction oeSetClock("12:10:00 13.09.16") {
 			
 					}
 				activator executed instanceof subfunction oeSendNotificationToVolunteer() {
-			
+					ieMessage("There are Mission in your specified range that must be handled") returned to Mike
 					}
-				Jack executed instanceof ugGetMissionInRange() {
+				Mike executed instanceof ugGetMissionInRange() {
+						use case steps {
+							
+				GPS executed instanceof subfunction oeGetPositionFromSensor() {
+						iereqCurrentPos() returned to Garmin			
+					}
+				Garmin executed instanceof subfunction oeSendPos("49.626506, 6.163065") {
+						ieSentCurrentPosition("49.626506, 6.163065")	returned to Mike		
+					}
+				Mike executed instanceof subfunction oeGetInRangeMission("25","49.63999, 6.16399") {
+					ieSendInRangeMission("id=29","49.626506, 6.163065") returned to Mike
+					ieSendInRangeMission("id=34","49.627499, 6.274156") returned to Mike
+					ieSendInRangeMission("id=18","49.639006, 6.263164") returned to Mike
+					
+					}
+						
+						}
+					}
+				Mike executed instanceof suRetrieveMissionDetails() {
 						use case steps {
 						
 						}
 					}
-				Jack executed instanceof suRetrieveMissionDetails() {
-						use case steps {
-						
-						}
-					}
-				Jack executed instanceof suAcceptMission() {
+				Mike executed instanceof suAcceptMission() {
 						use case steps {
 						
 						}

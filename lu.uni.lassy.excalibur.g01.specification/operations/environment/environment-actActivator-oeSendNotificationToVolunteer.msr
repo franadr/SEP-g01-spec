@@ -1,4 +1,4 @@
-package lu.uni.lassy.excalibur.g01.specification.environment.operations.actVolunteer.outactVolunteer.oeGetPosition {
+package lu.uni.lassy.excalibur.g01.specification.environment.operations.actActivator.outactActivator.oeSendNotificationToVolunteer {
 
 import lu.uni.lassy.messir.libraries.primitives
 import lu.uni.lassy.messir.libraries.math
@@ -8,5 +8,6 @@ import lu.uni.lassy.messir.libraries.calendar
 	Operation Model {
 
 		
+		}
 	}
-}
+

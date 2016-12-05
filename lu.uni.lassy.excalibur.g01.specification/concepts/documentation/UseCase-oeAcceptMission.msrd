@@ -5,9 +5,9 @@
 
 
 @@Use Case Subfunction lu.uni.lassy.excalibur.g01.specification.usecases.volunteer.oeAcceptMission
-@description ""
+@description "The operation allow the Volunteer to accept a specific mission"
 @protocolCondition
-"
+"The volunteer has triggered suRetrieveMissionDetails for this specific mission
 "
 @endProtocolConditions
 @preCondition
@@ -15,7 +15,7 @@
 "
 @endPreConditions
 @postCondition
-"
+"The @post value of assigned HelpRequest ID of this volunteer instance is the selected HelpRequest ID
 "
 @endPostConditions
 @additionalInformation
