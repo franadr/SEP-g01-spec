@@ -364,6 +364,11 @@
   <semanticResources>usecases/activatorUC.msr</semanticResources>
   <semanticResources>usecases/DeployAndRun.msr</semanticResources>
   <semanticResources>documentation/View-uci-uciNormalRun.msrd</semanticResources>
+  <semanticResources>operations/environment/environment-actActivator-oeSendNotificationToVolunteer.msr</semanticResources>
+  <semanticResources>usecases/documentation/UseCase-suDeployRun.msrd</semanticResources>
+  <semanticResources>usecases/documentation/UseCaseInstance-uciNormalRun.msrd</semanticResources>
+  <semanticResources>usecases/documentation/UseCase-oeSetClock.msrd</semanticResources>
+  <semanticResources>usecases/documentation/UseCase-oeSendNotificationToVolunteer.msrd</semanticResources>
   <ownedViews xmi:type="viewpoint:DView" xmi:id="_UkFpUJhGEeao7bVShP4TVg">
     <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']"/>
   </ownedViews>
