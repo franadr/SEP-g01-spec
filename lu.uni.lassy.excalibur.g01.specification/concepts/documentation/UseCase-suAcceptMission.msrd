@@ -10,7 +10,7 @@
 "The system is deployed
 "
 @protocolCondition
-"The actVolunteer has authorized by the Coordinator to accept missions
+"The actVolunteer is authorized by the Coordinator to accept missions
 "
 @endProtocolConditions
 @preCondition

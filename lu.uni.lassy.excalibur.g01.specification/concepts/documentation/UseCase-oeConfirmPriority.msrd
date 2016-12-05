@@ -5,17 +5,17 @@
 
 
 @@Use Case Subfunction lu.uni.lassy.excalibur.g01.specification.usecases.coordinator.oeConfirmPriority
-@description ""
+@description "The goal is to confirm the calculated priority"
 @protocolCondition
-"
+"The system is still running
 "
 @endProtocolConditions
 @preCondition
-"
+"The help request is on the pending list and the priority has been successfully calculated
 "
 @endPreConditions
 @postCondition
-"
+"The system assigns the priority to the help request
 "
 @endPostConditions
 @additionalInformation

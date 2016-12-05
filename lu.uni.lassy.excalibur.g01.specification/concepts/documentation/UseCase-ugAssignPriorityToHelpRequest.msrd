@@ -5,9 +5,9 @@
 
 
 @@Use Case lu.uni.lassy.excalibur.g01.specification.usecases.coordinator.ugAssignPriorityToHelpRequest
-@description ""
+@description "The goal is to assign a priority to a help request after a call has been made with the weak person"
 @protocolCondition
-"
+"The system is running
 "
 @endProtocolConditions
 @preCondition

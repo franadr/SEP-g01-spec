@@ -5,7 +5,7 @@
 
 
 @@Use Case lu.uni.lassy.excalibur.g01.specification.usecases.coordinator.ugRetrievePendingHelpRequestDetails
-@description ""
+@description "The goal is call a list with the help requests"
 @protocolCondition
 "
 "
