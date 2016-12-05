@@ -11,11 +11,11 @@
 "
 @endProtocolConditions
 @preCondition
-"
+"The help request is pending and has not a calculated priority
 "
 @endPreConditions
 @postCondition
-"
+"The filled checkbox is filled with at least one item and the coordinator has accept the calculated priority
 "
 @endPostConditions
 @additionalInformation

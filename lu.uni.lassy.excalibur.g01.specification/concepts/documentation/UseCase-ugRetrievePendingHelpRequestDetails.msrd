@@ -7,15 +7,15 @@
 @@Use Case lu.uni.lassy.excalibur.g01.specification.usecases.coordinator.ugRetrievePendingHelpRequestDetails
 @description "The goal is call a list with the help requests"
 @protocolCondition
-"
+"The system is running
 "
 @endProtocolConditions
 @preCondition
-"
+"There is at least one pending help request
 "
 @endPreConditions
 @postCondition
-"
+"The system sends a list with pending requests
 "
 @endPostConditions
 @additionalInformation
