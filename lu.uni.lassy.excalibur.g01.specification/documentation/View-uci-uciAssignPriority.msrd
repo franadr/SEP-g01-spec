@@ -1,0 +1,10 @@
+/*
+@author Carlos
+@date Sun Dec 04 23:23:38 CET 2016
+*/
+
+
+@@view uci-uciAssignPriority
+@instance Use-Case lu.uni.lassy.excalibur.g01.specification.usecases.coordinator.uciAssignPriority 
+@description "Assigns a priority to a help request"
+@caption ""

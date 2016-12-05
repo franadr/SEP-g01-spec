@@ -1,0 +1,10 @@
+/*
+@author Carlos
+@date Sun Dec 04 23:25:25 CET 2016
+*/
+
+
+@@view uci-uciAlertTheFamily
+@instance Use-Case lu.uni.lassy.excalibur.g01.specification.usescases.weakperson.uciAlertTheFamily 
+@description "Alerts the family of the weak person"
+@caption ""
