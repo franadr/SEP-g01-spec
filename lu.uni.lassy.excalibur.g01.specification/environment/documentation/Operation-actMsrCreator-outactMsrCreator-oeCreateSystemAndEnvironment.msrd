@@ -1,0 +1,31 @@
+/*
+@author Seba
+@date Mon Dec 05 22:39:29 CET 2016
+*/
+
+
+@@Operation
+lu.uni.lassy.excalibur.g01.specification.environment.actMsrCreator.outactMsrCreator.oeCreateSystemAndEnvironment
+@description "initializes the system's class instances and the environment actors instances"
+
+//preProtocol descriptions
+@preP
+" "
+@endPreP
+//preFunctional descriptions
+@preF
+" "
+@endPreF
+//postFunctional descriptions
+@postF 
+"ctState instance is initialized ..."
+@postF
+"actMsrCreator actor instance is initiated"
+
+@endPostF
+//postProtocol descriptions
+@postP 
+" "
+@endPostP
+//example
+@example" "
