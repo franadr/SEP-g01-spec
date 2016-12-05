@@ -5,4 +5,4 @@
 
 
 @@Instance Use Case lu.uni.lassy.excalibur.g01.specification.usecases.coordinator.uciCallSelectedHelp
-@description ""
+@description "Call the weak person by selecting a help request it sent"

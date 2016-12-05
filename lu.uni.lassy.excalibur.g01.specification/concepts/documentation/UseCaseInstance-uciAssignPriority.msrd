@@ -5,4 +5,4 @@
 
 
 @@Instance Use Case lu.uni.lassy.excalibur.g01.specification.usecases.coordinator.uciAssignPriority
-@description ""
+@description "Assign Priority to the help request"

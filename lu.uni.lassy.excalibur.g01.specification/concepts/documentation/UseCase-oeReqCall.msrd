@@ -5,17 +5,17 @@
 
 
 @@Use Case Subfunction lu.uni.lassy.excalibur.g01.specification.usecases.coordinator.oeReqCall
-@description ""
+@description "The goal is to request a call to the phone company"
 @protocolCondition
-"
+"The system is running
 "
 @endProtocolConditions
 @preCondition
-"
+"The help request is on the pending list and connection between the system and the phone company is maintained
 "
 @endPreConditions
 @postCondition
-"
+"The number of the requested call exists and the coordinator is connected to the weak person
 "
 @endPostConditions
 @additionalInformation

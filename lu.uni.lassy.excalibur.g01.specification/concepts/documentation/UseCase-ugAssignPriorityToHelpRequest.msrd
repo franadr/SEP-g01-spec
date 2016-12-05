@@ -5,17 +5,17 @@
 
 
 @@Use Case lu.uni.lassy.excalibur.g01.specification.usecases.coordinator.ugAssignPriorityToHelpRequest
-@description ""
+@description "The goal is to assign a priority to a help request after a call has been made with the weak person"
 @protocolCondition
-"
+"The system is running
 "
 @endProtocolConditions
 @preCondition
-"
+"The help request is pending and has not a calculated priority
 "
 @endPreConditions
 @postCondition
-"
+"The filled checkbox is filled with at least one item and the coordinator has accept the calculated priority
 "
 @endPostConditions
 @additionalInformation

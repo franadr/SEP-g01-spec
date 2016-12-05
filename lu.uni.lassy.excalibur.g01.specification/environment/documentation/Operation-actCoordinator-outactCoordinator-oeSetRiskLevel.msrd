@@ -6,19 +6,19 @@
 
 @@Operation
 lu.uni.lassy.excalibur.g01.specification.environment.actCoordinator.outactCoordinator.oeSetRiskLevel
-@description "
+@description "Set the risk of the help request
  "
 //preProtocol descriptions
 @preP
-" "
+"The help request must exist"
 @endPreP
 //preFunctional descriptions
 @preF
-" "
+"The received checkbox must be filled"
 @endPreF
 //postFunctional descriptions
 @postF 
-" "
+" The calculated risk will be set to the help request"
 @endPostF
 //postProtocol descriptions
 @postP 

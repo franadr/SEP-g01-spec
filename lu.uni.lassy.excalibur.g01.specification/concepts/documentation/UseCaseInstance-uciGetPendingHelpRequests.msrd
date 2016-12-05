@@ -5,4 +5,4 @@
 
 
 @@Instance Use Case lu.uni.lassy.excalibur.g01.specification.usecases.coordinator.uciGetPendingHelpRequests
-@description ""
+@description "Receive a list with all the pending help requests."

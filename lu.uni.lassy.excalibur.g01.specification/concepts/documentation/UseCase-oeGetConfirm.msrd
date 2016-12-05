@@ -5,17 +5,17 @@
 
 
 @@Use Case Subfunction lu.uni.lassy.excalibur.g01.specification.usecases.coordinator.oeGetConfirm
-@description ""
+@description "The goal is to get the confirmation from the phone company"
 @protocolCondition
-"
+"The system is running
 "
 @endProtocolConditions
 @preCondition
-"
+"The help request exists and the coordinator is logged in
 "
 @endPreConditions
 @postCondition
-"
+"The phone company sends a confirmation that the number exists and the phone is reachable
 "
 @endPostConditions
 @additionalInformation

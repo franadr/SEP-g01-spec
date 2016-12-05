@@ -5,17 +5,17 @@
 
 
 @@Use Case lu.uni.lassy.excalibur.g01.specification.usecases.coordinator.suCallSelectedHelpRequest
-@description ""
+@description "The goal is to successfully call the weak person by choosing the help request it sent"
 @protocolCondition
-"
+"The system is running
 "
 @endProtocolConditions
 @preCondition
-"
+"The help request still exists and is still pending in the list
 "
 @endPreConditions
 @postCondition
-"
+"The coordinator is linked to the weak person via phone call
 "
 @endPostConditions
 @additionalInformation
