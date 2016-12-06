@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <viewpoint:DAnalysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:description_2="http://www.eclipse.org/sirius/diagram/sequence/description/2.0.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:messir="http://www.uni.lu/lassy/excalibur/dsl/messir/Messir" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:sequence="http://www.eclipse.org/sirius/diagram/sequence/2.0.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/sequence/description/2.0.0 http://www.eclipse.org/sirius/diagram/sequence/2.0.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style" xmi:id="_UK0NsJhGEeao7bVShP4TVg" selectedViews="_UTWeoJhGEeao7bVShP4TVg" version="11.0.0.201604141600">
-  <referencedAnalysis xmi:type="viewpoint:DAnalysis" href="representations3.aird#_UjbiAJhGEeao7bVShP4TVg"/>
-  <referencedAnalysis xmi:type="viewpoint:DAnalysis" href="representations1.aird#_UiDpAJhGEeao7bVShP4TVg"/>
-  <referencedAnalysis xmi:type="viewpoint:DAnalysis" href="representations2.aird#_UivlgJhGEeao7bVShP4TVg"/>
-  <referencedAnalysis xmi:type="viewpoint:DAnalysis" href="representations4.aird#_UkOMMJhGEeao7bVShP4TVg"/>
   <semanticResources>concepts/primarytypes-associations/primarytypes-associations.msr</semanticResources>
   <semanticResources>platform:/resource/lu.uni.lassy.excalibur.standard.specification.libraries/library/calendar.msr</semanticResources>
   <semanticResources>platform:/resource/lu.uni.lassy.excalibur.standard.specification.libraries/library/math.msr</semanticResources>
@@ -2181,19 +2177,19 @@
           </edges>
           <edges xmi:type="notation:Edge" xmi:id="_vGLPkrsyEea8oP6862501Q" type="4001" element="_vF14hbsyEea8oP6862501Q" source="_vGFI8LsyEea8oP6862501Q" target="_vGGXELsyEea8oP6862501Q">
             <children xmi:type="notation:Node" xmi:id="_vGLPlrsyEea8oP6862501Q" type="6001">
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vGLPl7syEea8oP6862501Q" x="1" y="-7"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vGLPl7syEea8oP6862501Q" x="3" y="-6"/>
             </children>
             <children xmi:type="notation:Node" xmi:id="_vGL2oLsyEea8oP6862501Q" type="6002">
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vGL2obsyEea8oP6862501Q" x="1" y="11"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vGL2obsyEea8oP6862501Q" x="2" y="11"/>
             </children>
             <children xmi:type="notation:Node" xmi:id="_vGL2orsyEea8oP6862501Q" type="6003">
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vGL2o7syEea8oP6862501Q" x="1" y="9"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vGL2o7syEea8oP6862501Q" x="1" y="10"/>
             </children>
             <styles xmi:type="notation:ConnectorStyle" xmi:id="_vGLPk7syEea8oP6862501Q"/>
             <styles xmi:type="notation:FontStyle" xmi:id="_vGLPlLsyEea8oP6862501Q" fontName=".SF NS Text" fontHeight="14"/>
-            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_vGLPlbsyEea8oP6862501Q" points="[-75, 2, 420, -12]$[-420, 11, 75, -3]"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_vGLPlbsyEea8oP6862501Q" points="[0, 0, 427, 13]$[-420, -13, 7, 0]"/>
             <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vGL2pLsyEea8oP6862501Q" id="(0.5,0.0)"/>
-            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vGL2pbsyEea8oP6862501Q" id="(0.5,1.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vGL2pbsyEea8oP6862501Q" id="(0.9533333333333334,0.46)"/>
           </edges>
           <edges xmi:type="notation:Edge" xmi:id="_vGL2prsyEea8oP6862501Q" type="4001" element="_vF14ibsyEea8oP6862501Q" source="_vGFI8LsyEea8oP6862501Q" target="_vGGXFbsyEea8oP6862501Q">
             <children xmi:type="notation:Node" xmi:id="_vGL2qrsyEea8oP6862501Q" type="6001">

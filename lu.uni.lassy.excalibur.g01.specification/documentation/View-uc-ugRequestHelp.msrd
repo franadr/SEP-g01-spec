@@ -8,4 +8,4 @@
 @model Use-Case lu.uni.lassy.excalibur.g01.specification.usescases.weakperson.ugRequestHelp 
 @description "Use case view describing the use case of request help"
 @caption ""
-@scale 0.6
+@scale MaxWidth

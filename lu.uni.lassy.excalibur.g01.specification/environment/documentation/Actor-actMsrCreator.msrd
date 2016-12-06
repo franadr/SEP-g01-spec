@@ -1,0 +1,16 @@
+/*
+@author Adriano
+@date Tue Dec 06 11:25:58 CET 2016
+*/
+
+
+@@Actor lu.uni.lassy.excalibur.g01.specification.environment.actMsrCreator
+@description ""
+//input events
+
+//output events
+@outputEvent
+lu.uni.lassy.excalibur.g01.specification.environment.actMsrCreator.outactMsrCreator.oeCreateSystemAndEnvironment
+""
+
+@endOutputEvents

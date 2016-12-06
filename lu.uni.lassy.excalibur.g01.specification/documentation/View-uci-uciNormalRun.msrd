@@ -8,4 +8,4 @@
 @instance Use-Case lu.uni.lassy.excalibur.g01.specification.usecases.main.uciNormalRun 
 @description "Use case instance describing a normal run of the application"
 @caption ""
-@scale 0.35
+@scale MaxWidth
