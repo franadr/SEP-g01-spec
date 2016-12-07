@@ -83,29 +83,29 @@ Environment Model {
 		input interface inactCoordinator {
 			operation ieSendPendingHelpRequestList(AdtTime:dtTime,AdtPhoneNumber :dtPhoneNumber) : ptBoolean
 			operation ieSendHelpRequestDetail(AdtName : dtName, AdtPhoneNumber : dtPhoneNumber , AdtCoordinates : dtCoordinates , AdtAddress : dtAddress) : ptBoolean
-			operation ieSendVolunteerList() : ptBoolean
-			operation ieConfirm() : ptBoolean
+			operation ieSendVolunteerList(AetVolunteerStatus : etVolunteerStatus) : ptBoolean
+			operation ieConfirm(AdtPhoneNumber : dtPhoneNumber) : ptBoolean
 			operation ieSendCheckbox() : ptBoolean
-			operation ieSendCalculatedPriority() : ptBoolean
-			operation ieSendResult() : ptBoolean
+			operation ieSendCalculatedPriority(AdtRiskLevel : dtInteger, AdtHelpRequestID : dtHRid) : ptBoolean
+			operation ieSendResult(AdtRiskLevel : dtInteger, AdtHelpRequestID : dtHRid) : ptBoolean
 			operation ieReqPendingHelpRequests() : ptBoolean
 			operation ieRequHRDetails(AdtId :dtHRid) : ptBoolean
 			operation ieSendPendingHR(AdtTime : dtTime) : ptBoolean
 			operation ieFamilyDetailsRequest() : ptBoolean
-			operation ieConfirmationOfFamilyDetailsReceived() : ptBoolean
+			operation ieConfirmationOfFamilyDetailsReceived(AdtMessage : dtMessage) : ptBoolean
 			operation ieFamilyDeliveryReport(AdtName : dtName, AdtConfirmation : ptBoolean) : ptBoolean
 			operation ieAddEntry(AdtName : dtName, AdtPhoneNumber : dtPhoneNumber , AdtCoordinates : dtCoordinates , AdtAddress : dtAddress) : ptBoolean
 		}
 		output interface outactCoordinator {
-			operation oeGetPendingHelpRequests() : ptBoolean
+			operation oeGetPendingHelpRequests(AetHelpRequestStatus : etHelpRequestStatus) : ptBoolean
 			operation oeGetHelpRequestDetail(AdtHelpRequestId : dtHRid) : ptBoolean
-			operation oeProceedCall() : ptBoolean
-			operation oeSetRiskLevel() : ptBoolean
-			operation oeGetVolunteersList() : ptBoolean
-			operation oeReqCall() : ptBoolean
+			operation oeProceedCall(AdtPhoneNumber : dtPhoneNumber) : ptBoolean
+			operation oeSetRiskLevel(AdtRiskLevel : dtInteger, AdtHelpRequestID : dtHRid) : ptBoolean
+			operation oeGetVolunteersList(AetVolunteerStatus : etVolunteerStatus) : ptBoolean
+			operation oeReqCall(AdtPhoneNumber : dtPhoneNumber) : ptBoolean
 			operation oeReqCheckbox() : ptBoolean
 			operation oeSendFilledCheckbox() : ptBoolean
-			operation oeConfirmPriority() : ptBoolean
+			operation oeConfirmPriority(AdtRiskLevel : dtInteger, AdtHelpRequestID : dtHRid) : ptBoolean
 		}
 	}
 	
@@ -143,7 +143,7 @@ Environment Model {
 		}
 		output interface outactVolunteer {
 			operation oeGetPosition() : ptBoolean
-			operation oeRegisterCoordinates(AdtPostion : dtCoordinates) : ptBoolean
+			operation oeRegisterCoordinates(AdtPosition : dtCoordinates) : ptBoolean
 			
 			operation oeGetMissionInRagne(AdtRange: dtRange,AdtPosition : dtCoordinates) : ptBoolean
 			operation oeAcceptMission(AdtId : dtHRid) : ptBoolean

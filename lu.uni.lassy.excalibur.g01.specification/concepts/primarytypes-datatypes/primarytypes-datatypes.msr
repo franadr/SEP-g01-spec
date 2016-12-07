@@ -65,6 +65,10 @@ Concept Model {
    		enum etHelpRequestStatus {
    			constants["processed", "not processed","handled","not handled"]
    		}
+   		
+   		enum etVolunteerStatus {
+   			constants["online", "occupied","offline"]
+   		}
 	}
 }
 }
