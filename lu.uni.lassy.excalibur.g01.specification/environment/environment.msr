@@ -14,7 +14,18 @@ import lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.datatypes
 
 
 Environment Model {
-
+	
+	actor actAuthPerson role rnactAuthPerson cardinality [1..*] {
+	
+		input interface inactAuthPerson {
+		operation ieMessage(AdtMessage : dtString) : ptBoolean
+		}
+		output interface outactAuthPerson {
+		operation oeLogin(AdtUsr : dtUserName, AdtPsw : dtPassword) : ptBoolean
+		operation oeLogout() : ptBoolean
+		}
+	}
+	
 	
 	actor actActivator role rnactActivator cardinality [1..*] {
 	
@@ -86,8 +97,6 @@ Environment Model {
 			operation ieAddEntry(AdtName : dtName, AdtPhoneNumber : dtPhoneNumber , AdtCoordinates : dtCoordinates , AdtAddress : dtAddress) : ptBoolean
 		}
 		output interface outactCoordinator {
-			operation oeLogin() : ptBoolean
-			operation oeLogout() : ptBoolean
 			operation oeGetPendingHelpRequests() : ptBoolean
 			operation oeGetHelpRequestDetail(AdtHelpRequestId : dtHRid) : ptBoolean
 			operation oeProceedCall() : ptBoolean
@@ -113,8 +122,6 @@ Environment Model {
 		}
 		output interface outactWeakPerson {
 			operation oeSendHelpRequest() : ptBoolean
-			operation oeLogin() : ptBoolean
-			operation oeLogout() : ptBoolean
 			operation oeGetpostition() : ptBoolean
 			operation oeInputManualPos() : ptBoolean
 			operation oeGetInfo() : ptBoolean
@@ -135,8 +142,6 @@ Environment Model {
 			operation ieMessage(adtMessage : dtString) : ptBoolean
 		}
 		output interface outactVolunteer {
-			operation oeLogin() : ptBoolean
-			operation oeLogout(): ptBoolean
 			operation oeGetPosition() : ptBoolean
 			operation oeRegisterCoordinates() : ptBoolean
 			

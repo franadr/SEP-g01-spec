@@ -27,12 +27,7 @@ lu.uni.lassy.excalibur.g01.specification.environment.actWeakPerson.inactWeakPers
 @outputEvent
 lu.uni.lassy.excalibur.g01.specification.environment.actWeakPerson.outactWeakPerson.oeSendHelpRequest
 ""
-@outputEvent
-lu.uni.lassy.excalibur.g01.specification.environment.actWeakPerson.outactWeakPerson.oeLogin
-""
-@outputEvent
-lu.uni.lassy.excalibur.g01.specification.environment.actWeakPerson.outactWeakPerson.oeLogout
-""
+
 @outputEvent
 lu.uni.lassy.excalibur.g01.specification.environment.actWeakPerson.outactWeakPerson.oeGetpostition
 ""

@@ -11,4 +11,4 @@
 @number 5
 @description "Relation view showing Relation between Human and Coordinator, weak person an Volunteer"
 @caption ""
-@scale 0.5
+@scale MaxWidth

@@ -12,28 +12,29 @@ lu.uni.lassy.excalibur.g01.specification.environment.actVolunteer.outactVoluntee
 "First information that represent the Help request ID selected by the volunteer "
 
 @endParameters
-@description " Sent a notification to system about which mission will be processed by this volunteer."
+@description "Sent to system by the Volunteer to notify handling of the instance of ctHelpRequest corresponding to AdtID ."
 //preProtocol descriptions
 @preP
-"The get mission in range should have been executed and returned a non null list."
+"The oeGetMissionInRAnge() has been executed and return at least 1 instance of ctHelpRequest."
 @preP
-"The volunteer has logged in and not logged out."
+"The instance of ctVolunteer has its vpToken to true"
 
 @endPreP
 //preFunctional descriptions
 @preF
-"The mission is not handled by anyone else. "
+"The value of the attribute HelpRequestStatus of the instance of ctHelpRequest corresponding to AdtID : Not Handled "
 @preF
-"The mission is with low priority."
-@preF
-"The mission exists in the pending help request list."
+"The value of the attribute priority of the instance of ctHelpRequest is 3 "
 
 @endPreF
 //postFunctional descriptions
 @postF 
-"The volunteer is associated to a single mission."
+"The attribute HelpRequestStatus of the instance of ctHelpRequest is set to Handled"
 @postF
-""
+"The attribute handledHelpRequest of the instance of ctVolunteer is set to AdtID"
+@postF
+"The attribute handlingWaitingTime of the instance of ctHelpRequest is set to null"
+
 
 
 @endPostF

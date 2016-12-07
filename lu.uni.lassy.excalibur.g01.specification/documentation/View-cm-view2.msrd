@@ -11,5 +11,6 @@
 @number 2
 @description "Gloabal view of all class types and their relations"
 @caption ""
-@scale 0.5
+@scale MaxHeight
+
 @orientation Landscape

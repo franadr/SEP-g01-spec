@@ -5,11 +5,11 @@
 
 
 @@Actor lu.uni.lassy.excalibur.g01.specification.environment.actCoordinator
-@description "Environment Coordinator"
+@description ""
 //input events
 @inputEvent
 lu.uni.lassy.excalibur.g01.specification.environment.actCoordinator.inactCoordinator.ieSendPendingHelpRequestList
-""
+"Allow for recieving dtHelpRequestID"
 @inputEvent
 lu.uni.lassy.excalibur.g01.specification.environment.actCoordinator.inactCoordinator.ieSendHelpRequestDetail
 ""
@@ -45,12 +45,7 @@ lu.uni.lassy.excalibur.g01.specification.environment.actCoordinator.inactCoordin
 " "
 @endInputEvents
 //output events
-@outputEvent
-lu.uni.lassy.excalibur.g01.specification.environment.actCoordinator.outactCoordinator.oeLogin
-""
-@outputEvent
-lu.uni.lassy.excalibur.g01.specification.environment.actCoordinator.outactCoordinator.oeLogout
-""
+
 @outputEvent
 lu.uni.lassy.excalibur.g01.specification.environment.actCoordinator.outactCoordinator.oeGetPendingHelpRequests
 ""

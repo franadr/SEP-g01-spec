@@ -9,37 +9,32 @@
 //input events
 @inputEvent
 lu.uni.lassy.excalibur.g01.specification.environment.actVolunteer.inactVolunteer.ieSentCurrentPosition
-""
+"Its reception confirms dtCorrdinates"
 @inputEvent
 lu.uni.lassy.excalibur.g01.specification.environment.actVolunteer.inactVolunteer.ieSentMissionConfirmation
-""
+"Its reception confirms the handling of the HelpRequest"
 @inputEvent
 lu.uni.lassy.excalibur.g01.specification.environment.actVolunteer.inactVolunteer.ieSendRange
-""
+"Its reception will trigger the sensor to send current coordinates"
 @inputEvent
 lu.uni.lassy.excalibur.g01.specification.environment.actVolunteer.inactVolunteer.ieSendInRangeMission
-""
+"Allows get instances of ceHelpRequest which are in dtRange"
 
 @inputEvent lu.uni.lassy.excalibur.g01.specification.environment.actVolunteer.inactVolunteer.ieRequestPosition
-" "
+""
 @endInputEvents
 //output events
-@outputEvent
-lu.uni.lassy.excalibur.g01.specification.environment.actVolunteer.outactVolunteer.oeLogin
-""
-@outputEvent
-lu.uni.lassy.excalibur.g01.specification.environment.actVolunteer.outactVolunteer.oeLogout
-""
+
 @outputEvent
 lu.uni.lassy.excalibur.g01.specification.environment.actVolunteer.outactVolunteer.oeGetPosition
 ""
 @outputEvent
 lu.uni.lassy.excalibur.g01.specification.environment.actVolunteer.outactVolunteer.oeGetMissionInRagne
-""
+"Sent to retrieve instances of ctHelpRequest"
 @outputEvent
 lu.uni.lassy.excalibur.g01.specification.environment.actVolunteer.outactVolunteer.oeAcceptMission
-""
+"Sent to confirm handling of instance of ctHelpRequest"
 
 @outputEvent lu.uni.lassy.excalibur.g01.specification.environment.actVolunteer.outactVolunteer.oeRegisterCoordinates
-" "
+"Sent to save dtCoordinates into the instance of ctVolunteer"
 @endOutputEvents

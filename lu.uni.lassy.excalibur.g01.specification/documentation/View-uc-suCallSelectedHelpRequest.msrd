@@ -8,3 +8,4 @@
 @model Use-Case lu.uni.lassy.excalibur.g01.specification.usecases.coordinator.suCallSelectedHelpRequest 
 @description "Use case view for call the selected help request"
 @caption ""
+@scale MaxWidth
