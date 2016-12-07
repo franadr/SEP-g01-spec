@@ -16,38 +16,40 @@ lu.uni.lassy.excalibur.g01.specification.environment.actVolunteer.outactVoluntee
 "Second information that represent the center around which the range will be applied"
 @endParameters
 
-@description " Sent to get the mission that are in a range of a specific value around volunteer declared position
+@description " Allows the volunteer to retrieve instances of ctHelpRequest matching his Range attributes
  "
 //preProtocol descriptions
 @preP
-"The system is initiated"
+"Attribute vpStarted from instance of ctState is true"
 @preP
-"The volunteer is logged in"
+"The attribute vpToken from instance of ctVolunteer is true"
 
 @endPreP
 //preFunctional descriptions
 
 @preF
-"The position sent exists within Luxembourg boundaries"
+"AdtPosition is a within Luxembourg boundaries"
 
 @preF
-"The range is less or equal to 50km"
+"AdtRange is less or egal to 50"
+
+@preF
+"the exists instance of ctHelpRequest with attribute HelpRequestStatus egal to not handled"
+@preF
+"the exists instance of ctHelpRequest with attribute priority egal to 3"
 
 @endPreF
 
 //postFunctional descriptions
-@postF 
-"A new help request list has been created containing 0 or more mission "
+
+
 @postF
-"The mission in the list returned exists"
-@postF
-"The mission returned, are not handled by any one else"
-@postF
-"The mission returned are of low priority"
+""
+
 @endPostF
 //postProtocol descriptions
 @postP 
-" If the list is not null the volunteer is able to select one mission to get the details"
+"The operation oeGetMissionDetails() is available"
 @endPostP
 //example
 @example" "

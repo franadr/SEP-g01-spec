@@ -10,15 +10,17 @@ lu.uni.lassy.excalibur.g01.specification.environment.actVolunteer.outactVoluntee
  "
 //preProtocol descriptions
 @preP
-" System is started"
+"Attribute vpStarted from instance of ctState is true"
+@preP
+"The attribute vpToken from instance of ctVolunteer is true"
 @endPreP
 //preFunctional descriptions
 @preF
-" Coordinates are within Luxembourg boundaries"
+" AdtPosition are within Luxembourg Boundaries"
 @endPreF
 //postFunctional descriptions
 @postF 
-" The corresponding coordinates variable of this specific volunteer is update whit sent coordinates"
+"Attribute dtCoordinates from the instance of ctVolunteer is set to dtCoordinates"
 @endPostF
 //postProtocol descriptions
 @postP 

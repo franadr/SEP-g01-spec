@@ -35,14 +35,11 @@ lu.uni.lassy.excalibur.g01.specification.environment.actVolunteer.outactVoluntee
 @postF
 "The attribute handlingWaitingTime of the instance of ctHelpRequest is set to null"
 
-
-
 @endPostF
 //postProtocol descriptions
 @postP 
-"Function to end the mission is available "
-@postP
-"Function to cancel the mission is available"
+"The operation oeEndMission() is available"
+
 
 @endPostP
 //example
