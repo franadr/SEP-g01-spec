@@ -25,7 +25,7 @@ import lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.datatypes
 			
 		}
 		
-		operation: lu.uni.lassy.excalibur.g01.specification.environment.actVolunteer.outactVolunteer.oeRegisterCoordinates():ptBoolean{
+		operation: lu.uni.lassy.excalibur.g01.specification.environment.actVolunteer.outactVolunteer.oeRegisterCoordinates(AdtPosition : dtCoordinates):ptBoolean{
 			
 		}
 		
@@ -41,7 +41,7 @@ import lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.datatypes
 			
 		}
 		
-		operation: lu.uni.lassy.excalibur.g01.specification.environment.actCoordinator.outactCoordinator.oeConfirmPriority():ptBoolean{
+		operation: lu.uni.lassy.excalibur.g01.specification.environment.actCoordinator.outactCoordinator.oeConfirmPriority(AdtRiskLevel : dtInteger, AdtHelpRequestID : dtHRid):ptBoolean{
 			
 		}
 		
@@ -49,20 +49,20 @@ import lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.datatypes
 			
 		}
 		
-		operation: lu.uni.lassy.excalibur.g01.specification.environment.actCoordinator.outactCoordinator.oeGetPendingHelpRequests():ptBoolean{
+		operation: lu.uni.lassy.excalibur.g01.specification.environment.actCoordinator.outactCoordinator.oeGetPendingHelpRequests(AetHelpRequestStatus : etHelpRequestStatus):ptBoolean{
 			
 		}
-		operation: lu.uni.lassy.excalibur.g01.specification.environment.actCoordinator.outactCoordinator.oeProceedCall():ptBoolean{
+		operation: lu.uni.lassy.excalibur.g01.specification.environment.actCoordinator.outactCoordinator.oeProceedCall(AdtPhoneNumber : dtPhoneNumber):ptBoolean{
 			
 		}
 		operation: lu.uni.lassy.excalibur.g01.specification.environment.actCoordinator.outactCoordinator.oeReqCheckbox():ptBoolean{
 			
 		}
 		
-		operation: lu.uni.lassy.excalibur.g01.specification.environment.actCoordinator.outactCoordinator.oeSetRiskLevel():ptBoolean{
+		operation: lu.uni.lassy.excalibur.g01.specification.environment.actCoordinator.outactCoordinator.oeSetRiskLevel(AdtRiskLevel : dtInteger, AdtHelpRequestID : dtHRid):ptBoolean{
 			
 		}
-		operation: lu.uni.lassy.excalibur.g01.specification.environment.actCoordinator.outactCoordinator.oeReqCall():ptBoolean{
+		operation: lu.uni.lassy.excalibur.g01.specification.environment.actCoordinator.outactCoordinator.oeReqCall(AdtPhoneNumber : dtPhoneNumber):ptBoolean{
 			
 		}
 		
