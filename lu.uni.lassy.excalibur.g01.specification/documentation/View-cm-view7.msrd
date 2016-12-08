@@ -1,0 +1,13 @@
+/*
+@author Adriano
+@date Thu Dec 08 18:06:18 CET 2016
+*/
+
+
+@@view cm-view7
+@model Concept
+@level Local
+@sublevel Primary Class
+@number 7
+@description "Shows the environment model global view"
+@caption "Environment model global view"

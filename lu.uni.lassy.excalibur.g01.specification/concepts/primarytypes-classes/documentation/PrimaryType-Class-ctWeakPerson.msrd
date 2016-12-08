@@ -5,14 +5,14 @@
 
 
 @@Primary Type Class lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctWeakPerson
-@description "This represent the Human who creates help requests"
+@description "Used to model the system representation about the actor that issue new help requests"
 @attribute
 lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctWeakPerson.hrId
-""
+"unique weak person ID"
 @endAttributes
 @operation
 lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctWeakPerson.is
-""
+"used to determine if object is considered as a valid ctWeakPerson"
 @operation lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctWeakPerson.init
-" "
+"Used to initialize the current object as a new instance of the ctWeakPerson type "
 @endOperations

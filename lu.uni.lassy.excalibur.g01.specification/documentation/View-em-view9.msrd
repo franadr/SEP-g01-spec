@@ -1,0 +1,12 @@
+/*
+@author Adriano
+@date Thu Dec 08 18:24:34 CET 2016
+*/
+
+
+@@view em-view9
+@model Environment
+@level Local
+@number 9
+@description "shows the local view for the coordinator actor and interface"
+@caption "Environment model local view"

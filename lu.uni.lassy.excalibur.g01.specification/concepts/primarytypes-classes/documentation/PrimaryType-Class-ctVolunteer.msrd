@@ -5,17 +5,20 @@
 
 
 @@Primary Type Class lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctVolunteer
-@description "This represent the the Human which have the ability to help a weakPerson and look for help requests around him"
+@description "Used to model the system representation about the actor that should handle a low priority helprequest"
 @attribute
 lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctVolunteer.vId
-""
+"the volunteer unique ID"
 @attribute
 lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctVolunteer.disp
-""
+"the volunteer disponibility "
+
+@attribute lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctVolunteer.handledHelpRequest
+"the volunteer handled help request ID "
 @endAttributes
 @operation
 lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctVolunteer.is
-""
+"used to determine if object is considered as a valid ctVolunteer"
 @operation lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctVolunteer.init
-" "
+"Used to initialize the current object as a new instance of the ctVolunteer type "
 @endOperations

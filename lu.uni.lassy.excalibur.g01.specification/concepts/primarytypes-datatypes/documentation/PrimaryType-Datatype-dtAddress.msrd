@@ -5,14 +5,14 @@
 
 
 @@Primary Type Datatype lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.datatypes.dtAddress
-@description ""
+@description "A string used to store Address value"
 @attribute
 lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.datatypes.dtAddress.num
-""
+"for the location number of the address"
 @attribute
 lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.datatypes.dtAddress.street
-""
+"for the street name of the address"
 @attribute
 lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.datatypes.dtAddress.city
-""
+"for the city name of the address"
 @endAttributes

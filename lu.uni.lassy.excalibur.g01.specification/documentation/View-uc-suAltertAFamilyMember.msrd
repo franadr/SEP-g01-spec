@@ -6,6 +6,6 @@
 
 @@view uc-suAltertAFamilyMember
 @model Use-Case lu.uni.lassy.excalibur.g01.specification.usescases.weakperson.suAltertAFamilyMember 
-@description "Use case view for Alert a family member"
-@caption ""
+@description "shows use case view for Alert a family member summary use case view" 
+@caption "suAlertAFamilyMemeber summary use case view "
 @scale MaxWidth

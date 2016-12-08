@@ -1,0 +1,12 @@
+/*
+@author Adriano
+@date Thu Dec 08 18:28:51 CET 2016
+*/
+
+
+@@view em-view11
+@model Environment
+@level Local
+@number 11
+@description "shows environment viwe from Weak person actor and interface"
+@caption "Environment local view"

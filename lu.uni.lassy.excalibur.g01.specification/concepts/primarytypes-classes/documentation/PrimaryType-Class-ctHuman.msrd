@@ -5,26 +5,26 @@
 
 
 @@Primary Type Class lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctHuman
-@description "Used to define common properties that are shared among other human type "
+@description "used to model system’s representation about actors that shares the property of a human"
 @attribute
 lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctHuman.name
-""
+"for ctHuman instance name"
 @attribute
 lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctHuman.phone
-""
+"for ctHuman instance phone number"
 @attribute
 lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctHuman.coordinates
-""
+"for ctHuman instance location"
 @attribute
 lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctHuman.username
-""
+"for ctHuman instance username"
 @attribute
 lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctHuman.password
-""
+"for ctHuman instance password"
 @endAttributes
 @operation
 lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctHuman.is
-""
+"used to determine which object is considered as a valid ctHuman"
 @operation lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctHuman.init
-" "
+"Used to initialize the current object as a new instance of the ctHuman type "
 @endOperations

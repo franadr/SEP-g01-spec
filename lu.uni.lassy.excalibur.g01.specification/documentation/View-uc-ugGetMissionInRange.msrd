@@ -6,5 +6,5 @@
 
 @@view uc-ugGetMissionInRange
 @model Use-Case lu.uni.lassy.excalibur.g01.specification.usecases.volunteer.ugGetMissionInRange 
-@description "Use case view of Get in range mission userGoal"
-@caption ""
+@description "shows the use case diagram for the ugGetMissionInRange usergoal use case"
+@caption "ugGetMissionInRange usergoal use case view"

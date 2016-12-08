@@ -6,26 +6,29 @@
 
 @@Operation
 lu.uni.lassy.excalibur.g01.specification.environment.actActivator.outactActivator.oeSendNotificationToVolunteer
-@description "This represent a proactive message sent to volunteer (in range) if the pre condition are met. This will help the help request with low priority to not be idle too long
+@description "A proactive message used to avoid pending help request to stay too long in a not handle status
  "
 //preProtocol descriptions
 @preP
 " System is started"
 @preP
-"There exists mission (Help requests with existing and low priority) which have their location (coordinates) attributes within the range of one or many volunteer based on their registered location (coordinates)"
-
+"
+There are instance of type ctHelpRequest which have their attribute handlingWaitingTime greater or equal to 10 minutes, their attribute priority equal to 3 and their attribute coordinates of associated instance of type ctWeakPerson within the range of ctVolunteer range with handledHelpRequest null   "
 @endPreP
 //preFunctional descriptions
 @preF
-"The @Pre attributes value of HelpRequest's coordinates are within LU-boundaries"
+"none"
 @endPreF
 //postFunctional descriptions
 @postF 
-" A message is sent to all volunteer with HelpRequest's coordinates in their preferred range"
+" "
+@postF
+"An instance of type dtMessage is sent the instances of ctVolunteer meeting pre conditions"
+
 @endPostF
 //postProtocol descriptions
 @postP 
-" @Post value of handlingWaiting time of HelpRequest is set to current time and date"
+"The handlingWaitingTime from instance of ctHelpRequest is reset to 0"
 @endPostP
 //example
 @example" "

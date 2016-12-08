@@ -29,9 +29,6 @@ import lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.datatypes
 			
 		}
 		
-		operation: lu.uni.lassy.excalibur.g01.specification.environment.actVolunteer.outactVolunteer.oeLogin():ptBoolean{
-			
-		}
 		
 		operation: lu.uni.lassy.excalibur.g01.specification.environment.actActivator.outactActivator.oeSendNotificationToVolunteer():ptBoolean{
 			

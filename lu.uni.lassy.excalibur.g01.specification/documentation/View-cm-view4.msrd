@@ -9,7 +9,7 @@
 @level Local
 @sublevel Primary Class
 @number 4
-@description "Relation datagram representing relation between Weak person and help request"
-@caption ""
+@description "Relation diagram representing relation between Weak person and help request"
+@caption "Concept model local view"
 @scale 0.6
 

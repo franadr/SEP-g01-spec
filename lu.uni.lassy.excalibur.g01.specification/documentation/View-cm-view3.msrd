@@ -10,4 +10,4 @@
 @sublevel Primary Class
 @number 3
 @description "Relation view representation aggregation between Help request and pending help requests"
-@caption ""
+@caption "Concept model local view"

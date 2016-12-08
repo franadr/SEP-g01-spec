@@ -9,8 +9,8 @@
 @level Local
 @sublevel Primary Class
 @number 2
-@description "Gloabal view of all class types and their relations"
-@caption ""
+@description "Gloabal view of all class types  relations"
+@caption "shows concept model global view"
 @scale MaxHeight
 
 @orientation Landscape

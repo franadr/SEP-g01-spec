@@ -6,11 +6,14 @@
 
 @@Operation
 lu.uni.lassy.excalibur.g01.specification.environment.actSensor.outactSensor.oeSendPos
-@description "
+@description "sent to transmit position to the position requester
  "
 //preProtocol descriptions
 @preP
-" "
+" The instance of the position requester is logged in "
+@preP
+"The attribute vpStrated from instance of ctState is true "
+
 @endPreP
 //preFunctional descriptions
 @preF
@@ -18,7 +21,7 @@ lu.uni.lassy.excalibur.g01.specification.environment.actSensor.outactSensor.oeSe
 @endPreF
 //postFunctional descriptions
 @postF 
-" "
+"The attribute Coordinates from the instance of the Position requester is set to AdtPosition"
 @endPostF
 //postProtocol descriptions
 @postP 

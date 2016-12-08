@@ -6,5 +6,5 @@
 
 @@view uc-suRetrieveMissionDetails
 @model Use-Case lu.uni.lassy.excalibur.g01.specification.usecases.volunteer.suRetrieveMissionDetails 
-@description ""
-@caption ""
+@description "shows the use case diagram for the suRetrieveMissionDetails summary use case"
+@caption "suRetrieveMissionDetails summary use case view"

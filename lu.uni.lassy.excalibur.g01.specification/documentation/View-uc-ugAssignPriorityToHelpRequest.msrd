@@ -6,5 +6,5 @@
 
 @@view uc-ugAssignPriorityToHelpRequest
 @model Use-Case lu.uni.lassy.excalibur.g01.specification.usecases.coordinator.ugAssignPriorityToHelpRequest 
-@description "Use case view describing The assign priority of a help request"
-@caption ""
+@description "shows the use case diagram for the ugAssignPriorityToHelpRequest usergoal use case"
+@caption "ugAssignPriorityToHelpRequest usergoal use case view"

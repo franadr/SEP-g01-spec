@@ -5,17 +5,17 @@
 
 
 @@Primary Type Class lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctHelpRequest
-@description "This represent the object created by a WeakPErson when asking for help, it is hence associated to exactly 1 human type Weak Person"
+@description "Used to model help requests sent any registered weak person having communication capability "
 @attribute
 lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctHelpRequest.HrTime
-""
+"the time at which the help request has been sent"
 @attribute lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctHelpRequest.priority
-" "
+"the priority set by coordinator after being called "
 @attribute lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctHelpRequest.handlingWaitingTime
-" "
+"the time delta between current clock and time at which help request hqs been sent "
 @endAttributes
 @operation lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctHelpRequest.is
-" "
+" used to identify a system object as valid ctHelpRequest instance"
 @operation lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctHelpRequest.init
-" "
+" Used to initialize the current object as a new instance of the ctHelpRequest type "
 @endOperations

@@ -5,13 +5,13 @@
 
 
 @@Primary Type Class lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctCoordinator
-@description "This represent the human that will handle help requests"
+@description "Used to model the system representation about the actor that should handle help requests"
 @attribute
 lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctCoordinator.cId
-""
+"the coordinator instance unique ID"
 @endAttributes
 @operation lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctCoordinator.is
-" "
+"used to determine if object is considered as a valid ctCoordinator "
 @operation lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctCoordinator.init
-" "
+"Used to initialize the current object as a new instance of the ctCoordinator type"
 @endOperations

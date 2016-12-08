@@ -1,0 +1,12 @@
+/*
+@author Adriano
+@date Thu Dec 08 18:27:16 CET 2016
+*/
+
+
+@@view em-view10
+@model Environment
+@level Local
+@number 10
+@description "shows Environment local view from volunteer actor and interface"
+@caption "Environment local view"

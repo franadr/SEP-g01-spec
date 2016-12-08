@@ -6,6 +6,6 @@
 
 @@view uc-suDeployRun
 @model Use-Case lu.uni.lassy.excalibur.g01.specification.usecases.main.suDeployRun 
-@description "Use case view describing a normal run of the application including all actors,summaries, user goal and subfunctions"
-@caption ""
+@description "shows the use case diagram for the suDeployRun summary use case"
+@caption "suDeployRun summary use case view"
 @scale MaxWidth

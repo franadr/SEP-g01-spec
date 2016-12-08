@@ -5,15 +5,15 @@
 
 
 @@Primary Type Datatype lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.datatypes.dtCoordinates
-@description ""
+@description "used to identify position of geogrphical position on earth, defined as couple of longitude and latitude"
 @attribute
 lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.datatypes.dtCoordinates.long
-""
+"for the longitude of the coordinates"
 @attribute
 lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.datatypes.dtCoordinates.lat
-""
+"for the latitude of the coordinates"
 @endAttributes
 @operation
 lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.datatypes.dtCoordinates.is
-""
+"used to determine which string is considered as a valid coordinate"
 @endOperations

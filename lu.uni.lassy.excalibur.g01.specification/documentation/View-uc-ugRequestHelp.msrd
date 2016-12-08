@@ -6,6 +6,6 @@
 
 @@view uc-ugRequestHelp
 @model Use-Case lu.uni.lassy.excalibur.g01.specification.usescases.weakperson.ugRequestHelp 
-@description "Use case view describing the use case of request help"
-@caption ""
+@description "shows the use case diagram for the ugRequestHelp usergoal use case"
+@caption "ugReauestHelp usergoal use case view"
 @scale MaxWidth

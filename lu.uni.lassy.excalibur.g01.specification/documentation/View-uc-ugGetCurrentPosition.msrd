@@ -6,5 +6,5 @@
 
 @@view uc-ugGetCurrentPosition
 @model Use-Case lu.uni.lassy.excalibur.g01.specification.usecases.volunteer.ugGetCurrentPosition 
-@description "Use case view of Get current position from sensor"
-@caption ""
+@description "shows the use case diagram for the ugGetCurrentPosition usergoal use case"
+@caption "ugGetCurrentPosition usergoal use case view"

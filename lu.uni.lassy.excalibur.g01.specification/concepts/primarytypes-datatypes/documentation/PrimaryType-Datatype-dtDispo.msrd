@@ -5,8 +5,8 @@
 
 
 @@Primary Type Datatype lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.datatypes.dtDispo
-@description ""
+@description "used to define dispos over a day "
 @attribute
 lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.datatypes.dtDispo.time
-""
+"for time representing dispos time"
 @endAttributes

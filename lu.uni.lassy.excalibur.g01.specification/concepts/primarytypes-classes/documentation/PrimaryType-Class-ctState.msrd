@@ -5,20 +5,21 @@
 
 
 @@Primary Type Class lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctState
-@description "Represents the system environment variable that might be accessed at each moment and initilized at start"
+@description "used to model the system. Each system specified using Messir must include a ctState class for
+which there is only one instance at any state of the abstract machine after creation."
 @attribute
 lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctState.vpStarted
-""
+"used to store the information of whether the system is started or not "
 @attribute lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctState.clock
-" "
+"used to represent system local time "
 @attribute lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctState.reminderPeriod
 " "
 @attribute lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctState.lastReminder
 " "
 @attribute lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctState.maxReminderPeriod
-" "
+"used to set a maximum amount of time that should pass until notification is sent "
 @endAttributes
 @operation
 lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctState.init
-""
+"Used to initialize the current object as a new instance of the ctState type"
 @endOperations

@@ -1,0 +1,28 @@
+/*
+@author Adriano
+@date Wed Dec 07 17:03:40 CET 2016
+*/
+
+
+@@Operation
+lu.uni.lassy.excalibur.g01.specification.environment.actAuthPerson.outactAuthPerson.oeLogout
+@description "sent to end the secured access to specific system operation 
+ "
+//preProtocol descriptions
+@preP
+" The system is started"
+@endPreP
+//preFunctional descriptions
+@preF
+" The actor instance has its vpToken to true"
+@endPreF
+//postFunctional descriptions
+@postF 
+" A logout confirmation message is sent to the actor "
+@endPostF
+//postProtocol descriptions
+@postP 
+" "
+@endPostP
+//example
+@example" "

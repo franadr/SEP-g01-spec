@@ -6,6 +6,6 @@
 
 @@view uc-ugRetrievePendingHelpRequestDetails
 @model Use-Case lu.uni.lassy.excalibur.g01.specification.usecases.coordinator.ugRetrievePendingHelpRequestDetails 
-@description "Use case view of Retrieve Pending help Request Details userGoal"
-@caption ""
+@description "shows the use case diagram for the ugRetrievePendingHelpRequestDetails  usergoal use case"
+@caption "ugRetrievePendingHelpRequestDetails  usergoal use case view"
 @scale 0.6

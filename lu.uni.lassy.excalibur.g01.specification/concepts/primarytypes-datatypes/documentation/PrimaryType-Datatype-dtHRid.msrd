@@ -5,12 +5,12 @@
 
 
 @@Primary Type Datatype lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.datatypes.dtHRid
-@description ""
+@description "Used to define a unique helprequest id  "
 @attribute
 lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.datatypes.dtHRid.value
-""
+"An integer used to identify a helpRequest"
 @endAttributes
 @operation
 lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.datatypes.dtHRid.is
-""
+"used to determine if an integer is a correct helprequest"
 @endOperations
