@@ -9,25 +9,25 @@
 //input events
 @inputEvent
 lu.uni.lassy.excalibur.g01.specification.environment.actCoordinator.inactCoordinator.ieSendPendingHelpRequestList
-"its reception lists all ctHelpRequest instances having a specific status"
+"its reception lists all ctHelpRequest instances having a specific status."
 @inputEvent
 lu.uni.lassy.excalibur.g01.specification.environment.actCoordinator.inactCoordinator.ieSendHelpRequestDetail
-"allows to receive requested details of a specific ctHelpRequest instance"
+"allows to receive requested details of a specific ctHelpRequest instance."
 @inputEvent
 lu.uni.lassy.excalibur.g01.specification.environment.actCoordinator.inactCoordinator.ieSendVolunteerList
-"its reception lists all ctVolunteer instances having a specific status"
+"its reception lists all ctVolunteer instances having a specific status."
 @inputEvent
 lu.uni.lassy.excalibur.g01.specification.environment.actCoordinator.inactCoordinator.ieConfirm
-"its reception indicates if the requested number exists"
+"its reception indicates if the requested number exists."
 @inputEvent
 lu.uni.lassy.excalibur.g01.specification.environment.actCoordinator.inactCoordinator.ieSendCheckbox
 ""
 @inputEvent
 lu.uni.lassy.excalibur.g01.specification.environment.actCoordinator.inactCoordinator.ieSendCalculatedPriority
-"allows to receive a calculated risk level"
+"allows to receive a calculated risk level."
 @inputEvent
 lu.uni.lassy.excalibur.g01.specification.environment.actCoordinator.inactCoordinator.ieSendResult
-"allows to receive a ctHelpRequest instance with a calculated risk level"
+"allows to receive a ctHelpRequest instance with a calculated risk level."
 @inputEvent 
 lu.uni.lassy.excalibur.g01.specification.environment.actCoordinator.inactCoordinator.ieReqPendingHelpRequests
 ""
@@ -36,40 +36,40 @@ lu.uni.lassy.excalibur.g01.specification.environment.actCoordinator.inactCoordin
 ""
 @inputEvent 
 lu.uni.lassy.excalibur.g01.specification.environment.actCoordinator.inactCoordinator.ieSendPendingHR
-"allows to receive a specific ctHelpRequest instance "
+"allows to receive a specific ctHelpRequest instance."
 @inputEvent 
 lu.uni.lassy.excalibur.g01.specification.environment.actCoordinator.inactCoordinator.ieFamilyDetailsRequest
-"allows to receive details of family from a specific ctWeakPerson instance"
+"allows to receive details of family from a specific ctWeakPerson instance."
 @inputEvent 
 lu.uni.lassy.excalibur.g01.specification.environment.actCoordinator.inactCoordinator.ieConfirmationOfFamilyDetailsReceived
-" "
+"?????????????????????????????????????????????????????????????????????????????????????????"
 @inputEvent 
 lu.uni.lassy.excalibur.g01.specification.environment.actCoordinator.inactCoordinator.ieFamilyDeliveryReport
-" "
+"?????????????????????????????????????????????????????????????????????????????????????????"
 @inputEvent 
 lu.uni.lassy.excalibur.g01.specification.environment.actCoordinator.inactCoordinator.ieAddEntry
-" "
+"?????????????????????????????????????????????????????????????????????????????????????????"
 @endInputEvents
 //output events
 
 @outputEvent
 lu.uni.lassy.excalibur.g01.specification.environment.actCoordinator.outactCoordinator.oeGetPendingHelpRequests
-""
+"send to request all ctWeakPerson instances with a certain status."
 @outputEvent
 lu.uni.lassy.excalibur.g01.specification.environment.actCoordinator.outactCoordinator.oeGetHelpRequestDetail
-""
+"send to request the details of specific ctWeakPerson instance."
 @outputEvent
 lu.uni.lassy.excalibur.g01.specification.environment.actCoordinator.outactCoordinator.oeProceedCall
-""
+"send to call a specific ctWeakPerson instance."
 @outputEvent
 lu.uni.lassy.excalibur.g01.specification.environment.actCoordinator.outactCoordinator.oeSetRiskLevel
-""
+"??????????????????????????????????????????????????????????????????????????????????????????"
 @outputEvent
 lu.uni.lassy.excalibur.g01.specification.environment.actCoordinator.outactCoordinator.oeGetVolunteersList
-""
+"send to request all ctVolunteers instances with a certain status."
 @outputEvent
 lu.uni.lassy.excalibur.g01.specification.environment.actCoordinator.outactCoordinator.oeReqCall
-""
+"send to request a call to a specific ctWeakPerson instance from a ctPhoneCompany."
 @outputEvent
 lu.uni.lassy.excalibur.g01.specification.environment.actCoordinator.outactCoordinator.oeReqCheckbox
 ""
@@ -78,6 +78,6 @@ lu.uni.lassy.excalibur.g01.specification.environment.actCoordinator.outactCoordi
 ""
 @outputEvent
 lu.uni.lassy.excalibur.g01.specification.environment.actCoordinator.outactCoordinator.oeConfirmPriority
-""
+"send to attach a risk level to a specific ctWeakPerson instance."
 
 @endOutputEvents
