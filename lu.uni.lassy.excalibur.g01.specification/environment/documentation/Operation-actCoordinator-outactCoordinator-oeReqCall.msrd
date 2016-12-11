@@ -10,19 +10,21 @@ lu.uni.lassy.excalibur.g01.specification.environment.actCoordinator.outactCoordi
  "
 //preProtocol descriptions
 @preP
-""
+"the ctWeakPerson instance with dtHRid exists"
 @endPreP
 //preFunctional descriptions
 @preF
-" A help request exists in the pending help request list"
+"The value of the attribute HelpRequestStatus of ctHelpRequest instance corresponding to AdtID : Not processed"
+@preF
+"The value of the attribute priority of ctHelpRequest instance is 0"
 @endPreF
 //postFunctional descriptions
 @postF 
-"The confirmation of the phone company has been sent "
+"the ctPhoneCompany instance received the request"
 @endPostF
 //postProtocol descriptions
 @postP 
-"Function to proceed the call is activated"
+""
 @endPostP
 //example
 @example" "

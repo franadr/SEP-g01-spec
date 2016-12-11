@@ -10,19 +10,19 @@ lu.uni.lassy.excalibur.g01.specification.environment.actCoordinator.outactCoordi
  "
 //preProtocol descriptions
 @preP
-"The Phone company has sent the confirmation to proceed with call"
+"the ctWeakPerson instance with dtPhoneNumber exists"
 @endPreP
 //preFunctional descriptions
 @preF
-"The weak person must be on line"
+"the ctPhoneCompany instance has send the confirmation that the dtPhoneNumber of the corresponding ctWeakPerson instance exists"
 @endPreF
 //postFunctional descriptions
 @postF 
-" "
+""
 @endPostF
 //postProtocol descriptions
 @postP 
-"Function to request a Checkbox is activated"
+"The operation oeReqCheckbox() is available"
 @endPostP
 //example
 @example" "

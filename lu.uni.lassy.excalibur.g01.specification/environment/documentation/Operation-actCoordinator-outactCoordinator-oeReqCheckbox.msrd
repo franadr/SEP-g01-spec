@@ -10,19 +10,21 @@ lu.uni.lassy.excalibur.g01.specification.environment.actCoordinator.outactCoordi
  "
 //preProtocol descriptions
 @preP
-"The function proceed call has been activated"
+"the ctWeakPerson instance with dtHRid exists"
+@preP
+"the subfunction oeProceedCall has been previously activated"
 @endPreP
 //preFunctional descriptions
 @preF
-" "
+""
 @endPreF
 //postFunctional descriptions
 @postF 
-"The help request still exists in the pending help request list "
+""
 @endPostF
 //postProtocol descriptions
 @postP 
-"If the help request still exists, the coordinator is able to select the items on the Checkbox"
+""
 @endPostP
 //example
 @example" "

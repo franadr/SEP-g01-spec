@@ -16,19 +16,21 @@ lu.uni.lassy.excalibur.g01.specification.environment.actCoordinator.outactCoordi
  "
 //preProtocol descriptions
 @preP
-" The Coordinator is logged in and the system is initiated"
+" the actor ctCoordinator is logged in"
+@preP
+" the selected ctWeakPerson instance must exist"
 @endPreP
 //preFunctional descriptions
 @preF
-"The ID should exist and it is not null"
+"the dtHRid should exist and it is not null"
 @endPreF
 //postFunctional descriptions
 @postF 
-"One ID should be associated with one Help Request"
+"a list with all the details of ctWeakPerson with the dtHRid is generated"
 @endPostF
 //postProtocol descriptions
 @postP 
-"Function to get pending help requests is activated "
+""
 @endPostP
 //example
 @example" "

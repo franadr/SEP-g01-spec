@@ -10,7 +10,7 @@ lu.uni.lassy.excalibur.g01.specification.environment.actCoordinator.outactCoordi
  "
 //preProtocol descriptions
 @preP
-"The Send Filled Checkbox should have been executed and returned an non null priority number "
+""
 @endPreP
 //preFunctional descriptions
 @preF
@@ -18,13 +18,11 @@ lu.uni.lassy.excalibur.g01.specification.environment.actCoordinator.outactCoordi
 @endPreF
 //postFunctional descriptions
 @postF 
-"The priority number is associated with one weak person"
+"the risk level of ctWeakPerson with corresponding dtHRid is set to the calculated level"
 @endPostF
 //postProtocol descriptions
 @postP 
-"Function to set a mission is available"
-@postP 
-"Function to call an ambulance is available if it is of high priority"
+"the ctHelpRequest instance of ctWeakPerson will appear to all near ctVolunteer by calling the operation oeGetMissionInRange()"
 @endPostP
 //example
 @example" "

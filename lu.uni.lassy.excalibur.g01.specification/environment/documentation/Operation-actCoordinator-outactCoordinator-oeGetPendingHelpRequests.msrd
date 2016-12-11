@@ -6,23 +6,23 @@
 
 @@Operation
 lu.uni.lassy.excalibur.g01.specification.environment.actCoordinator.outactCoordinator.oeGetPendingHelpRequests
-@description "Generate a list with pending help requests
+@description "Generate a list with pending help requests with a certain status
  "
 //preProtocol descriptions
 @preP
-"The coordinator must be logged in "
+"the actor ctCoordinator must be logged in"
 @endPreP
 //preFunctional descriptions
 @preF
-"There must be a number of help requests  "
+"there must exist ctWeakPerson instance with a certain etHelpRequestStatus attribute"
 @endPreF
 //postFunctional descriptions
 @postF 
-" "
+"generate a list with all ctWeakPerson instances that has the same etHelpRequestStatus attribute"
 @endPostF
 //postProtocol descriptions
 @postP 
-"Function to request a call is activated "
+"The operation oeReqCall() is available for all ctWeakPerson instances with a etHelpRequestStatus set to: not processed"
 @endPostP
 //example
 @example" "
