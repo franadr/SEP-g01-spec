@@ -18,6 +18,17 @@ import lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.datatypes
 Concept Model {
 
 	Primary Types {
+		
+		class ctCheckBox role rnctCheckBox cardinality [0..*] {
+			attribute q1: ptString
+			attribute q2: ptString
+			attribute q3: ptString
+			attribute q4: ptString
+			attribute q5: ptString
+			
+			
+			operation init() : ptBoolean
+		}
 	
 		state class ctState {
 			attribute clock: dtTime
@@ -78,6 +89,7 @@ Concept Model {
 		association assHelpRequest ctHelpRequest(rnctHelpRequest)[1..1] ctWeakPerson(rnctWeakPerson)[0..*]
 		association assCoordinatorHelpRequest ctCoordinator(rnctCoordinator)[0..1] ctHelpRequest(rnctHR)[0..*]
 		association assActCoordinatorVolunteer actVolunteer(roleOfC1forC2)[1..1] actAuthPerson(roleOfC2forC1)[0..0]
+		association assCheckBWeakPerson ctCheckBox(roleOfC1forC2)[0..1] ctHelpRequest(roleOfC2forC1)[1..1]
 		
 	}
 }
