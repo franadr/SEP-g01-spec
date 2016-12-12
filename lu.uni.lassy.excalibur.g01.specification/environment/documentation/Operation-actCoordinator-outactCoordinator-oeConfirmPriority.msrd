@@ -10,11 +10,13 @@ lu.uni.lassy.excalibur.g01.specification.environment.actCoordinator.outactCoordi
  "
 //preProtocol descriptions
 @preP
-""
+"the oeSendFilledCheckbox() operation has been called previously."
+@preP
+"the corresponding ctHelpRequest still exists"
 @endPreP
 //preFunctional descriptions
 @preF
-" "
+"at least one item from ctCheckbox instance has been selected"
 @endPreF
 //postFunctional descriptions
 @postF 
