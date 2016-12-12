@@ -10,6 +10,7 @@ import lu.uni.lassy.messir.libraries.math
 import lu.uni.lassy.messir.libraries.primitives
 import lu.uni.lassy.messir.libraries.string
 import lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.datatypes
+import lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes
 
 
 
@@ -85,7 +86,7 @@ Environment Model {
 			operation ieSendHelpRequestDetail(AdtName : dtName, AdtPhoneNumber : dtPhoneNumber , AdtCoordinates : dtCoordinates , AdtAddress : dtAddress) : ptBoolean
 			operation ieSendVolunteerList(AetVolunteerStatus : etVolunteerStatus) : ptBoolean
 			operation ieConfirm(AdtPhoneNumber : dtPhoneNumber) : ptBoolean
-			operation ieSendCheckbox() : ptBoolean
+			operation ieSendCheckbox(ActCheckBox :ctCheckBox) : ptBoolean
 			operation ieSendCalculatedPriority(AdtRiskLevel : dtInteger, AdtHelpRequestID : dtHRid) : ptBoolean
 			operation ieSendResult(AdtRiskLevel : dtInteger, AdtHelpRequestID : dtHRid) : ptBoolean
 			operation ieReqPendingHelpRequests() : ptBoolean
@@ -104,7 +105,7 @@ Environment Model {
 			operation oeGetVolunteersList(AetVolunteerStatus : etVolunteerStatus) : ptBoolean
 			operation oeReqCall(AdtPhoneNumber : dtPhoneNumber) : ptBoolean
 			operation oeReqCheckbox() : ptBoolean
-			operation oeSendFilledCheckbox() : ptBoolean
+			operation oeSendFilledCheckbox(ActCheckBox : ctCheckBox) : ptBoolean
 			operation oeConfirmPriority(AdtRiskLevel : dtInteger, AdtHelpRequestID : dtHRid) : ptBoolean
 		}
 	}

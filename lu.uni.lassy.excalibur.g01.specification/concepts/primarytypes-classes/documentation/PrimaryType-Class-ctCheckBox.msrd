@@ -1,0 +1,28 @@
+/*
+@author Adriano
+@date Mon Dec 12 11:05:56 CET 2016
+*/
+
+
+@@Primary Type Class lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctCheckBox
+@description "used to model system’s representation about checkbox answers from helprequest origin"
+@attribute
+lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctCheckBox.q1
+"for ctCheckBox instance question 1 "
+@attribute
+lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctCheckBox.q2
+"for ctCheckBox instance question 2 "
+@attribute
+lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctCheckBox.q3
+"for ctCheckBox instance question 3 "
+@attribute
+lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctCheckBox.q4
+"for ctCheckBox instance question 4 "
+@attribute
+lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctCheckBox.q5
+"for ctCheckBox instance question 5 "
+@endAttributes
+@operation
+lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctCheckBox.init
+"Used to initialize the current object as a new instance of the ctCheckbox type"
+@endOperations
