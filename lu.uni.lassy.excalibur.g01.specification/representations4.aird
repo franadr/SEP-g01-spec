@@ -416,6 +416,7 @@
   <semanticResources>concepts/primarytypes-classes/documentation/PrimaryType-Association-assActCoordinatorVolunteer.msrd</semanticResources>
   <semanticResources>concepts/primarytypes-datatypes/documentation/PrimaryType-Enumeration-etVolunteerStatus.msrd</semanticResources>
   <semanticResources>concepts/primarytypes-classes/documentation/PrimaryType-Class-ctCheckBox.msrd</semanticResources>
+  <semanticResources>concepts/primarytypes-classes/documentation/Operation-ctHuman-isInRange.msrd</semanticResources>
   <ownedViews xmi:type="viewpoint:DView" xmi:id="_Uk-aIJhGEeao7bVShP4TVg">
     <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']"/>
   </ownedViews>

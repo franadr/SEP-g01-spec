@@ -1,0 +1,28 @@
+/*
+@author Adriano
+@date Tue Dec 13 12:52:19 CET 2016
+*/
+
+
+@@Operation
+lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctHuman.isInRange
+//parameters
+@parameter
+lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctHuman.isInRange.AdtCenterCoordinates
+"for instance own coordinates"
+@parameter
+lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctHuman.isInRange.Arange
+"for range "
+@parameter
+lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes.ctHuman.isInRange.AdtDestinationCoordinates
+"for destination coordinates"
+@endParameters
+
+@description "Used to determine whether a center coordinates are in range of a destination coordinates
+ "
+//postFunctional descriptions
+@postF 
+"True if the destination coordinates is within the range of own coordinates "
+@endPostF
+//example
+@example" "

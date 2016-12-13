@@ -8,7 +8,7 @@ import lu.uni.lassy.messir.libraries.primitives
 import lu.uni.lassy.messir.libraries.math
 import lu.uni.lassy.messir.libraries.string
 import lu.uni.lassy.messir.libraries.calendar
-
+import lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes
 import lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.datatypes
 
 
@@ -31,6 +31,64 @@ import lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.datatypes
 		
 		
 		operation: lu.uni.lassy.excalibur.g01.specification.environment.actActivator.outactActivator.oeSendNotificationToVolunteer():ptBoolean{
+			preP{
+				let System: ctState in
+				let AvpStarted: ptBoolean in
+				let NotHandledHelpRequest : Bag(ctHelpRequest) in
+				let FreeVolunteer : Bag(ctVolunteer) in 
+				
+				//PreP01
+				self.rnActor.rnSystem = System 
+				and System.vpStarted = AvpStarted 
+				and AvpStarted = true 
+				
+				
+				
+				//Prep02
+				and System.rnctHelpRequest -> select(
+					System.rnctHelpRequest.HelpRequestStatus = "Not handled" 
+					and System.rnctHelpRequest.priority > 2
+				) 
+				= NotHandledHelpRequest
+				
+				and System.rnctHuman.rnctVolunteer -> select(
+					System.rnctHuman.rnctVolunteer.VolunteerStatus =  "Online"
+				)
+				= FreeVolunteer
+				
+				and NotHandledHelpRequest -> Size().geq(1)
+				and FreeVolunteer -> Size().geq(1)
+				
+				
+				
+				
+			
+				
+				
+				
+				
+			}preF{
+				true
+			}postF{
+				
+				NotHandledHelpRequest->iterate(hr : ctHelpRequest ;acc:dtInteger=0 | 
+						FreeVolunteer->iterate(vl : ctVolunteer ; acc:dtInteger = 0 | 
+						if(System.rnctHelpRequest.rnctWeakPerson.rnctHuman.isInRange(vl.rnctHuman.coordinates,
+																					 vl.rnctHuman.range,
+																					 hr.rnctWeakPerson.rnctHuman.Coordinates
+						)) 
+						then (actVolunteer.rnInterfaceIN^message("There are pending mission in your range ")) 
+						else false 
+						endif
+						)
+				)
+			}postP{
+				
+			}
+			
+		}
+		
+		operation: lu.uni.lassy.excalibur.g01.specification.environment.actActivator.outactActivator.oeSetClock(AcurrentClock: dtDateAndTime):ptBoolean{
 			
 		}
 		

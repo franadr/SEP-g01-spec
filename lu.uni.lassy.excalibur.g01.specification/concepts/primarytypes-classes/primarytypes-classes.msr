@@ -51,6 +51,7 @@ Concept Model {
 			attribute vptoken: ptBoolean
 			operation is() : ptBoolean
 			operation init(Aname : dtName, APhone : dtPhoneNumber, ACoordinates : dtCoordinates, AUsername : dtUserName,APassword :dtPassword ,AvpTokent :ptBoolean ) : ptBoolean
+			operation isInRange(AdtCenterCoordinates : dtCoordinates , Arange : ptInteger , AdtDestinationCoordinates : dtCoordinates) : ptBoolean
 		}
 		
 		
@@ -71,7 +72,7 @@ Concept Model {
 			attribute vId: ptInteger
 			attribute disp: dtDispo
 			attribute handledHelpRequest: dtHRid
-			
+			attribute volunteerStatus: etVolunteerStatus
 			operation is() : ptBoolean
 			operation init(AvId : dtInteger,Adisp : dtDispo,Aname : dtName, APhone : dtPhoneNumber, ACoordinates : dtCoordinates, AUsername : dtUserName,APassword :dtPassword) : ptBoolean
 		}
@@ -90,6 +91,7 @@ Concept Model {
 		association assCoordinatorHelpRequest ctCoordinator(rnctCoordinator)[0..1] ctHelpRequest(rnctHR)[0..*]
 		association assActCoordinatorVolunteer actVolunteer(roleOfC1forC2)[1..1] actAuthPerson(roleOfC2forC1)[0..0]
 		association assCheckBWeakPerson ctCheckBox(roleOfC1forC2)[0..1] ctHelpRequest(roleOfC2forC1)[1..1]
+		association assVolunteerHR ctVolunteer(roleOfC1forC2)[0..1] ctHelpRequest(roleOfC2forC1)[0..1]
 		
 	}
 }
