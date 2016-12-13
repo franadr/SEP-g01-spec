@@ -12,7 +12,7 @@ lu.uni.lassy.excalibur.g01.specification.environment.actCoordinator.outactCoordi
 @preP
 "the ctWeakPerson instance with dtHRid exists"
 @preP
-"the subfunction oeProceedCall has been previously activated"
+"the subfunction oeProceedCall() has been previously activated"
 @endPreP
 //preFunctional descriptions
 @preF
@@ -24,7 +24,7 @@ lu.uni.lassy.excalibur.g01.specification.environment.actCoordinator.outactCoordi
 @endPostF
 //postProtocol descriptions
 @postP 
-""
+"the ctCoordinator receives ctCheckbox instance with ptString attributes"
 @endPostP
 //example
 @example" "

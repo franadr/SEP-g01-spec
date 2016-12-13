@@ -10,19 +10,19 @@ lu.uni.lassy.excalibur.g01.specification.environment.actCoordinator.outactCoordi
  "
 //preProtocol descriptions
 @preP
-"The function request checkbox has been called "
+"the oeReqCheckbox() operation has been called previously."
 @endPreP
 //preFunctional descriptions
 @preF
-"There should be selected items in the checkbox "
+"the ctCheckbox instance should have at least one selected item."
 @endPreF
 //postFunctional descriptions
 @postF 
-"The check box id has been associated with help request of the called weak person"
+"the ctCheckbox instance has been associated with its corresponding ctHelpRequest instance."
 @endPostF
 //postProtocol descriptions
 @postP 
-" "
+"the oeConfirmPriority() is enabled."
 @endPostP
 //example
 @example" "
