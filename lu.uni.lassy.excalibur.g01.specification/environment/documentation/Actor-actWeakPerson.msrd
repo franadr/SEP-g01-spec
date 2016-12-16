@@ -9,39 +9,39 @@
 //input events
 @inputEvent
 lu.uni.lassy.excalibur.g01.specification.environment.actWeakPerson.inactWeakPerson.ieSentdPosition
-""
+"Its reception are the dtCoordinates of the corresponding ctWeakPerson instance"
 @inputEvent
 lu.uni.lassy.excalibur.g01.specification.environment.actWeakPerson.inactWeakPerson.ieSentConfirmationMessage
-""
+"Its reception is a confirmation message that the created ctHelpRequest instance was received by the system"
 @inputEvent
 lu.uni.lassy.excalibur.g01.specification.environment.actWeakPerson.inactWeakPerson.ieSendInfo
 ""
 @inputEvent
 lu.uni.lassy.excalibur.g01.specification.environment.actWeakPerson.inactWeakPerson.ieConfirmPos
-""
+"Its reception confirms the dtCoordinates entered manually"
 
 @inputEvent lu.uni.lassy.excalibur.g01.specification.environment.actWeakPerson.inactWeakPerson.ieSmsForFamily
-" "
+"Its reception confirms the SMS was received by ctPhoneCompany instance"
 @endInputEvents
 //output events
 @outputEvent
 lu.uni.lassy.excalibur.g01.specification.environment.actWeakPerson.outactWeakPerson.oeSendHelpRequest
-""
+"Sent to create a ctHelpRequest instance from the corresponding ctWeakPerson instance"
 
 @outputEvent
 lu.uni.lassy.excalibur.g01.specification.environment.actWeakPerson.outactWeakPerson.oeGetpostition
 ""
 @outputEvent
 lu.uni.lassy.excalibur.g01.specification.environment.actWeakPerson.outactWeakPerson.oeInputManualPos
-""
+"sent to request confirmation of the manually entered dtCoordinates"
 @outputEvent
 lu.uni.lassy.excalibur.g01.specification.environment.actWeakPerson.outactWeakPerson.oeGetInfo
 ""
 @outputEvent
 lu.uni.lassy.excalibur.g01.specification.environment.actWeakPerson.outactWeakPerson.oeGetPositionFromSensor
-""
+"sent to request the dtCoordinates of the ctWeakPerson instance from the ctSensor instance"
 @outputEvent
 lu.uni.lassy.excalibur.g01.specification.environment.actWeakPerson.outactWeakPerson.oeAlertFamily
-""
+"sent to request to send a SMS to all ctWeakPersonFamily instances of the corresponding ctWeakPerson instance from ctPhoneCompany instance"
 
 @endOutputEvents
