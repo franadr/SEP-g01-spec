@@ -9,22 +9,22 @@ lu.uni.lassy.excalibur.g01.specification.environment.actWeakPerson.outactWeakPer
 @description "Send a help request to the system."
 //preProtocol descriptions
 @preP
-"The weak Person is logged in and not out."
+"The ctWeakPerson instance is logged in and not out."
 @preP
-"The coordinates have been received either manually or by the sensor."
+"The coordinates attributes have been received either manually or by ctSensor instance."
 
 @endPreP
 //preFunctional descriptions
 @preF
-"The coordinates are valid and can be treated."
+"The coordinates attributes are correct."
 @endPreF
 //postFunctional descriptions
 @postF 
-"A confirmation message signalling that the help request was received is sent to the actor."
+"A confirmation message signaling that the ctHelpRequest instance was received by the ctCoordinator instance."
 @endPostF
 //postProtocol descriptions
 @postP 
-"The help request is recorded by the system and will be displayed on the PendingHelpRequest list of the coordinator."
+"The ctHelpRequest instance is recorded by the system and will be displayed by the operation oeGetPendingHelpRequests."
 @endPostP
 //example
 @example" "

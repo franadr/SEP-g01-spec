@@ -9,18 +9,18 @@ lu.uni.lassy.excalibur.g01.specification.environment.actWeakPerson.outactWeakPer
 @description "Alert the family members/relatives of the actor."
 //preProtocol descriptions
 @preP
-"The coordinates of the actor have been received."
+"The coordinates attributes of the corresponding ctWeakPerson has been received."
 @preP
-"The help request has been received by the system."
+"The ctHelpRequest instance of the corresponding ctWeakPerson has been accepted by the system."
 
 @endPreP
 //preFunctional descriptions
 @preF
-"The actor has information (name and phone number) of family members/relatives signed up (information not null!)."
+"The ctHelpRequest instance has name and phone number attributes of the corresponding ctWeakPersonFamily instances."
 @endPreF
 //postFunctional descriptions
 @postF 
-"The actor PhoneCompany will receive an SMS for the family members/relatives."
+"The ctPhoneCompany instance will receive an SMS for the corresponding ctWeakPersonFamily instances"
 @endPostF
 //postProtocol descriptions
 @postP 

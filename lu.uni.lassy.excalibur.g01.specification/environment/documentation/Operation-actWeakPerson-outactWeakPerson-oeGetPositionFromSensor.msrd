@@ -11,7 +11,7 @@ lu.uni.lassy.excalibur.g01.specification.environment.actWeakPerson.outactWeakPer
 @preP
 "The system is started."
 @preP
-"The actor is logged in."
+"The ctHuman instance is logged in."
 
 @endPreP
 //preFunctional descriptions
@@ -20,7 +20,7 @@ lu.uni.lassy.excalibur.g01.specification.environment.actWeakPerson.outactWeakPer
 @endPreF
 //postFunctional descriptions
 @postF 
-"The sensor will receive a request to access the current coordinates."
+"The ctSensor will receive a request to access the current coordinates attribute."
 @endPostF
 //postProtocol descriptions
 @postP 

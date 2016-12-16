@@ -14,7 +14,18 @@ import lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.datatypes
 
 
 Environment Model {
-
+	
+	actor actAuthPerson role rnactAuthPerson cardinality [1..*] {
+	
+		input interface inactAuthPerson {
+		operation ieMessage(AdtMessage : dtString) : ptBoolean
+		}
+		output interface outactAuthPerson {
+		operation oeLogin(AdtUsr : dtUserName, AdtPsw : dtPassword) : ptBoolean
+		operation oeLogout() : ptBoolean
+		}
+	}
+	
 	
 	actor actActivator role rnactActivator cardinality [1..*] {
 	
@@ -29,6 +40,18 @@ Environment Model {
 	
 		}
 	}
+	
+	
+	actor actMsrCreator role rnactMsrCreator cardinality [1..*] {
+	
+		input interface inactMsrCreator {
+	
+		}
+		output interface outactMsrCreator {
+		operation oeCreateSystemAndEnvironment() : ptBoolean
+		}
+	}
+	
 	
 	
 	actor actSensor role rnactSensor cardinality [1..*] {
@@ -60,31 +83,29 @@ Environment Model {
 		input interface inactCoordinator {
 			operation ieSendPendingHelpRequestList(AdtTime:dtTime,AdtPhoneNumber :dtPhoneNumber) : ptBoolean
 			operation ieSendHelpRequestDetail(AdtName : dtName, AdtPhoneNumber : dtPhoneNumber , AdtCoordinates : dtCoordinates , AdtAddress : dtAddress) : ptBoolean
-			operation ieSendVolunteerList() : ptBoolean
-			operation ieConfirm() : ptBoolean
+			operation ieSendVolunteerList(AetVolunteerStatus : etVolunteerStatus) : ptBoolean
+			operation ieConfirm(AdtPhoneNumber : dtPhoneNumber) : ptBoolean
 			operation ieSendCheckbox() : ptBoolean
-			operation ieSendCalculatedPriority() : ptBoolean
-			operation ieSendResult() : ptBoolean
+			operation ieSendCalculatedPriority(AdtRiskLevel : dtInteger, AdtHelpRequestID : dtHRid) : ptBoolean
+			operation ieSendResult(AdtRiskLevel : dtInteger, AdtHelpRequestID : dtHRid) : ptBoolean
 			operation ieReqPendingHelpRequests() : ptBoolean
 			operation ieRequHRDetails(AdtId :dtHRid) : ptBoolean
 			operation ieSendPendingHR(AdtTime : dtTime) : ptBoolean
 			operation ieFamilyDetailsRequest() : ptBoolean
-			operation ieConfirmationOfFamilyDetailsReceived() : ptBoolean
+			operation ieConfirmationOfFamilyDetailsReceived(AdtMessage : dtMessage) : ptBoolean
 			operation ieFamilyDeliveryReport(AdtName : dtName, AdtConfirmation : ptBoolean) : ptBoolean
 			operation ieAddEntry(AdtName : dtName, AdtPhoneNumber : dtPhoneNumber , AdtCoordinates : dtCoordinates , AdtAddress : dtAddress) : ptBoolean
 		}
 		output interface outactCoordinator {
-			operation oeLogin() : ptBoolean
-			operation oeLogout() : ptBoolean
-			operation oeGetPendingHelpRequests() : ptBoolean
+			operation oeGetPendingHelpRequests(AetHelpRequestStatus : etHelpRequestStatus) : ptBoolean
 			operation oeGetHelpRequestDetail(AdtHelpRequestId : dtHRid) : ptBoolean
-			operation oeProceedCall() : ptBoolean
-			operation oeSetRiskLevel() : ptBoolean
-			operation oeGetVolunteersList() : ptBoolean
-			operation oeReqCall() : ptBoolean
+			operation oeProceedCall(AdtPhoneNumber : dtPhoneNumber) : ptBoolean
+			operation oeSetRiskLevel(AdtRiskLevel : dtInteger, AdtHelpRequestID : dtHRid) : ptBoolean
+			operation oeGetVolunteersList(AetVolunteerStatus : etVolunteerStatus) : ptBoolean
+			operation oeReqCall(AdtPhoneNumber : dtPhoneNumber) : ptBoolean
 			operation oeReqCheckbox() : ptBoolean
 			operation oeSendFilledCheckbox() : ptBoolean
-			operation oeConfirmPriority() : ptBoolean
+			operation oeConfirmPriority(AdtRiskLevel : dtInteger, AdtHelpRequestID : dtHRid) : ptBoolean
 		}
 	}
 	
@@ -101,8 +122,6 @@ Environment Model {
 		}
 		output interface outactWeakPerson {
 			operation oeSendHelpRequest() : ptBoolean
-			operation oeLogin() : ptBoolean
-			operation oeLogout() : ptBoolean
 			operation oeGetpostition() : ptBoolean
 			operation oeInputManualPos() : ptBoolean
 			operation oeGetInfo() : ptBoolean
@@ -120,12 +139,11 @@ Environment Model {
 			operation ieSendRange() : ptBoolean
 			operation ieSendInRangeMission(AdtId : dtHRid, AdtCoordinates : dtCoordinates) : ptBoolean
 			operation ieRequestPosition() : ptBoolean
+			operation ieMessage(adtMessage : dtString) : ptBoolean
 		}
 		output interface outactVolunteer {
-			operation oeLogin() : ptBoolean
-			operation oeLogout(): ptBoolean
 			operation oeGetPosition() : ptBoolean
-			operation oeRegisterCoordinates() : ptBoolean
+			operation oeRegisterCoordinates(AdtPosition : dtCoordinates) : ptBoolean
 			
 			operation oeGetMissionInRagne(AdtRange: dtRange,AdtPosition : dtCoordinates) : ptBoolean
 			operation oeAcceptMission(AdtId : dtHRid) : ptBoolean
