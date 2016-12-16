@@ -5,12 +5,12 @@
 
 
 @@Primary Type Datatype lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.datatypes.dtUserName
-@description ""
+@description "A string to store the username"
 @attribute
 lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.datatypes.dtUserName.value
-""
+"for storing the username"
 @endAttributes
 @operation
 lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.datatypes.dtUserName.is
-""
+"used to determine which strings are considered valid as usernames"
 @endOperations

@@ -5,12 +5,12 @@
 
 
 @@Primary Type Datatype lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.datatypes.dtPhoneNumber
-@description ""
+@description "A string used to store phone number value"
 @attribute
 lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.datatypes.dtPhoneNumber.value
-""
+"for the value of the phone number"
 @endAttributes
 @operation
 lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.datatypes.dtPhoneNumber.is
-""
+"used to determine which integers are considered valid as phone number"
 @endOperations

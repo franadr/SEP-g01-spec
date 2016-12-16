@@ -5,4 +5,4 @@
 
 
 @@Primary Type Enumeration lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.datatypes.etVolunteerStatus
-@description ""
+@description "An enumeration of the statuses of the volunteers which can be: offline, online or occupied"

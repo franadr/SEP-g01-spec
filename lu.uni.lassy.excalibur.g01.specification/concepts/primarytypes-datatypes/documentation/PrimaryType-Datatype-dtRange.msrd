@@ -5,12 +5,12 @@
 
 
 @@Primary Type Datatype lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.datatypes.dtRange
-@description ""
+@description "An integer used to store range value"
 @attribute
 lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.datatypes.dtRange.value
-""
+"for the value of the range"
 @endAttributes
 @operation
 lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.datatypes.dtRange.is
-""
+"used to determine which integers are considered as a valid range"
 @endOperations

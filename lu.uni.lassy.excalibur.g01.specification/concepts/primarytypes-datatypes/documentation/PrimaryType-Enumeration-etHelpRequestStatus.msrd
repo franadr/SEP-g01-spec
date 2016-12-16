@@ -5,4 +5,4 @@
 
 
 @@Primary Type Enumeration lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.datatypes.etHelpRequestStatus
-@description ""
+@description "An enumeration of the statuses of the help requests which can be: not processed, processed, not handled or handled"
