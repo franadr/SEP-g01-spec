@@ -5,12 +5,12 @@
 
 
 @@Primary Type Datatype lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.datatypes.dtName
-@description ""
+@description "A string used to identify names"
 @attribute
 lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.datatypes.dtName.value
-""
+"for the string value of the name"
 @endAttributes
 @operation
 lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.datatypes.dtName.is
-""
+"used to determine if the string is considered as validated"
 @endOperations

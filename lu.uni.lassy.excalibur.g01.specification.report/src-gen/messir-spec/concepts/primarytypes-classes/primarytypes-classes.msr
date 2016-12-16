@@ -9,7 +9,7 @@ import lu.uni.lassy.messir.libraries.calendar
 import lu.uni.lassy.messir.libraries.math
 import lu.uni.lassy.messir.libraries.primitives
 import lu.uni.lassy.messir.libraries.string
-
+import lu.uni.lassy.excalibur.g01.specification.environment
 
 
 
@@ -18,6 +18,17 @@ import lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.datatypes
 Concept Model {
 
 	Primary Types {
+		
+		class ctCheckBox role rnctCheckBox cardinality [0..*] {
+			attribute q1: ptString
+			attribute q2: ptString
+			attribute q3: ptString
+			attribute q4: ptString
+			attribute q5: ptString
+			
+			
+			operation init() : ptBoolean
+		}
 	
 		state class ctState {
 			attribute clock: dtTime
@@ -30,17 +41,20 @@ Concept Model {
 		}	
 		
 		
-		class ctHuman role rnctHuman cardinality [0..*]{
+		class ctHuman role rnctHuman cardinality [1..*]{
 			
 			attribute name: dtName
 			attribute phone: dtPhoneNumber
 			attribute coordinates: dtCoordinates
 			attribute username: ptString
 			attribute password: ptString
-			
+			attribute vptoken: ptBoolean
 			operation is() : ptBoolean
-			operation init(Aname : dtName, APhone : dtPhoneNumber, ACoordinates : dtCoordinates, AUsername : dtUserName,APassword :dtPassword ) : ptBoolean
+			operation init(Aname : dtName, APhone : dtPhoneNumber, ACoordinates : dtCoordinates, AUsername : dtUserName,APassword :dtPassword ,AvpTokent :ptBoolean ) : ptBoolean
+			operation isInRange(AdtCenterCoordinates : dtCoordinates , Arange : ptInteger , AdtDestinationCoordinates : dtCoordinates) : ptBoolean
 		}
+		
+		
 		class ctWeakPerson role rnctWeakPerson cardinality [1..*] extends ctHuman {
 			attribute hrId: dtHRid
 			
@@ -54,10 +68,11 @@ Concept Model {
 			operation init(AcId : dtInteger,Aname : dtName, APhone : dtPhoneNumber, ACoordinates : dtCoordinates, AUsername : dtUserName,APassword :dtPassword) : ptBoolean
 		}
 		
-		class ctVolunteer role rnctVolunteer cardinality [0..*] extends ctHuman {
+		class ctVolunteer role rnctVolunteer cardinality [1..*] extends ctHuman {
 			attribute vId: ptInteger
 			attribute disp: dtDispo
-			
+			attribute handledHelpRequest: dtHRid
+			attribute volunteerStatus: etVolunteerStatus
 			operation is() : ptBoolean
 			operation init(AvId : dtInteger,Adisp : dtDispo,Aname : dtName, APhone : dtPhoneNumber, ACoordinates : dtCoordinates, AUsername : dtUserName,APassword :dtPassword) : ptBoolean
 		}
@@ -66,18 +81,18 @@ Concept Model {
 			attribute HrTime: dtTime
 			attribute priority: dtInteger
 			attribute handlingWaitingTime: dtTime
+			attribute HelpRequestStatus: etHelpRequestStatus
 			operation is() : ptBoolean
 			operation init(AHrTime : dtTime) : ptBoolean
 			
 		}
-		class ctPendingHelpRequest role rnctPendingHelpRequest cardinality [1..*] {
-			attribute listId : ptInteger
-			operation is() : ptBoolean
-			operation init(AlistId : dtInteger) : ptBoolean
-		}
+		
 		association assHelpRequest ctHelpRequest(rnctHelpRequest)[1..1] ctWeakPerson(rnctWeakPerson)[0..*]
-		aggregation assPendingHelpRequest ctPendingHelpRequest(assrnctPendingHelpRequest)[1..1] ctHelpRequest(assrnctHelpRequest)[0..*] 
 		association assCoordinatorHelpRequest ctCoordinator(rnctCoordinator)[0..1] ctHelpRequest(rnctHR)[0..*]
+		association assActCoordinatorVolunteer actVolunteer(roleOfC1forC2)[1..1] actAuthPerson(roleOfC2forC1)[0..0]
+		association assCheckBWeakPerson ctCheckBox(roleOfC1forC2)[0..1] ctHelpRequest(roleOfC2forC1)[1..1]
+		association assVolunteerHR ctVolunteer(roleOfC1forC2)[0..1] ctHelpRequest(roleOfC2forC1)[0..1]
+		
 	}
 }
 }

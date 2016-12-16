@@ -1,10 +1,10 @@
 @@Primary Type Datatype lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.datatypes.dtMessage
-@description ""
+@description "A string with a message"
 @attribute
 lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.datatypes.dtMessage.MessageText
-""
+"A message as a string"
 @endAttributes
 @operation
 lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.datatypes.dtMessage.is
-""
+"used to determine which strings are considered as valid for a message"
 @endOperations

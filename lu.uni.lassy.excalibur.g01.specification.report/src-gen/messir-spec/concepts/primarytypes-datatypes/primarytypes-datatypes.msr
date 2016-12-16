@@ -61,6 +61,14 @@ Concept Model {
    			attribute value : ptString
    			operation is() : ptBoolean
    		}
+   		
+   		enum etHelpRequestStatus {
+   			constants["processed", "not processed","handled","not handled"]
+   		}
+   		
+   		enum etVolunteerStatus {
+   			constants["online", "occupied","offline"]
+   		}
 	}
 }
 }
