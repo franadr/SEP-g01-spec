@@ -1,0 +1,66 @@
+/*
+* @author Adriano
+* @date Fri Dec 16 12:22:20 CET 2016
+*/
+
+package lu.uni.lassy.excalibur.g01.specification.environement.^operation.actVolunteer.outactVolunteer.oeAcceptMission {
+
+import lu.uni.lassy.messir.libraries.primitives
+import lu.uni.lassy.messir.libraries.math
+import lu.uni.lassy.messir.libraries.string
+import lu.uni.lassy.messir.libraries.calendar
+import lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes
+import lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.datatypes
+
+
+	Operation Model {
+			operation: lu.uni.lassy.excalibur.g01.specification.environment.actVolunteer.outactVolunteer.oeAcceptMission(AdtId: dtHRid):ptBoolean{
+			
+			preP
+			{
+			let System: ctState in
+			let volunteer : ctVolunteer	in
+			let inRangeHelpRequest : Bag(ctHelpRequest) in
+			let selectedHelpRequest : ctHelpRequest in
+				//PreP01
+				and self.rnActor.rnSystem = System 
+				and volunteer = System.rnActor
+				and volunteer.rnInterface^oeGetMissionInRange() = true
+				and inRangeHelpRequest -> size().geq(1)
+				//Prep02
+				and volunteer.rnctHuman.cpToken = true
+
+			}
+			
+			preF
+			{
+				and System.HelpRequest()->forall(hrid = AdtId) = selectedHelpRequest
+				and  "not handled" =selectedHelpRequest.helpRequestSatus 
+				and  3 = selectedHelpRequest.priority
+				
+				
+			}
+			
+			postF{
+				
+				true
+				
+			}
+			
+			postP
+			{
+				//postP01
+				selectedHelpRequest.HelpRequestStatus@post = 'handled'
+				//postp02
+				and volunteer.handledHelpRequest = AdtId
+				//postp03
+				and selectedHelpRequest.handlingWaitingTime = 0
+				
+			}
+			
+			
+		}
+	}
+
+
+}

@@ -4,9 +4,63 @@ import lu.uni.lassy.messir.libraries.primitives
 import lu.uni.lassy.messir.libraries.math
 import lu.uni.lassy.messir.libraries.string
 import lu.uni.lassy.messir.libraries.calendar
+import lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.classes
+import lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.datatypes
 
 	Operation Model {
-
+		operation: lu.uni.lassy.excalibur.g01.specification.environment.actVolunteer.outactVolunteer.oeSendNotification():ptBoolean{
+			preP{
+				let System: ctState in
+				let AvpStarted: ptBoolean in
+				let NotHandledHelpRequest : Bag(ctHelpRequest) in
+				let volunteer : ctVolunteer in 
+				let vCoordinates : dtCoordinates in
+				let vRange : dtRange in
+				let inRangeHelpRequest : Bag(ctHelpRequest) in
+				
+				
+				//PreP01
+				self.rnActor.rnSystem = System 
+				and System.vpStarted = AvpStarted 
+				and AvpStarted = true 
+				
+				//Prep02
+				and volunteer =System.rnActor
+				and volunteer.rnctHuman.vpToken = true
+				
+				//Prep03
+				and volunteer.volunteerStatus = 'Online'
+				
+				//Prep04
+				and System.rnctHelpRequest -> select(
+					System.rnctHelpRequest.HelpRequestStatus = "Not handled" 
+					and System.rnctHelpRequest.priority > 2
+				) 
+				= NotHandledHelpRequest
+				and NotHandledHelpRequest -> Size().geq(1)
+				
+				
+				and vRange = volunteer.range
+				and vCoordinates = vlounteer.rnctHuman.coordinates
+				and NotHandledHelpRequest -> iterate(hr : ctHelpRequest ; acc : dtHRid = 0 | NotHandledHelpRequest -> select(acc=hrid) = thisHelpRequest 
+																							let hrCoordinates :  dtCoordinates = thisHelpRequest.rnctHelpRequest.rnctHuman.coordinates in
+																							and volunteer.rnctHuman.isInRange (vCoordinates,vRange,hrCoordinates)
+																							
+				) = inRangeHelpRequest
+				
+				and inRangeHelpRequest -> size().geq(1)
+				
+				
+			}
+			preF{
+				true
+			}
+			postF{
+				rnInterfaceIN^ieMessage("There exists pending help request in near "+vRange+" km")
+			}
+			
+			
+		}
 		
 	}
 }
