@@ -10,3 +10,4 @@
 @number 9
 @description "shows the local view for the coordinator actor and interface"
 @caption "Environment model local view"
+@scale MaxWidth

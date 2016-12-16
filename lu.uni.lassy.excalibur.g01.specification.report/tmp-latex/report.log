@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=latex 2016.9.22)  4 DEC 2016 14:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=latex 2016.9.22)  16 DEC 2016 13:16
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -2641,6 +2641,30 @@ LaTeX Warning: Unused global option(s):
 LaTeX Warning: Label `fig:lu.uni.lassy.excalibur.g01.specification-EM' multiply
  defined.
 
+
+LaTeX Warning: Label `fig:lu.uni.lassy.excalibur.g01.specification-EM' multiply
+ defined.
+
+
+LaTeX Warning: Label `fig:lu.uni.lassy.excalibur.g01.specification-EM' multiply
+ defined.
+
+
+LaTeX Warning: Label `fig:lu.uni.lassy.excalibur.g01.specification-CM' multiply
+ defined.
+
+
+LaTeX Warning: Label `fig:lu.uni.lassy.excalibur.g01.specification-CM' multiply
+ defined.
+
+
+LaTeX Warning: Label `fig:lu.uni.lassy.excalibur.g01.specification-CM' multiply
+ defined.
+
+
+LaTeX Warning: Label `fig:lu.uni.lassy.excalibur.g01.specification-CM' multiply
+ defined.
+
 )
 \openout1 = `report.aux'.
 
@@ -2924,31 +2948,68 @@ File: ./../lu.uni.lassy.excalibur.standard.report.libraries/logos/Excalibur-no-
 OS-focused.eps Graphic file (type eps)
 
 <./../lu.uni.lassy.excalibur.standard.report.libraries/logos/Excalibur-no-OS-fo
-cused.eps>
-Underfull \hbox (badness 10000) in paragraph at lines 39--39
-[][]
- []
-
-[1
+cused.eps> [1
 
 \openout7 = `report.xdy'.
 
 
 
 ] (./report.toc
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 33.
- (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1pcr.fd
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 46.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
 Package microtype Info: Loading generic settings for font family
 (microtype)             `pcr' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [2]
+ [2] [3]
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.97 ...epts/uc_coordinator.msr}{56}{section.B.12}
+l.124 ...ion_oeAcceptMission.msr}{77}{section.B.9}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<argument> ...nment/operation_oeAcceptMission.msr}
+                                                  \hyper@linkend 
+l.124 ...ion_oeAcceptMission.msr}{77}{section.B.9}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.124 ...ion_oeAcceptMission.msr}{77}{section.B.9}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.124 ...ion_oeAcceptMission.msr}{77}{section.B.9}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.133 ...pts/uc_coordinator.msr}{84}{section.B.18}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2956,7 +3017,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <argument> ...ir-spec/concepts/uc_coordinator.msr}
                                                   \hyper@linkend 
-l.97 ...epts/uc_coordinator.msr}{56}{section.B.12}
+l.133 ...pts/uc_coordinator.msr}{84}{section.B.18}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2967,7 +3028,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.97 ...epts/uc_coordinator.msr}{56}{section.B.12}
+l.133 ...pts/uc_coordinator.msr}{84}{section.B.18}
                                                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2978,7 +3039,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.97 ...epts/uc_coordinator.msr}{56}{section.B.12}
+l.133 ...pts/uc_coordinator.msr}{84}{section.B.18}
                                                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2989,7 +3050,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.98 ...ncepts/uc_volunteer.msr}{59}{section.B.13}
+l.134 ...cepts/uc_volunteer.msr}{86}{section.B.19}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2997,7 +3058,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <argument> ...ssir-spec/concepts/uc_volunteer.msr}
                                                   \hyper@linkend 
-l.98 ...ncepts/uc_volunteer.msr}{59}{section.B.13}
+l.134 ...cepts/uc_volunteer.msr}{86}{section.B.19}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -3008,7 +3069,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.98 ...ncepts/uc_volunteer.msr}{59}{section.B.13}
+l.134 ...cepts/uc_volunteer.msr}{86}{section.B.19}
                                                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -3019,7 +3080,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.98 ...ncepts/uc_volunteer.msr}{59}{section.B.13}
+l.134 ...cepts/uc_volunteer.msr}{86}{section.B.19}
                                                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -3031,18 +3092,18 @@ my insertion and my current dilemma will both disappear.
 \tf@toc=\write13
 \openout13 = `report.toc'.
 
- [3] [4] (./report.lof
-Overfull \hbox (19.71915pt too wide) in paragraph at lines 9--9
+ [4] (./report.lof
+Overfull \hbox (19.82802pt too wide) in paragraph at lines 11--11
  [][][] [] []  
  []
 
 
-Overfull \hbox (50.31561pt too wide) in paragraph at lines 11--11
+Overfull \hbox (50.31561pt too wide) in paragraph at lines 14--14
  [][][] [] []  
  []
 
 
-Overfull \hbox (4.90674pt too wide) in paragraph at lines 18--18
+Overfull \hbox (4.90674pt too wide) in paragraph at lines 23--23
  [][][] [] []  
  []
 
@@ -3056,7 +3117,48 @@ Overfull \hbox (4.90674pt too wide) in paragraph at lines 18--18
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.12 ... uc_coordinator.msr.}{57}{lstlisting.B.12}
+l.9 ...n_oeAcceptMission.msr.}{77}{lstlisting.B.9}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<argument> ...file operation_oeAcceptMission.msr.}
+                                                  \hyper@linkend 
+l.9 ...n_oeAcceptMission.msr.}{77}{lstlisting.B.9}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.9 ...n_oeAcceptMission.msr.}{77}{lstlisting.B.9}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.9 ...n_oeAcceptMission.msr.}{77}{lstlisting.B.9}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.18 ... uc_coordinator.msr.}{84}{lstlisting.B.18}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -3064,7 +3166,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <argument> ...ssir Spec. file uc_coordinator.msr.}
                                                   \hyper@linkend 
-l.12 ... uc_coordinator.msr.}{57}{lstlisting.B.12}
+l.18 ... uc_coordinator.msr.}{84}{lstlisting.B.18}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -3075,7 +3177,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.12 ... uc_coordinator.msr.}{57}{lstlisting.B.12}
+l.18 ... uc_coordinator.msr.}{84}{lstlisting.B.18}
                                                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -3086,7 +3188,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.12 ... uc_coordinator.msr.}{57}{lstlisting.B.12}
+l.18 ... uc_coordinator.msr.}{84}{lstlisting.B.18}
                                                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -3097,7 +3199,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.13 ...le uc_volunteer.msr.}{59}{lstlisting.B.13}
+l.19 ...le uc_volunteer.msr.}{86}{lstlisting.B.19}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -3105,7 +3207,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <argument> ...Messir Spec. file uc_volunteer.msr.}
                                                   \hyper@linkend 
-l.13 ...le uc_volunteer.msr.}{59}{lstlisting.B.13}
+l.19 ...le uc_volunteer.msr.}{86}{lstlisting.B.19}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -3116,7 +3218,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.13 ...le uc_volunteer.msr.}{59}{lstlisting.B.13}
+l.19 ...le uc_volunteer.msr.}{86}{lstlisting.B.19}
                                                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -3127,7 +3229,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.13 ...le uc_volunteer.msr.}{59}{lstlisting.B.13}
+l.19 ...le uc_volunteer.msr.}{86}{lstlisting.B.19}
                                                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -3181,15 +3283,7 @@ Package microtype Info: Character `/' is missing
 Package microtype Info: Character `AE ' is missing
 (microtype)             in font `OT1/uncl/m/n/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
-
-
-LaTeX Warning: Citation `messirbook' on page 12 undefined on input line 19.
-
 ) (./doc-gen/doc-gen.tex (./doc-gen/usecase-model/usecase-model.tex
-
-LaTeX Warning: Citation `armour01usecase' on page 12 undefined on input line 5.
-
-
 (./doc-gen/usecase-model/summary/RE-use-case-suAcceptMission.tex
 Overfull \hbox (24.79997pt too wide) in alignment at lines 9--10
  [] [] 
@@ -3233,40 +3327,145 @@ Overfull \hbox (24.79997pt too wide) in alignment at lines 10--48
 File: ./images-report-gen/usecase-model/summary/uc-suAltertAFamilyMember.eps Gr
 aphic file (type eps)
 
-<./images-report-gen/usecase-model/summary/uc-suAltertAFamilyMember.eps>
-Overfull \hbox (245.02565pt too wide) in paragraph at lines 15--16
- [][] 
+<./images-report-gen/usecase-model/summary/uc-suAltertAFamilyMember.eps>)
+(./doc-gen/usecase-model/summary/RE-use-case-suCallSelectedHelpRequest.tex
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--10
+ [] [] 
  []
 
-) (./doc-gen/usecase-model/summary/RE-use-case-suCallSelectedHelpRequest.tex
-File: ./images-report-gen/usecase-model/summary/uc-suCallSelectedHelpRequest.ep
-s Graphic file (type eps)
 
-<./images-report-gen/usecase-model/summary/uc-suCallSelectedHelpRequest.eps>
-Overfull \hbox (215.9169pt too wide) in paragraph at lines 15--16
- [][] 
+Overfull \hbox (24.79997pt too wide) in alignment at lines 10--10
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 10--10
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 10--10
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 10--47
+ [] [] 
  []
 
 
 Underfull \vbox (badness 2126) has occurred while \output is active []
 
- [12])
+ [12]
+Overfull \hbox (24.79997pt too wide) in alignment at lines 47--48
+ [] [] 
+ []
+
+[13]
+File: ./images-report-gen/usecase-model/summary/uc-suCallSelectedHelpRequest.ep
+s Graphic file (type eps)
+
+<./images-report-gen/usecase-model/summary/uc-suCallSelectedHelpRequest.eps>)
+(./doc-gen/usecase-model/summary/RE-use-case-suDeployRun.tex
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--10
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 10--10
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 10--10
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 10--10
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 10--44
+ [] [] 
+ []
+
+[14]
+Overfull \hbox (24.79997pt too wide) in alignment at lines 44--56
+ [] [] 
+ []
+
+File: ./images-report-gen/usecase-model/summary/uc-suDeployRun.eps Graphic file
+ (type eps)
+<./images-report-gen/usecase-model/summary/uc-suDeployRun.eps>)
+(./doc-gen/usecase-model/summary/RE-use-case-suRetrieveMissionDetails.tex
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--10
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 10--10
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 10--10
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 10--10
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 10--48
+ [] [] 
+ []
+
+[15]
+File: ./images-report-gen/usecase-model/summary/uc-suRetrieveMissionDetails.eps
+ Graphic file (type eps)
+
+<./images-report-gen/usecase-model/summary/uc-suRetrieveMissionDetails.eps>)
 (./doc-gen/usecase-model/summary/RE-use-case-ugRequestHelp.tex
 File: ./images-report-gen/usecase-model/summary/uc-ugRequestHelp.eps Graphic fi
 le (type eps)
 
 <./images-report-gen/usecase-model/summary/uc-ugRequestHelp.eps>)
 (./doc-gen/usecase-model/usergoal/RE-use-case-ugAssignPriorityToHelpRequest.tex
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--10
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 10--10
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 10--10
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 10--10
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 10--47
+ [] [] 
+ []
+
 File: ./images-report-gen/usecase-model/usergoal/uc-ugAssignPriorityToHelpReque
 st.eps Graphic file (type eps)
 
 <./images-report-gen/usecase-model/usergoal/uc-ugAssignPriorityToHelpRequest.ep
-s>
-Overfull \hbox (120.56065pt too wide) in paragraph at lines 15--16
- [][] 
- []
-
-[13]) (./doc-gen/usecase-model/usergoal/RE-use-case-ugGetCurrentPosition.tex
+s>) (./doc-gen/usecase-model/usergoal/RE-use-case-ugGetCurrentPosition.tex
+[16] [17]
 Overfull \hbox (24.79997pt too wide) in alignment at lines 9--10
  [] [] 
  []
@@ -3296,7 +3495,15 @@ Overfull \hbox (24.79997pt too wide) in alignment at lines 45--51
  [] [] 
  []
 
-[14]) (./doc-gen/usecase-model/usergoal/RE-use-case-ugGetMissionInRange.tex
+[18]
+File: ./images-report-gen/usecase-model/usergoal/uc-ugGetCurrentPosition.eps Gr
+aphic file (type eps)
+ <./images-report-gen/usecase-model/usergoal/uc-ugGetCurrentPosition.eps>
+Overfull \hbox (20.18565pt too wide) in paragraph at lines 62--63
+ [][] 
+ []
+
+) (./doc-gen/usecase-model/usergoal/RE-use-case-ugGetMissionInRange.tex
 Overfull \hbox (24.79997pt too wide) in alignment at lines 9--10
  [] [] 
  []
@@ -3328,46 +3535,246 @@ Overfull \hbox (24.79997pt too wide) in alignment at lines 44--50
 
 File: ./images-report-gen/usecase-model/usergoal/uc-ugGetMissionInRange.eps Gra
 phic file (type eps)
-<./images-report-gen/usecase-model/usergoal/uc-ugGetMissionInRange.eps>
-Overfull \hbox (230.97316pt too wide) in paragraph at lines 61--62
- [][] 
- []
-
-)
+<./images-report-gen/usecase-model/usergoal/uc-ugGetMissionInRange.eps>)
 (./doc-gen/usecase-model/usergoal/RE-use-case-ugRetrievePendingHelpRequestDetai
 ls.tex
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--10
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 10--10
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 10--10
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 10--10
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 10--46
+ [] [] 
+ []
+
+[19]
 File: ./images-report-gen/usecase-model/usergoal/uc-ugRetrievePendingHelpReques
 tDetails.eps Graphic file (type eps)
 
 <./images-report-gen/usecase-model/usergoal/uc-ugRetrievePendingHelpRequestDeta
-ils.eps>
-Overfull \hbox (279.15315pt too wide) in paragraph at lines 15--16
+ils.eps>) (./doc-gen/usecase-model/subfunction/RE-use-case-oeAcceptMission.tex
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--10
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 10--10
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 10--10
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 10--10
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 10--41
+ [] [] 
+ []
+
+) (./doc-gen/usecase-model/subfunction/RE-use-case-oeConfirmPriority.tex
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--10
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 10--10
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 10--10
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 10--10
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 10--41
+ [] [] 
+ []
+
+[20] [21] [22] [23] [24])
+(./doc-gen/usecase-model/subfunction/RE-use-case-oeGetConfirm.tex
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--10
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 10--10
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 10--10
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 10--10
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 10--41
+ [] [] 
+ []
+
+) (./doc-gen/usecase-model/subfunction/RE-use-case-oeGetCurrentPosition.tex
+File: ./images-report-gen/usecase-model/subfunction/uc-oeGetCurrentPosition.eps
+ Graphic file (type eps)
+
+<./images-report-gen/usecase-model/subfunction/uc-oeGetCurrentPosition.eps>
+Overfull \hbox (20.18565pt too wide) in paragraph at lines 14--15
  [][] 
  []
 
-) (./doc-gen/usecase-model/subfunction/RE-use-case-oeAlertFamily.tex
-File: ./images-report-gen/usecase-model/subfunction/uc-oeAlertFamily.eps Graphi
-c file (type eps)
+) (./doc-gen/usecase-model/subfunction/RE-use-case-oeGetPendingHelpRequests.tex
 
-<./images-report-gen/usecase-model/subfunction/uc-oeAlertFamily.eps> [15]
-[16] [17] [18])
-(./doc-gen/usecase-model/subfunction/RE-use-case-oeGetPositionFromSensor.tex
-File: ./images-report-gen/usecase-model/subfunction/uc-oeGetPositionFromSensor.
-eps Graphic file (type eps)
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--10
+ [] [] 
+ []
 
-<./images-report-gen/usecase-model/subfunction/uc-oeGetPositionFromSensor.eps>)
 
+Overfull \hbox (24.79997pt too wide) in alignment at lines 10--10
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 10--10
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 10--10
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 10--41
+ [] [] 
+ []
+
+
+Overfull \vbox (230.536pt too high) has occurred while \output is active []
+
+
+[25]) (./doc-gen/usecase-model/subfunction/RE-use-case-oeReqCall.tex
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--10
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 10--10
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 10--10
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 10--10
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 10--41
+ [] [] 
+ []
+
+) (./doc-gen/usecase-model/subfunction/RE-use-case-oeReqCheckbox.tex
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--10
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 10--10
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 10--10
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 10--10
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 10--41
+ [] [] 
+ []
+
+[26]) (./doc-gen/usecase-model/subfunction/RE-use-case-oeSendFilledCheckbox.tex
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--10
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 10--10
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 10--10
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 10--10
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 10--41
+ [] [] 
+ []
+
+)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [19]
+ [27]
+(./doc-gen/usecase-model/summary/RE-use-case-instance-suAltertAFamilyMember-uci
+AlertTheFamily.tex
+File: ./images-report-gen/usecase-model/summary/uci-uciAlertTheFamily.eps Graph
+ic file (type eps)
+
+<./images-report-gen/usecase-model/summary/uci-uciAlertTheFamily.eps>
+Overfull \hbox (15.57349pt too wide) in paragraph at lines 15--16
+ [][] 
+ []
+
+)
 (./doc-gen/usecase-model/summary/RE-use-case-instance-suCallSelectedHelpRequest
 -uciCallSelectedHelp.tex
-File: ./images-report-gen/usecase-model/summary/uci-uciCallSelectedHelp.eps Gra
-phic file (type eps)
-
-<./images-report-gen/usecase-model/summary/uci-uciCallSelectedHelp.eps>)
-(./doc-gen/usecase-model/summary/RE-use-case-instance-ugRequestHelp-uciSendHelp
-Request.tex
 Overfull \hbox (12.79999pt too wide) in alignment at lines 5--6
  [] [] 
  []
@@ -3396,14 +3803,112 @@ Overfull \hbox (12.79999pt too wide) in alignment at lines 6--10
 Underfull \vbox (badness 10000) detected at line 10
  []
 
-File: ./images-report-gen/usecase-model/summary/uci-uciSendHelpRequest.eps Grap
-hic file (type eps)
-<./images-report-gen/usecase-model/summary/uci-uciSendHelpRequest.eps>
-Overfull \hbox (327.33316pt too wide) in paragraph at lines 21--22
- [][] 
+File: ./images-report-gen/usecase-model/summary/uci-uciCallSelectedHelp.eps Gra
+phic file (type eps)
+<./images-report-gen/usecase-model/summary/uci-uciCallSelectedHelp.eps>)
+(./doc-gen/usecase-model/summary/RE-use-case-instance-suDeployRun-uciNormalRun.
+tex
+Overfull \hbox (12.79999pt too wide) in alignment at lines 6--7
+ [] [] 
  []
 
+
+Overfull \hbox (12.79999pt too wide) in alignment at lines 7--7
+ [] [] 
+ []
+
+
+Overfull \hbox (12.79999pt too wide) in alignment at lines 7--7
+ [] [] 
+ []
+
+
+Overfull \hbox (12.79999pt too wide) in alignment at lines 7--7
+ [] [] 
+ []
+
+
+Overfull \hbox (12.79999pt too wide) in alignment at lines 7--11
+ [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 11
+ []
+
+File: ./images-report-gen/usecase-model/summary/uci-uciNormalRun.eps Graphic fi
+le (type eps)
+<./images-report-gen/usecase-model/summary/uci-uciNormalRun.eps>
+
+LaTeX Warning: Float too large for page by 139.42091pt on input line 27.
+
 )
+(./doc-gen/usecase-model/summary/RE-use-case-instance-ugRequestHelp-uciSendHelp
+Request.tex
+Overfull \hbox (12.79999pt too wide) in alignment at lines 5--6
+ [] [] 
+ []
+
+
+Overfull \hbox (12.79999pt too wide) in alignment at lines 6--6
+ [] [] 
+ []
+
+
+Overfull \hbox (12.79999pt too wide) in alignment at lines 6--6
+ [] [] 
+ []
+
+
+Overfull \hbox (12.79999pt too wide) in alignment at lines 6--6
+ [] [] 
+ []
+
+
+Overfull \hbox (12.79999pt too wide) in alignment at lines 6--10
+ [] [] 
+ []
+
+[28]
+Underfull \vbox (badness 10000) detected at line 10
+ []
+
+File: ./images-report-gen/usecase-model/summary/uci-uciSendHelpRequest.eps Grap
+hic file (type eps)
+<./images-report-gen/usecase-model/summary/uci-uciSendHelpRequest.eps>)
+(./doc-gen/usecase-model/usergoal/RE-use-case-instance-ugAssignPriorityToHelpRe
+quest-uciAssignPriority.tex
+Overfull \hbox (12.79999pt too wide) in alignment at lines 5--6
+ [] [] 
+ []
+
+
+Overfull \hbox (12.79999pt too wide) in alignment at lines 6--6
+ [] [] 
+ []
+
+
+Overfull \hbox (12.79999pt too wide) in alignment at lines 6--6
+ [] [] 
+ []
+
+
+Overfull \hbox (12.79999pt too wide) in alignment at lines 6--6
+ [] [] 
+ []
+
+
+Overfull \hbox (12.79999pt too wide) in alignment at lines 6--10
+ [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 10
+ []
+
+File: ./images-report-gen/usecase-model/usergoal/uci-uciAssignPriority.eps Grap
+hic file (type eps)
+<./images-report-gen/usecase-model/usergoal/uci-uciAssignPriority.eps>)
 (./doc-gen/usecase-model/usergoal/RE-use-case-instance-ugGetCurrentPosition-uci
 GetCurrentPositon.tex
 Overfull \hbox (12.79999pt too wide) in alignment at lines 5--6
@@ -3434,10 +3939,8 @@ Overfull \hbox (12.79999pt too wide) in alignment at lines 6--10
 Underfull \vbox (badness 10000) detected at line 10
  []
 
-[20] [21]
 File: ./images-report-gen/usecase-model/usergoal/uci-uciGetCurrentPositon.eps G
 raphic file (type eps)
-
 <./images-report-gen/usecase-model/usergoal/uci-uciGetCurrentPositon.eps>)
 (./doc-gen/usecase-model/usergoal/RE-use-case-instance-ugGetMissionInRange-uciG
 etInRangeMission.tex
@@ -3476,7 +3979,11 @@ Overfull \hbox (7.1369pt too wide) in paragraph at lines 21--22
  [][] 
  []
 
-)
+
+Overfull \vbox (323.15663pt too high) has occurred while \output is active []
+
+
+[29] [30] [31] [32] [33])
 (./doc-gen/usecase-model/usergoal/RE-use-case-instance-ugRetrievePendingHelpReq
 uestDetails-uciGetPendingHelpRequests.tex
 Overfull \hbox (44.1716pt too wide) in paragraph at lines 2--2
@@ -3484,45 +3991,70 @@ Overfull \hbox (44.1716pt too wide) in paragraph at lines 2--2
 evePendingHelpRequestDetails 
  []
 
+
+Overfull \hbox (12.79999pt too wide) in alignment at lines 5--6
+ [] [] 
+ []
+
+
+Overfull \hbox (12.79999pt too wide) in alignment at lines 6--6
+ [] [] 
+ []
+
+
+Overfull \hbox (12.79999pt too wide) in alignment at lines 6--6
+ [] [] 
+ []
+
+
+Overfull \hbox (12.79999pt too wide) in alignment at lines 6--6
+ [] [] 
+ []
+
+
+Overfull \hbox (12.79999pt too wide) in alignment at lines 6--10
+ [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 10
+ []
+
+[34]
 File: ./images-report-gen/usecase-model/usergoal/uci-uciGetPendingHelpRequests.
 eps Graphic file (type eps)
 
 <./images-report-gen/usecase-model/usergoal/uci-uciGetPendingHelpRequests.eps>
-Overfull \hbox (85.4294pt too wide) in paragraph at lines 14--15
+Overfull \hbox (85.4294pt too wide) in paragraph at lines 21--22
  [][] 
  []
 
-
-LaTeX Warning: Float too large for page by 32.8959pt on input line 18.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [22]
-[23])) (./doc-gen/environment-model/environment-model.tex [24] [25] [26
-
-]
+)) (./doc-gen/environment-model/environment-model.tex [35] [36]
 Chapter 3.
-
-LaTeX Warning: Citation `messirbook' on page 27 undefined on input line 6.
-
 (./doc-gen/environment-model/local/06/EM-view-local-06.tex
 File: ./images-report-gen/environment-model/local/06/em-view6.eps Graphic file 
 (type eps)
 
 <./images-report-gen/environment-model/local/06/em-view6.eps>)
-(./doc-gen/environment-model/local/07/EM-view-local-07.tex
-File: ./images-report-gen/environment-model/local/07/em-view7.eps Graphic file 
+(./doc-gen/environment-model/local/09/EM-view-local-09.tex
+File: ./images-report-gen/environment-model/local/09/em-view9.eps Graphic file 
 (type eps)
 
-<./images-report-gen/environment-model/local/07/em-view7.eps>
-Overfull \hbox (74.59457pt too wide) in paragraph at lines 11--12
- [][] 
- []
+<./images-report-gen/environment-model/local/09/em-view9.eps>)
+(./doc-gen/environment-model/local/10/EM-view-local-10.tex
+File: ./images-report-gen/environment-model/local/10/em-view10.eps Graphic file
+ (type eps)
 
-)
+<./images-report-gen/environment-model/local/10/em-view10.eps>)
+(./doc-gen/environment-model/local/11/EM-view-local-11.tex
+File: ./images-report-gen/environment-model/local/11/em-view11.eps Graphic file
+ (type eps)
+
+<./images-report-gen/environment-model/local/11/em-view11.eps> [37
+
+] [38])
 (./doc-gen/environment-model/comments-tables/actor-comment-table-actActivator.t
-ex [27] [28]
+ex
 LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <12> not available
 (Font)              Font shape `T1/pcr/b/n' tried instead on input line 1.
 
@@ -3566,6 +4098,46 @@ Underfull \vbox (badness 10000) detected at line 23
  []
 
 )
+(./doc-gen/environment-model/comments-tables/actor-comment-table-actAuthPerson.
+tex
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\hyphenchar' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\font' on input line 1.
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 4--5
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 5--5
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 5--5
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 5--5
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 5--26
+ [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 26
+ []
+
+)
 (./doc-gen/environment-model/comments-tables/actor-comment-table-actCoordinator
 .tex
 
@@ -3597,48 +4169,111 @@ Overfull \hbox (24.79997pt too wide) in alignment at lines 5--5
  []
 
 
-Overfull \hbox (24.79997pt too wide) in alignment at lines 5--41
+Overfull \hbox (66.77603pt too wide) in paragraph at lines 17--17
+[]|[][][][][] \T1/pcr/b/n/10.95 oeGet-Pend-ingHel-pRe-quests(AetHelpRequestStat
+us:etHelpRequestStatus):ptBoolean| 
+ []
+
+
+Overfull \hbox (7.6461pt too wide) in paragraph at lines 26--26
+[]|[][][][][] \T1/pcr/b/n/10.95 oeGetVol-un-teer-sList(AetVolunteerStatus:etVol
+unteerStatus):ptBoolean| 
+ []
+
+
+Overfull \hbox (66.77603pt too wide) in paragraph at lines 38--38
+[]|[][][][][] \T1/pcr/b/n/10.95 oe-Con-firm-Pri-or-ity(AdtRiskLevel:dtInteger, 
+AdtHel-pRe-questID:dtHRid):ptBoolean| 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 5--40
  [] [] 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 41
+Underfull \vbox (badness 10000) detected at line 40
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 51--51
+Underfull \hbox (badness 10000) in paragraph at lines 42--42
 []| \T1/pcr/b/n/10.95 ieSend-Pend-ingHel-pRe-questList(AdtTime:dtTime,
  []
 
 
-Overfull \hbox (17.50108pt too wide) in paragraph at lines 53--53
+Overfull \hbox (17.50108pt too wide) in paragraph at lines 44--44
 []| \T1/pcr/b/n/10.95 ieSend-Hel-pRe-quest-De-tail(AdtName:dtName, Adt-Pho-neNu
 m-ber:dtPhoneNumber,
  []
 
 
-Overfull \hbox (24.79997pt too wide) in alignment at lines 41--64
+Overfull \hbox (7.6461pt too wide) in paragraph at lines 46--46
+[]| \T1/pcr/b/n/10.95 ieSend-Vol-un-teerList(AetVolunteerStatus:etVolunteerStat
+us):ptBoolean| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--52
+[]| \T1/pcr/b/n/10.95 ieSend-Cal-cu-lat-ed-Pri-or-ity(AdtRiskLevel:dtInteger,
+ []
+
+
+Overfull \hbox (33.92607pt too wide) in paragraph at lines 54--54
+[]| \T1/pcr/b/n/10.95 ieSendResult(AdtRiskLevel:dtInteger, AdtHel-pRe-questID:d
+tHRid):ptBoolean| 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 40--61
+ [] [] 
+ []
+
+[39]
+Overfull \hbox (24.79997pt too wide) in alignment at lines 61--64
+ [] [] 
+ []
+
+)
+(./doc-gen/environment-model/comments-tables/actor-comment-table-actMsrCreator.
+tex
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\hyphenchar' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\font' on input line 1.
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 4--5
  [] [] 
  []
 
 
-Overfull \hbox (60.20604pt too wide) in paragraph at lines 75--75
-[]| \T1/pcr/b/n/10.95 ieFam-i-ly-De-liv-eryRe-port(AdtName:dtName, Adt-Con-fir-
-ma-tion:ptBoolean):ptBoolean| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 77--77
-[]| \T1/pcr/b/n/10.95 ieAd-dEn-try(AdtName:dtName, Adt-Pho-neNum-ber:dtPhoneNum
-ber,
- []
-
-
-Overfull \hbox (24.79997pt too wide) in alignment at lines 64--79
+Overfull \hbox (24.79997pt too wide) in alignment at lines 5--5
  [] [] 
  []
 
-[29])
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 5--5
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 5--5
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 5--20
+ [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 20
+ []
+
+)
 (./doc-gen/environment-model/comments-tables/actor-comment-table-actPhoneCompan
 y.tex
 
@@ -3687,6 +4322,10 @@ Overfull \hbox (24.79997pt too wide) in alignment at lines 5--28
  []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [40]
+[41]
 Underfull \vbox (badness 10000) detected at line 28
  []
 
@@ -3730,7 +4369,7 @@ Overfull \hbox (24.79997pt too wide) in alignment at lines 5--23
 Underfull \vbox (badness 10000) detected at line 23
  []
 
-[30])
+)
 (./doc-gen/environment-model/comments-tables/actor-comment-table-actPositionReq
 uester.tex
 
@@ -3809,7 +4448,7 @@ Overfull \hbox (24.79997pt too wide) in alignment at lines 5--25
 Underfull \vbox (badness 10000) detected at line 25
  []
 
-)
+[42])
 (./doc-gen/environment-model/comments-tables/actor-comment-table-actVolunteer.t
 ex
 
@@ -3841,32 +4480,32 @@ Overfull \hbox (24.79997pt too wide) in alignment at lines 5--5
  []
 
 
-Overfull \hbox (53.63605pt too wide) in paragraph at lines 26--26
+Overfull \hbox (53.63605pt too wide) in paragraph at lines 20--20
 []|[][][][][] \T1/pcr/b/n/10.95 oeGet-Mis-sion-In-Ragne(AdtRange:dtRange, Adt-P
 o-si-tion:dtCoordinates):ptBoolean| 
  []
 
 
-Overfull \hbox (24.79997pt too wide) in alignment at lines 5--39
- [] [] 
- []
-
-
-Underfull \vbox (badness 10000) detected at line 39
- []
-
-
-Overfull \hbox (53.63605pt too wide) in paragraph at lines 42--42
+Overfull \hbox (53.63605pt too wide) in paragraph at lines 36--36
 []| \T1/pcr/b/n/10.95 ieSend-In-Range-Mis-sion(AdtId:dtHRid, Adt-Co-or-di-nates
 :dtCoordinates):ptBoolean| 
  []
 
 
-Overfull \hbox (24.79997pt too wide) in alignment at lines 39--46
+Overfull \hbox (24.79997pt too wide) in alignment at lines 5--37
  [] [] 
  []
 
-[31])
+
+Underfull \vbox (badness 10000) detected at line 37
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 37--40
+ [] [] 
+ []
+
+)
 (./doc-gen/environment-model/comments-tables/actor-comment-table-actWeakPerson.
 tex
 
@@ -3898,26 +4537,26 @@ Overfull \hbox (24.79997pt too wide) in alignment at lines 5--5
  []
 
 
-Overfull \hbox (24.79997pt too wide) in alignment at lines 5--40
+Overfull \hbox (24.79997pt too wide) in alignment at lines 5--39
  [] [] 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 40
+Underfull \vbox (badness 10000) detected at line 39
  []
 
 
-Overfull \hbox (66.77603pt too wide) in paragraph at lines 50--50
+Overfull \hbox (66.77603pt too wide) in paragraph at lines 44--44
 []| \T1/pcr/b/n/10.95 ieSms-For-Fam-ily(AdtMessage:dtMessage, Adt-Pho-neNum-ber
 :dtPhoneNumber):ptBoolean| 
  []
 
 
-Overfull \hbox (24.79997pt too wide) in alignment at lines 40--52
+Overfull \hbox (24.79997pt too wide) in alignment at lines 39--46
  [] [] 
  []
 
-[32])
+[43])
 (./doc-gen/environment-model/comments-tables/actor-comment-table-actWeakPersonF
 amily.tex
 
@@ -3957,21 +4596,77 @@ Overfull \hbox (24.79997pt too wide) in alignment at lines 5--33
 Underfull \vbox (badness 10000) detected at line 33
  []
 
-)) (./doc-gen/concept-model/concept-model.tex [33] [34
-
-]
+)) (./doc-gen/concept-model/concept-model.tex [44]
 Chapter 4.
+
+(./doc-gen/concept-model/local/PrimaryTypes-Classes/02/CM-view-local-PrimaryTyp
+es-Classes-02.tex
+File: ./images-report-gen/concept-model/local/PrimaryTypes-Classes/02/cm-view2.
+eps Graphic file (type eps)
+
+<./images-report-gen/concept-model/local/PrimaryTypes-Classes/02/cm-view2.eps>
+
+LaTeX Warning: Float too large for page by 37.72562pt on input line 15.
+
+)
+(./doc-gen/concept-model/local/PrimaryTypes-Classes/03/CM-view-local-PrimaryTyp
+es-Classes-03.tex
+
+LaTeX Warning: File `./images-report-gen/concept-model/local/PrimaryTypes-Class
+es/03/cm-view3.eps' not found on input line 10.
+
+
+! LaTeX Error: File `./images-report-gen/concept-model/local/PrimaryTypes-Class
+es/03/cm-view3.eps' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 ...ocal/PrimaryTypes-Classes/03/cm-view3.eps}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Cannot determine size of graphic in ./images-report-gen/concept-
+model/local/PrimaryTypes-Classes/03/cm-view3.eps (no BoundingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 ...ocal/PrimaryTypes-Classes/03/cm-view3.eps}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: ./images-report-gen/concept-model/local/PrimaryTypes-Classes/03/cm-view3.
+eps Graphic file (type eps)
+
+<./images-report-gen/concept-model/local/PrimaryTypes-Classes/03/cm-view3.eps>)
 
 (./doc-gen/concept-model/local/PrimaryTypes-Classes/04/CM-view-local-PrimaryTyp
 es-Classes-04.tex
 File: ./images-report-gen/concept-model/local/PrimaryTypes-Classes/04/cm-view4.
 eps Graphic file (type eps)
 
-<./images-report-gen/concept-model/local/PrimaryTypes-Classes/04/cm-view4.eps>
+<./images-report-gen/concept-model/local/PrimaryTypes-Classes/04/cm-view4.eps>)
 
-LaTeX Warning: Float too large for page by 568.68301pt on input line 15.
+(./doc-gen/concept-model/local/PrimaryTypes-Classes/05/CM-view-local-PrimaryTyp
+es-Classes-05.tex
+File: ./images-report-gen/concept-model/local/PrimaryTypes-Classes/05/cm-view5.
+eps Graphic file (type eps)
 
-)
+<./images-report-gen/concept-model/local/PrimaryTypes-Classes/05/cm-view5.eps>)
+
+(./doc-gen/concept-model/local/PrimaryTypes-Classes/07/CM-view-local-PrimaryTyp
+es-Classes-07.tex
+File: ./images-report-gen/concept-model/local/PrimaryTypes-Classes/07/cm-view7.
+eps Graphic file (type eps)
+
+<./images-report-gen/concept-model/local/PrimaryTypes-Classes/07/cm-view7.eps>)
+
 (./doc-gen/concept-model/comments-tables/primaryTypesClasses-comments-table.tex
 
 Overfull \hbox (24.79997pt too wide) in alignment at lines 8--9
@@ -3994,12 +4689,12 @@ Overfull \hbox (24.79997pt too wide) in alignment at lines 9--9
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 14--14
+Underfull \hbox (badness 10000) in paragraph at lines 21--21
 []| \T1/pcr/b/n/10.95 init(AcId:dtInteger, Aname:dtName, APhone:dtPhoneNumber,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 14--14
+Underfull \hbox (badness 10000) in paragraph at lines 21--21
 \T1/pcr/b/n/10.95 ACo-or-di-nates:dtCoordinates, AUser-name:dtUserName,
  []
 
@@ -4012,107 +4707,484 @@ Overfull \hbox (24.79997pt too wide) in alignment at lines 9--21
 Underfull \vbox (badness 10000) detected at line 21
  []
 
+[45
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--28
-[]| \T1/pcr/b/n/10.95 init(Aname:dtName, APhone:dtPhoneNumber,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 28--28
-\T1/pcr/b/n/10.95 ACo-or-di-nates:dtCoordinates, AUser-name:dtUserName,
- []
-
-
+] [46] [47]
 Overfull \hbox (24.79997pt too wide) in alignment at lines 21--31
  [] [] 
  []
 
-[35]
-Overfull \hbox (24.79997pt too wide) in alignment at lines 31--41
- [] [] 
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--35
+[]| \T1/pcr/b/n/10.95 init(Aname:dtName, APhone:dtPhoneNumber,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--45
-[]| \T1/pcr/b/n/10.95 init(AvId:dtInteger, Adisp:dtDispo, Aname:dtName,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 45--45
-\T1/pcr/b/n/10.95 APhone:dtPhoneNumber, ACo-or-di-nates:dtCoordinates,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 50--50
-[]| \T1/pcr/b/n/10.95 init(AWid:dtInteger, Aname:dtName, APhone:dtPhoneNumber,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 50--50
+Underfull \hbox (badness 10000) in paragraph at lines 35--35
 \T1/pcr/b/n/10.95 ACo-or-di-nates:dtCoordinates, AUser-name:dtUserName,
  []
 
 
-Overfull \hbox (24.79997pt too wide) in alignment at lines 41--52
+Overfull \hbox (24.79997pt too wide) in alignment at lines 31--42
  [] [] 
  []
 
-[36])
+[48]
+Underfull \hbox (badness 10000) in paragraph at lines 50--50
+[]| \T1/pcr/b/n/10.95 init(AvId:dtInteger, Adisp:dtDispo, Aname:dtName,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--50
+\T1/pcr/b/n/10.95 APhone:dtPhoneNumber, ACo-or-di-nates:dtCoordinates,
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 42--52
+ [] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--55
+[]| \T1/pcr/b/n/10.95 init(AWid:dtInteger, Aname:dtName, APhone:dtPhoneNumber,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--55
+\T1/pcr/b/n/10.95 ACo-or-di-nates:dtCoordinates, AUser-name:dtUserName,
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 52--57
+ [] [] 
+ []
+
+[49])
 (./doc-gen/concept-model/comments-tables/primaryTypesDatatypes-comments-table.t
-ex)
-(./doc-gen/concept-model/comments-tables/primaryTypesAssociations-comments-tabl
-e.tex)
-(./doc-gen/concept-model/comments-tables/primaryTypesAggregations-comments-tabl
-e.tex
-Overfull \hbox (12.79999pt too wide) in alignment at lines 7--8
+ex
+Overfull \hbox (24.79997pt too wide) in alignment at lines 10--11
  [] [] 
  []
 
 
-Overfull \hbox (12.79999pt too wide) in alignment at lines 8--8
+Overfull \hbox (24.79997pt too wide) in alignment at lines 11--11
  [] [] 
  []
 
 
-Overfull \hbox (12.79999pt too wide) in alignment at lines 8--8
+Overfull \hbox (24.79997pt too wide) in alignment at lines 11--11
  [] [] 
  []
 
 
-Overfull \hbox (12.79999pt too wide) in alignment at lines 8--8
+Overfull \hbox (24.79997pt too wide) in alignment at lines 11--11
  [] [] 
  []
 
 
-Overfull \hbox (12.79999pt too wide) in alignment at lines 8--11
+Overfull \hbox (24.79997pt too wide) in alignment at lines 11--23
  [] [] 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 11
+Underfull \vbox (badness 10000) detected at line 23
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 23--32
+ [] [] 
+ []
+
+[50]
+Overfull \hbox (24.79997pt too wide) in alignment at lines 32--43
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 43--44
+ [] [] 
+ []
+
+[51]
+Overfull \hbox (12.79999pt too wide) in alignment at lines 47--48
+ [] [] 
+ []
+
+
+Overfull \hbox (12.79999pt too wide) in alignment at lines 48--48
+ [] [] 
+ []
+
+
+Overfull \hbox (12.79999pt too wide) in alignment at lines 48--48
+ [] [] 
+ []
+
+
+Overfull \hbox (12.79999pt too wide) in alignment at lines 48--48
+ [] [] 
+ []
+
+
+Overfull \hbox (12.79999pt too wide) in alignment at lines 48--52
+ [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 52
  []
 
 )
+(./doc-gen/concept-model/comments-tables/primaryTypesAssociations-comments-tabl
+e.tex)
+(./doc-gen/concept-model/comments-tables/primaryTypesAggregations-comments-tabl
+e.tex)
 (./doc-gen/concept-model/comments-tables/primaryTypesCompositions-comments-tabl
 e.tex)
 (./doc-gen/concept-model/comments-tables/secondaryTypesClasses-comments-table.t
 ex)
 (./doc-gen/concept-model/comments-tables/secondaryTypesDatatypes-comments-table
-.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [37]
-[38])
+.tex)
 (./doc-gen/concept-model/comments-tables/secondaryTypesAssociations-comments-ta
 ble.tex)
 (./doc-gen/concept-model/comments-tables/secondaryTypesAggregations-comments-ta
 ble.tex)
 (./doc-gen/concept-model/comments-tables/secondaryTypesCompositions-comments-ta
-ble.tex)) (./doc-gen/operation-model/operation-model.tex [39] [40
-
-]
+ble.tex)) (./doc-gen/operation-model/operation-model.tex [52]
 Chapter 5.
 
+(./doc-gen/operation-model/OM-Environment/OM-OUT/OM-actActivator-oeSendNotifica
+tionToVolunteer.tex
+Overfull \hbox (24.79997pt too wide) in alignment at lines 8--9
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--9
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--9
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--9
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--31
+ [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 31
+ []
+
+)
+(./doc-gen/operation-model/OM-Environment/OM-OUT/OM-actActivator-oeSetClock.tex
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 8--9
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--9
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--9
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--9
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--30
+ [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 30
+ []
+
+[53
+
+])
+Underfull \hbox (badness 10000) in paragraph at lines 31--31
+[]\T1/cmr/bx/n/14.4 Environment - Out In-ter-face Op-er-a-tion Scheme for
+ []
+
+
+(./doc-gen/operation-model/OM-Environment/OM-OUT/OM-actCoordinator-oeConfirmPri
+ority.tex
+Overfull \hbox (24.79997pt too wide) in alignment at lines 8--9
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--9
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--9
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--9
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--29
+ [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 29
+ []
+
+)
+(./doc-gen/operation-model/OM-Environment/OM-OUT/OM-actCoordinator-oeGetHelpReq
+uestDetail.tex
+Overfull \hbox (24.79997pt too wide) in alignment at lines 8--9
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--9
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--9
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--9
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--31
+ [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 31
+ []
+
+[54])
+(./doc-gen/operation-model/OM-Environment/OM-OUT/OM-actCoordinator-oeGetPending
+HelpRequests.tex
+Overfull \hbox (24.79997pt too wide) in alignment at lines 8--9
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--9
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--9
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--9
+ [] [] 
+ []
+
+
+Underfull \hbox (badness 5302) in paragraph at lines 27--28
+[]|\T1/cmr/m/n/10.95 The op-er-a-tion oeReq-Call() is avail-able for all ctWeak
+Per-son in-stances with a
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--28
+ [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 28
+ []
+
+)
+(./doc-gen/operation-model/OM-Environment/OM-OUT/OM-actCoordinator-oeProceedCal
+l.tex
+Overfull \hbox (24.79997pt too wide) in alignment at lines 8--9
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--9
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--9
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--9
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--28
+ [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 28
+ []
+
+[55])
+(./doc-gen/operation-model/OM-Environment/OM-OUT/OM-actCoordinator-oeReqCheckbo
+x.tex
+Overfull \hbox (24.79997pt too wide) in alignment at lines 8--9
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--9
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--9
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--9
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--29
+ [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 29
+ []
+
+)
+(./doc-gen/operation-model/OM-Environment/OM-OUT/OM-actCoordinator-oeReqCall.te
+x
+Overfull \hbox (24.79997pt too wide) in alignment at lines 8--9
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--9
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--9
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--9
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--29
+ [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 29
+ []
+
+)
+(./doc-gen/operation-model/OM-Environment/OM-OUT/OM-actVolunteer-oeSendNotifica
+tion.tex
+Overfull \hbox (24.79997pt too wide) in alignment at lines 8--9
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--9
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--9
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--9
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--31
+ [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [56]
+Underfull \vbox (badness 10000) detected at line 31
+ []
+
+)
+(./doc-gen/operation-model/OM-Environment/OM-OUT/OM-actVolunteer-oeAcceptMissio
+n.tex
+Overfull \hbox (24.79997pt too wide) in alignment at lines 8--9
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--9
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--9
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--9
+ [] [] 
+ []
+
+
+Underfull \hbox (badness 1609) in paragraph at lines 19--20
+[]|\T1/cmr/m/n/10.95 The oeGet-Mis-sion-In-RAnge() has been ex-e-cuted and re-t
+urn at least 1 in-stance of
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--33
+ [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 33
+ []
+
+[57])
 (./doc-gen/operation-model/OM-Environment/OM-OUT/OM-actVolunteer-oeGetPosition.
 tex
 Overfull \hbox (24.79997pt too wide) in alignment at lines 8--9
@@ -4143,7 +5215,9 @@ Overfull \hbox (24.79997pt too wide) in alignment at lines 9--28
 Underfull \vbox (badness 10000) detected at line 28
  []
 
-) (./doc-gen/operation-model/OM-Environment/OM-OUT/OM-actVolunteer-oeLogin.tex
+)
+(./doc-gen/operation-model/OM-Environment/OM-OUT/OM-actVolunteer-oeGetMissionIn
+Ragne.tex
 Overfull \hbox (24.79997pt too wide) in alignment at lines 8--9
  [] [] 
  []
@@ -4164,94 +5238,168 @@ Overfull \hbox (24.79997pt too wide) in alignment at lines 9--9
  []
 
 
-Overfull \hbox (24.79997pt too wide) in alignment at lines 9--30
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--33
  [] [] 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 30
+Underfull \vbox (badness 10000) detected at line 33
  []
 
-[41])) (./doc-gen/test-model/test-model.tex [42]
-Chapter 6.
-)) [43
 
-] (./doc/additional-constraints/additional-constraints.tex [44
+Overfull \hbox (24.79997pt too wide) in alignment at lines 33--35
+ [] [] 
+ []
+
+[58])
+(./doc-gen/operation-model/OM-Environment/OM-OUT/OM-actVolunteer-oeRegisterCoor
+dinates.tex
+Overfull \hbox (24.79997pt too wide) in alignment at lines 8--9
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--9
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--9
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--9
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--29
+ [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 29
+ []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 46--46
+[]\T1/cmr/bx/n/14.4 Environment - Out In-ter-face Op-er-a-tion Scheme for
+ []
+
+
+(./doc-gen/operation-model/OM-Environment/OM-OUT/OM-actWeakPerson-oeAlertFamily
+.tex
+Overfull \hbox (24.79997pt too wide) in alignment at lines 8--9
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--9
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--9
+ [] [] 
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--9
+ [] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--25
+[]|\T1/cmr/m/n/10.95 The ct-PhoneCom-pany in-stance will re-ceive an SMS for th
+e cor-re-spond-ing
+ []
+
+
+Overfull \hbox (24.79997pt too wide) in alignment at lines 9--28
+ [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 28
+ []
+
+[59])) (./doc-gen/test-model/test-model.tex [60]
+Chapter 6.
+)) [61
+
+] (./doc/additional-constraints/additional-constraints.tex [62
 
 ]
 Chapter 7.
-) [45] (./doc/appendix/appendix.tex) (./doc-gen/appendix/appendix-gen.tex
-(./doc-gen/appendix/appendix-undocumentedMsrSpecElements.tex [46
+) [63] (./doc/appendix/appendix.tex) (./doc-gen/appendix/appendix-gen.tex
+(./doc-gen/appendix/appendix-undocumentedMsrSpecElements.tex [64
 
 ]
 Appendix A.
-
-Overfull \hbox (8.44395pt too wide) in paragraph at lines 18--19
-[][]\T1/cmr/m/n/10.95 lu.uni.lassy.excalibur.g01.specification.usecases.coordin
-ator.ugRetrievePendingHelpRequestDetails 
+[65]
+Overfull \hbox (3.82741pt too wide) in paragraph at lines 62--63
+[][]\T1/cmr/m/n/10.95 lu.uni.lassy.excalibur.g01.specification.concepts.primary
+types.classes.assActCoordinatorVolunteer 
  []
 
-[47]
-Overfull \hbox (1.2295pt too wide) in paragraph at lines 100--101
+
+Overfull \hbox (1.2295pt too wide) in paragraph at lines 64--65
 [][]\T1/cmr/m/n/10.95 lu.uni.lassy.excalibur.g01.specification.concepts.primary
 types.classes.assCoordinatorHelpRequest 
  []
 
-[48]
-Overfull \hbox (26.05103pt too wide) in paragraph at lines 143--144
-[][]\T1/cmr/m/n/10.95 lu.uni.lassy.excalibur.g01.specification.environment.actC
-oordinator.outactCoordinator.oeSetRiskLevel 
- []
 
-
-Overfull \hbox (54.1728pt too wide) in paragraph at lines 144--145
+Overfull \hbox (54.1728pt too wide) in paragraph at lines 106--107
 [][]\T1/cmr/m/n/10.95 lu.uni.lassy.excalibur.g01.specification.environment.actP
 honeCompany.outactPhoneCompany.oeGetConfirm 
  []
 
 
-Overfull \hbox (93.12128pt too wide) in paragraph at lines 145--146
+Overfull \hbox (93.12128pt too wide) in paragraph at lines 107--108
 [][]\T1/cmr/m/n/10.95 lu.uni.lassy.excalibur.g01.specification.environment.actP
 honeCompany.outactPhoneCompany.oeSendDeliveryReport 
  []
 
 
-Overfull \hbox (79.54895pt too wide) in paragraph at lines 146--147
+Overfull \hbox (79.54895pt too wide) in paragraph at lines 108--109
 [][]\T1/cmr/m/n/10.95 lu.uni.lassy.excalibur.g01.specification.environment.actP
 ositionInputActor.outactPositionInputActor.oeInputPost 
  []
 
-
-Overfull \hbox (132.67995pt too wide) in paragraph at lines 147--148
-[][]\T1/cmr/m/n/10.95 lu.uni.lassy.excalibur.g01.specification.environment.actP
-ositionRequester.outactPositionRequester.oeGetPositionFromSensor 
+[66]
+Overfull \hbox (132.67995pt too wide) in paragraph at lines 109--110
+[]\T1/cmr/m/n/10.95 lu.uni.lassy.excalibur.g01.specification.environment.actPos
+itionRequester.outactPositionRequester.oeGetPositionFromSensor 
  []
 
 
-Overfull \hbox (25.62878pt too wide) in paragraph at lines 150--151
+Overfull \hbox (25.62878pt too wide) in paragraph at lines 110--111
 [][]\T1/cmr/m/n/10.95 lu.uni.lassy.excalibur.g01.specification.environment.actW
 eakPerson.outactWeakPerson.oeGetpostition 
  []
 
 
-Overfull \hbox (87.18726pt too wide) in paragraph at lines 151--152
+Overfull \hbox (87.18726pt too wide) in paragraph at lines 111--112
 [][]\T1/cmr/m/n/10.95 lu.uni.lassy.excalibur.g01.specification.environment.actW
 eakPersonFamily.outactWeakPersonFamily.oeConfirmCall 
  []
 
 
-Overfull \hbox (106.96155pt too wide) in paragraph at lines 152--153
+Overfull \hbox (106.96155pt too wide) in paragraph at lines 112--113
 [][]\T1/cmr/m/n/10.95 lu.uni.lassy.excalibur.g01.specification.environment.actW
 eakPersonFamily.outactWeakPersonFamily.oeConfirmMessage 
  []
 
 
-Overfull \hbox (74.84862pt too wide) in paragraph at lines 153--154
+Overfull \hbox (74.84862pt too wide) in paragraph at lines 113--114
 [][]\T1/cmr/m/n/10.95 lu.uni.lassy.excalibur.g01.specification.environment.actW
 eakPersonFamily.outactWeakPersonFamily.oeSubscribe 
  []
 
-[49]) (./doc-gen/appendix/appendix-msrSpecFilesListings.tex [50]
+) (./doc-gen/appendix/appendix-msrSpecFilesListings.tex [67] [68
+
+]
 Appendix B.
 (./src-gen/messir-spec/.views.msr
 LaTeX Font Info:    Try loading font information for TS1+pcr on input line 2.
@@ -4266,7 +5414,79 @@ Package microtype Info: Loading generic settings for font family
 LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <8> not available
 (Font)              Font shape `T1/pcr/b/n' tried instead on input line 4.
 )
-Overfull \hbox (4.39824pt too wide) in paragraph at lines 8--8
+(./src-gen/messir-spec/usecases/activatorUC.msr) [69]
+(./src-gen/messir-spec/usecases/DeployAndRun.msr
+
+! Package inputenc Error: Unicode char √\expandafter (U+4F1)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.42 ...n oeInputManualPos("1 rue des mara√Æchers-
+                                                  Luxembourg", "49.626506, 6...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `utf8'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.42 ...n oeInputManualPos("1 rue des mara√Æchers-
+                                                  Luxembourg", "49.626506, 6...
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Unicode char √\expandafter (U+4F1)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.43 						ieConfirmPos("1 rue des mara√Æchers-
+                                               Luxembourg", "49.626506, 6.16...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `utf8'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.43 						ieConfirmPos("1 rue des mara√Æchers-
+                                               Luxembourg", "49.626506, 6.16...
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+[70]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [71])
+Overfull \hbox (4.39824pt too wide) in paragraph at lines 18--18
+[]\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/operations/environment/environme
+nt-
+ []
+
+
+(./src-gen/messir-spec/operations/environment/environment-actActivator-oeSendNo
+tificationToVolunteer.msr [72])
+Overfull \hbox (4.39824pt too wide) in paragraph at lines 23--23
 []\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/operations/environment/environme
 nt-
  []
@@ -4274,75 +5494,181 @@ nt-
 
 (./src-gen/messir-spec/operations/environment/environment-actVolunteer-oeGetPos
 ition.msr)
-Overfull \hbox (4.39824pt too wide) in paragraph at lines 13--13
+Overfull \hbox (4.39824pt too wide) in paragraph at lines 28--28
 []\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/operations/environment/environme
 nt-
  []
 
 
 (./src-gen/messir-spec/operations/environment/environment-actVolunteer-oeLogin.
-msr [51
+msr)
+Overfull \hbox (4.39824pt too wide) in paragraph at lines 33--33
+[]\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/operations/environment/environme
+nt-
+ []
 
-]) (./src-gen/messir-spec/environment/environment.msr [52]
+
+(./src-gen/messir-spec/operations/environment/environment-actVolunteer-oeSendNo
+tification.msr
+Overfull \hbox (36.85481pt too wide) has occurred while \output is active
+\T1/cmr/m/sl/10.95 B.5.  FILE /SRC-GEN/MESSIR-SPEC.../ENVIRONMENT-ACTVOLUNTEER-
+OEGETPOSITION.MSR \T1/cmr/m/n/10.95 73
+ []
+
+[73]) (./src-gen/messir-spec/environment/environment.msr [74]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [53])
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
+ [75]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [76])
+! Missing $ inserted.
+<inserted text> 
+                $
+l.43 ...environment/operation_oeAcceptMission.msr}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.43 ...environment/operation_oeAcceptMission.msr}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (117.53867pt too wide) in paragraph at lines 43--43
+[]\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/operations/environment/operation
+$[]\OML/cmm/m/it/14.4 eAcceptMission:msr$ 
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 43.
+
+(./src-gen/messir-spec/operations/environment/operation_oeAcceptMission.msr
+! Missing $ inserted.
+<inserted text> 
+                $
+l.35 			preF
+            
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+\MakeUppercase  ... {\uppercase {#1}}\reserved@a }
+                                                  
+l.35 			preF
+            
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.35 			preF
+            
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.35 			preF
+            
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (109.66151pt too wide) has occurred while \output is active
+\T1/cmr/m/sl/10.95 B.9.  FILE /SRC-GEN/MESSIR-SPEC/OPERATIONS/ENVIRONMENT/OPERA
+TION$[]\OML/cmm/m/it/10.95 EACCEPTMISSION:MSR$ \T1/cmr/m/n/10.95 77
+ []
+
+[77])
+! Missing $ inserted.
+<inserted text> 
+                $
+l.45 ...environment/operation_oeAcceptMission.msr}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.45 ...environment/operation_oeAcceptMission.msr}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+(./src-gen/messir-spec/operations/operational.msr [78])
+Underfull \hbox (badness 10000) in paragraph at lines 53--53
 []\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/concepts/primarytypes-
  []
 
 
 (./src-gen/messir-spec/concepts/primarytypes-associations/primarytypes-associat
-ions.msr) [54]
-Underfull \hbox (badness 10000) in paragraph at lines 28--28
+ions.msr)
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
 []\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/concepts/primarytypes-
  []
 
-(./src-gen/messir-spec/concepts/primarytypes-classes/primarytypes-classes.msr
-Overfull \hbox (102.69142pt too wide) has occurred while \output is active
-\T1/cmr/m/sl/10.95 B.6.  FILE /SRC-GEN/MESSIR-SPEC/CONCEPTS/PRIMARYTYPES-CLASSE
-S/PRIMARYTYPES-CLASSES.MSR \T1/cmr/m/n/10.95 55
+
+Underfull \vbox (badness 5985) has occurred while \output is active []
+
+
+Overfull \hbox (3.98708pt too wide) has occurred while \output is active
+\T1/cmr/m/sl/10.95 B.11.  FILE /SRC-GEN/MESSIR-SPEC/CONCEPTS.../PRIMARYTYPES-AS
+SOCIATIONS.MSR \T1/cmr/m/n/10.95 79
  []
 
-[55])
-Underfull \hbox (badness 10000) in paragraph at lines 33--33
+[79]
+(./src-gen/messir-spec/concepts/primarytypes-classes/primarytypes-classes.msr
+[80])
+Underfull \hbox (badness 10000) in paragraph at lines 63--63
 []\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/concepts/primarytypes-
  []
 
 
 (./src-gen/messir-spec/concepts/primarytypes-datatypes/primarytypes-datatypes.m
-sr [56])
-Underfull \hbox (badness 10000) in paragraph at lines 38--38
+sr [81])
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
 []\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/concepts/secondarytypes-
  []
 
 
 (./src-gen/messir-spec/concepts/secondarytypes-associations/secondarytypes-asso
-ciations.msr)
-Underfull \hbox (badness 10000) in paragraph at lines 43--43
+ciations.msr) [82]
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
 []\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/concepts/secondarytypes-
  []
 
 
 (./src-gen/messir-spec/concepts/secondarytypes-classes/secondarytypes-classes.m
-sr
-Overfull \hbox (15.17636pt too wide) has occurred while \output is active
-\T1/cmr/m/sl/10.95 B.8.  FILE /SRC-GEN/MESSIR-SPEC/CONCEPTS.../SECONDARYTYPES-A
-SSOCIATIONS.MSR \T1/cmr/m/n/10.95 57
- []
-
-[57])
-Underfull \hbox (badness 10000) in paragraph at lines 48--48
+sr)
+Underfull \hbox (badness 10000) in paragraph at lines 78--78
 []\T1/cmr/bx/n/14.4 File ./src-gen/messir-spec/concepts/secondarytypes-
  []
 
 
 (./src-gen/messir-spec/concepts/secondarytypes-datatypes/secondarytypes-datatyp
-es.msr) (./src-gen/messir-spec/tests/tests.msr)
+es.msr) (./src-gen/messir-spec/tests/tests.msr [83])
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.58 ...n/messir-spec/concepts/uc_coordinator.msr}
+l.88 ...n/messir-spec/concepts/uc_coordinator.msr}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -4350,32 +5676,32 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.58 ...n/messir-spec/concepts/uc_coordinator.msr}
+l.88 ...n/messir-spec/concepts/uc_coordinator.msr}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 58.
+(hyperref)                removing `subscript' on input line 88.
 
-(./src-gen/messir-spec/concepts/uc_coordinator.msr [58]
+(./src-gen/messir-spec/concepts/uc_coordinator.msr [84]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.75 			actor a
-               ctCoordinator[primary,active]
+l.132 		actor a
+               ctCoordinator [primary,active]
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
 \MakeUppercase  ... {\uppercase {#1}}\reserved@a }
                                                   
-l.75 			actor a
-               ctCoordinator[primary,active]
+l.132 		actor a
+               ctCoordinator [primary,active]
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
@@ -4385,8 +5711,8 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.75 			actor a
-               ctCoordinator[primary,active]
+l.132 		actor a
+               ctCoordinator [primary,active]
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -4396,22 +5722,19 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.75 			actor a
-               ctCoordinator[primary,active]
+l.132 		actor a
+               ctCoordinator [primary,active]
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[59]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [60])
+[85])
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.60 ...n/messir-spec/concepts/uc_coordinator.msr}
+l.90 ...n/messir-spec/concepts/uc_coordinator.msr}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -4419,7 +5742,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.60 ...n/messir-spec/concepts/uc_coordinator.msr}
+l.90 ...n/messir-spec/concepts/uc_coordinator.msr}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -4427,7 +5750,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.63 ...gen/messir-spec/concepts/uc_volunteer.msr}
+l.93 ...gen/messir-spec/concepts/uc_volunteer.msr}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -4435,29 +5758,32 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.63 ...gen/messir-spec/concepts/uc_volunteer.msr}
+l.93 ...gen/messir-spec/concepts/uc_volunteer.msr}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 63.
+(hyperref)                removing `subscript' on input line 93.
 
-(./src-gen/messir-spec/concepts/uc_volunteer.msr
+(./src-gen/messir-spec/concepts/uc_volunteer.msr [86]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.48 				Garmin e
-                 xecuted instanceof subfunction oeSendCurrentPosition() {
+l.106 		use c
+             ase system summary suRetrieveMissionDetails(){
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
 \MakeUppercase  ... {\uppercase {#1}}\reserved@a }
                                                   
-l.48 				Garmin e
-                 xecuted instanceof subfunction oeSendCurrentPosition() {
+l.106 		use c
+             ase system summary suRetrieveMissionDetails(){
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
@@ -4467,8 +5793,8 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.48 				Garmin e
-                 xecuted instanceof subfunction oeSendCurrentPosition() {
+l.106 		use c
+             ase system summary suRetrieveMissionDetails(){
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -4478,22 +5804,19 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.48 				Garmin e
-                 xecuted instanceof subfunction oeSendCurrentPosition() {
+l.106 		use c
+             ase system summary suRetrieveMissionDetails(){
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[61]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [62])
+[87])
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.65 ...gen/messir-spec/concepts/uc_volunteer.msr}
+l.95 ...gen/messir-spec/concepts/uc_volunteer.msr}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -4501,13 +5824,13 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.65 ...gen/messir-spec/concepts/uc_volunteer.msr}
+l.95 ...gen/messir-spec/concepts/uc_volunteer.msr}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 (./src-gen/messir-spec/usecases/usecases.msr)
-(./src-gen/messir-spec/usecases/weakperson.msr [63]
+(./src-gen/messir-spec/usecases/weakperson.msr [88]
 
 ! Package inputenc Error: Unicode char √\expandafter (U+4F1)
 (inputenc)                not set up for use with LaTeX.
@@ -4569,13 +5892,13 @@ or \DeclareInputMath before using this key.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [64])))
-Package atenddvi Info: Last page = 65.
+ [89]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[65]
+ [90])))
+[91]
 No file report.gls.
-[66]
-No file report.bbl.
+[92] (./report.bbl)
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the report.maf file.
@@ -4587,37 +5910,23 @@ Package minitoc(hints) Info: I0053
 (minitoc(hints))             facilities can not be used for new types 
 (minitoc(hints))             of floats defined by the float package.
 
+
 Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the report.log file.
 
-[67
+Package atenddvi Info: Last page = 93.
+[93
+
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 84.
 Package atveryend Info: Executing hook `AfterLastShipout' on input line 84.
- (./report.aux
-
-Package atenddvi Warning: Rerun LaTeX, last page has changed.
-
-
-Package animate Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-(animate)                @ Rerun to get internal references right! @
-(animate)                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
-
-*************************************************
-* media9 warning: "rerun"
-* 
-* Rerun to get internal references right!
-*************************************************
-)
+ (./report.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 84.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 84.
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: BAF9D8CED551BBC169D8022E0BA76A82;7475.
-
-
-LaTeX Warning: There were undefined references.
+(rerunfilecheck)             Checksum: 6FFFA7F28AF676360AAC361FDE92C9BD;9922.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -4625,12 +5934,12 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 84.
  ) 
 Here is how much of TeX's memory you used:
- 57285 strings out of 493014
- 1235344 string characters out of 6133354
- 1795518 words of memory out of 5000000
- 59145 multiletter control sequences out of 15000+600000
+ 57601 strings out of 493014
+ 1247674 string characters out of 6133354
+ 1819881 words of memory out of 5000000
+ 59324 multiletter control sequences out of 15000+600000
  49715 words of font info for 139 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
- 69i,16n,98p,10506b,2046s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 69i,16n,98p,10506b,2044s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on report.dvi (67 pages, 575592 bytes).
+Output written on report.dvi (93 pages, 913540 bytes).

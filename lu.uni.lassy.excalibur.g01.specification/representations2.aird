@@ -712,7 +712,6 @@
     <semanticResources>environment/documentation/Operation-actCoordinator-outactCoordinator-oeGetPendingHelpRequests.msrd</semanticResources>
     <semanticResources>environment/documentation/Operation-actCoordinator-outactCoordinator-oeGetHelpRequestDetail.msrd</semanticResources>
     <semanticResources>environment/documentation/Operation-actCoordinator-outactCoordinator-oeProceedCall.msrd</semanticResources>
-    <semanticResources>environment/documentation/Operation-actCoordinator-outactCoordinator-oeSetRiskLevel.msrd</semanticResources>
     <semanticResources>environment/documentation/Operation-actCoordinator-outactCoordinator-oeGetVolunteersList.msrd</semanticResources>
     <semanticResources>environment/documentation/Operation-actCoordinator-outactCoordinator-oeReqCall.msrd</semanticResources>
     <semanticResources>environment/documentation/Operation-actCoordinator-outactCoordinator-oeReqCheckbox.msrd</semanticResources>

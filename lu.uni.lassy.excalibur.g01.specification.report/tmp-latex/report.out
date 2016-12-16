@@ -12,72 +12,97 @@
 \BOOKMARK [2][-]{subsection.2.3.2}{2.3.2 Use Case Instance\(s\)}{section.2.3}% 12
 \BOOKMARK [0][-]{chapter.3}{3 Environment Model}{}% 13
 \BOOKMARK [1][-]{section.3.1}{3.1 Local view 06}{chapter.3}% 14
-\BOOKMARK [1][-]{section.3.2}{3.2 Local view 07}{chapter.3}% 15
-\BOOKMARK [1][-]{section.3.3}{3.3 Actors and Interfaces Descriptions}{chapter.3}% 16
-\BOOKMARK [2][-]{subsection.3.3.1}{3.3.1 \040=` actActivator Actor}{section.3.3}% 17
-\BOOKMARK [2][-]{subsection.3.3.2}{3.3.2 \040=` actCoordinator Actor}{section.3.3}% 18
-\BOOKMARK [2][-]{subsection.3.3.3}{3.3.3 \040=` actPhoneCompany Actor}{section.3.3}% 19
-\BOOKMARK [2][-]{subsection.3.3.4}{3.3.4 \040=` actPositionInputActor Actor}{section.3.3}% 20
-\BOOKMARK [2][-]{subsection.3.3.5}{3.3.5 \040=` actPositionRequester Actor}{section.3.3}% 21
-\BOOKMARK [2][-]{subsection.3.3.6}{3.3.6 \040=` actSensor Actor}{section.3.3}% 22
-\BOOKMARK [2][-]{subsection.3.3.7}{3.3.7 \040=` actVolunteer Actor}{section.3.3}% 23
-\BOOKMARK [2][-]{subsection.3.3.8}{3.3.8 \040=` actWeakPerson Actor}{section.3.3}% 24
-\BOOKMARK [2][-]{subsection.3.3.9}{3.3.9 \040=` actWeakPersonFamily Actor}{section.3.3}% 25
-\BOOKMARK [0][-]{chapter.4}{4 Concept Model}{}% 26
-\BOOKMARK [1][-]{section.4.1}{4.1 PrimaryTypes-Classes}{chapter.4}% 27
-\BOOKMARK [2][-]{subsection.4.1.1}{4.1.1 Local view 04}{section.4.1}% 28
-\BOOKMARK [1][-]{section.4.2}{4.2 Concept Model Types Descriptions}{chapter.4}% 29
-\BOOKMARK [2][-]{subsection.4.2.1}{4.2.1 Primary types - Class types descriptions}{section.4.2}% 30
-\BOOKMARK [2][-]{subsection.4.2.2}{4.2.2 Primary types - Datatypes types descriptions}{section.4.2}% 31
-\BOOKMARK [2][-]{subsection.4.2.3}{4.2.3 Primary types - Association types descriptions}{section.4.2}% 32
-\BOOKMARK [2][-]{subsection.4.2.4}{4.2.4 Primary types - Aggregation types descriptions}{section.4.2}% 33
-\BOOKMARK [2][-]{subsection.4.2.5}{4.2.5 Secondary types - Class types descriptions}{section.4.2}% 34
-\BOOKMARK [2][-]{subsection.4.2.6}{4.2.6 Secondary types - Datatypes types descriptions}{section.4.2}% 35
-\BOOKMARK [2][-]{subsection.4.2.7}{4.2.7 Secondary types - Association types descriptions}{section.4.2}% 36
-\BOOKMARK [2][-]{subsection.4.2.8}{4.2.8 Secondary types - Aggregation types descriptions}{section.4.2}% 37
-\BOOKMARK [2][-]{subsection.4.2.9}{4.2.9 Secondary types - Composition types descriptions}{section.4.2}% 38
-\BOOKMARK [0][-]{chapter.5}{5 Operation Model}{}% 39
-\BOOKMARK [1][-]{section.5.1}{5.1 Environment - Out Interface Operation Scheme for actVolunteer}{chapter.5}% 40
-\BOOKMARK [2][-]{subsection.5.1.1}{5.1.1 Operation Model for oeGetPosition}{section.5.1}% 41
-\BOOKMARK [2][-]{subsection.5.1.2}{5.1.2 Operation Model for oeLogin}{section.5.1}% 42
-\BOOKMARK [1][-]{section.5.2}{5.2 Environment - Actor Operation Schemes}{chapter.5}% 43
-\BOOKMARK [1][-]{section.5.3}{5.3 Primary Types - Operation Schemes for Classes}{chapter.5}% 44
-\BOOKMARK [1][-]{section.5.4}{5.4 Primary Types - Operation Schemes for Datatypes}{chapter.5}% 45
-\BOOKMARK [1][-]{section.5.5}{5.5 Primary Types - Operation Schemes for Enumerations}{chapter.5}% 46
-\BOOKMARK [1][-]{section.5.6}{5.6 Secondary Types - Operation Schemes for Classes}{chapter.5}% 47
-\BOOKMARK [1][-]{section.5.7}{5.7 Secondary Types - Operation Schemes for Datatypes}{chapter.5}% 48
-\BOOKMARK [1][-]{section.5.8}{5.8 Secondary Types - Operation Schemes for Enumerations}{chapter.5}% 49
-\BOOKMARK [0][-]{chapter.6}{6 Test Model\(s\)}{}% 50
-\BOOKMARK [0][-]{chapter.7}{7 Additional Constraints}{}% 51
-\BOOKMARK [0][-]{appendix.A}{A Undocumented Messir Specification Elements}{}% 52
-\BOOKMARK [1][-]{section.A.1}{A.1 Undocumented Use Cases}{appendix.A}% 53
-\BOOKMARK [2][-]{subsection.A.1.1}{A.1.1 Undocumented Use Cases - Summary Level}{section.A.1}% 54
-\BOOKMARK [2][-]{subsection.A.1.2}{A.1.2 Undocumented Use Cases - User-Goal Level}{section.A.1}% 55
-\BOOKMARK [2][-]{subsection.A.1.3}{A.1.3 Undocumented Use Cases - Subfunction Level}{section.A.1}% 56
-\BOOKMARK [1][-]{section.A.2}{A.2 Undocumented Use Case Instances}{appendix.A}% 57
-\BOOKMARK [2][-]{subsection.A.2.1}{A.2.1 Undocumented Use Case Instances - Summary Level}{section.A.2}% 58
-\BOOKMARK [2][-]{subsection.A.2.2}{A.2.2 Undocumented Use Case Instances - User-Goal Level}{section.A.2}% 59
-\BOOKMARK [1][-]{section.A.3}{A.3 Undocumented Environment Model Views}{appendix.A}% 60
-\BOOKMARK [1][-]{section.A.4}{A.4 Undocumented Primary Types}{appendix.A}% 61
-\BOOKMARK [2][-]{subsection.A.4.1}{A.4.1 Undocumented Primary Datatype Types}{section.A.4}% 62
-\BOOKMARK [1][-]{section.A.5}{A.5 Undocumented Primary Type Relationships}{appendix.A}% 63
-\BOOKMARK [2][-]{subsection.A.5.1}{A.5.1 Undocumented Primary Type Associations}{section.A.5}% 64
-\BOOKMARK [1][-]{section.A.6}{A.6 Undocumented Secondary Types}{appendix.A}% 65
-\BOOKMARK [2][-]{subsection.A.6.1}{A.6.1 Undocumented Secondary Datatype Types}{section.A.6}% 66
-\BOOKMARK [1][-]{section.A.7}{A.7 Undocumented Operation Specifications}{appendix.A}% 67
-\BOOKMARK [0][-]{appendix.B}{B Messir Specification Files Listing}{}% 68
-\BOOKMARK [1][-]{section.B.1}{B.1 File /src-gen/messir-spec/.views.msr}{appendix.B}% 69
-\BOOKMARK [1][-]{section.B.2}{B.2 File /src-gen/messir-spec.../environment-actVolunteer-oeGetPosition.msr}{appendix.B}% 70
-\BOOKMARK [1][-]{section.B.3}{B.3 File /src-gen/messir-spec/operations.../environment-actVolunteer-oeLogin.msr}{appendix.B}% 71
-\BOOKMARK [1][-]{section.B.4}{B.4 File /src-gen/messir-spec/environment/environment.msr}{appendix.B}% 72
-\BOOKMARK [1][-]{section.B.5}{B.5 File /src-gen/messir-spec/concepts.../primarytypes-associations.msr}{appendix.B}% 73
-\BOOKMARK [1][-]{section.B.6}{B.6 File /src-gen/messir-spec/concepts/primarytypes-classes/primarytypes-classes.msr}{appendix.B}% 74
-\BOOKMARK [1][-]{section.B.7}{B.7 File /src-gen/messir-spec/concepts.../primarytypes-datatypes.msr}{appendix.B}% 75
-\BOOKMARK [1][-]{section.B.8}{B.8 File /src-gen/messir-spec/concepts.../secondarytypes-associations.msr}{appendix.B}% 76
-\BOOKMARK [1][-]{section.B.9}{B.9 File /src-gen/messir-spec/concepts.../secondarytypes-classes.msr}{appendix.B}% 77
-\BOOKMARK [1][-]{section.B.10}{B.10 File /src-gen/messir-spec/concepts.../secondarytypes-datatypes.msr}{appendix.B}% 78
-\BOOKMARK [1][-]{section.B.11}{B.11 File /src-gen/messir-spec/tests/tests.msr}{appendix.B}% 79
-\BOOKMARK [1][-]{section.B.12}{B.12 File /src-gen/messir-spec/concepts/uccoordinator.msr}{appendix.B}% 80
-\BOOKMARK [1][-]{section.B.13}{B.13 File /src-gen/messir-spec/concepts/ucvolunteer.msr}{appendix.B}% 81
-\BOOKMARK [1][-]{section.B.14}{B.14 File /src-gen/messir-spec/usecases/usecases.msr}{appendix.B}% 82
-\BOOKMARK [1][-]{section.B.15}{B.15 File /src-gen/messir-spec/usecases/weakperson.msr}{appendix.B}% 83
+\BOOKMARK [1][-]{section.3.2}{3.2 Local view 09}{chapter.3}% 15
+\BOOKMARK [1][-]{section.3.3}{3.3 Local view 10}{chapter.3}% 16
+\BOOKMARK [1][-]{section.3.4}{3.4 Local view 11}{chapter.3}% 17
+\BOOKMARK [1][-]{section.3.5}{3.5 Actors and Interfaces Descriptions}{chapter.3}% 18
+\BOOKMARK [2][-]{subsection.3.5.1}{3.5.1 \040=` actActivator Actor}{section.3.5}% 19
+\BOOKMARK [2][-]{subsection.3.5.2}{3.5.2 \040=` actAuthPerson Actor}{section.3.5}% 20
+\BOOKMARK [2][-]{subsection.3.5.3}{3.5.3 \040=` actCoordinator Actor}{section.3.5}% 21
+\BOOKMARK [2][-]{subsection.3.5.4}{3.5.4 \040=` actMsrCreator Actor}{section.3.5}% 22
+\BOOKMARK [2][-]{subsection.3.5.5}{3.5.5 \040=` actPhoneCompany Actor}{section.3.5}% 23
+\BOOKMARK [2][-]{subsection.3.5.6}{3.5.6 \040=` actPositionInputActor Actor}{section.3.5}% 24
+\BOOKMARK [2][-]{subsection.3.5.7}{3.5.7 \040=` actPositionRequester Actor}{section.3.5}% 25
+\BOOKMARK [2][-]{subsection.3.5.8}{3.5.8 \040=` actSensor Actor}{section.3.5}% 26
+\BOOKMARK [2][-]{subsection.3.5.9}{3.5.9 \040=` actVolunteer Actor}{section.3.5}% 27
+\BOOKMARK [2][-]{subsection.3.5.10}{3.5.10 \040=` actWeakPerson Actor}{section.3.5}% 28
+\BOOKMARK [2][-]{subsection.3.5.11}{3.5.11 \040=` actWeakPersonFamily Actor}{section.3.5}% 29
+\BOOKMARK [0][-]{chapter.4}{4 Concept Model}{}% 30
+\BOOKMARK [1][-]{section.4.1}{4.1 PrimaryTypes-Classes}{chapter.4}% 31
+\BOOKMARK [2][-]{subsection.4.1.1}{4.1.1 Local view 02}{section.4.1}% 32
+\BOOKMARK [2][-]{subsection.4.1.2}{4.1.2 Local view 03}{section.4.1}% 33
+\BOOKMARK [2][-]{subsection.4.1.3}{4.1.3 Local view 04}{section.4.1}% 34
+\BOOKMARK [2][-]{subsection.4.1.4}{4.1.4 Local view 05}{section.4.1}% 35
+\BOOKMARK [2][-]{subsection.4.1.5}{4.1.5 Local view 07}{section.4.1}% 36
+\BOOKMARK [1][-]{section.4.2}{4.2 Concept Model Types Descriptions}{chapter.4}% 37
+\BOOKMARK [2][-]{subsection.4.2.1}{4.2.1 Primary types - Class types descriptions}{section.4.2}% 38
+\BOOKMARK [2][-]{subsection.4.2.2}{4.2.2 Primary types - Datatypes types descriptions}{section.4.2}% 39
+\BOOKMARK [2][-]{subsection.4.2.3}{4.2.3 Primary types - Association types descriptions}{section.4.2}% 40
+\BOOKMARK [2][-]{subsection.4.2.4}{4.2.4 Primary types - Aggregation types descriptions}{section.4.2}% 41
+\BOOKMARK [2][-]{subsection.4.2.5}{4.2.5 Secondary types - Class types descriptions}{section.4.2}% 42
+\BOOKMARK [2][-]{subsection.4.2.6}{4.2.6 Secondary types - Datatypes types descriptions}{section.4.2}% 43
+\BOOKMARK [2][-]{subsection.4.2.7}{4.2.7 Secondary types - Association types descriptions}{section.4.2}% 44
+\BOOKMARK [2][-]{subsection.4.2.8}{4.2.8 Secondary types - Aggregation types descriptions}{section.4.2}% 45
+\BOOKMARK [2][-]{subsection.4.2.9}{4.2.9 Secondary types - Composition types descriptions}{section.4.2}% 46
+\BOOKMARK [0][-]{chapter.5}{5 Operation Model}{}% 47
+\BOOKMARK [1][-]{section.5.1}{5.1 Environment - Out Interface Operation Scheme for actActivator}{chapter.5}% 48
+\BOOKMARK [2][-]{subsection.5.1.1}{5.1.1 Operation Model for oeSendNotificationToVolunteer}{section.5.1}% 49
+\BOOKMARK [2][-]{subsection.5.1.2}{5.1.2 Operation Model for oeSetClock}{section.5.1}% 50
+\BOOKMARK [1][-]{section.5.2}{5.2 Environment - Out Interface Operation Scheme for actCoordinator}{chapter.5}% 51
+\BOOKMARK [2][-]{subsection.5.2.1}{5.2.1 Operation Model for oeConfirmPriority}{section.5.2}% 52
+\BOOKMARK [2][-]{subsection.5.2.2}{5.2.2 Operation Model for oeGetHelpRequestDetail}{section.5.2}% 53
+\BOOKMARK [2][-]{subsection.5.2.3}{5.2.3 Operation Model for oeGetPendingHelpRequests}{section.5.2}% 54
+\BOOKMARK [2][-]{subsection.5.2.4}{5.2.4 Operation Model for oeProceedCall}{section.5.2}% 55
+\BOOKMARK [2][-]{subsection.5.2.5}{5.2.5 Operation Model for oeReqCheckbox}{section.5.2}% 56
+\BOOKMARK [2][-]{subsection.5.2.6}{5.2.6 Operation Model for oeReqCall}{section.5.2}% 57
+\BOOKMARK [1][-]{section.5.3}{5.3 Environment - Out Interface Operation Scheme for actVolunteer}{chapter.5}% 58
+\BOOKMARK [2][-]{subsection.5.3.1}{5.3.1 Operation Model for oeSendNotification}{section.5.3}% 59
+\BOOKMARK [2][-]{subsection.5.3.2}{5.3.2 Operation Model for oeAcceptMission}{section.5.3}% 60
+\BOOKMARK [2][-]{subsection.5.3.3}{5.3.3 Operation Model for oeGetPosition}{section.5.3}% 61
+\BOOKMARK [2][-]{subsection.5.3.4}{5.3.4 Operation Model for oeGetMissionInRagne}{section.5.3}% 62
+\BOOKMARK [2][-]{subsection.5.3.5}{5.3.5 Operation Model for oeRegisterCoordinates}{section.5.3}% 63
+\BOOKMARK [1][-]{section.5.4}{5.4 Environment - Out Interface Operation Scheme for actWeakPerson}{chapter.5}% 64
+\BOOKMARK [2][-]{subsection.5.4.1}{5.4.1 Operation Model for oeAlertFamily}{section.5.4}% 65
+\BOOKMARK [1][-]{section.5.5}{5.5 Environment - Actor Operation Schemes}{chapter.5}% 66
+\BOOKMARK [1][-]{section.5.6}{5.6 Primary Types - Operation Schemes for Classes}{chapter.5}% 67
+\BOOKMARK [1][-]{section.5.7}{5.7 Primary Types - Operation Schemes for Datatypes}{chapter.5}% 68
+\BOOKMARK [1][-]{section.5.8}{5.8 Primary Types - Operation Schemes for Enumerations}{chapter.5}% 69
+\BOOKMARK [1][-]{section.5.9}{5.9 Secondary Types - Operation Schemes for Classes}{chapter.5}% 70
+\BOOKMARK [1][-]{section.5.10}{5.10 Secondary Types - Operation Schemes for Datatypes}{chapter.5}% 71
+\BOOKMARK [1][-]{section.5.11}{5.11 Secondary Types - Operation Schemes for Enumerations}{chapter.5}% 72
+\BOOKMARK [0][-]{chapter.6}{6 Test Model\(s\)}{}% 73
+\BOOKMARK [0][-]{chapter.7}{7 Additional Constraints}{}% 74
+\BOOKMARK [0][-]{appendix.A}{A Undocumented Messir Specification Elements}{}% 75
+\BOOKMARK [1][-]{section.A.1}{A.1 Undocumented Use Cases}{appendix.A}% 76
+\BOOKMARK [2][-]{subsection.A.1.1}{A.1.1 Undocumented Use Cases - Summary Level}{section.A.1}% 77
+\BOOKMARK [2][-]{subsection.A.1.2}{A.1.2 Undocumented Use Cases - Subfunction Level}{section.A.1}% 78
+\BOOKMARK [1][-]{section.A.2}{A.2 Undocumented Use Case Instances}{appendix.A}% 79
+\BOOKMARK [2][-]{subsection.A.2.1}{A.2.1 Undocumented Use Case Instances - Summary Level}{section.A.2}% 80
+\BOOKMARK [1][-]{section.A.3}{A.3 Undocumented Environment Model Views}{appendix.A}% 81
+\BOOKMARK [1][-]{section.A.4}{A.4 Undocumented Primary Type Relationships}{appendix.A}% 82
+\BOOKMARK [2][-]{subsection.A.4.1}{A.4.1 Undocumented Primary Type Associations}{section.A.4}% 83
+\BOOKMARK [1][-]{section.A.5}{A.5 Undocumented Secondary Types}{appendix.A}% 84
+\BOOKMARK [2][-]{subsection.A.5.1}{A.5.1 Undocumented Secondary Datatype Types}{section.A.5}% 85
+\BOOKMARK [1][-]{section.A.6}{A.6 Undocumented Operation Specifications}{appendix.A}% 86
+\BOOKMARK [0][-]{appendix.B}{B Messir Specification Files Listing}{}% 87
+\BOOKMARK [1][-]{section.B.1}{B.1 File /src-gen/messir-spec/.views.msr}{appendix.B}% 88
+\BOOKMARK [1][-]{section.B.2}{B.2 File /src-gen/messir-spec/usecases/activatorUC.msr}{appendix.B}% 89
+\BOOKMARK [1][-]{section.B.3}{B.3 File /src-gen/messir-spec/usecases/DeployAndRun.msr}{appendix.B}% 90
+\BOOKMARK [1][-]{section.B.4}{B.4 File /src-gen.../environment-actActivator-oeSendNotificationToVolunteer.msr}{appendix.B}% 91
+\BOOKMARK [1][-]{section.B.5}{B.5 File /src-gen/messir-spec.../environment-actVolunteer-oeGetPosition.msr}{appendix.B}% 92
+\BOOKMARK [1][-]{section.B.6}{B.6 File /src-gen/messir-spec/operations.../environment-actVolunteer-oeLogin.msr}{appendix.B}% 93
+\BOOKMARK [1][-]{section.B.7}{B.7 File /src-gen/messir-spec.../environment-actVolunteer-oeSendNotification.msr}{appendix.B}% 94
+\BOOKMARK [1][-]{section.B.8}{B.8 File /src-gen/messir-spec/environment/environment.msr}{appendix.B}% 95
+\BOOKMARK [1][-]{section.B.9}{B.9 File /src-gen/messir-spec/operations/environment/operationoeAcceptMission.msr}{appendix.B}% 96
+\BOOKMARK [1][-]{section.B.10}{B.10 File /src-gen/messir-spec/operations/operational.msr}{appendix.B}% 97
+\BOOKMARK [1][-]{section.B.11}{B.11 File /src-gen/messir-spec/concepts.../primarytypes-associations.msr}{appendix.B}% 98
+\BOOKMARK [1][-]{section.B.12}{B.12 File /src-gen/messir-spec/concepts/primarytypes-classes/primarytypes-classes.msr}{appendix.B}% 99
+\BOOKMARK [1][-]{section.B.13}{B.13 File /src-gen/messir-spec/concepts.../primarytypes-datatypes.msr}{appendix.B}% 100
+\BOOKMARK [1][-]{section.B.14}{B.14 File /src-gen/messir-spec/concepts.../secondarytypes-associations.msr}{appendix.B}% 101
+\BOOKMARK [1][-]{section.B.15}{B.15 File /src-gen/messir-spec/concepts.../secondarytypes-classes.msr}{appendix.B}% 102
+\BOOKMARK [1][-]{section.B.16}{B.16 File /src-gen/messir-spec/concepts.../secondarytypes-datatypes.msr}{appendix.B}% 103
+\BOOKMARK [1][-]{section.B.17}{B.17 File /src-gen/messir-spec/tests/tests.msr}{appendix.B}% 104
+\BOOKMARK [1][-]{section.B.18}{B.18 File /src-gen/messir-spec/concepts/uccoordinator.msr}{appendix.B}% 105
+\BOOKMARK [1][-]{section.B.19}{B.19 File /src-gen/messir-spec/concepts/ucvolunteer.msr}{appendix.B}% 106
+\BOOKMARK [1][-]{section.B.20}{B.20 File /src-gen/messir-spec/usecases/usecases.msr}{appendix.B}% 107
+\BOOKMARK [1][-]{section.B.21}{B.21 File /src-gen/messir-spec/usecases/weakperson.msr}{appendix.B}% 108

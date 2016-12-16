@@ -93,15 +93,13 @@ Environment Model {
 			operation ieRequHRDetails(AdtId :dtHRid) : ptBoolean
 			operation ieSendPendingHR(AdtTime : dtTime) : ptBoolean
 			operation ieFamilyDetailsRequest() : ptBoolean
-			operation ieConfirmationOfFamilyDetailsReceived(AdtMessage : dtMessage) : ptBoolean
-			operation ieFamilyDeliveryReport(AdtName : dtName, AdtConfirmation : ptBoolean) : ptBoolean
-			operation ieAddEntry(AdtName : dtName, AdtPhoneNumber : dtPhoneNumber , AdtCoordinates : dtCoordinates , AdtAddress : dtAddress) : ptBoolean
+			
 		}
 		output interface outactCoordinator {
 			operation oeGetPendingHelpRequests(AetHelpRequestStatus : etHelpRequestStatus) : ptBoolean
 			operation oeGetHelpRequestDetail(AdtHelpRequestId : dtHRid) : ptBoolean
 			operation oeProceedCall(AdtPhoneNumber : dtPhoneNumber) : ptBoolean
-			operation oeSetRiskLevel(AdtRiskLevel : dtInteger, AdtHelpRequestID : dtHRid) : ptBoolean
+		
 			operation oeGetVolunteersList(AetVolunteerStatus : etVolunteerStatus) : ptBoolean
 			operation oeReqCall(AdtPhoneNumber : dtPhoneNumber) : ptBoolean
 			operation oeReqCheckbox() : ptBoolean

@@ -11,3 +11,4 @@
 @number 7
 @description "Shows the environment model global view"
 @caption "Environment model global view"
+@scale MaxWidth

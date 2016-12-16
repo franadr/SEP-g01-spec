@@ -4,9 +4,3 @@
 */
 
 
-@@Secondary Type Datatype lu.uni.lassy.excalibur.g01.specification.concepts.secondarytypes.datatypes.dtMessage
-@description ""
-@attribute
-lu.uni.lassy.excalibur.g01.specification.concepts.secondarytypes.datatypes.dtMessage.content
-""
-@endAttributes
