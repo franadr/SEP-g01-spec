@@ -20,6 +20,37 @@ import lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.datatypes
 		}
 		operation: lu.uni.lassy.excalibur.g01.specification.environment.actVolunteer.outactVolunteer.oeAcceptMission(AdtId: dtHRid):ptBoolean{
 			
+			preP
+			{
+			let System: ctState in
+			let volunteer : ctVolunteer	in
+			let inRangeHelpRequest : Bag(ctHelpRequest) in
+				//PreP01
+				and self.rnActor.rnSystem = System 
+				and volunteer = System.rnActor
+				and volunteer.rnInterface^oeGetMissionInRange() = true
+				and inRangeHelpRequest -> size().geq(1)
+				//Prep02
+				and volunteer.rnctHuman.cpToken = true
+
+			}
+			
+			preF
+			{
+				and System.HelpRequest()
+				
+			}
+			
+			postF{
+				
+			}
+			
+			postP
+			{
+				
+			}
+			
+			
 		}
 		operation: lu.uni.lassy.excalibur.g01.specification.environment.actVolunteer.outactVolunteer.oeGetMissionInRagne(AdtRange: dtRange, AdtPosition: dtCoordinates):ptBoolean{
 			
@@ -58,33 +89,69 @@ import lu.uni.lassy.excalibur.g01.specification.concepts.primarytypes.datatypes
 				
 				and NotHandledHelpRequest -> Size().geq(1)
 				and FreeVolunteer -> Size().geq(1)
-				
-				
-				
-				
-			
-				
-				
-				
-				
+	
 			}preF{
 				true
 			}postF{
+						FreeVolunteer->forall(rnInterfaceOUT^oeSendNotification())
 				
-				NotHandledHelpRequest->iterate(hr : ctHelpRequest ;acc:dtInteger=0 | 
-						FreeVolunteer->iterate(vl : ctVolunteer ; acc:dtInteger = 0 | 
-						if(System.rnctHelpRequest.rnctWeakPerson.rnctHuman.isInRange(vl.rnctHuman.coordinates,
-																					 vl.rnctHuman.range,
-																					 hr.rnctWeakPerson.rnctHuman.Coordinates
-						)) 
-						then (actVolunteer.rnInterfaceIN^message("There are pending mission in your range ")) 
-						else false 
-						endif
-						)
-				)
 			}postP{
 				
 			}
+			
+		}
+		
+		operation: lu.uni.lassy.excalibur.g01.specification.environment.actVolunteer.outactVolunteer.oeSendNotification():ptBoolean{
+			preP{
+				let System: ctState in
+				let AvpStarted: ptBoolean in
+				let NotHandledHelpRequest : Bag(ctHelpRequest) in
+				let volunteer : ctVolunteer in 
+				let vCoordinates : dtCoordinates in
+				let vRange : dtRange in
+				let inRangeHelpRequest : Bag(ctHelpRequest) in
+				
+				
+				//PreP01
+				self.rnActor.rnSystem = System 
+				and System.vpStarted = AvpStarted 
+				and AvpStarted = true 
+				
+				//Prep02
+				and volunteer =System.rnActor
+				and volunteer.rnctHuman.vpToken = true
+				
+				//Prep03
+				and volunteer.volunteerStatus = 'Online'
+				
+				//Prep04
+				and System.rnctHelpRequest -> select(
+					System.rnctHelpRequest.HelpRequestStatus = "Not handled" 
+					and System.rnctHelpRequest.priority > 2
+				) 
+				= NotHandledHelpRequest
+				and NotHandledHelpRequest -> Size().geq(1)
+				
+				
+				and vRange = volunteer.range
+				and vCoordinates = vlounteer.rnctHuman.coordinates
+				and NotHandledHelpRequest -> iterate(hr : ctHelpRequest ; acc : dtHRid = 0 | NotHandledHelpRequest -> select(acc=hrid) = thisHelpRequest 
+																							let hrCoordinates :  dtCoordinates = thisHelpRequest.rnctHelpRequest.rnctHuman.coordinates in
+																							and volunteer.rnctHuman.isInRange (vCoordinates,vRange,hrCoordinates)
+																							
+				) = inRangeHelpRequest
+				
+				and inRangeHelpRequest -> size().geq(1)
+				
+				
+			}
+			preF{
+				true
+			}
+			postF{
+				rnInterfaceIN^ieMessage("There exists pending help request in near "+vRange+" km")
+			}
+			
 			
 		}
 		

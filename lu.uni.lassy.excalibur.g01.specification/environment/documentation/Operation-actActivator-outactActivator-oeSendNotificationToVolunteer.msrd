@@ -13,7 +13,7 @@ lu.uni.lassy.excalibur.g01.specification.environment.actActivator.outactActivato
 " System is started"
 @preP
 "
-There are instance of type ctHelpRequest which have their attribute handlingWaitingTime greater or equal to 10 minutes, their attribute priority equal to 3 and their attribute coordinates of associated instance of type ctWeakPerson within the range of ctVolunteer range with handledHelpRequest null   "
+There are instance of type ctHelpRequest which have their attribute handlingWaitingTime greater or equal to 10 minutes, their attribute priority equal to 3 and instances of type ctVolunteer with attribute volunteerStatus equal to Online "
 @endPreP
 //preFunctional descriptions
 @preF
@@ -21,14 +21,14 @@ There are instance of type ctHelpRequest which have their attribute handlingWait
 @endPreF
 //postFunctional descriptions
 @postF 
-" "
+"Operation sendNotification is triggered for all instance of ctVolunteer with status Online"
 @postF
-"An instance of type dtMessage is sent the instances of ctVolunteer meeting pre conditions"
+""
 
 @endPostF
 //postProtocol descriptions
 @postP 
-"The handlingWaitingTime from instance of ctHelpRequest is reset to 0"
+""
 @endPostP
 //example
 @example" "

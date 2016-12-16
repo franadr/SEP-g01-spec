@@ -145,7 +145,7 @@ Environment Model {
 		output interface outactVolunteer {
 			operation oeGetPosition() : ptBoolean
 			operation oeRegisterCoordinates(AdtPosition : dtCoordinates) : ptBoolean
-			
+			proactive operation oeSendNotification() : ptBoolean
 			operation oeGetMissionInRagne(AdtRange: dtRange,AdtPosition : dtCoordinates) : ptBoolean
 			operation oeAcceptMission(AdtId : dtHRid) : ptBoolean
 			
