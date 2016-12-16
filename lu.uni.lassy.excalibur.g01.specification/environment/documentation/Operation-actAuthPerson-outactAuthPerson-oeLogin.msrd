@@ -9,10 +9,10 @@ lu.uni.lassy.excalibur.g01.specification.environment.actAuthPerson.outactAuthPer
 //parameters
 @parameter
 lu.uni.lassy.excalibur.g01.specification.environment.actAuthPerson.outactAuthPerson.oeLogin.AdtUsr
-""
+"first information used to determine accessibility rights for the actual actor."
 @parameter
 lu.uni.lassy.excalibur.g01.specification.environment.actAuthPerson.outactAuthPerson.oeLogin.AdtPsw
-""
+"second information used to determine accessibility rights for the actual actor."
 @endParameters
 
 @description "It allows the user to log in as a coordinator

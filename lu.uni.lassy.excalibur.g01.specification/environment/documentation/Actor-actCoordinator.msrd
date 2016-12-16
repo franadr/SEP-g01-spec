@@ -5,7 +5,7 @@
 
 
 @@Actor lu.uni.lassy.excalibur.g01.specification.environment.actCoordinator
-@description ""
+@description "actor that coordinates the requests from other actors"
 //input events
 @inputEvent
 lu.uni.lassy.excalibur.g01.specification.environment.actCoordinator.inactCoordinator.ieSendPendingHelpRequestList

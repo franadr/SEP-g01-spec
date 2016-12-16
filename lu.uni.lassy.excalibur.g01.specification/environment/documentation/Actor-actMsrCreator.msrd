@@ -1,7 +1,7 @@
 
 
 @@Actor lu.uni.lassy.excalibur.g01.specification.environment.actMsrCreator
-@description ""
+@description "actor used to create the system and the environment"
 //input events
 
 //output events
