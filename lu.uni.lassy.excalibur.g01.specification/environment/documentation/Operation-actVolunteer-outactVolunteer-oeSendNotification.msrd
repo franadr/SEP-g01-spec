@@ -1,0 +1,37 @@
+/*
+@author Adriano
+@date Fri Dec 16 10:25:48 CET 2016
+*/
+
+
+@@Operation
+lu.uni.lassy.excalibur.g01.specification.environment.actVolunteer.outactVolunteer.oeSendNotification
+@description "This proactive operation is triggered by the activator is used to notificate the instance of volunteer that there pending mission is his range
+ "
+//preProtocol descriptions
+@preP
+"Attribute vpStarted from instance of ctState is true "
+@preP
+"The attribute vpToken from instance of ctVolunteer is true"
+@preP
+"The attribute volunteerStatus of this instance of ctVolunteer is Online"
+@preP
+"There exists instance of ctHelpRequest with attribute Coordinates within the range of the instance of ctVolunteer and attributes priority > 2 and helpRequestStatus attribute = Not handled "
+
+
+
+@endPreP
+//preFunctional descriptions
+@preF
+"A notification is send to the volunteer "
+@endPreF
+//postFunctional descriptions
+@postF 
+" "
+@endPostF
+//postProtocol descriptions
+@postP 
+" "
+@endPostP
+//example
+@example" "
